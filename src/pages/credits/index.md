@@ -6,7 +6,10 @@ date: "2018-01-22"
 <figure>
 <img src="In_happy_far-away_land_1902_14752942545.jpg"
      alt="In happy far-away land (1902)" />
-<figcaption>In happy far-away land (1902)</figcaption>
+<figcaption>
+In happy far-away land (1902)
+<small>(Image source: <a href="https://commons.wikimedia.org/wiki/File:In_happy_far-away_land_(1902)_(14752942545).jpg">Wikimedia&nbsp;Commons</a>)</small>
+</figcaption>
 </figure>
 
 Welcome to the new rdela. I will be your host, Ricky de Laveaga.
