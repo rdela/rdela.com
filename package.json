@@ -56,6 +56,8 @@
     "url": "git+https://github.com/rdela/rdela.com.git"
   },
   "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
     "format": "prettier --no-semi --trailing-comma es5 --write 'src/**/*.js'"
   },
   "renovate": {
