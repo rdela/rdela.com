@@ -32,8 +32,7 @@ is a fun way to noodle out a proto*__type__ design*.
 
 Anyhoo, as of this post I am using a slightly modified version of the
 [Github&nbsp;theme](https://github.com/KyleAMathews/typography.js/tree/master/packages/typography-theme-github).
-After much staring at the screen and tweaking CSS (hello styled-components)
-Had to include the inimitable
+After much staring at the screen and tweaking CSS, had to include the inimitable
 [Source Serif](https://typekit.com/fonts/source-serif)
 by [Frank Grießhammer](https://typekit.com/designers/frank-griesshammer),
 [Source Sans](https://typekit.com/fonts/source-sans)
