@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/rdela
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rdela.com
+  * I am rdela (https://keybase.io/rdela) on keybase.
+  * I have a public key ASA2Hx63hLJg7W14aat5my42L-H2PSxXx5qy3ZlWWq7DoAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120174abf79819c426c065f5edfe085a4b7f178b83cb4b987431f9f8219baf2939b0a",
+      "host": "keybase.io",
+      "kid": "0120361f1eb784b260ed6d7869ab799b2e362fe1f63d2c57c79ab2dd99565aaec3a00a",
+      "uid": "1f9177cf68b511e98b6ada46a9292819",
+      "username": "rdela"
+    },
+    "merkle_root": {
+      "ctime": 1511832775,
+      "hash": "ea230d6d214dbc3d91d6ebad4daf6512a8bce95adb95b42329cb0566ce498535a2d52043174724270e6f2562d58bd56e3731b535e1bc1e90b40b4c52e20f949a",
+      "hash_meta": "1c493cad982de7333547ab4ad8714c9e39b9007c17da1ea6f7547add675faa1f",
+      "seqno": 1756657
+    },
+    "service": {
+      "hostname": "rdela.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.36"
+  },
+  "ctime": 1511832805,
+  "expire_in": 504576000,
+  "prev": "73c1e73f5e5f6709e0656aeca536085b08f05fb5e5bb5b415810662afa98da41",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgNh8et4SyYO1teGmreZsuNi/h9j0sV8east2ZVlquw6AKp3BheWxvYWTFAz97ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMTc0YWJmNzk4MTljNDI2YzA2NWY1ZWRmZTA4NWE0YjdmMTc4YjgzY2I0Yjk4NzQzMWY5ZjgyMTliYWYyOTM5YjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMzYxZjFlYjc4NGIyNjBlZDZkNzg2OWFiNzk5YjJlMzYyZmUxZjYzZDJjNTdjNzlhYjJkZDk5NTY1YWFlYzNhMDBhIiwidWlkIjoiMWY5MTc3Y2Y2OGI1MTFlOThiNmFkYTQ2YTkyOTI4MTkiLCJ1c2VybmFtZSI6InJkZWxhIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTExODMyNzc1LCJoYXNoIjoiZWEyMzBkNmQyMTRkYmMzZDkxZDZlYmFkNGRhZjY1MTJhOGJjZTk1YWRiOTViNDIzMjljYjA1NjZjZTQ5ODUzNWEyZDUyMDQzMTc0NzI0MjcwZTZmMjU2MmQ1OGJkNTZlMzczMWI1MzVlMWJjMWU5MGI0MGI0YzUyZTIwZjk0OWEiLCJoYXNoX21ldGEiOiIxYzQ5M2NhZDk4MmRlNzMzMzU0N2FiNGFkODcxNGM5ZTM5YjkwMDdjMTdkYTFlYTZmNzU0N2FkZDY3NWZhYTFmIiwic2Vxbm8iOjE3NTY2NTd9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoicmRlbGEuY29tIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzYifSwiY3RpbWUiOjE1MTE4MzI4MDUsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiNzNjMWU3M2Y1ZTVmNjcwOWUwNjU2YWVjYTUzNjA4NWIwOGYwNWZiNWU1YmI1YjQxNTgxMDY2MmFmYTk4ZGE0MSIsInNlcW5vIjoxNSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxECNinjUPPpRZLGBW5P5rvMmkZL7D+Au8iRqcwil04Iix5KfsHgGIrngLxbBZWQN11sh2IymQZBNX3qSrKWc28YGqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgNvSLyJ1bQqKmonOuVfSrrkkFDzevO7YK45NUS4hhoUujdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rdela
+
+==================================================================
