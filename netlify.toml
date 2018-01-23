@@ -4,3 +4,4 @@
 
 [template.environment]
   NODE_ENV = "production"
+  NODE_VERSION = "9.4"
