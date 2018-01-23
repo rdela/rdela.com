@@ -1,0 +1,72 @@
+{
+  "name": "rdela",
+  "description": "Various bug fixes and improvements @famebot",
+  "version": "1.0.0",
+  "author": "Ricky de Laveaga <git@rdela.com>",
+  "bugs": {
+    "url": "https://github.com/rdela/rdela.com/issues"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.13.1",
+    "eslint-plugin-react": "^7.5.1",
+    "gatsby": "canary",
+    "gatsby-image": "^1.0.34",
+    "gatsby-link": "canary",
+    "gatsby-plugin-feed": "canary",
+    "gatsby-plugin-manifest": "canary",
+    "gatsby-plugin-offline": "canary",
+    "gatsby-plugin-preact": "canary",
+    "gatsby-plugin-react-helmet": "canary",
+    "gatsby-plugin-sharp": "canary",
+    "gatsby-plugin-typography": "canary",
+    "gatsby-remark-copy-linked-files": "canary",
+    "gatsby-remark-images": "canary",
+    "gatsby-remark-prismjs": "canary",
+    "gatsby-remark-responsive-iframe": "canary",
+    "gatsby-remark-smartypants": "canary",
+    "gatsby-source-filesystem": "canary",
+    "gatsby-transformer-remark": "canary",
+    "gatsby-transformer-sharp": "canary",
+    "lodash": "^4.17.4",
+    "lodash-webpack-plugin": "^0.11.4",
+    "prettier": "^1.9.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-helmet": "^5.2.0",
+    "react-responsive-grid": "^0.3.4",
+    "typeface-source-code-pro": "^0.0.44",
+    "typeface-source-sans-pro": "^0.0.44",
+    "typeface-source-serif-pro": "^0.0.44",
+    "typography": "^0.16.6",
+    "typography-plugin-code": "^0.16.11",
+    "typography-theme-github": "^0.15.10"
+  },
+  "homepage": "https://rdela.com/",
+  "keywords": [
+    "de Laveaga",
+    "gatsby",
+    "rdela",
+    "ricky"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdela/rdela.com.git"
+  },
+  "scripts": {
+    "format": "prettier --no-semi --trailing-comma es5 --write 'src/**/*.js'"
+  },
+  "renovate": {
+    "extends": [
+      "config:base"
+    ],
+    "labels": [
+      "renovate"
+    ],
+    "assignees": [
+      "rdela"
+    ]
+  }
+}
