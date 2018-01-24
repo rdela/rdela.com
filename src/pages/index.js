@@ -13,7 +13,7 @@ class BlogIndex extends React.Component {
     return (
       <nav>
         <div>
-          <Helmet title={siteTitle} />
+          <Helmet />
           <ul
             style={{
               marginLeft: 0,

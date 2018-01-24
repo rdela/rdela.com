@@ -12,7 +12,7 @@ class PostTemplate extends React.Component {
 
     return (
       <div>
-        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
+        <Helmet title={`${post.frontmatter.title}`} />
         <h1
           style={{
             paddingBottom: rhythm(1 / 32),
