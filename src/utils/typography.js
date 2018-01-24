@@ -67,6 +67,9 @@ theme.overrideThemeStyles = () => ({
   'code, kbd, pre, samp': {
     fontFamily: `'Source Code Pro','Menlo','Monaco',monospace`,
   },
+  'small': {
+    fontSize: `0.875rem`,
+  }
 })
 
 const typography = new Typography(theme)
