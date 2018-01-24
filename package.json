@@ -37,7 +37,7 @@
     "react-responsive-grid": "^0.3.4",
     "typeface-source-code-pro": "^0.0.44",
     "typeface-source-sans-pro": "^0.0.44",
-    "typeface-source-serif-pro": "^0.0.44",
+    "typeface-source-serif-pro": "^0.0.54",
     "typography": "^0.16.6",
     "typography-plugin-code": "^0.16.11",
     "typography-theme-github": "^0.15.10"
