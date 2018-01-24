@@ -16,7 +16,7 @@ class Credits extends React.Component {
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     return (
       <main role="main">
-        <Helmet title={`Site Credits | ${siteTitle}`} />
+        <Helmet title={`Site Credits`} />
         <h1>Links</h1>
 
         <section
