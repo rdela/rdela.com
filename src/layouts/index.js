@@ -17,6 +17,7 @@ import "../css/prism/prism.css"
 class Template extends React.Component {
   render() {
     const siteTitle = this.props.data.site.siteMetadata.title
+    const siteDesc = this.props.data.site.siteMetadata.description
     const { location, children } = this.props
 
     let header, footer
@@ -28,7 +29,7 @@ class Template extends React.Component {
 
     if (location.pathname === rootPath) {
       ;(header = (
-        <Masthead title={siteTitle}  isHome={true} />
+        <Masthead isHome={true} title={siteTitle} />
       )),
         (footer = (
           <footer>
@@ -50,7 +51,7 @@ class Template extends React.Component {
         ))
     } else {
       header = (
-        <Masthead title={siteTitle}  isHome={false} />
+        <Masthead isHome={false} title={siteTitle}  />
       )
       footer = (
         <footer>
