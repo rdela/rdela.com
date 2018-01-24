@@ -6,11 +6,6 @@ import { rhythm } from '../utils/typography'
 
 class Bio extends React.Component {
   render() {
-    console.log(this.props)
-    if (this.props.isHome) {
-      console.log(`Bio > isHome: ${this.props.isHome}`)
-    }
-
     let rd
 
     rd = <strong>Ricky de Laveaga</strong>

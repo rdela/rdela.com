@@ -15,7 +15,8 @@ class PostTemplate extends React.Component {
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
         <h1
           style={{
-            marginBottom: rhythm(1 / 4),
+            paddingBottom: rhythm(1 / 32),
+            marginBottom: 0,
           }}
         >
           {post.frontmatter.title}
