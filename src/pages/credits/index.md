@@ -25,7 +25,7 @@ git clone
 
 …of
 [Gatsby Blog&nbsp;Starter](https://github.com/gatsbyjs/gatsby-starter-blog).
-GBS, or `gatsby-blog`, has [Typography.js](https://github.com/KyleAMathews/typography.js)
+GBS, or `gatsby-starter-blog`, has [Typography.js](https://github.com/KyleAMathews/typography.js)
 bundled, whose
 [demo&nbsp;playground](https://kyleamathews.github.io/typography.js/)
 is a fun way to noodle out a proto*__type__ design*.
@@ -66,5 +66,5 @@ As an instant bonus for reading all the way down, I give you…[*the __F…B…I
 &nbsp;
 
 
-[^1]: Having already installed `gatsby-cli`, One could run `gatsby new gatsby-blog` [in the terminal](https://www.gatsbyjs.org/docs/) instead of `git clone` the repo like I did (for more on `git` and cloning, see [git-clone docs](https://www.git-scm.com/docs/git-clone)).
+[^1]: Having already installed `gatsby-cli`, One could run: <br /> `gatsby new nameOfSiteHere https://github.com/gatsbyjs/gatsby-starter-blog` <br /> …in the terminal instead of a `git clone` of the [`gatsby-starter-blog`](https://github.com/gatsbyjs/gatsby-starter-blog) repo like I did, which then needs to be followed by a `yarn` or `npm install` before running `gatsby develop` for the first time. The [Gatsby Docs](https://www.gatsbyjs.org/docs/) start the `gatsby new` command which takes care of this initial package install. (For more on `git` and cloning, see [git-clone docs](https://www.git-scm.com/docs/git-clone).) The source of the `gatsby new` command is split between [create-cli.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/create-cli.js#L183) and [init-starter.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/init-starter.js) in the Gatsby repo.
 
