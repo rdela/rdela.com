@@ -22,6 +22,10 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                   fields {
                     slug
                   }
+                  frontmatter {
+                    title
+                    draft
+                  }
                 }
               }
             }
@@ -33,13 +37,32 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           reject(result.errors)
         }
 
-        // Create blog posts pages.
-        _.each(result.data.allMarkdownRemark.edges, edge => {
+        // filter drafts
+        const posts = _.filter(
+          result.data.allMarkdownRemark.edges,
+          edge => {
+            const slug = _.get(edge, `node.fields.slug`)
+            const draft = _.get(edge, `node.frontmatter.draft`)
+            if (!slug) return
+
+            if (!draft) {
+              return edge
+            }
+          }
+        )
+
+        posts.forEach((edge, index) => {
+          const next = index === 0 ? false : posts[index - 1].node
+          const prev =
+            index === posts.length - 1 ? false : posts[index + 1].node
+
           createPage({
-            path: edge.node.fields.slug,
+            path: `${edge.node.fields.slug}`, // required
             component: postArticle,
             context: {
               slug: edge.node.fields.slug,
+              prev,
+              next,
             },
           })
         })

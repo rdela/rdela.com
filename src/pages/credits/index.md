@@ -1,6 +1,8 @@
 ---
 title: Credits
 date: "2018-01-22"
+excerpt: "How I began devloping this site"
+image: "In_happy_far-away_land_1902_14752942545.jpg"
 ---
 
 <figure>
@@ -58,7 +60,7 @@ especially helpful to me in putting this together.
 
 As an instant bonus for reading all the way down, I give you…[*the __F…B…I__*](https://www.youtube.com/watch?v=JI5gblI82rg)
 
-<iframe width="720" height="405" src="https://www.youtube-nocookie.com/embed/JI5gblI82rg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/JI5gblI82rg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 …Or the [links page](/l) may be of interest.
 
