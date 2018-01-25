@@ -34,6 +34,20 @@ theme.bodyFontFamily = [
     'Segoe UI Symbol',
   ]
 
+/*
+colors:
+
+Light Slate Blue
+hsl(252,96%,76%)
+
+Light Sky Blue
+hsl(206,96%,76%)
+
+according to:
+http://www.color-blindness.com/color-name-hue/
+https://github.com/gatsbyjs/gatsby/pull/3639#issuecomment-359263286
+*/
+
 theme.overrideThemeStyles = () => ({
   a: {
     color: 'hsl(252,96%,76%)',

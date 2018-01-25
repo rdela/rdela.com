@@ -4,6 +4,7 @@ module.exports = {
     author: `Ricky de Laveaga`,
     description: `Various bug fixes and improvements @famebot`,
     siteUrl: `https://rdela.com/`,
+    twitter: `@rickydelaveaga`,
   },
   plugins: [
     {
