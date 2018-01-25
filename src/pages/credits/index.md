@@ -26,8 +26,9 @@ git clone
 ```
 
 …of
-[Gatsby Blog&nbsp;Starter](https://github.com/gatsbyjs/gatsby-starter-blog).
-GBS, or `gatsby-starter-blog`, has [Typography.js](https://github.com/KyleAMathews/typography.js)
+[gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog), the
+Gatsby starter for creating a blog, which has
+[Typography.js](https://github.com/KyleAMathews/typography.js)
 bundled, whose
 [demo&nbsp;playground](https://kyleamathews.github.io/typography.js/)
 is a fun way to noodle out a proto*__type__ design*.
