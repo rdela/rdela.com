@@ -1,7 +1,16 @@
+# https://github.com/toml-lang/toml#user-content-comment
+# https://www.netlify.com/blog/2016/08/30/introducing-deploy-contexts-in-netlify/
+# https://www.netlify.com/blog/2016/07/20/introducing-deploy-previews-in-netlify/
+
 [build]
   command = "npm run build"
   publish = "public"
 
-[template.environment]
-  NODE_ENV = "production"
-  NODE_VERSION = "9.4"
+# [template.environment]
+#   NODE_ENV = "production"
+#   NODE_VERSION = "9.4"
+# https://www.netlify.com/docs/continuous-deployment/#deploy-contexts
+# Set a NODE_VERSION environment variable.
+# You can set this as a variable in the build environment either
+# while linking the repository or afterward from the site settings screen
+# in our UI. The value inside can be anything you would use with nvm.
