@@ -10025,9 +10025,9 @@ typeface-source-sans-pro@^0.0.44:
   version "0.0.44"
   resolved "https://registry.yarnpkg.com/typeface-source-sans-pro/-/typeface-source-sans-pro-0.0.44.tgz#d7aca6e233210933fd6f7807b6e81296d2be82c8"
 
-typeface-source-serif-pro@^0.0.44:
-  version "0.0.44"
-  resolved "https://registry.yarnpkg.com/typeface-source-serif-pro/-/typeface-source-serif-pro-0.0.44.tgz#3a13f989e9fe61d7f0b5ae64582d8b221a76ed39"
+typeface-source-serif-pro@^0.0.54:
+  version "0.0.54"
+  resolved "https://registry.yarnpkg.com/typeface-source-serif-pro/-/typeface-source-serif-pro-0.0.54.tgz#80c15a6df8f5d22cde753bb698cdd33f394932b0"
 
 typography-normalize@^0.14.0:
   version "0.14.0"
