@@ -1,6 +1,8 @@
 ---
 title: Credits
 date: "2018-01-22"
+excerpt: "How I began devloping this site"
+image: "In_happy_far-away_land_1902_14752942545.jpg"
 ---
 
 <figure>
