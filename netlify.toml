@@ -14,3 +14,8 @@
 # You can set this as a variable in the build environment either
 # while linking the repository or afterward from the site settings screen
 # in our UI. The value inside can be anything you would use with nvm.
+
+# https://github.com/creationix/nvm
+# In place of a version pointer like "0.10" or "5.0" or "4.2.1",
+# you can use the following special default aliases
+# node: this installs the latest version of node
