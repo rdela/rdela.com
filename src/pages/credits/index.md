@@ -27,7 +27,8 @@ git clone
 
 …of
 [gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog), the
-Gatsby starter for creating a blog, which has
+Gatsby starter for creating a blog
+([demo](https://gatsbyjs.github.io/gatsby-starter-blog/)), which has
 [Typography.js](https://github.com/KyleAMathews/typography.js)
 bundled, whose
 [demo&nbsp;playground](https://kyleamathews.github.io/typography.js/)
