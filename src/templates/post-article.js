@@ -66,7 +66,7 @@ class PostTemplate extends React.Component {
           </Helmet>
         <h1
           style={{
-            paddingBottom: rhythm(1 / 32),
+            paddingBottom: rhythm(1 / 16),
             marginBottom: 0,
           }}
         >

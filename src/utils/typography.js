@@ -5,6 +5,7 @@ const CodePlugin = require("typography-plugin-code").default
 theme.plugins = [new CodePlugin()]
 
 theme.baseFontSize = '18px'
+theme.baseLineHeight = '1.8125'
 
 theme.headerFontFamily = [
     'Source Sans Pro',
