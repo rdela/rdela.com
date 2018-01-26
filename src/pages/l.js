@@ -11,13 +11,13 @@ import ialogo from '../svg/Internet_Archive_logo_and_wordmark.svg'
 import wikicorn from '../svg/wikicorn.svg'
 import mdnDark from '../svg/mdn-dark.svg'
 
-class Credits extends React.Component {
+class LinksPage extends React.Component {
   render() {
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     return (
       <main role="main">
-        <Helmet title={`Site Credits`} />
-        <h1>Links</h1>
+        <Helmet title={`Links Page 🔗📄`} />
+        <h1>Links Page 🔗📄</h1>
 
         <section
           style={{
@@ -201,10 +201,10 @@ class Credits extends React.Component {
   }
 }
 
-export default Credits
+export default LinksPage
 
 export const pageQuery = graphql`
-  query CreditsQuery {
+  query LinksPageQuery {
     site {
       siteMetadata {
         title

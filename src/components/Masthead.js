@@ -10,13 +10,14 @@ const cYear = new Date().getFullYear();
 class Masthead extends React.Component {
   render() {
     const siteTitle = this.props.title
-    let pTop = `50px`
+    let pTop = `48px`
     let topknot
 
     topknot = (
       <h1
         style={{
           ...scale(0.4),
+          lineHeight: `2rem`,
           marginTop: 0,
           marginBottom: rhythm(1 / 2),
         }}
@@ -32,7 +33,7 @@ class Masthead extends React.Component {
             backgroundPosition: `left top`,
             paddingBottom: 0,
             paddingTop: pTop,
-            marginBottom: rhythm(1 / 2),
+            marginBottom: 0,
             marginTop: 0,
           }}
         >
@@ -42,12 +43,13 @@ class Masthead extends React.Component {
     )
 
     if (this.props.isHome !== true) {
-      pTop = `52px`
+      // pTop = `48px`
       topknot = (
         <h3
           style={{
+            lineHeight: `2rem`,
             marginTop: 0,
-            marginBottom: rhythm(1 / 2),
+            marginBottom: rhythm(1.00875),
           }}
         >
           <Link to={'/'}>
@@ -62,7 +64,7 @@ class Masthead extends React.Component {
                 backgroundPosition: `left top`,
                 paddingBottom: 0,
                 paddingTop: pTop,
-                marginBottom: rhythm(1 / 2),
+                marginBottom: 0,
                 marginTop: 0,
               }}
             >

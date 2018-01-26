@@ -37,7 +37,7 @@ class Bio extends React.Component {
             @rickydelaveaga on twitter
           </a>{` `}
           <br />
-          <a href="https://github.com/rdela">@rdela on github</a>{` `}
+          <a href="https://github.com/rdela">@rdela on github</a>
         </p>
       </div>
     )
