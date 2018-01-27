@@ -49,8 +49,8 @@
     "rdela",
     "ricky"
   ],
-  "license": "MIT",
-  "main": "n/a",
+  "license" : "SEE LICENSE IN license.txt",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rdela/rdela.com.git"
