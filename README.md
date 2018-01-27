@@ -47,6 +47,9 @@ you can use the following special default aliases
 > `node: this installs the latest version of node`
 
 
+&nbsp;
+
+
 ## License
 
 https://docs.npmjs.com/files/package.json#license
@@ -72,4 +75,5 @@ in [license.txt](license.txt)
 	"private": true,
 }
 ```
+
 
