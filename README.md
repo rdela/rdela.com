@@ -7,7 +7,7 @@ see [Credits](src/pages/credits/index.md)
 
 ### Netlify / ENV vars
 
-```yaml
+```toml
 [build]
   command = "gatsby build"
   publish = "public"
@@ -60,10 +60,8 @@ in [license.txt](license.txt)
 
 ```json
 {
-	[…]
 	"license" : "SEE LICENSE IN license.txt",
 	"private": true,
-	[…]
 }
 ```
 
