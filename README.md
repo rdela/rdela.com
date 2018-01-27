@@ -1,6 +1,10 @@
-# rdela.com
+## rdela.com
 
-see [Credits](src/pages/credits/index.md)
+Repo background & history:
+
+### [Credits](https://rdela.com/credits/)
+<https://rdela.com/credits/>
+[Markdown source](src/pages/credits/index.md): <src/pages/credits/index.md>
 
 
 ## Deploy settings
