@@ -55,7 +55,7 @@ significantly easier. Library author Kyle Mathews explained the motivations
 [in&nbsp;January&nbsp;2017](https://www.bricolage.io/typefaces-easiest-way-to-self-host-fonts/).
 
 Though the `git clone` example above hardly does it justice,
-gatsby-remark-prismjs ([docs](https://www.gatsbyjs.org/packages/gatsby-remark-prismjs/), [on GitHub](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-remark-prismjs))
+gatsby-remark-prismjs ([docs](https://www.gatsbyjs.org/packages/gatsby-remark-prismjs/), [on&nbsp;GitHub](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-remark-prismjs))
 makes adding “syntax highlighting to code blocks in markdown files” using
 [Prism](https://github.com/PrismJS/prism) a drop-in affair with a line in
 [gatsby-config.js](https://github.com/rdela/rdela.com/blob/master/gatsby-config.js#L36)
@@ -64,15 +64,15 @@ and another in
 I have settled on the “prism.js tomorrow night eighties”
 [theme](https://github.com/PrismJS/prism/blob/gh-pages/themes/prism-tomorrow.css),
 itself based on
-[Tomorrow Theme](https://github.com/chriskempson/tomorrow-theme).
+[Tomorrow&nbsp;Theme](https://github.com/chriskempson/tomorrow-theme).
 
 I cannot neglect to *issue* a hearty thanks to all of the
 [Gatsby GitHub people](https://github.com/gatsbyjs/gatsby/graphs/contributors)
 along with all of the [reactjs.org](https://reactjs.org/) authors and
 [contributors](https://github.com/reactjs/reactjs.org/graphs/contributors).
 For solid examples of common patterns in Gatsby and React, the
-[reactjs.org repo](https://github.com/reactjs/reactjs.org) and
-[gatsbyjs.org code](https://github.com/gatsbyjs/gatsby/tree/master/www)
+[reactjs.org&nbsp;repo](https://github.com/reactjs/reactjs.org) and
+[gatsbyjs.org&nbsp;code](https://github.com/gatsbyjs/gatsby/tree/master/www)
 are both superb open learning resources in the wild.
 [bricolage.io](https://www.bricolage.io/) by Kyle Mathews
 ([repo](https://github.com/KyleAMathews/blog))
