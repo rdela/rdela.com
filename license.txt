@@ -1,7 +1,7 @@
 OpenBSD license
 https://en.wikipedia.org/wiki/ISC_license#OpenBSD_license
 
-Copyright (c) 2018 Ricky de Laveaga <ricky@rdela.com>
+Copyright (c) 2018-present, Ricky de Laveaga
 
 Permission to use, copy, modify, and distribute this software for any
 purpose with or without fee is hereby granted, provided that the above

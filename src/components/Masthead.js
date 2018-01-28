@@ -9,7 +9,9 @@ const cYear = new Date().getFullYear();
 
 class Masthead extends React.Component {
   render() {
-    const siteTitle = this.props.title
+    const defaultMetaDesc = this.props.description
+    const siteTitle = this.props.siteTitle
+    const siteTwitter = this.props.siteTwitter
     let pTop = `48px`
     let topknot
 
@@ -82,9 +84,10 @@ class Masthead extends React.Component {
           titleTemplate={'%s - ' + siteTitle}
         >
           <meta name="copyright" content={cYear} />
-          <meta name="twitter:site" content="@rickydelaveaga" />
+          <meta name="twitter:site" content={siteTwitter} />
           <meta name="og:type" content="website" />
           <meta name="og:site_name" content={siteTitle} />
+          <meta name="description" content={defaultMetaDesc} />
           <html lang="en" />
         </Helmet>
         <header>{topknot}</header>
@@ -94,14 +97,3 @@ class Masthead extends React.Component {
 }
 
 export default Masthead
-
-export const mastQuery = graphql`
-  query mast {
-    site {
-      siteMetadata {
-        title
-        author
-      }
-    }
-  }
-`

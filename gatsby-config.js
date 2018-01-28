@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `rdela`,
     author: `Ricky de Laveaga`,
     description: `Various bug fixes and improvements @famebot`,
+    github: `@rdela`,
     siteUrl: `https://rdela.com/`,
+    title: `rdela`,
     twitter: `@rickydelaveaga`,
   },
   plugins: [
