@@ -2,6 +2,8 @@ const Typography = require("typography")
 let theme = require("typography-theme-github").default
 const CodePlugin = require("typography-plugin-code").default
 
+// https://github.com/KyleAMathews/typography.js/blob/master/packages/typography-theme-github/src/index.js
+
 theme.plugins = [new CodePlugin()]
 
 theme.baseFontSize = '18px'
@@ -79,8 +81,9 @@ theme.overrideThemeStyles = () => ({
   code: {
     fontSize: `1rem`,
   },
-  'code, kbd, pre, samp': {
-    fontFamily: `'Source Code Pro','Menlo','Monaco',monospace`,
+  'code, kbd, pre, samp, tt': {
+    fontFamily: `'Source Code Pro','SFMono-Regular','Consolas','Roboto Mono',
+      'Droid Sans Mono','Liberation Mono','Menlo','Monaco','Courier',monospace`,
   },
   'small': {
     fontSize: `0.875rem`,
