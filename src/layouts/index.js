@@ -12,7 +12,7 @@ import 'typeface-source-code-pro'
 import 'typeface-source-sans-pro'
 import 'typeface-source-serif-pro'
 
-import '../css/prism/prism.css'
+import '../css/prism/prism-tomorrow.css'
 
 class Template extends React.Component {
   render() {

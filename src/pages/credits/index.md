@@ -54,6 +54,19 @@ including NPM packages for Open Source typefaces and self-hosting webfonts
 significantly easier. Library author Kyle Mathews explained the motivations
 [in&nbsp;January&nbsp;2017](https://www.bricolage.io/typefaces-easiest-way-to-self-host-fonts/).
 
+Though the `git clone` example above hardly does it justice,
+[gatsby-remark-prismjs](https://www.gatsbyjs.org/packages/gatsby-remark-prismjs/)
+([repo](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-remark-prismjs))
+makes adding “syntax highlighting to code blocks in markdown files” using
+[Prism](https://github.com/PrismJS/prism) a drop-in affaire with a line in
+[gatsby-config.js](https://github.com/rdela/rdela.com/blob/master/gatsby-config.js#L36)
+and another in
+[layouts/index.js](https://github.com/rdela/rdela.com/blob/master/src/layouts/index.js#L15).
+I have settled on the “prism.js tomorrow night eighties”
+[theme](https://github.com/PrismJS/prism/blob/gh-pages/themes/prism-tomorrow.css),
+itself based on
+[Tomorrow Theme](https://github.com/chriskempson/tomorrow-theme).
+
 I cannot neglect to *issue* a hearty thanks to all of the
 [Gatsby GitHub people](https://github.com/gatsbyjs/gatsby/graphs/contributors)
 along with all of the [reactjs.org](https://reactjs.org/) authors and
