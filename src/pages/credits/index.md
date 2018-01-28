@@ -1,7 +1,7 @@
 ---
 title: Credits
 date: "2018-01-22"
-excerpt: "How I began devloping this site"
+excerpt: "How I began developing this site"
 image: "In_happy_far-away_land_1902_14752942545.jpg"
 ---
 
@@ -18,7 +18,7 @@ In happy far-away land (1902)<br />
 
 Welcome to the new rdela. I will be your host, Ricky de Laveaga.
 
-I began devloping this site with [GatsbyJS](https://www.gatsbyjs.org/)
+I began developing this site with [GatsbyJS](https://www.gatsbyjs.org/)
 by running [^1] a
 
 ```sh
@@ -55,10 +55,9 @@ significantly easier. Library author Kyle Mathews explained the motivations
 [in&nbsp;January&nbsp;2017](https://www.bricolage.io/typefaces-easiest-way-to-self-host-fonts/).
 
 Though the `git clone` example above hardly does it justice,
-[gatsby-remark-prismjs](https://www.gatsbyjs.org/packages/gatsby-remark-prismjs/)
-([repo](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-remark-prismjs))
+gatsby-remark-prismjs ([docs](https://www.gatsbyjs.org/packages/gatsby-remark-prismjs/), [on GitHub](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-remark-prismjs))
 makes adding “syntax highlighting to code blocks in markdown files” using
-[Prism](https://github.com/PrismJS/prism) a drop-in affaire with a line in
+[Prism](https://github.com/PrismJS/prism) a drop-in affair with a line in
 [gatsby-config.js](https://github.com/rdela/rdela.com/blob/master/gatsby-config.js#L36)
 and another in
 [layouts/index.js](https://github.com/rdela/rdela.com/blob/master/src/layouts/index.js#L15).
