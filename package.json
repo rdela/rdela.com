@@ -11,7 +11,7 @@
     "eslint": "4.16.0",
     "eslint-plugin-react": "7.6.0",
     "gatsby": "canary",
-    "gatsby-image": "1.0.34",
+    "gatsby-image": "canary",
     "gatsby-link": "canary",
     "gatsby-plugin-feed": "canary",
     "gatsby-plugin-manifest": "canary",
