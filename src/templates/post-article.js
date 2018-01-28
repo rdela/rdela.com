@@ -19,10 +19,6 @@ class PostTemplate extends React.Component {
 
           <Helmet>
             <title>{post.frontmatter.title}</title>
-            <link
-              rel="author"
-              href={siteMetadata.siteUrl}
-            />
             <meta
               name="description"
               content={metaDesc}
@@ -34,7 +30,7 @@ class PostTemplate extends React.Component {
             {post.frontmatter.image && (
               <meta
                 name="og:image"
-                content={`https://gatsbyjs.org${
+                content={`https://rdela.com${
                   post.frontmatter.image.childImageSharp.resize.src
                 }`}
               />

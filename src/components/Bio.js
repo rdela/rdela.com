@@ -4,16 +4,31 @@ import Link from 'gatsby-link'
 import knot from '../svg/rdela-knot.svg'
 import { rhythm } from '../utils/typography'
 
+
+
 class Bio extends React.Component {
   render() {
-    let rd
+    const author = this.props.author
+    const siteTitle = this.props.siteTitle
+    const siteTwitter = this.props.siteTwitter
+    const siteGithub = this.props.siteGithub
 
-    rd = <strong>Ricky de Laveaga</strong>
+    // console.log(`author: ` + author)
+    // console.log(`siteTitle: ` + siteTitle)
+    // console.log(`github: ` + siteGithub)
+    // console.log(`twitter: ` + siteTwitter)
+    // console.log(`github link: ` + siteGithub.substring(1))
+    // console.log(`twitter link: ` + siteTwitter.substring(1))
+
+
+    let authorLink
+
+    authorLink = <strong>{author}</strong>
 
     if (this.props.isHome !== true) {
-      rd = (
+      authorLink = (
         <Link to="/">
-          <strong>Ricky de Laveaga</strong>
+          <strong>{author}</strong>
         </Link>
       )
     }
@@ -26,18 +41,18 @@ class Bio extends React.Component {
         }}
       >
         <p>
-          Hyperlinked words assembled by <span>{rd}</span>, author of various{` `}
+          Hyperlinked words assembled by <span>{authorLink}</span>, author of various{` `}
           bug fixes and improvements{` `}
           <a href="https://famebot.com/">
             @famebot
           </a>{` `}
           <br />
           <br />
-          <a href="https://twitter.com/rickydelaveaga">
-            @rickydelaveaga on twitter
+          <a href={`https://twitter.com/${siteTwitter.substring(1)}`}>
+            {siteTwitter} on twitter
           </a>{` `}
           <br />
-          <a href="https://github.com/rdela">@rdela on github</a>
+          <a href={`https://github.com/${siteGithub.substring(1)}`}>{siteGithub} on github</a>
         </p>
       </div>
     )

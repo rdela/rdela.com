@@ -12,12 +12,11 @@ import 'typeface-source-code-pro'
 import 'typeface-source-sans-pro'
 import 'typeface-source-serif-pro'
 
-import "../css/prism/prism.css"
+import '../css/prism/prism.css'
 
 class Template extends React.Component {
   render() {
-    const siteTitle = this.props.data.site.siteMetadata.title
-    const siteDesc = this.props.data.site.siteMetadata.description
+    const siteMetadata = this.props.data.site.siteMetadata
     const { location, children } = this.props
 
     let header, footer
@@ -29,7 +28,12 @@ class Template extends React.Component {
 
     if (location.pathname === rootPath) {
       ;(header = (
-        <Masthead isHome={true} title={siteTitle} />
+        <Masthead
+          isHome={true}
+          description={siteMetadata.description}
+          siteTitle={siteMetadata.title}
+          siteTwitter={siteMetadata.twitter}
+        />
       )),
         (footer = (
           <footer>
@@ -45,13 +49,24 @@ class Template extends React.Component {
                 marginBottom: rhythm(2.5),
               }}
             >
-              <Bio isHome={true} />
+              <Bio
+                isHome={true}
+                author={siteMetadata.author}
+                siteGithub={siteMetadata.github}
+                siteTitle={siteMetadata.title}
+                siteTwitter={siteMetadata.twitter}
+              />
             </div>
           </footer>
         ))
     } else {
       header = (
-        <Masthead isHome={false} title={siteTitle}  />
+        <Masthead
+          isHome={false}
+          description={siteMetadata.description}
+          siteTitle={siteMetadata.title}
+          siteTwitter={siteMetadata.twitter}
+        />
       )
       footer = (
         <footer>
@@ -67,7 +82,13 @@ class Template extends React.Component {
               marginBottom: rhythm(2.5),
             }}
           >
-            <Bio />
+            <Bio
+              isHome={false}
+              author={siteMetadata.author}
+              siteGithub={siteMetadata.github}
+              siteTitle={siteMetadata.title}
+              siteTwitter={siteMetadata.twitter}
+            />
           </div>
         </footer>
       )
@@ -94,12 +115,16 @@ export const defaultTemplateQuery = graphql`
   query defaultTemplate {
     site {
       siteMetadata {
-        title
         author
+        description
+        github
+        siteUrl
+        title
+        twitter
       }
     }
     headerImage: imageSharp(id: { regex: "/header/" }) {
-      sizes(maxWidth: 1440 ) {
+      sizes(maxWidth: 1440) {
         ...GatsbyImageSharpSizes
       }
     }

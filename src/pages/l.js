@@ -13,10 +13,13 @@ import mdnDark from '../svg/mdn-dark.svg'
 
 class LinksPage extends React.Component {
   render() {
-    const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     return (
       <main role="main">
-        <Helmet title={`Links Page 🔗📄`} />
+        <Helmet
+        title={`Links Page 🔗📄`}
+        >
+        <meta name="description" content="Support Knowledge for Everyone" />
+        </Helmet>
         <h1>Links Page 🔗📄</h1>
 
         <section
@@ -202,13 +205,3 @@ class LinksPage extends React.Component {
 }
 
 export default LinksPage
-
-export const pageQuery = graphql`
-  query LinksPageQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`

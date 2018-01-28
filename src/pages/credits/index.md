@@ -75,7 +75,7 @@ As an instant bonus for reading all the way down, I give you…
 
 &nbsp;
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed/JI5gblI82rg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/JI5gblI82rg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 
 &nbsp;
 
