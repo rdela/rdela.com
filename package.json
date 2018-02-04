@@ -28,7 +28,7 @@
     "gatsby-source-filesystem": "canary",
     "gatsby-transformer-remark": "canary",
     "gatsby-transformer-sharp": "canary",
-    "lodash": "4.17.4",
+    "lodash": "4.17.5",
     "lodash-webpack-plugin": "0.11.4",
     "prettier": "1.10.2",
     "react": "16.2.0",
