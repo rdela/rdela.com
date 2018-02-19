@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Helmet from 'react-helmet';
+import Helmet from 'react-helmet'
 
 import knot from '../svg/rdela-knot.svg'
 import { rhythm, scale } from '../utils/typography'
 
-const cYear = new Date().getFullYear();
+const cYear = new Date().getFullYear()
 
 class Masthead extends React.Component {
   render() {
@@ -79,10 +79,7 @@ class Masthead extends React.Component {
 
     return (
       <div>
-        <Helmet
-          defaultTitle={siteTitle}
-          titleTemplate={'%s - ' + siteTitle}
-        >
+        <Helmet defaultTitle={siteTitle} titleTemplate={'%s - ' + siteTitle}>
           <meta name="copyright" content={cYear} />
           <meta name="twitter:site" content={siteTwitter} />
           <meta name="og:type" content="website" />

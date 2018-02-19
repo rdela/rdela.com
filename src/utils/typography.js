@@ -1,6 +1,6 @@
-const Typography = require("typography")
-let theme = require("typography-theme-github").default
-const CodePlugin = require("typography-plugin-code").default
+const Typography = require('typography')
+let theme = require('typography-theme-github').default
+const CodePlugin = require('typography-plugin-code').default
 
 // https://github.com/KyleAMathews/typography.js/blob/master/packages/typography-theme-github/src/index.js
 
@@ -10,32 +10,32 @@ theme.baseFontSize = '18px'
 theme.baseLineHeight = '1.8125'
 
 theme.headerFontFamily = [
-    'Source Sans Pro',
-    '-apple-system',
-    'BlinkMacSystemFont',
-    'Segoe UI',
-    'Roboto',
-    'Helvetica',
-    'Arial',
-    'sans-serif',
-    'Apple Color Emoji',
-    'Segoe UI Emoji',
-    'Segoe UI Symbol',
-  ]
+  'Source Sans Pro',
+  '-apple-system',
+  'BlinkMacSystemFont',
+  'Segoe UI',
+  'Roboto',
+  'Helvetica',
+  'Arial',
+  'sans-serif',
+  'Apple Color Emoji',
+  'Segoe UI Emoji',
+  'Segoe UI Symbol',
+]
 
 theme.bodyFontFamily = [
-    'Source Serif Pro',
-    '-apple-system',
-    'BlinkMacSystemFont',
-    'Segoe UI',
-    'Roboto',
-    'Helvetica',
-    'Arial',
-    'sans-serif',
-    'Apple Color Emoji',
-    'Segoe UI Emoji',
-    'Segoe UI Symbol',
-  ]
+  'Source Serif Pro',
+  '-apple-system',
+  'BlinkMacSystemFont',
+  'Segoe UI',
+  'Roboto',
+  'Helvetica',
+  'Arial',
+  'sans-serif',
+  'Apple Color Emoji',
+  'Segoe UI Emoji',
+  'Segoe UI Symbol',
+]
 
 /*
 colors:
@@ -85,9 +85,9 @@ theme.overrideThemeStyles = () => ({
     fontFamily: `'Source Code Pro','SFMono-Regular','Consolas','Roboto Mono',
       'Droid Sans Mono','Liberation Mono','Menlo','Monaco','Courier',monospace`,
   },
-  'small': {
+  small: {
     fontSize: `0.875rem`,
-  }
+  },
 })
 
 const typography = new Typography(theme)

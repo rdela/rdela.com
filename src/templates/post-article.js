@@ -10,56 +10,47 @@ class PostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteMetadata = get(this.props, 'data.site.siteMetadata')
     const metaDesc = post.frontmatter.excerpt
-                  ? post.frontmatter.excerpt
-                  : post.excerpt
+      ? post.frontmatter.excerpt
+      : post.excerpt
 
     return (
       <div>
         {/* Add long list of social meta tags */}
 
-          <Helmet>
-            <title>{post.frontmatter.title}</title>
-            <meta
-              name="description"
-              content={metaDesc}
-            />
+        <Helmet>
+          <title>{post.frontmatter.title}</title>
+          <meta name="description" content={metaDesc} />
 
-            <meta name="og:description" content={metaDesc} />
-            <meta name="twitter:description" content={metaDesc} />
-            <meta name="og:title" content={post.frontmatter.title} />
-            {post.frontmatter.image && (
-              <meta
-                name="og:image"
-                content={`https://rdela.com${
-                  post.frontmatter.image.childImageSharp.resize.src
-                }`}
-              />
-            )}
-            {post.frontmatter.image && (
-              <meta
-                name="twitter:image"
-                content={`https://gatsbyjs.org${
-                  post.frontmatter.image.childImageSharp.resize.src
-                }`}
-              />
-            )}
-            <meta name="og:type" content="article" />
-            <meta name="article:author" content={siteMetadata.author} />
+          <meta name="og:description" content={metaDesc} />
+          <meta name="twitter:description" content={metaDesc} />
+          <meta name="og:title" content={post.frontmatter.title} />
+          {post.frontmatter.image && (
             <meta
-              name="twitter:creator"
-              content={siteMetadata.twitter}
+              name="og:image"
+              content={`https://rdela.com${
+                post.frontmatter.image.childImageSharp.resize.src
+              }`}
             />
-            <meta name="author" content={siteMetadata.author} />
-            <meta name="twitter:label1" content="Reading time" />
+          )}
+          {post.frontmatter.image && (
             <meta
-              name="twitter:data1"
-              content={`${post.timeToRead} min read`}
+              name="twitter:image"
+              content={`https://gatsbyjs.org${
+                post.frontmatter.image.childImageSharp.resize.src
+              }`}
             />
-            <meta
-              name="article:published_time"
-              content={post.frontmatter.rawDate}
-            />
-          </Helmet>
+          )}
+          <meta name="og:type" content="article" />
+          <meta name="article:author" content={siteMetadata.author} />
+          <meta name="twitter:creator" content={siteMetadata.twitter} />
+          <meta name="author" content={siteMetadata.author} />
+          <meta name="twitter:label1" content="Reading time" />
+          <meta name="twitter:data1" content={`${post.timeToRead} min read`} />
+          <meta
+            name="article:published_time"
+            content={post.frontmatter.rawDate}
+          />
+        </Helmet>
         <h1
           style={{
             marginBottom: 0,
@@ -112,7 +103,6 @@ export const pageQuery = graphql`
           }
         }
       }
-
     }
   }
 `

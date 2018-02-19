@@ -32,7 +32,7 @@ Gatsby starter for creating a blog
 [Typography.js](https://github.com/KyleAMathews/typography.js)
 bundled, whose
 [demo&nbsp;playground](https://kyleamathews.github.io/typography.js/)
-is a fun way to noodle out a proto*__type__ design*.
+is a fun way to noodle out a proto**\*type** design\*.
 
 Anyhoo, as of this post I am using a
 [modified version](https://github.com/rdela/rdela.com/blob/canary/src/utils/typography.js)
@@ -47,7 +47,7 @@ and
 [Source&nbsp;Code&nbsp;Pro](https://typekit.com/fonts/source-sans)
 by [Paul&nbsp;D.&nbsp;Hunt](https://typekit.com/designers/paul-d-hunt) and
 [Teo&nbsp;Tuominen](https://typekit.com/designers/teo-tuominen). All 3 are
-part of the [*Adobe Originals*](https://blog.typekit.com/category/making-type/) series.
+part of the [_Adobe Originals_](https://blog.typekit.com/category/making-type/) series.
 
 [Typefaces](https://github.com/KyleAMathews/typefaces) makes
 including NPM packages for Open Source typefaces and self-hosting webfonts
@@ -66,7 +66,7 @@ I have settled on the “prism.js tomorrow night eighties”
 itself based on
 [Tomorrow&nbsp;Theme](https://github.com/chriskempson/tomorrow-theme).
 
-I cannot neglect to *issue* a hearty thanks to all of the
+I cannot neglect to _issue_ a hearty thanks to all of the
 [Gatsby GitHub people](https://github.com/gatsbyjs/gatsby/graphs/contributors)
 along with all of the [reactjs.org](https://reactjs.org/) authors and
 [contributors](https://github.com/reactjs/reactjs.org/graphs/contributors).
@@ -79,27 +79,10 @@ are both superb open learning resources in the wild.
 is maybe less generally useful while also being more approachable and
 especially helpful to me in putting this together.
 
-As an instant bonus for reading all the way down, I give you…
-
-<figure>
-<figcaption><a href="https://www.youtube.com/watch?v=JI5gblI82rg"><em>the <strong>F…B…I</strong></em></a></figcaption>
-</figure>
-
-&nbsp;
-
-<iframe width="720" height="405" src="https://www.youtube.com/embed/JI5gblI82rg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-
-&nbsp;
-
-…Or the…
+As an instant bonus for reading all the way down, I give you the…
 
 ### [Links Page 🔗📄](/l)
 
-…may be of interest.
-
-
-&nbsp;
-
+<br />
 
 [^1]: Having already installed `gatsby-cli`, One could run: <br /> `gatsby new nameOfSiteHere https://github.com/gatsbyjs/gatsby-starter-blog` <br /> …in the terminal instead of a `git clone` of the [gatsby-starter-blog repo](https://github.com/gatsbyjs/gatsby-starter-blog) like I did, which then needs to be followed by a `yarn` or `npm install` before running `gatsby develop` for the first time. The [Gatsby&nbsp;Docs](https://www.gatsbyjs.org/docs/) start with the `gatsby new` command which takes care of this initial package install. (For more on `git` and cloning, see [git-clone docs](https://www.git-scm.com/docs/git-clone).) The source of the `gatsby new` command is split between [create-cli.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/create-cli.js#L183) and [init-starter.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/init-starter.js) in the Gatsby repo.
-
