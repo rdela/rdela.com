@@ -44,6 +44,7 @@ https://github.com/creationix/nvm
 
 > In place of a version pointer like "0.10" or "5.0" or "4.2.1",
 you can use the following special default aliases
+> […]
 > `node: this installs the latest version of node`
 
 

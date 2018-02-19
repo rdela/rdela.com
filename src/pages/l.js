@@ -15,10 +15,8 @@ class LinksPage extends React.Component {
   render() {
     return (
       <main role="main">
-        <Helmet
-        title={`Links Page 🔗📄`}
-        >
-        <meta name="description" content="Support Knowledge for Everyone" />
+        <Helmet title={`Links Page 🔗📄`}>
+          <meta name="description" content="Support Knowledge for Everyone" />
         </Helmet>
         <h1>Links Page 🔗📄</h1>
 
@@ -164,7 +162,7 @@ class LinksPage extends React.Component {
               <article>
                 <figure>
                   <div>
-                  <a
+                    <a
                       href="https://developer.mozilla.org/en-US/docs/Web"
                       style={{
                         display: `block`,
@@ -191,9 +189,7 @@ class LinksPage extends React.Component {
                       </h3>
                     </a>
                   </div>
-                  <figcaption>
-                    Open Web Technology&nbsp;Resource
-                  </figcaption>
+                  <figcaption>Open Web Technology&nbsp;Resource</figcaption>
                 </figure>
               </article>
             </li>

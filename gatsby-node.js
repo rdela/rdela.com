@@ -3,8 +3,8 @@ const Promise = require('bluebird')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 
-exports.createPages = ({ graphql, boundActionCreators }) => {
-  const { createPage, createRedirect} = boundActionCreators
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage, createRedirect } = actions
 
   // https://github.com/reactjs/reactjs.org/blob/master/gatsby/createPages.js#L14
   // Used to detect and prevent duplicate redirects
@@ -38,18 +38,15 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         }
 
         // filter drafts
-        const posts = _.filter(
-          result.data.allMarkdownRemark.edges,
-          edge => {
-            const slug = _.get(edge, `node.fields.slug`)
-            const draft = _.get(edge, `node.frontmatter.draft`)
-            if (!slug) return
+        const posts = _.filter(result.data.allMarkdownRemark.edges, edge => {
+          const slug = _.get(edge, `node.fields.slug`)
+          const draft = _.get(edge, `node.frontmatter.draft`)
+          if (!slug) return
 
-            if (!draft) {
-              return edge
-            }
+          if (!draft) {
+            return edge
           }
-        )
+        })
 
         posts.forEach((edge, index) => {
           const next = index === 0 ? false : posts[index - 1].node
@@ -71,8 +68,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   })
 }
 
-exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
-  const { createNodeField } = boundActionCreators
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })

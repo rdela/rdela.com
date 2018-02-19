@@ -14,7 +14,9 @@
     "gatsby-image": "canary",
     "gatsby-link": "canary",
     "gatsby-plugin-feed": "canary",
+    "gatsby-plugin-lodash": "canary",
     "gatsby-plugin-manifest": "canary",
+    "gatsby-plugin-netlify": "canary",
     "gatsby-plugin-offline": "canary",
     "gatsby-plugin-preact": "canary",
     "gatsby-plugin-react-helmet": "canary",
@@ -43,13 +45,8 @@
     "typography-theme-github": "0.15.10"
   },
   "homepage": "https://rdela.com/",
-  "keywords": [
-    "de Laveaga",
-    "gatsby",
-    "rdela",
-    "ricky"
-  ],
-  "license" : "SEE LICENSE IN license.txt",
+  "keywords": ["de Laveaga", "gatsby", "rdela", "ricky"],
+  "license": "SEE LICENSE IN license.txt",
   "private": true,
   "repository": {
     "type": "git",
@@ -61,14 +58,8 @@
     "format": "prettier --no-semi --trailing-comma es5 --write 'src/**/*.js'"
   },
   "renovate": {
-    "extends": [
-      "config:base"
-    ],
-    "labels": [
-      "renovate"
-    ],
-    "assignees": [
-      "rdela"
-    ]
+    "extends": ["config:base"],
+    "labels": ["renovate"],
+    "assignees": ["rdela"]
   }
 }
