@@ -7,9 +7,6 @@
     "url": "https://github.com/rdela/rdela.com/issues"
   },
   "dependencies": {
-    "babel-eslint": "8.2.1",
-    "eslint": "4.18.0",
-    "eslint-plugin-react": "7.6.1",
     "gatsby": "canary",
     "gatsby-image": "canary",
     "gatsby-link": "canary",
@@ -45,7 +42,12 @@
     "typography-theme-github": "0.15.10"
   },
   "homepage": "https://rdela.com/",
-  "keywords": ["de Laveaga", "gatsby", "rdela", "ricky"],
+  "keywords": [
+    "de Laveaga",
+    "gatsby",
+    "rdela",
+    "ricky"
+  ],
   "license": "SEE LICENSE IN license.txt",
   "private": true,
   "repository": {
@@ -58,8 +60,14 @@
     "format": "prettier --no-semi --trailing-comma es5 --write 'src/**/*.js'"
   },
   "renovate": {
-    "extends": ["config:base"],
-    "labels": ["renovate"],
-    "assignees": ["rdela"]
+    "extends": [
+      "config:base"
+    ],
+    "labels": [
+      "renovate"
+    ],
+    "assignees": [
+      "rdela"
+    ]
   }
 }
