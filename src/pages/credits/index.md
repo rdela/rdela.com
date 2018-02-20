@@ -32,7 +32,7 @@ Gatsby starter for creating a blog
 [Typography.js](https://github.com/KyleAMathews/typography.js)
 bundled, whose
 [demo&nbsp;playground](https://kyleamathews.github.io/typography.js/)
-is a fun way to noodle out a proto**\*type** design\*.
+is a fun way to noodle out a proto<em><strong>type</strong> design</em>.
 
 Anyhoo, as of this post I am using a
 [modified version](https://github.com/rdela/rdela.com/blob/canary/src/utils/typography.js)
