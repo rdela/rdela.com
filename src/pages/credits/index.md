@@ -58,7 +58,7 @@ Though the `git clone` example above hardly does it justice,
 gatsby-remark-prismjs ([docs](https://www.gatsbyjs.org/packages/gatsby-remark-prismjs/), [on&nbsp;GitHub](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-remark-prismjs))
 makes adding “syntax highlighting to code blocks in markdown files” using
 [Prism](https://github.com/PrismJS/prism) a drop-in affair with a line in
-[gatsby-config.js](https://github.com/rdela/rdela.com/blob/master/gatsby-config.js#L36)
+[gatsby-config.js](https://github.com/rdela/rdela.com/blob/master/gatsby-config.js#L42)
 and another in
 [layouts/index.js](https://github.com/rdela/rdela.com/blob/master/src/layouts/index.js#L15).
 I have settled on the “prism.js tomorrow night eighties”
