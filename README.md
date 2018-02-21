@@ -83,7 +83,7 @@ in [license.txt](license.txt)
 
 > Consider also setting "private": true to prevent accidental publication.
 
-[package.json#L52-L53](package.json#L51-L52)
+[package.json#L51-L52](package.json#L51-L52)
 
 ```json
 {
