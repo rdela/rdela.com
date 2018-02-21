@@ -45,12 +45,11 @@ https://github.com/creationix/nvm
 `RUBY_VERSION` env var is there to appease this lag/error I was seeing in deploy logs…
 
 ```
-3:25:22 PM: Attempting ruby version 2.2.3, read from environment
-3:25:22 PM:
-3:25:22 PM: ** WARNING **
-3:25:22 PM: Using custom ruby version 2.2.3, this will slow down the build.
-3:25:22 PM: To ensure fast builds, set the RUBY_VERSION environment variable, or .ruby-version file, to an included ruby version.
-3:25:22 PM: Included versions: 2.2.9 2.4.3 2.3.6
+Attempting ruby version 2.2.3, read from environment
+** WARNING **
+Using custom ruby version 2.2.3, this will slow down the build.
+To ensure fast builds, set the RUBY_VERSION environment variable, or .ruby-version file, to an included ruby version.
+Included versions: 2.2.9 2.4.3 2.3.6
 ```
 
 https://www.netlify.com/docs/continuous-deployment/#set-node-ruby-or-python-version
