@@ -8,8 +8,6 @@ Repo background & history:
 
 [Markdown source](src/pages/credits/index.md): src/pages/credits/index.md
 
-&nbsp;
-
 ## Deploy settings
 
 ### Netlify / ENV vars
