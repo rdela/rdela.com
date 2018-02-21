@@ -4,11 +4,12 @@ const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 
 exports.createPages = ({ graphql, actions }) => {
-  const { createPage, createRedirect } = actions
+  const { createPage } = actions
+  // const { createPage, createRedirect } = actions
 
   // https://github.com/reactjs/reactjs.org/blob/master/gatsby/createPages.js#L14
   // Used to detect and prevent duplicate redirects
-  const redirectToSlugMap = {}
+  // const redirectToSlugMap = {}
 
   return new Promise((resolve, reject) => {
     const postArticle = path.resolve('./src/templates/post-article.js')
