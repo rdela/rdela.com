@@ -41,7 +41,7 @@ Odds are high I will write more about this soon. At this point, I can recommend 
 > * Client-Side Routing Support
 > * Teams
 
-> full details […] [plans and pricing&nbsp;page](https://www.netlify.com/pricing/)
+> full details \[…\] [plans and pricing&nbsp;page](https://www.netlify.com/pricing/)
 
 To the entire [Netlify (OSS) crew](https://github.com/orgs/netlify/people), thank you.
 
