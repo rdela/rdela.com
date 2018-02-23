@@ -14,7 +14,7 @@ In happy far-away land (1902)<br />
 </figcaption>
 </figure>
 
-&nbsp;
+<br />
 
 Welcome to the new rdela. I will be your host, Ricky de Laveaga.
 

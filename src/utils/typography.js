@@ -53,15 +53,18 @@ https://github.com/gatsbyjs/gatsby/pull/3639#issuecomment-359263286
 
 theme.overrideThemeStyles = () => ({
   a: {
-    color: 'hsl(252,96%,76%)',
+    color: 'hsl(252,56%,56%)',
     textDecoration: 'none',
   },
   'a:hover,a:active': {
-    color: 'hsl(206,96%,76%)',
+    color: 'hsl(252,96%,76%)',
     textDecoration: 'none',
   },
   'h1,h2': {
     borderBottom: '0',
+  },
+  h3: {
+    lineHeight: `1.25`,
   },
   hr: {
     backgroundColor: `hsla(206,96%,76%,.38)`,
