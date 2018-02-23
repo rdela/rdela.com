@@ -6,7 +6,7 @@ image: "rainbow-diamond.jpg"
 ---
 
 <figure style="text-align: center">
-<span style="display: block; margin: 0 auto; width: 96px; height: 97px"><img src="rainbow-diamond.jpg"
+<span style="display: inline-block; margin: 0 auto; width: 96px; height: auto"><img src="rainbow-diamond.jpg"
      alt="Netlify rainbow diamond" /></span>
 <figcaption>
 <small>(Image source: <a href="https://www.netlify.com/open-source/">Open&nbsp;Source | Netlify</a>)</small>

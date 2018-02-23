@@ -88,8 +88,11 @@ theme.overrideThemeStyles = () => ({
     fontFamily: `'Source Code Pro','SFMono-Regular','Consolas','Roboto Mono',
       'Droid Sans Mono','Liberation Mono','Menlo','Monaco','Courier',monospace`,
   },
+  footer: {
+    fontSize: `0.888888889rem`,
+  },
   small: {
-    fontSize: `0.875rem`,
+    fontSize: `0.833333333rem`,
   },
 })
 
