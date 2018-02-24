@@ -2,14 +2,14 @@
 title: Netlif-Yeah
 date: "2018-02-23"
 excerpt: "Thank you Netlify"
-image: "rainbow-diamond.jpg"
+image: "full-logo-light.png"
 ---
 
-<figure style="text-align: center">
-<span style="display: inline-block; margin: 0 auto; width: 96px; height: auto"><img src="rainbow-diamond.jpg"
-     alt="Netlify rainbow diamond" /></span>
+<figure style="text-align: center; margin: 40px auto">
+<img src="full-logo-light.png"
+     alt="Netlify Full Logo Light" />
 <figcaption>
-<small>(Image source: <a href="https://www.netlify.com/open-source/">Open&nbsp;Source | Netlify</a>)</small>
+<small>(Image source: <a href="https://www.netlify.com/press/">Press | Netlify</a>)</small>
 </figcaption>
 </figure>
 

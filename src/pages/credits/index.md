@@ -50,7 +50,7 @@ by [Paul&nbsp;D.&nbsp;Hunt](https://typekit.com/designers/paul-d-hunt) and
 part of the [_Adobe Originals_](https://blog.typekit.com/category/making-type/) series.
 
 [Typefaces](https://github.com/KyleAMathews/typefaces) makes
-including NPM packages for Open Source typefaces and self-hosting webfonts
+including NPM packages for open source typefaces and self-hosting webfonts
 significantly easier. Library author Kyle Mathews explained the motivations
 [in&nbsp;January&nbsp;2017](https://www.bricolage.io/typefaces-easiest-way-to-self-host-fonts/).
 
