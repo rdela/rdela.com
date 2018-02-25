@@ -17,7 +17,7 @@ image: "full-logo-light.png"
 
 <br />
 
-According to the [web&nbsp;UI](https://www.netlify.com/docs/), I joined Netlify on Oct 24, 2017. That means I have been publishing projects from GitHub with Netlify for 4 months now, including [this&nbsp;site](https://github.com/rdela/rdela.com).
+According to the [web&nbsp;UI](https://www.netlify.com/docs/), I have been publishing projects from GitHub with Netlify for 4 months now (since 24 Oct. 2017), including [this&nbsp;site](https://github.com/rdela/rdela.com).
 
 Odds are high I will write more about this soon. At this point, I can recommend them to anyone looking to host static sites with them, whether [open&nbsp;source](https://www.netlify.com/open-source/) or [private&nbsp;repos](https://www.netlify.com/blog/2017/06/28/introducing-teams-new-features-and-an-update-to-our-plans/):
 
