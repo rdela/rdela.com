@@ -28,7 +28,6 @@
     "gatsby-transformer-sharp": "canary",
     "lodash": "4.17.5",
     "lodash-webpack-plugin": "0.11.4",
-    "prettier": "1.10.2",
     "react": "16.2.0",
     "react-dom": "16.2.0",
     "react-helmet": "5.2.0",
@@ -39,6 +38,9 @@
     "typography": "0.16.6",
     "typography-plugin-code": "0.16.11",
     "typography-theme-github": "0.15.10"
+  },
+  "devDependencies": {
+    "prettier": "1.10.2"
   },
   "homepage": "https://rdela.com/",
   "keywords": [
