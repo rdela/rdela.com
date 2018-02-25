@@ -14,13 +14,15 @@ Repo background & history:
 
 ```toml
 [build]
-  command = "gatsby build"
+  command = "npm run build"
   publish = "public"
 
 [template.environment]
   NODE_ENV = "production"
   NODE_VERSION = "node"
   RUBY_VERSION = "default"
+  YARN_FLAGS = "--no-ignore-optional"
+  YARN_VERSION = "1.3.2"
 ```
 
 https://www.netlify.com/blog/2016/08/30/introducing-deploy-contexts-in-netlify/
