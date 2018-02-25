@@ -15,7 +15,6 @@
     "gatsby-plugin-manifest": "canary",
     "gatsby-plugin-netlify": "canary",
     "gatsby-plugin-offline": "canary",
-    "gatsby-plugin-preact": "canary",
     "gatsby-plugin-react-helmet": "canary",
     "gatsby-plugin-sharp": "canary",
     "gatsby-plugin-typography": "canary",
