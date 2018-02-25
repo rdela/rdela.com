@@ -53,4 +53,4 @@ To the entire [Netlify (OSS) crew](https://github.com/orgs/netlify/people), than
 
 <br />
 
-[Update](https://twitter.com/rickydelaveaga/status/967778916734615552): If you are having trouble with Netlify the answer is very often “Retry deploy” with “[Clear build cache](https://www.netlify.com/docs/build-gotchas/#build-cache)” checked.
+[Update 25 February 2018](https://twitter.com/rickydelaveaga/status/967778916734615552): If you are having trouble with Netlify the answer is very often “Retry deploy” with “[Clear build cache](https://www.netlify.com/docs/build-gotchas/#build-cache)” checked.
