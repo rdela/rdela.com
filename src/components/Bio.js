@@ -60,17 +60,47 @@ class Bio extends React.Component {
           <br />
           <br />
           <a href={`https://twitter.com/${siteTwitter.substring(1)}`}>
-            <FontAwesomeIcon icon={faTwitter} />&nbsp; {siteTwitter} on twitter
+            <span
+              className="iconbox"
+              style={{
+                width: `1.334rem`,
+                height: `1.8125rem`,
+                display: `inline-block`,
+              }}
+            >
+              <FontAwesomeIcon icon={faTwitter} />
+            </span>{' '}
+            {siteTwitter} on twitter
           </a>
           {` `}
           <br />
           <a href={`https://github.com/${siteGithub.substring(1)}`}>
-            <FontAwesomeIcon icon={faGithub} />&nbsp; {siteGithub} on github
+            <span
+              className="iconbox"
+              style={{
+                width: `1.334rem`,
+                height: `1.8125rem`,
+                display: `inline-block`,
+              }}
+            >
+              <FontAwesomeIcon icon={faGithub} />
+            </span>{' '}
+            {siteGithub} on github
           </a>
           {` `}
           <br />
           <a href={`https://gitlab.com/${siteGitlab.substring(1)}`}>
-            <FontAwesomeIcon icon={faGitlab} />&nbsp; {siteGithub} on gitlab
+            <span
+              className="iconbox"
+              style={{
+                width: `1.334rem`,
+                height: `1.8125rem`,
+                display: `inline-block`,
+              }}
+            >
+              <FontAwesomeIcon icon={faGitlab} />
+            </span>{' '}
+            {siteGithub} on gitlab
           </a>
         </p>
       </div>
