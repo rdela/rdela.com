@@ -1,15 +1,25 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
 import Link from 'gatsby-link'
+import fontawesome from '@fortawesome/fontawesome'
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import { faPaintBrush } from '@fortawesome/fontawesome-free-solid'
+import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter'
+import faGithub from '@fortawesome/fontawesome-free-brands/faGithub'
+import faGitlab from '@fortawesome/fontawesome-free-brands/faGitlab'
 
 import knot from '../svg/rdela-knot.svg'
 import { rhythm } from '../utils/typography'
 
+// fontawesome.library.add(faTwitter, faCoffee)
+
 class Bio extends React.Component {
   render() {
     const author = this.props.author
+    const siteGithub = this.props.siteGithub
+    const siteGitlab = this.props.siteGitlab
     const siteTitle = this.props.siteTitle
     const siteTwitter = this.props.siteTwitter
-    const siteGithub = this.props.siteGithub
 
     // console.log(`author: ` + author)
     // console.log(`siteTitle: ` + siteTitle)
@@ -20,12 +30,16 @@ class Bio extends React.Component {
 
     let authorLink
 
-    authorLink = <strong>{author}</strong>
+    authorLink = (
+      <span>
+        <FontAwesomeIcon icon={faPaintBrush} />&nbsp; <strong>{author}</strong>
+      </span>
+    )
 
     if (this.props.isHome !== true) {
       authorLink = (
         <Link to="/">
-          <strong>{author}</strong>
+          <FontAwesomeIcon icon={faPaintBrush} />&nbsp; <strong>{author}</strong>
         </Link>
       )
     }
@@ -38,20 +52,26 @@ class Bio extends React.Component {
         }}
       >
         <p>
-          Hyperlinked words assembled by <span>{authorLink}</span>, author of
-          various{` `}
-          bug fixes and improvements{` `}
+          Hyperlinked words assembled by<br />
+          <span>{authorLink}</span>
+          <br />
+          author of various bug fixes and improvements{` `}
           <a href="https://famebot.com/">@famebot</a>
           {` `}
           <br />
           <br />
           <a href={`https://twitter.com/${siteTwitter.substring(1)}`}>
-            {siteTwitter} on twitter
+            <FontAwesomeIcon icon={faTwitter} />&nbsp; {siteTwitter} on twitter
+          </a>
+          {` `}
+          <br />
+          <a href={`https://gitlab.com/${siteGitlab.substring(1)}`}>
+            <FontAwesomeIcon icon={faGitlab} />&nbsp; {siteGithub} on gitlab
           </a>
           {` `}
           <br />
           <a href={`https://github.com/${siteGithub.substring(1)}`}>
-            {siteGithub} on github
+            <FontAwesomeIcon icon={faGithub} />&nbsp; {siteGithub} on github
           </a>
         </p>
       </div>
