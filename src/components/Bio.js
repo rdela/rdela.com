@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import Link from 'gatsby-link'
 import fontawesome from '@fortawesome/fontawesome'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import { faPaintBrush } from '@fortawesome/fontawesome-free-solid'
+import { faLink } from '@fortawesome/fontawesome-free-solid'
 import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter'
 import faGithub from '@fortawesome/fontawesome-free-brands/faGithub'
 import faGitlab from '@fortawesome/fontawesome-free-brands/faGitlab'
@@ -56,7 +56,25 @@ class Bio extends React.Component {
           author of various bug fixes and improvements{` `}
           <a href="https://famebot.com/">@famebot</a>
         </p>
-
+        <p>
+          <Link to="/l/">
+            {' '}
+            <span
+              className="iconbox"
+              style={{
+                width: `1rem`,
+                height: `1.1115rem`,
+                marginRight: `0.219rem`,
+                display: `inline-block`,
+                verticalAlign: `baseline`,
+              }}
+            >
+              <FontAwesomeIcon icon={faLink} />
+            </span>
+            {` `}
+            links
+          </Link>
+        </p>
         <p>
           <a href={`https://twitter.com/${siteTwitter.substring(1)}`}>
             <span
