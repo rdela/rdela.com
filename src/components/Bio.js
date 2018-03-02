@@ -32,14 +32,14 @@ class Bio extends React.Component {
 
     authorLink = (
       <span>
-        <FontAwesomeIcon icon={faPaintBrush} />&nbsp; <strong>{author}</strong>
+        <strong>{author}</strong>
       </span>
     )
 
     if (this.props.isHome !== true) {
       authorLink = (
         <Link to="/">
-          <FontAwesomeIcon icon={faPaintBrush} />&nbsp; <strong>{author}</strong>
+          <strong>{author}</strong>
         </Link>
       )
     }
@@ -52,9 +52,8 @@ class Bio extends React.Component {
         }}
       >
         <p>
-          Hyperlinked words assembled by<br />
-          <span>{authorLink}</span>
-          <br />
+          Hyperlinked words assembled by <span>{authorLink}</span>
+          {` `}
           author of various bug fixes and improvements{` `}
           <a href="https://famebot.com/">@famebot</a>
           {` `}
@@ -65,13 +64,13 @@ class Bio extends React.Component {
           </a>
           {` `}
           <br />
-          <a href={`https://gitlab.com/${siteGitlab.substring(1)}`}>
-            <FontAwesomeIcon icon={faGitlab} />&nbsp; {siteGithub} on gitlab
+          <a href={`https://github.com/${siteGithub.substring(1)}`}>
+            <FontAwesomeIcon icon={faGithub} />&nbsp; {siteGithub} on github
           </a>
           {` `}
           <br />
-          <a href={`https://github.com/${siteGithub.substring(1)}`}>
-            <FontAwesomeIcon icon={faGithub} />&nbsp; {siteGithub} on github
+          <a href={`https://gitlab.com/${siteGitlab.substring(1)}`}>
+            <FontAwesomeIcon icon={faGitlab} />&nbsp; {siteGithub} on gitlab
           </a>
         </p>
       </div>
