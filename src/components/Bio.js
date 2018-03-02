@@ -90,7 +90,9 @@ class Bio extends React.Component {
           author of various bug fixes and improvements{` `}
           <a href="https://famebot.com/">@famebot</a>
         </p>
+
         {linksLink}
+
         <p>
           <a href={`https://twitter.com/${siteTwitter.substring(1)}`}>
             <span
@@ -108,8 +110,9 @@ class Bio extends React.Component {
             {` `}
             {siteTwitter} on twitter
           </a>
-          {` `}
-          <br />
+        </p>
+
+        <p>
           <a href={`https://github.com/${siteGithub.substring(1)}`}>
             <span
               className="iconbox"
@@ -126,8 +129,9 @@ class Bio extends React.Component {
             {` `}
             {siteGithub} on github
           </a>
-          {` `}
-          <br />
+        </p>
+
+        <p>
           <a href={`https://gitlab.com/${siteGitlab.substring(1)}`}>
             <span
               className="iconbox"
