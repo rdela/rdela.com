@@ -3,6 +3,7 @@ module.exports = {
     author: `Ricky de Laveaga`,
     description: `Various bug fixes and improvements @famebot`,
     github: `@rdela`,
+    gitlab: `@rdela`,
     siteUrl: `https://rdela.com`,
     title: `rdela`,
     twitter: `@rickydelaveaga`,
