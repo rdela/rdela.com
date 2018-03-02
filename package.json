@@ -2,7 +2,9 @@
   "name": "rdela",
   "description": "Various bug fixes and improvements @famebot",
   "version": "1.0.0",
-  "author": "Ricky de Laveaga <git@rdela.com>",
+  "author": "Ricky de Laveaga <https://rdela.com>",
+  "license": "SEE LICENSE IN license.txt",
+  "private": true,
   "bugs": {
     "url": "https://github.com/rdela/rdela.com/issues"
   },
@@ -54,8 +56,6 @@
     "rdela",
     "ricky"
   ],
-  "license": "SEE LICENSE IN license.txt",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rdela/rdela.com.git"
