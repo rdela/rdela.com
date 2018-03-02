@@ -1,0 +1,10 @@
+[build]
+  command = "gatsby build"
+  publish = "public/"
+
+[template.environment]
+  NODE_ENV = "production"
+  NODE_VERSION = "node"
+  RUBY_VERSION = "default"
+  YARN_FLAGS = "--no-ignore-optional"
+  YARN_VERSION = "1.5.1"

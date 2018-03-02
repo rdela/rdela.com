@@ -22,7 +22,7 @@ Repo background & history:
   NODE_VERSION = "node"
   RUBY_VERSION = "default"
   YARN_FLAGS = "--no-ignore-optional"
-  YARN_VERSION = "1.3.2"
+  YARN_VERSION = "1.5.1"
 ```
 
 https://www.netlify.com/blog/2016/08/30/introducing-deploy-contexts-in-netlify/
