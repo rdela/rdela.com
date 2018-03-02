@@ -47,7 +47,6 @@ class Bio extends React.Component {
     return (
       <div
         style={{
-          display: 'flex',
           marginBottom: rhythm(2.5),
         }}
       >
@@ -56,16 +55,18 @@ class Bio extends React.Component {
           {` `}
           author of various bug fixes and improvements{` `}
           <a href="https://famebot.com/">@famebot</a>
-          {` `}
-          <br />
-          <br />
+        </p>
+
+        <p>
           <a href={`https://twitter.com/${siteTwitter.substring(1)}`}>
             <span
               className="iconbox"
               style={{
-                width: `1.334rem`,
-                height: `1.8125rem`,
+                width: `1rem`,
+                height: `1.1115rem`,
+                marginRight: `0.219rem`,
                 display: `inline-block`,
+                verticalAlign: `baseline`,
               }}
             >
               <FontAwesomeIcon icon={faTwitter} />
@@ -78,9 +79,11 @@ class Bio extends React.Component {
             <span
               className="iconbox"
               style={{
-                width: `1.334rem`,
-                height: `1.8125rem`,
+                width: `1rem`,
+                height: `1.1115rem`,
+                marginRight: `0.219rem`,
                 display: `inline-block`,
+                verticalAlign: `baseline`,
               }}
             >
               <FontAwesomeIcon icon={faGithub} />
@@ -93,9 +96,11 @@ class Bio extends React.Component {
             <span
               className="iconbox"
               style={{
-                width: `1.334rem`,
-                height: `1.8125rem`,
+                width: `1rem`,
+                height: `1.1115rem`,
+                marginRight: `0.219rem`,
                 display: `inline-block`,
+                verticalAlign: `baseline`,
               }}
             >
               <FontAwesomeIcon icon={faGitlab} />
