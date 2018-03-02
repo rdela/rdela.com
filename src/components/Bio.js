@@ -21,6 +21,14 @@ class Bio extends React.Component {
     const siteTitle = this.props.siteTitle
     const siteTwitter = this.props.siteTwitter
 
+    const iconboxStyles = {
+      width: `1rem`,
+      height: `1.1115rem`,
+      marginRight: `0.219rem`,
+      display: `inline-block`,
+      verticalAlign: `baseline`,
+    }
+
     let authorLink, linksLink
 
     authorLink = (
@@ -31,16 +39,7 @@ class Bio extends React.Component {
 
     linksLink = (
       <p>
-        <span
-          className="iconbox"
-          style={{
-            width: `1rem`,
-            height: `1.1115rem`,
-            marginRight: `0.219rem`,
-            display: `inline-block`,
-            verticalAlign: `baseline`,
-          }}
-        >
+        <span className="iconbox" style={iconboxStyles}>
           <FontAwesomeIcon icon={faLink} />
         </span>
         {` `}
@@ -60,16 +59,7 @@ class Bio extends React.Component {
       linksLink = (
         <p>
           <Link to="/l/">
-            <span
-              className="iconbox"
-              style={{
-                width: `1rem`,
-                height: `1.1115rem`,
-                marginRight: `0.219rem`,
-                display: `inline-block`,
-                verticalAlign: `baseline`,
-              }}
-            >
+            <span className="iconbox" style={iconboxStyles}>
               <FontAwesomeIcon icon={faLink} />
             </span>
             {` `}
@@ -95,16 +85,7 @@ class Bio extends React.Component {
 
         <p>
           <a href={`https://twitter.com/${siteTwitter.substring(1)}`}>
-            <span
-              className="iconbox"
-              style={{
-                width: `1rem`,
-                height: `1.1115rem`,
-                marginRight: `0.219rem`,
-                display: `inline-block`,
-                verticalAlign: `baseline`,
-              }}
-            >
+            <span className="iconbox" style={iconboxStyles}>
               <FontAwesomeIcon icon={faTwitter} />
             </span>
             {` `}
@@ -114,16 +95,7 @@ class Bio extends React.Component {
 
         <p>
           <a href={`https://github.com/${siteGithub.substring(1)}`}>
-            <span
-              className="iconbox"
-              style={{
-                width: `1rem`,
-                height: `1.1115rem`,
-                marginRight: `0.219rem`,
-                display: `inline-block`,
-                verticalAlign: `baseline`,
-              }}
-            >
+            <span className="iconbox" style={iconboxStyles}>
               <FontAwesomeIcon icon={faGithub} />
             </span>
             {` `}
@@ -133,16 +105,7 @@ class Bio extends React.Component {
 
         <p>
           <a href={`https://gitlab.com/${siteGitlab.substring(1)}`}>
-            <span
-              className="iconbox"
-              style={{
-                width: `1rem`,
-                height: `1.1115rem`,
-                marginRight: `0.219rem`,
-                display: `inline-block`,
-                verticalAlign: `baseline`,
-              }}
-            >
+            <span className="iconbox" style={iconboxStyles}>
               <FontAwesomeIcon icon={faGitlab} />
             </span>
             {` `}
