@@ -67,6 +67,13 @@ https://www.netlify.com/docs/continuous-deployment/#set-node-ruby-or-python-vers
 > * `default` - default ruby (or the system ruby if a default hasn't been set)
 > * `system` - system ruby (state before RVM was installed)
 
+YARN_FLAGS + YARN_VERSION
+
+See these commits on the Gatsby Netlify CMS starter.
+
+https://github.com/AustinGreen/gatsby-starter-netlify-cms/commit/5c349ced8c4c915c15d322f6fd9ff0e188fd78dd
+https://github.com/AustinGreen/gatsby-starter-netlify-cms/commit/b6cdfce0277cf2d2023cd7427ee32390ce8e419b
+
 ## License
 
 https://docs.npmjs.com/files/package.json#license
@@ -82,7 +89,7 @@ in [license.txt](license.txt)
 
 > Consider also setting "private": true to prevent accidental publication.
 
-[package.json#L51-L52](package.json#L51-L52)
+[package.json#L6-7](package.json#L6-7)
 
 ```json
 {
