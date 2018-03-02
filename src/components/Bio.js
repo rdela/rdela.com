@@ -51,8 +51,7 @@ class Bio extends React.Component {
         }}
       >
         <p>
-          Hyperlinked words assembled by <span>{authorLink}</span>
-          {` `}
+          Hyperlinked words assembled by <span>{authorLink}</span>,{` `}
           author of various bug fixes and improvements{` `}
           <a href="https://famebot.com/">@famebot</a>
         </p>
