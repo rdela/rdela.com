@@ -19,82 +19,61 @@ class Template extends React.Component {
     const siteMetadata = this.props.data.site.siteMetadata
     const { location, children } = this.props
 
-    let header, footer
+    let header, footer, homeCheck, linkCheck
 
     let rootPath = `/`
+    let linksPath = `/l/`
     if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
       rootPath = __PATH_PREFIX__ + `/`
+      linksPath = __PATH_PREFIX__ + `/`
+    }
+
+    homeCheck = false
+    linkCheck = false
+
+    if (location.pathname === linksPath) {
+      linkCheck = true
     }
 
     if (location.pathname === rootPath) {
-      ;(header = (
-        <Masthead
-          isHome={true}
-          description={siteMetadata.description}
-          siteTitle={siteMetadata.title}
-          siteTwitter={siteMetadata.twitter}
-        />
-      )),
-        (footer = (
-          <footer>
-            <hr
-              style={{
-                marginBottom: rhythm(1),
-                marginTop: rhythm(1),
-              }}
-            />
-            <div
-              style={{
-                display: 'flex',
-                marginBottom: rhythm(2.5),
-              }}
-            >
-              <Bio
-                isHome={true}
-                author={siteMetadata.author}
-                siteGithub={siteMetadata.github}
-                siteGitlab={siteMetadata.gitlab}
-                siteTitle={siteMetadata.title}
-                siteTwitter={siteMetadata.twitter}
-              />
-            </div>
-          </footer>
-        ))
-    } else {
-      header = (
-        <Masthead
-          isHome={false}
-          description={siteMetadata.description}
-          siteTitle={siteMetadata.title}
-          siteTwitter={siteMetadata.twitter}
-        />
-      )
-      footer = (
-        <footer>
-          <hr
-            style={{
-              marginBottom: rhythm(1),
-              marginTop: rhythm(1),
-            }}
-          />
-          <div
-            style={{
-              display: 'flex',
-              marginBottom: rhythm(2.5),
-            }}
-          >
-            <Bio
-              isHome={false}
-              author={siteMetadata.author}
-              siteGithub={siteMetadata.github}
-              siteGitlab={siteMetadata.gitlab}
-              siteTitle={siteMetadata.title}
-              siteTwitter={siteMetadata.twitter}
-            />
-          </div>
-        </footer>
-      )
+      homeCheck = true
     }
+
+    header = (
+      <Masthead
+        isHome={homeCheck}
+        description={siteMetadata.description}
+        siteTitle={siteMetadata.title}
+        siteTwitter={siteMetadata.twitter}
+      />
+    )
+    footer = (
+      <footer>
+        <hr
+          style={{
+            marginBottom: rhythm(1),
+            marginTop: rhythm(1),
+          }}
+        />
+        <div
+          style={{
+            display: 'flex',
+            marginBottom: rhythm(2.5),
+          }}
+        >
+          <Bio
+            isHome={homeCheck}
+            isLinks={linkCheck}
+            author={siteMetadata.author}
+            siteGithub={siteMetadata.github}
+            siteGitlab={siteMetadata.gitlab}
+            siteTitle={siteMetadata.title}
+            siteTwitter={siteMetadata.twitter}
+          />
+        </div>
+      </footer>
+    )
+
     return (
       <div
         style={{

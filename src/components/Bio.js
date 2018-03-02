@@ -21,19 +21,31 @@ class Bio extends React.Component {
     const siteTitle = this.props.siteTitle
     const siteTwitter = this.props.siteTwitter
 
-    // console.log(`author: ` + author)
-    // console.log(`siteTitle: ` + siteTitle)
-    // console.log(`github: ` + siteGithub)
-    // console.log(`twitter: ` + siteTwitter)
-    // console.log(`github link: ` + siteGithub.substring(1))
-    // console.log(`twitter link: ` + siteTwitter.substring(1))
-
-    let authorLink
+    let authorLink, linksLink
 
     authorLink = (
       <span>
         <strong>{author}</strong>
       </span>
+    )
+
+    linksLink = (
+      <p>
+        <span
+          className="iconbox"
+          style={{
+            width: `1rem`,
+            height: `1.1115rem`,
+            marginRight: `0.219rem`,
+            display: `inline-block`,
+            verticalAlign: `baseline`,
+          }}
+        >
+          <FontAwesomeIcon icon={faLink} />
+        </span>
+        {` `}
+        links
+      </p>
     )
 
     if (this.props.isHome !== true) {
@@ -44,20 +56,10 @@ class Bio extends React.Component {
       )
     }
 
-    return (
-      <div
-        style={{
-          marginBottom: rhythm(2.5),
-        }}
-      >
-        <p>
-          Hyperlinked words assembled by <span>{authorLink}</span>,{` `}
-          author of various bug fixes and improvements{` `}
-          <a href="https://famebot.com/">@famebot</a>
-        </p>
+    if (this.props.isLinks !== true) {
+      linksLink = (
         <p>
           <Link to="/l/">
-            {' '}
             <span
               className="iconbox"
               style={{
@@ -74,6 +76,21 @@ class Bio extends React.Component {
             links
           </Link>
         </p>
+      )
+    }
+
+    return (
+      <div
+        style={{
+          marginBottom: rhythm(2.5),
+        }}
+      >
+        <p>
+          Hyperlinked words assembled by <span>{authorLink}</span>,{` `}
+          author of various bug fixes and improvements{` `}
+          <a href="https://famebot.com/">@famebot</a>
+        </p>
+        {linksLink}
         <p>
           <a href={`https://twitter.com/${siteTwitter.substring(1)}`}>
             <span
@@ -87,7 +104,8 @@ class Bio extends React.Component {
               }}
             >
               <FontAwesomeIcon icon={faTwitter} />
-            </span>{' '}
+            </span>
+            {` `}
             {siteTwitter} on twitter
           </a>
           {` `}
@@ -104,7 +122,8 @@ class Bio extends React.Component {
               }}
             >
               <FontAwesomeIcon icon={faGithub} />
-            </span>{' '}
+            </span>
+            {` `}
             {siteGithub} on github
           </a>
           {` `}
@@ -121,7 +140,8 @@ class Bio extends React.Component {
               }}
             >
               <FontAwesomeIcon icon={faGitlab} />
-            </span>{' '}
+            </span>
+            {` `}
             {siteGithub} on gitlab
           </a>
         </p>
