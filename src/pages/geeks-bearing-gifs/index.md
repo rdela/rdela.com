@@ -11,7 +11,7 @@ excerpt: "Beware of geeks bearing gifs"
   </span>
 <figcaption>
 <small>(Image source: <a href="https://gif-ricky.hashbase.io/">gif-ricky.hashbase.io</a>)</small><br />
-<small>(dat//: <a href="https://hashbase.io/ricky/gif">hashbase.io/ricky/gif</a>)</small><br />
+<small>(dat: <a href="https://hashbase.io/ricky/gif">hashbase.io/ricky/gif</a>)</small><br />
 </figcaption>
 </figure>
 
