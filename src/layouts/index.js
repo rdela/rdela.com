@@ -48,29 +48,21 @@ class Template extends React.Component {
       />
     )
     footer = (
-      <footer>
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-            marginTop: rhythm(1),
-          }}
+      <footer
+        style={{
+          display: 'flex',
+          marginBottom: rhythm(2.5),
+        }}
+      >
+        <Bio
+          isHome={homeCheck}
+          isLinks={linkCheck}
+          author={siteMetadata.author}
+          siteGithub={siteMetadata.github}
+          siteGitlab={siteMetadata.gitlab}
+          siteTitle={siteMetadata.title}
+          siteTwitter={siteMetadata.twitter}
         />
-        <div
-          style={{
-            display: 'flex',
-            marginBottom: rhythm(2.5),
-          }}
-        >
-          <Bio
-            isHome={homeCheck}
-            isLinks={linkCheck}
-            author={siteMetadata.author}
-            siteGithub={siteMetadata.github}
-            siteGitlab={siteMetadata.gitlab}
-            siteTitle={siteMetadata.title}
-            siteTwitter={siteMetadata.twitter}
-          />
-        </div>
       </footer>
     )
 
@@ -84,6 +76,7 @@ class Template extends React.Component {
       >
         {header}
         {children()}
+        <hr />
         {footer}
       </div>
     )
