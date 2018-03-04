@@ -11,11 +11,11 @@ excerpt: "Beware of geeks bearing gifs"
   </span>
 <figcaption>
 <small>(Image source: <a href="https://commons.wikimedia.org/wiki/File:Fuochi_d%27artificio.gif">Wikimedia&nbsp;Commons</a>)</small><br />
-<small>(dat: <a href="https://hashbase.io/ricky/gif">hashbase.io/ricky/gif</a>)</small><br />
+<small>(Dat: <a href="https://hashbase.io/ricky/gif">hashbase.io/ricky/gif</a>)</small><br />
 </figcaption>
 </figure>
 
-If you are reading the caption above and all like what’s “dat” yo? Check out [Beaker&nbsp;Browser](https://beakerbrowser.com/), a peer-to-peer browser with tools to create and host websites. [Hashbase](https://hashbase.io/) hosts your files online, even when your computer is turned&nbsp;off.
+If you are reading the caption above and all like what’s “[Dat](https://datproject.org/),” yo? Check out [Beaker&nbsp;Browser](https://beakerbrowser.com/), a peer-to-peer browser with tools to create and host websites. [Hashbase](https://hashbase.io/) hosts your files online, even when your computer is turned&nbsp;off.
 
 From [phrases.org.uk](https://www.phrases.org.uk/meanings/beware-of-greeks-bearing-gifts.html)
 
