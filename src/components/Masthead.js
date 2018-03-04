@@ -78,7 +78,7 @@ class Masthead extends React.Component {
     }
 
     return (
-      <div>
+      <header>
         <Helmet defaultTitle={siteTitle} titleTemplate={'%s - ' + siteTitle}>
           <meta name="copyright" content={cYear} />
           <meta name="twitter:site" content={siteTwitter} />
@@ -87,8 +87,8 @@ class Masthead extends React.Component {
           <meta name="description" content={defaultMetaDesc} />
           <html lang="en" />
         </Helmet>
-        <header>{topknot}</header>
-      </div>
+        {topknot}
+      </header>
     )
   }
 }

@@ -17,13 +17,17 @@ image: "full-logo-light.png"
 
 <br />
 
+**[Update 25 February 2018](https://twitter.com/rickydelaveaga/status/967778916734615552):** If you are having trouble with Netlify the answer is very often “Retry deploy” with “[Clear build cache](https://www.netlify.com/docs/build-gotchas/#build-cache)” checked.
+
+<br />
+
 According to the [web&nbsp;UI](https://www.netlify.com/docs/), I have been publishing projects from GitHub with Netlify for 4 months now (since 24 Oct. 2017), including [this&nbsp;site](https://github.com/rdela/rdela.com).
 
 Odds are high I will write more about this soon. At this point, I can recommend them to anyone looking to host static sites with them, whether [open&nbsp;source](https://www.netlify.com/open-source/) or [private&nbsp;repos](https://www.netlify.com/blog/2017/06/28/introducing-teams-new-features-and-an-update-to-our-plans/):
 
-> The new, free Bronze plan includes all the features that have historically made Netlify so powerful. This free plan can be used on personal and commercial projects (even with private code), as well as for any of your prototypes, experiments, open source projects, or one-off sites.
+> This free plan can be used on personal and commercial projects (even with private&nbsp;code)
 
-> Check out some of the features included in the new, free Bronze plan:
+> some of the features included in the new, free Bronze&nbsp;plan:
 
 > * HTTPS with Custom Domains and Domain Aliases
 > * Let’s Encrypt and Custom HTTPS certificates
@@ -43,14 +47,12 @@ Odds are high I will write more about this soon. At this point, I can recommend 
 > * Client-Side Routing Support
 > * Teams
 
-> full details \[…\] [plans and pricing&nbsp;page](https://www.netlify.com/pricing/)
+> [full details \[…\] plans and pricing&nbsp;page](https://www.netlify.com/pricing/)
 
-To the entire [Netlify (OSS) crew](https://github.com/orgs/netlify/people), thank you.
+To the entire [Netlify (OSS) crew](https://github.com/orgs/netlify/people), thank&nbsp;you.
 
 <br />
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/6Ptrc2cWRxU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <br />
-
-[Update 25 February 2018](https://twitter.com/rickydelaveaga/status/967778916734615552): If you are having trouble with Netlify the answer is very often “Retry deploy” with “[Clear build cache](https://www.netlify.com/docs/build-gotchas/#build-cache)” checked.

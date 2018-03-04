@@ -26,6 +26,7 @@
     "gatsby-plugin-typography": "canary",
     "gatsby-remark-copy-linked-files": "canary",
     "gatsby-remark-images": "canary",
+    "gatsby-remark-numbered-footnotes": "^1.0.0",
     "gatsby-remark-prismjs": "canary",
     "gatsby-remark-responsive-iframe": "canary",
     "gatsby-remark-smartypants": "canary",

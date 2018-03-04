@@ -68,6 +68,8 @@ theme.overrideThemeStyles = () => ({
   },
   hr: {
     backgroundColor: `hsla(206,96%,76%,.38)`,
+    marginBottom: `1.8125rem`,
+    marginTop: `1.8125rem`,
   },
   blockquote: {
     color: `hsla(0,0%,0%,0.72)`,

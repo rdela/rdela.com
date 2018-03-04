@@ -19,7 +19,7 @@ In happy far-away land (1902)<br />
 Welcome to the new rdela. I will be your host, Ricky de Laveaga.
 
 I began developing this site with [GatsbyJS](https://www.gatsbyjs.org/)
-by running [^1] a
+by running [^gatsby-new] a
 
 ```sh
 git clone
@@ -85,4 +85,4 @@ As an instant bonus for reading all the way down, I give you the…
 
 <br />
 
-[^1]: Having already installed `gatsby-cli`, One could run: <br /> `gatsby new nameOfSiteHere https://github.com/gatsbyjs/gatsby-starter-blog` <br /> …in the terminal instead of a `git clone` of the [gatsby-starter-blog repo](https://github.com/gatsbyjs/gatsby-starter-blog) like I did, which then needs to be followed by a `yarn` or `npm install` before running `gatsby develop` for the first time. The [Gatsby&nbsp;Docs](https://www.gatsbyjs.org/docs/) start with the `gatsby new` command which takes care of this initial package install. (For more on `git` and cloning, see [git-clone docs](https://www.git-scm.com/docs/git-clone).) The source of the `gatsby new` command is split between [create-cli.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/create-cli.js#L199) and [init-starter.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/init-starter.js) in the Gatsby repo.
+[^gatsby-new]: Having already installed `gatsby-cli`, One could run: <br /> `gatsby new nameOfSiteHere https://github.com/gatsbyjs/gatsby-starter-blog` <br /> …in the terminal instead of a `git clone` of the [gatsby-starter-blog repo](https://github.com/gatsbyjs/gatsby-starter-blog) like I did, which then needs to be followed by a `yarn` or `npm install` before running `gatsby develop` for the first time. The [Gatsby&nbsp;Docs](https://www.gatsbyjs.org/docs/) start with the `gatsby new` command which takes care of this initial package install. (For more on `git` and cloning, see [git-clone docs](https://www.git-scm.com/docs/git-clone).) The source of the `gatsby new` command is split between [create-cli.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/create-cli.js#L199) and [init-starter.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/init-starter.js) in the Gatsby repo.
