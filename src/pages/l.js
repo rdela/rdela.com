@@ -59,19 +59,19 @@ class LinksPage extends React.Component {
                     <a
                       href="https://wikitech.wikimedia.org/wiki/Main_Page"
                       style={{
-                        display: `block`,
-                        width: `100%`,
-                        height: `128px`,
                         backgroundImage: `url(${wikicorn})`,
-                        backgroundRepeat: `no-repeat`,
                         backgroundSize: `96px`,
-                        backgroundPosition: `center top`,
-                        paddingBottom: 0,
+                        height: `128px`,
                         paddingTop: `96px`,
-                        marginBottom: rhythm(1 / 8),
+                        backgroundRepeat: `no-repeat`,
+                        backgroundPosition: `center top`,
+                        display: `block`,
+                        marginBottom: rhythm(3 / 10),
                         marginLeft: `auto`,
                         marginRight: `auto`,
                         marginTop: rhythm(1),
+                        paddingBottom: 0,
+                        width: `100%`,
                       }}
                     >
                       <h3
@@ -114,19 +114,19 @@ class LinksPage extends React.Component {
                     <a
                       href="https://archive.org"
                       style={{
-                        display: `block`,
-                        width: `100%`,
-                        height: `128px`,
                         backgroundImage: `url(${ialogo})`,
-                        backgroundRepeat: `no-repeat`,
                         backgroundSize: `96px`,
-                        backgroundPosition: `center top`,
-                        paddingBottom: 0,
+                        height: `128px`,
                         paddingTop: `96px`,
-                        marginBottom: rhythm(1 / 8),
+                        backgroundRepeat: `no-repeat`,
+                        backgroundPosition: `center top`,
+                        display: `block`,
+                        marginBottom: rhythm(3 / 10),
                         marginLeft: `auto`,
                         marginRight: `auto`,
                         marginTop: rhythm(1),
+                        paddingBottom: 0,
+                        width: `100%`,
                       }}
                     >
                       <h3
@@ -165,19 +165,19 @@ class LinksPage extends React.Component {
                     <a
                       href="https://developer.mozilla.org/en-US/docs/Web"
                       style={{
-                        display: `block`,
-                        width: `100%`,
-                        height: `80px`,
                         backgroundImage: `url(${mdnDark})`,
-                        backgroundRepeat: `no-repeat`,
                         backgroundSize: `256px`,
-                        backgroundPosition: `center top`,
-                        paddingBottom: 0,
+                        height: `80px`,
                         paddingTop: `48px`,
-                        marginBottom: rhythm(1 / 8),
+                        backgroundRepeat: `no-repeat`,
+                        backgroundPosition: `center top`,
+                        display: `block`,
+                        paddingBottom: 0,
+                        marginBottom: rhythm(3 / 10),
                         marginLeft: `auto`,
                         marginRight: `auto`,
                         marginTop: rhythm(1),
+                        width: `100%`,
                       }}
                     >
                       <h3
