@@ -24,7 +24,6 @@ class PostTemplate extends React.Component {
       width: `1rem`,
       height: `1rem`,
       lineHeight: `1rem`,
-      marginRight: `0.219rem`,
       display: `inline-block`,
       verticalAlign: `baseline`,
     }
