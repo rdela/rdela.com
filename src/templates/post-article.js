@@ -20,6 +20,14 @@ class PostTemplate extends React.Component {
       ? post.frontmatter.excerpt
       : post.excerpt
 
+    const iconboxStyles = {
+      width: `1rem`,
+      height: `1.1115rem`,
+      marginRight: `0.219rem`,
+      display: `inline-block`,
+      verticalAlign: `baseline`,
+    }
+
     return (
       <section>
         <article>
@@ -53,7 +61,10 @@ class PostTemplate extends React.Component {
             <meta name="twitter:creator" content={siteMetadata.twitter} />
             <meta name="author" content={siteMetadata.author} />
             <meta name="twitter:label1" content="Reading time" />
-            <meta name="twitter:data1" content={`${post.timeToRead} min read`} />
+            <meta
+              name="twitter:data1"
+              content={`${post.timeToRead} min read`}
+            />
             <meta
               name="article:published_time"
               content={post.frontmatter.rawDate}
@@ -80,7 +91,10 @@ class PostTemplate extends React.Component {
               <Link to={prev.fields.slug}>
                 <h4>Previous</h4>
                 <span>
-                  <FontAwesomeIcon icon={faArrowLeft} /> {prev.frontmatter.title}
+                  <span className="iconbox" style={iconboxStyles}>
+                    <FontAwesomeIcon icon={faArrowLeft} />
+                  </span>{' '}
+                  {prev.frontmatter.title}
                 </span>
               </Link>
             )}
@@ -94,7 +108,10 @@ class PostTemplate extends React.Component {
               <Link to={next.fields.slug}>
                 <h4>Next</h4>
                 <span>
-                  {next.frontmatter.title} <FontAwesomeIcon icon={faArrowRight} />
+                  {next.frontmatter.title}{' '}
+                  <span className="iconbox" style={iconboxStyles}>
+                    <FontAwesomeIcon icon={faArrowRight} />
+                  </span>
                 </span>
               </Link>
             )}

@@ -15,7 +15,7 @@ import { rhythm } from '../utils/typography'
 
 class Bio extends React.Component {
   render() {
-    const authorNBSP = this.props.author.replace(/ /g,"&nbsp;")
+    const authorNBSP = this.props.author.replace(/ /g, '&nbsp;')
     const siteGithub = this.props.siteGithub
     const siteGitlab = this.props.siteGitlab
     const siteTitle = this.props.siteTitle
@@ -33,7 +33,9 @@ class Bio extends React.Component {
 
     authorLink = (
       <span>
-        <strong><span dangerouslySetInnerHTML={{ __html: authorNBSP }} /></strong>
+        <strong>
+          <span dangerouslySetInnerHTML={{ __html: authorNBSP }} />
+        </strong>
       </span>
     )
 
@@ -50,7 +52,9 @@ class Bio extends React.Component {
     if (this.props.isHome !== true) {
       authorLink = (
         <Link to="/">
-          <strong><span dangerouslySetInnerHTML={{ __html: authorNBSP }} /></strong>
+          <strong>
+            <span dangerouslySetInnerHTML={{ __html: authorNBSP }} />
+          </strong>
         </Link>
       )
     }
