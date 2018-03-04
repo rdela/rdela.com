@@ -22,10 +22,15 @@ class PostTemplate extends React.Component {
 
     const iconboxStyles = {
       width: `1rem`,
-      height: `1.1115rem`,
+      height: `1rem`,
+      lineHeight: `1rem`,
       marginRight: `0.219rem`,
       display: `inline-block`,
       verticalAlign: `baseline`,
+    }
+
+    const nextPrevLabelStyles = {
+      marginTop: `0`,
     }
 
     return (
@@ -85,11 +90,23 @@ class PostTemplate extends React.Component {
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </article>
         <hr />
-        <nav>
-          <div>
+        <nav
+          style={{
+            display: `flex`,
+            flexWrap: `wrap`,
+            alignItems: `center`,
+            justifyContent: `center`,
+            width: `100%`,
+          }}
+        >
+          <div
+            style={{
+              width: `50%`,
+            }}
+          >
             {prev && (
               <Link to={prev.fields.slug}>
-                <h4>Previous</h4>
+                <h4 style={nextPrevLabelStyles}>Previous</h4>
                 <span>
                   <span className="iconbox" style={iconboxStyles}>
                     <FontAwesomeIcon icon={faArrowLeft} />
@@ -102,11 +119,12 @@ class PostTemplate extends React.Component {
           <div
             style={{
               textAlign: `right`,
+              width: `50%`,
             }}
           >
             {next && (
               <Link to={next.fields.slug}>
-                <h4>Next</h4>
+                <h4 style={nextPrevLabelStyles}>Next</h4>
                 <span>
                   {next.frontmatter.title}{' '}
                   <span className="iconbox" style={iconboxStyles}>

@@ -23,7 +23,8 @@ class Bio extends React.Component {
 
     const iconboxStyles = {
       width: `1rem`,
-      height: `1.1115rem`,
+      height: `0.888888889rem`,
+      lineHeight: `0.888888889rem`,
       marginRight: `0.219rem`,
       display: `inline-block`,
       verticalAlign: `baseline`,
