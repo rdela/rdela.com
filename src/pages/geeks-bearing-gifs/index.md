@@ -5,7 +5,7 @@ excerpt: "Beware of geeks bearing gifs"
 ---
 
 <figure style="text-align: center">
-  <span  style="display: block; margin: 40px auto">
+  <span  style="display: block; margin: 0 auto">
     <img src="https://gif-ricky.hashbase.io/Fuochi_d'artificio.gif"
       alt="fireworks" />
   </span>
