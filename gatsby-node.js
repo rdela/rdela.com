@@ -10,9 +10,14 @@ exports.createPages = ({ graphql, actions }) => {
   // Redirect /index.html to root.
   // Redirect /rss to /rss.xml
 
+  const feedPath = `/rss.xml`
+
   const redirectBatch = [
     { f: `/index.html`, t: `/` },
-    { f: `/rss`, t: `/rss.xml` },
+    { f: `/rss`, t: feedPath },
+    { f: `/rss/`, t: feedPath },
+    { f: `/feed`, t: feedPath },
+    { f: `/feed/`, t: feedPath },
   ]
 
   redirectBatch.forEach(({ f, t }) => {
