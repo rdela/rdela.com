@@ -3946,7 +3946,7 @@ gatsby-remark-images@canary:
     slash "^1.0.0"
     unist-util-select "^1.5.0"
 
-gatsby-remark-numbered-footnotes@^1.0.0:
+gatsby-remark-numbered-footnotes@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/gatsby-remark-numbered-footnotes/-/gatsby-remark-numbered-footnotes-1.0.0.tgz#39f181c9af77c9da184b88ef239fce2b55c69e3e"
   dependencies:
