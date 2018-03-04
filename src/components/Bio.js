@@ -15,7 +15,7 @@ import { rhythm } from '../utils/typography'
 
 class Bio extends React.Component {
   render() {
-    const author = this.props.author
+    const authorNBSP = this.props.author.replace(/ /g,"&nbsp;")
     const siteGithub = this.props.siteGithub
     const siteGitlab = this.props.siteGitlab
     const siteTitle = this.props.siteTitle
@@ -33,7 +33,7 @@ class Bio extends React.Component {
 
     authorLink = (
       <span>
-        <strong>{author}</strong>
+        <strong><span dangerouslySetInnerHTML={{ __html: authorNBSP }} /></strong>
       </span>
     )
 
@@ -50,7 +50,7 @@ class Bio extends React.Component {
     if (this.props.isHome !== true) {
       authorLink = (
         <Link to="/">
-          <strong>{author}</strong>
+          <strong><span dangerouslySetInnerHTML={{ __html: authorNBSP }} /></strong>
         </Link>
       )
     }
@@ -77,8 +77,8 @@ class Bio extends React.Component {
       >
         <p>
           Hyperlinked words assembled by <span>{authorLink}</span>,{` `}
-          author of various bug fixes and improvements{` `}
-          <a href="https://famebot.com/">@famebot</a>
+          author of various bug fixes and{` `}
+          improvements&nbsp;<a href="https://famebot.com/">@famebot</a>
         </p>
 
         {linksLink}
