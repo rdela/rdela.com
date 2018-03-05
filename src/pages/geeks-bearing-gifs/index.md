@@ -15,7 +15,7 @@ excerpt: "Beware of geeks bearing gifs"
 </figcaption>
 </figure>
 
-If you are reading the caption above and all like what’s “[Dat](https://datproject.org/),” yo? Check out [Beaker&nbsp;Browser](https://beakerbrowser.com/), a peer-to-peer browser with tools to create and host websites. [Hashbase](https://hashbase.io/) hosts your files online, even when your computer is turned&nbsp;off.
+If you are reading the caption above and all like “what’s [Dat](https://datproject.org/), yo?” Check out [Beaker&nbsp;Browser](https://beakerbrowser.com/), a peer-to-peer browser with tools to create and host websites. [Hashbase](https://hashbase.io/) hosts your files online, even when your computer is turned&nbsp;off.
 
 From [phrases.org.uk](https://www.phrases.org.uk/meanings/beware-of-greeks-bearing-gifts.html)
 
