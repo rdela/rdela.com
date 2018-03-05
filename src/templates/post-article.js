@@ -106,7 +106,12 @@ class PostTemplate extends React.Component {
             }}
           >
             {prev && (
-              <Link to={prev.fields.slug}>
+              <Link
+                to={prev.fields.slug}
+                style={{
+                  display: `inline-block`,
+                }}
+              >
                 <h4 style={nextPrevLabelStyles}>Previous</h4>
                 <span>
                   <span className="iconbox" style={iconboxStyles}>
@@ -126,7 +131,12 @@ class PostTemplate extends React.Component {
             }}
           >
             {next && (
-              <Link to={next.fields.slug}>
+              <Link
+                to={next.fields.slug}
+                style={{
+                  display: `inline-block`,
+                }}
+              >
                 <h4 style={nextPrevLabelStyles}>Next</h4>
                 <span>
                   {next.frontmatter.title}{' '}
