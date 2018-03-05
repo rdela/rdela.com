@@ -1,7 +1,7 @@
 ---
-title: Geeks Bearing Gifs
+title: Geeks Bearing GIFs
 date: "2018-03-04"
-excerpt: "Beware of geeks bearing gifs"
+excerpt: "Beware of geeks bearing GIFs"
 ---
 
 <figure style="text-align: center">
@@ -25,13 +25,13 @@ From [phrases.org.uk](https://www.phrases.org.uk/meanings/beware-of-greeks-beari
 >
 > `What’s the origin of the phrase ‘Beware of Greeks bearing gifts?’`
 >
-> An allusion to the story of the wooden horse of Troy, used by the Greeks to trick their way into the city. It is recorded in Virgil’s Aeneid, Book 2, 19&nbsp;BC:
+> An allusion to the story of the wooden horse of Troy, used by the Greeks to trick their way into the city. It is recorded in Virgil’s *Aeneid*, Book 2, 19&nbsp;BC:
 >
 > > Do not trust the horse, Trojans. Whatever it is, I fear the Greeks even when they bring&nbsp;gifts.
 >
 Of course that English version is a translation. Another translation, by John Dryden, has “Trust not their presents, nor admit the&nbsp;horse.”
 >
-> The same thought was also recorded by Sophocles (496 - 406 BC), in&nbsp;Ajax:
+> The same thought was also recorded by Sophocles (496 - 406 BC), in&nbsp;*Ajax:*
 >
 > > Nought from the Greeks towards me hath sped well.
 > > So now I find that ancient proverb true,
