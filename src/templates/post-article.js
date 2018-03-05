@@ -95,12 +95,14 @@ class PostTemplate extends React.Component {
             flexWrap: `wrap`,
             alignItems: `center`,
             justifyContent: `center`,
-            width: `100%`,
+            minHeight: `12rem`,
           }}
         >
           <div
             style={{
               width: `50%`,
+              flexBasis: `50%`,
+              height: `8rem`,
             }}
           >
             {prev && (
@@ -119,6 +121,8 @@ class PostTemplate extends React.Component {
             style={{
               textAlign: `right`,
               width: `50%`,
+              flexBasis: `50%`,
+              height: `8rem`,
             }}
           >
             {next && (
