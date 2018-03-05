@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import Link from 'gatsby-link'
 import fontawesome from '@fortawesome/fontawesome'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import { faLink } from '@fortawesome/fontawesome-free-solid'
+import { faLink, faRss } from '@fortawesome/fontawesome-free-solid'
 import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter'
 import faGithub from '@fortawesome/fontawesome-free-brands/faGithub'
 import faGitlab from '@fortawesome/fontawesome-free-brands/faGitlab'
@@ -31,6 +31,10 @@ class Bio extends React.Component {
     }
 
     let authorLink, linksLink
+    const linkMargins = {
+      marginBottom: rhythm(2 / 3),
+      marginRight: rhythm(1 / 2),
+    }
 
     authorLink = (
       <span>
@@ -39,17 +43,6 @@ class Bio extends React.Component {
         </strong>
       </span>
     )
-
-    linksLink = (
-      <p>
-        <span className="iconbox" style={iconboxStyles}>
-          <FontAwesomeIcon icon={faLink} />
-        </span>
-        {` `}
-        links
-      </p>
-    )
-
     if (this.props.isHome !== true) {
       authorLink = (
         <Link to="/">
@@ -60,9 +53,19 @@ class Bio extends React.Component {
       )
     }
 
+    linksLink = (
+      <p style={linkMargins}>
+        <span className="iconbox" style={iconboxStyles}>
+          <FontAwesomeIcon icon={faLink} />
+        </span>
+        {` `}
+        links
+      </p>
+    )
+
     if (this.props.isLinks !== true) {
       linksLink = (
-        <p>
+        <p style={linkMargins}>
           <Link to="/l/">
             <span className="iconbox" style={iconboxStyles}>
               <FontAwesomeIcon icon={faLink} />
@@ -86,37 +89,56 @@ class Bio extends React.Component {
           improvements&nbsp;<a href="https://famebot.com/">@famebot</a>
         </p>
 
-        {linksLink}
+        <div
+          style={{
+            display: `flex`,
+            flexWrap: `wrap`,
+            alignItems: `center`,
+            justifyContent: `left`,
+          }}
+        >
+          {linksLink}
 
-        <p>
-          <a href={`https://twitter.com/${siteTwitter.substring(1)}`}>
-            <span className="iconbox" style={iconboxStyles}>
-              <FontAwesomeIcon icon={faTwitter} />
-            </span>
-            {` `}
-            {siteTwitter} on twitter
-          </a>
-        </p>
+          <p style={linkMargins}>
+            <a href="/rss.xml">
+              <span className="iconbox" style={iconboxStyles}>
+                <FontAwesomeIcon icon={faRss} />
+              </span>
+              {` `}
+              rss feed
+            </a>
+          </p>
 
-        <p>
-          <a href={`https://github.com/${siteGithub.substring(1)}`}>
-            <span className="iconbox" style={iconboxStyles}>
-              <FontAwesomeIcon icon={faGithub} />
-            </span>
-            {` `}
-            {siteGithub} on github
-          </a>
-        </p>
+          <p style={linkMargins}>
+            <a href={`https://gitlab.com/${siteGitlab.substring(1)}`}>
+              <span className="iconbox" style={iconboxStyles}>
+                <FontAwesomeIcon icon={faGitlab} />
+              </span>
+              {` `}
+              {siteGithub} on gitlab
+            </a>
+          </p>
 
-        <p>
-          <a href={`https://gitlab.com/${siteGitlab.substring(1)}`}>
-            <span className="iconbox" style={iconboxStyles}>
-              <FontAwesomeIcon icon={faGitlab} />
-            </span>
-            {` `}
-            {siteGithub} on gitlab
-          </a>
-        </p>
+          <p style={linkMargins}>
+            <a href={`https://github.com/${siteGithub.substring(1)}`}>
+              <span className="iconbox" style={iconboxStyles}>
+                <FontAwesomeIcon icon={faGithub} />
+              </span>
+              {` `}
+              {siteGithub} on github
+            </a>
+          </p>
+
+          <p style={linkMargins}>
+            <a href={`https://twitter.com/${siteTwitter.substring(1)}`}>
+              <span className="iconbox" style={iconboxStyles}>
+                <FontAwesomeIcon icon={faTwitter} />
+              </span>
+              {` `}
+              {siteTwitter} on twitter
+            </a>
+          </p>
+        </div>
       </div>
     )
   }
