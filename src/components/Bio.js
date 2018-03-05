@@ -32,7 +32,7 @@ class Bio extends React.Component {
 
     let authorLink, linksLink
     const linkMargins = {
-      marginBottom: rhythm(2 / 3),
+      marginBottom: rhythm(10 / 16),
       marginRight: rhythm(1 / 2),
     }
 
