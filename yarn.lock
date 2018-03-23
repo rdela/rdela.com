@@ -31,9 +31,9 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.1.3"
 
-"@fortawesome/react-fontawesome@0.0.17":
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/@fortawesome/react-fontawesome/-/react-fontawesome-0.0.17.tgz#69abd135523187044f533cadc5458f829d43961f"
+"@fortawesome/react-fontawesome@0.0.18":
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/@fortawesome/react-fontawesome/-/react-fontawesome-0.0.18.tgz#4e0eb1cf9797715a67bb7705ae084fa0a410f185"
   dependencies:
     humps "^2.0.1"
 

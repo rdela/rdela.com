@@ -12,7 +12,7 @@
     "@fortawesome/fontawesome": "1.1.4",
     "@fortawesome/fontawesome-free-brands": "5.0.8",
     "@fortawesome/fontawesome-free-solid": "5.0.8",
-    "@fortawesome/react-fontawesome": "0.0.17",
+    "@fortawesome/react-fontawesome": "0.0.18",
     "gatsby": "canary",
     "gatsby-image": "canary",
     "gatsby-link": "canary",
