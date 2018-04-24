@@ -33,7 +33,7 @@
     "gatsby-source-filesystem": "canary",
     "gatsby-transformer-remark": "canary",
     "gatsby-transformer-sharp": "canary",
-    "lodash": "4.17.5",
+    "lodash": "4.17.10",
     "lodash-webpack-plugin": "0.11.5",
     "prop-types": "15.6.1",
     "react": "16.3.2",
