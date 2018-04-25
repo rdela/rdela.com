@@ -83,6 +83,8 @@ class Bio extends React.Component {
           marginBottom: rhythm(2.5),
         }}
       >
+        <div><a href='https://readtheprintedword.org'><img src='https://readtheprintedword.org/rtpw-button3-200x128.png' alt='Read the Printed Word!' border='0' width='100' height='64' /></a></div>
+
         <p>
           Hyperlinked words assembled by <span>{authorLink}</span>,{` `}
           author of various bug fixes and{` `}
@@ -95,6 +97,7 @@ class Bio extends React.Component {
             flexWrap: `wrap`,
             alignItems: `center`,
             justifyContent: `left`,
+            marginBottom: rhythm(1 / 8),
           }}
         >
           {linksLink}
