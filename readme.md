@@ -12,18 +12,22 @@ Repo background & history:
 
 ### Netlify / ENV vars
 
+Added in [netlify.toml](netlify.toml).
+
 ```toml
 [build]
   command = "npm run build"
   publish = "public"
 
-[template.environment]
+[build.environment]
   NODE_ENV = "production"
   NODE_VERSION = "node"
   RUBY_VERSION = "default"
   YARN_FLAGS = "--no-ignore-optional"
-  YARN_VERSION = "1.5.1"
+  YARN_VERSION = "1.6.0"
 ```
+
+https://www.netlify.com/docs/netlify-toml-reference/
 
 https://www.netlify.com/blog/2016/08/30/introducing-deploy-contexts-in-netlify/
 

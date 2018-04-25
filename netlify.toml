@@ -2,7 +2,7 @@
   command = "gatsby build"
   publish = "public/"
 
-[template.environment]
+[build.environment]
   NODE_ENV = "production"
   NODE_VERSION = "node"
   RUBY_VERSION = "default"
