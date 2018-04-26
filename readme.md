@@ -4,15 +4,17 @@ Repo background & history:
 
 ### [Credits](https://rdela.com/credits/)
 
-<https://rdela.com/credits/>
+[rdela.com/credits](https://rdela.com/credits/)
 
-[Markdown source](src/pages/credits/index.md): src/pages/credits/index.md
+- [Markdown source](src/pages/credits/index.md)
 
-## Deploy settings
+  [src/pages/credits/index.md](src/pages/credits/index.md)
+
+## Deployment
 
 ### Netlify / ENV vars
 
-Added in [netlify.toml](netlify.toml).
+[netlify.toml](netlify.toml)
 
 ```toml
 [build]
@@ -22,61 +24,88 @@ Added in [netlify.toml](netlify.toml).
 [build.environment]
   NODE_ENV = "production"
   NODE_VERSION = "node"
+  NPM_VERSION = "6.0.0"
   RUBY_VERSION = "default"
   YARN_FLAGS = "--no-ignore-optional"
   YARN_VERSION = "1.6.0"
 ```
 
-https://www.netlify.com/docs/netlify-toml-reference/
+#### [Netlify TOML reference](https://www.netlify.com/docs/netlify-toml-reference/)
 
-https://www.netlify.com/blog/2016/08/30/introducing-deploy-contexts-in-netlify/
+#### [Netlify > Continuous Deployment > Deploy Contexts](https://www.netlify.com/docs/continuous-deployment/#deploy-contexts)
 
-https://www.netlify.com/blog/2016/07/20/introducing-deploy-previews-in-netlify/
+> To configure deploy contexts, you must create a file called `netlify.toml`
+> in the base of your Git repository.
 
-https://www.netlify.com/docs/continuous-deployment/#deploy-contexts
+##### [Netlify > Continuous Deployment > Set Node, Ruby, or Python version](https://www.netlify.com/docs/continuous-deployment/#set-node-ruby-or-python-version)
 
-> Set a NODE_VERSION environment variable.
-> You can set this as a variable in the build environment either
-> while linking the repository or afterward from the site settings screen
-> in our UI. The value inside can be anything you would use with nvm.
+> Set a `NODE_VERSION` environment variable.
 
-https://github.com/creationix/nvm
+> The value inside can be anything you would use with nvm.
 
-> In place of a version pointer like "0.10" or "5.0" or "4.2.1",
+#### [Node Version Manager](https://github.com/creationix/nvm/)
+
+##### [NVM > Usage](https://github.com/creationix/nvm/blob/master/README.md#usage)
+
+> In place of a version pointer like "0.10" or "5.0" or "4.2.1", 
 > you can use the following special default aliases
-> […] > `node: this installs the latest version of node`
 
-`RUBY_VERSION` env var is there to appease this lag/error I was seeing in deploy logs…
+> `node`: this installs the latest version of `node`
+
+##### [NVM > .nvmrc](https://github.com/creationix/nvm/blob/master/README.md#nvmrc)
+
+> For example, to make nvm default to the latest 5.9 release, the latest LTS version, or the latest node version for the current directory:
+
+```sh
+$ echo "5.9" > .nvmrc
+
+$ echo "lts/*" > .nvmrc # to default to the latest LTS version
+
+$ echo "node" > .nvmrc # to default to the latest version
+```
+
+#### `NPM_VERSION`
+
+[Netlify Build Image > Tools](https://github.com/netlify/build-image/blob/master/README.md#tools)
+
+> - Version corresponding with Node.js version. (default)
+> - Any version available via NPM.
+
+#### `RUBY_VERSION = "default"`
+
+There to appease quirk that begat this lag/error I was seeing in deploy logs:
 
 ```
 Attempting ruby version 2.2.3, read from environment
 ** WARNING **
 Using custom ruby version 2.2.3, this will slow down the build.
-To ensure fast builds, set the RUBY_VERSION environment variable, or .ruby-version file, to an included ruby version.
+To ensure fast builds, set the RUBY_VERSION environment variable,
+or .ruby-version file, to an included ruby version.
 Included versions: 2.2.9 2.4.3 2.3.6
 ```
 
-https://www.netlify.com/docs/continuous-deployment/#set-node-ruby-or-python-version
+##### [Netlify > Continuous Deployment > Set Node, Ruby, or Python version](https://www.netlify.com/docs/continuous-deployment/#set-node-ruby-or-python-version)
 
 > We support any released version of Ruby that [rvm](https://github.com/rvm/rvm) understands.
 
-[rvm](https://github.com/rvm/rvm):
+##### [RVM > Switching between ruby versions](https://github.com/rvm/rvm/blob/master/README.md#switching-between-ruby-versions)
 
-> To switch between ruby versions you should call
+> * `default`    - default ruby (or the system ruby if a default hasn't been set)
+> * `system`     - system ruby (state before RVM was installed)
 
-> `rvm use INTERPRETER[-VERSION]`
-
-> Same rules and options apply as for install command with two special interpreters.
-
-> * `default` - default ruby (or the system ruby if a default hasn't been set)
-> * `system` - system ruby (state before RVM was installed)
-
-YARN_FLAGS + YARN_VERSION
+#### YARN_FLAGS + YARN_VERSION
 
 See these commits on the Gatsby Netlify CMS starter.
 
-https://github.com/AustinGreen/gatsby-starter-netlify-cms/commit/5c349ced8c4c915c15d322f6fd9ff0e188fd78dd
-https://github.com/AustinGreen/gatsby-starter-netlify-cms/commit/b6cdfce0277cf2d2023cd7427ee32390ce8e419b
+##### [Update netlify.toml](https://github.com/AustinGreen/gatsby-starter-netlify-cms/commit/5c349ced8c4c915c15d322f6fd9ff0e188fd78dd)
+
+##### [Add "--no-ignore-optional" for netlify](https://github.com/AustinGreen/gatsby-starter-netlify-cms/commit/b6cdfce0277cf2d2023cd7427ee32390ce8e419b)
+
+#### Further Reading on Netlify Deployment and ENV vars
+
+##### [Netlify Blog > Introducing Deploy Previews in Netlify](https://www.netlify.com/blog/2016/07/20/introducing-deploy-previews-in-netlify/)
+
+##### [Netlify Blog > Introducing Deploy Contexts in Netlify](https://www.netlify.com/blog/2016/08/30/introducing-deploy-contexts-in-netlify/)
 
 ## License
 
