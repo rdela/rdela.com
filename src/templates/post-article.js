@@ -55,7 +55,7 @@ class PostTemplate extends React.Component {
             {post.frontmatter.image && (
               <meta
                 name="twitter:image"
-                content={`https://gatsbyjs.org${
+                content={`https://rdela.com${
                   post.frontmatter.image.childImageSharp.resize.src
                 }`}
               />
