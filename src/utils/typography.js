@@ -96,6 +96,10 @@ theme.overrideThemeStyles = () => ({
   small: {
     fontSize: `0.833333333rem`,
   },
+  '.post-update': {
+    marginBottom: `3.625rem`,
+    marginTop: `1.8125rem`,
+  }
 })
 
 const typography = new Typography(theme)

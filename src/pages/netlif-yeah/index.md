@@ -15,11 +15,11 @@ image: "full-logo-light.png"
 </figcaption>
 </figure>
 
-<br />
+<div id="20180225-upd1" class="post-update">
 
 **[Update 25 February 2018](https://twitter.com/rickydelaveaga/status/967778916734615552):** If you are having trouble with Netlify the answer is very often “Retry deploy” with “[Clear build cache](https://www.netlify.com/docs/build-gotchas/#build-cache)” checked.
 
-<br />
+</div>
 
 According to the [web&nbsp;UI](https://www.netlify.com/docs/), I have been publishing projects from GitHub with Netlify for 4 months now (since 24 Oct. 2017), including [this&nbsp;site](https://github.com/rdela/rdela.com).
 
