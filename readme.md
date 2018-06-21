@@ -24,10 +24,10 @@ Repo background & history:
 [build.environment]
   NODE_ENV = "production"
   NODE_VERSION = "node"
-  NPM_VERSION = "6.0.0"
+  NPM_VERSION = "6.1.0"
   RUBY_VERSION = "default"
   YARN_FLAGS = "--no-ignore-optional"
-  YARN_VERSION = "1.6.0"
+  YARN_VERSION = "1.7.0"
 ```
 
 #### [Netlify TOML reference](https://www.netlify.com/docs/netlify-toml-reference/)
@@ -47,7 +47,7 @@ Repo background & history:
 
 ##### [NVM > Usage](https://github.com/creationix/nvm/blob/master/README.md#usage)
 
-> In place of a version pointer like "0.10" or "5.0" or "4.2.1", 
+> In place of a version pointer like "0.10" or "5.0" or "4.2.1",
 > you can use the following special default aliases
 
 > `node`: this installs the latest version of `node`
