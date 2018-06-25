@@ -48,7 +48,7 @@
     "typography-theme-github": "0.15.10"
   },
   "devDependencies": {
-    "prettier": "1.13.5"
+    "prettier": "1.13.6"
   },
   "homepage": "https://rdela.com/",
   "keywords": [
