@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     author: `Ricky de Laveaga`,
     description: `Various bug fixes and improvements @famebot`,
+    email: `ricky@rdela.com`,
     github: `@rdela`,
     gitlab: `@rdela`,
     siteUrl: `https://rdela.com`,

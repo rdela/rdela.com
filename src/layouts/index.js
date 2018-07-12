@@ -58,6 +58,7 @@ class Template extends React.Component {
           isHome={homeCheck}
           isLinks={linkCheck}
           author={siteMetadata.author}
+          siteEmail={siteMetadata.email}
           siteGithub={siteMetadata.github}
           siteGitlab={siteMetadata.gitlab}
           siteTitle={siteMetadata.title}
@@ -91,6 +92,7 @@ export const defaultTemplateQuery = graphql`
       siteMetadata {
         author
         description
+        email
         github
         gitlab
         siteUrl
