@@ -3,38 +3,23 @@ import ReactDOM from 'react-dom'
 import Link from 'gatsby-link'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLink, faRss } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faLink, faRss } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 import { faGitlab } from '@fortawesome/free-brands-svg-icons/faGitlab'
 
 import knot from '../svg/rdela-knot.svg'
-import { rhythm } from '../utils/typography'
-
-// fontawesome.library.add(faTwitter, faCoffee)
 
 class Bio extends React.Component {
   render() {
     const authorNBSP = this.props.author.replace(/ /g, '&nbsp;')
+    const siteEmail = this.props.siteEmail
     const siteGithub = this.props.siteGithub
     const siteGitlab = this.props.siteGitlab
     const siteTitle = this.props.siteTitle
     const siteTwitter = this.props.siteTwitter
 
-    const iconboxStyles = {
-      width: `1rem`,
-      height: `0.888888889rem`,
-      lineHeight: `0.888888889rem`,
-      marginRight: `0.219rem`,
-      display: `inline-block`,
-      verticalAlign: `baseline`,
-    }
-
     let authorLink, linksLink
-    const linkMargins = {
-      marginBottom: rhythm(10 / 16),
-      marginRight: rhythm(1 / 2),
-    }
 
     authorLink = (
       <span>
@@ -54,95 +39,92 @@ class Bio extends React.Component {
     }
 
     linksLink = (
-      <p style={linkMargins}>
-        <span className="iconbox" style={iconboxStyles}>
+      <li>
+        <span>
           <FontAwesomeIcon icon={faLink} />
         </span>
         {` `}
         links
-      </p>
+      </li>
     )
 
     if (this.props.isLinks !== true) {
       linksLink = (
-        <p style={linkMargins}>
+        <li>
           <Link to="/l/">
-            <span className="iconbox" style={iconboxStyles}>
+            <span>
               <FontAwesomeIcon icon={faLink} />
             </span>
             {` `}
             links
           </Link>
-        </p>
+        </li>
       )
     }
 
     return (
-      <div
-        style={{
-          marginBottom: rhythm(2.5),
-        }}
-      >
-        <div><a href='https://readtheprintedword.org'><img src='https://readtheprintedword.org/rtpw-button3-200x128.png' alt='Read the Printed Word!' border='0' width='100' height='64' /></a></div>
-
+      <section>
         <p>
           Hyperlinked words assembled by <span>{authorLink}</span>,{` `}
           author of various bug fixes and{` `}
           improvements&nbsp;<a href="https://famebot.com/">@famebot</a>
         </p>
 
-        <div
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            alignItems: `center`,
-            justifyContent: `left`,
-            marginBottom: rhythm(1 / 8),
-          }}
-        >
+        <ul className="bio-links">
           {linksLink}
 
-          <p style={linkMargins}>
+          <li>
             <a href="/rss.xml">
-              <span className="iconbox" style={iconboxStyles}>
+              <span>
                 <FontAwesomeIcon icon={faRss} />
               </span>
               {` `}
               rss feed
             </a>
-          </p>
+          </li>
 
-          <p style={linkMargins}>
+          <li>
             <a href={`https://gitlab.com/${siteGitlab.substring(1)}`}>
-              <span className="iconbox" style={iconboxStyles}>
+              <span>
                 <FontAwesomeIcon icon={faGitlab} />
               </span>
               {` `}
               {siteGithub} on gitlab
             </a>
-          </p>
+          </li>
 
-          <p style={linkMargins}>
+          <li>
             <a href={`https://github.com/${siteGithub.substring(1)}`}>
-              <span className="iconbox" style={iconboxStyles}>
+              <span>
                 <FontAwesomeIcon icon={faGithub} />
               </span>
               {` `}
               {siteGithub} on github
             </a>
-          </p>
+          </li>
 
-          <p style={linkMargins}>
+          <li>
             <a href={`https://twitter.com/${siteTwitter.substring(1)}`}>
-              <span className="iconbox" style={iconboxStyles}>
+              <span>
                 <FontAwesomeIcon icon={faTwitter} />
               </span>
               {` `}
               {siteTwitter} on twitter
             </a>
-          </p>
-        </div>
-      </div>
+          </li>
+
+          <li>
+            <a href={`mailto:${siteEmail}`}>
+              <span>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </span>
+              {` `}
+              {siteEmail}
+            </a>
+          </li>
+
+        </ul>
+      </section>
     )
   }
 }

@@ -99,6 +99,27 @@ theme.overrideThemeStyles = () => ({
   '.post-update': {
     marginBottom: `3.625rem`,
     marginTop: `1.8125rem`,
+  },
+  '.bio-links': {
+    display: `flex`,
+    flexWrap: `wrap`,
+    alignItems: `center`,
+    justifyContent: `left`,
+    margin: `0 0 4.53125rem`,
+  },
+  '.bio-links li': {
+    listStyle: `none`,
+    display: `inline-block`,
+    marginBottom: `1.13281rem`,
+    marginRight: `0.90625rem`,
+  },
+  '.bio-links span': {
+    width: `1rem`,
+    height: `0.888888889rem`,
+    lineHeight: `0.888888889rem`,
+    marginRight: `0.219rem`,
+    display: `inline-block`,
+    verticalAlign: `baseline`,
   }
 })
 

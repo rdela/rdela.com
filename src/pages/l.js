@@ -25,23 +25,27 @@ class LinksPage extends React.Component {
             textAlign: `center`,
           }}
         >
-          <div>
-            <h1
-              style={{
-                marginBottom: rhythm(1 / 4),
-              }}
-            >
-              Support
-            </h1>
-            <figure
-              style={{
-                marginBottom: rhythm(1 / 4),
-              }}
-            >
-              <figcaption>Knowledge for Everyone</figcaption>
-            </figure>
-            <p>&#x1F310;</p>
-          </div>
+          <figure style={{
+            marginTop: rhythm(3 / 2),
+          }}><a href='https://readtheprintedword.org'><img src='https://readtheprintedword.org/rtpw-button3-200x128.png' alt='Read the Printed Word!' border='0' width='100' height='64' /></a></figure>
+
+
+          <h1
+            style={{
+              marginBottom: rhythm(1 / 4),
+            }}
+          >
+            Support
+          </h1>
+          <figure
+            style={{
+              marginBottom: rhythm(1 / 4),
+            }}
+          >
+            <figcaption>Knowledge for Everyone</figcaption>
+          </figure>
+          <p>&#x1F310;</p>
+
           <ul
             style={{
               listStyle: `none`,
@@ -55,34 +59,32 @@ class LinksPage extends React.Component {
             >
               <article>
                 <figure>
-                  <div>
-                    <a
-                      href="https://wikitech.wikimedia.org/wiki/Main_Page"
+                  <a
+                    href="https://wikitech.wikimedia.org/wiki/Main_Page"
+                    style={{
+                      backgroundImage: `url(${wikicorn})`,
+                      backgroundSize: `96px`,
+                      height: `128px`,
+                      paddingTop: `96px`,
+                      backgroundRepeat: `no-repeat`,
+                      backgroundPosition: `center top`,
+                      display: `block`,
+                      marginBottom: rhythm(3 / 10),
+                      marginLeft: `auto`,
+                      marginRight: `auto`,
+                      marginTop: rhythm(1),
+                      paddingBottom: 0,
+                      width: `100%`,
+                    }}
+                  >
+                    <h3
                       style={{
-                        backgroundImage: `url(${wikicorn})`,
-                        backgroundSize: `96px`,
-                        height: `128px`,
-                        paddingTop: `96px`,
-                        backgroundRepeat: `no-repeat`,
-                        backgroundPosition: `center top`,
-                        display: `block`,
-                        marginBottom: rhythm(3 / 10),
-                        marginLeft: `auto`,
-                        marginRight: `auto`,
-                        marginTop: rhythm(1),
-                        paddingBottom: 0,
-                        width: `100%`,
+                        marginTop: rhythm(1 / 4),
                       }}
                     >
-                      <h3
-                        style={{
-                          marginTop: rhythm(1 / 4),
-                        }}
-                      >
-                        Wikitech
-                      </h3>
-                    </a>
-                  </div>
+                      Wikitech
+                    </h3>
+                  </a>
                   <figcaption>
                     <h3
                       style={{
@@ -110,34 +112,32 @@ class LinksPage extends React.Component {
             >
               <article>
                 <figure>
-                  <div>
-                    <a
-                      href="https://archive.org"
+                  <a
+                    href="https://archive.org"
+                    style={{
+                      backgroundImage: `url(${ialogo})`,
+                      backgroundSize: `96px`,
+                      height: `128px`,
+                      paddingTop: `96px`,
+                      backgroundRepeat: `no-repeat`,
+                      backgroundPosition: `center top`,
+                      display: `block`,
+                      marginBottom: rhythm(3 / 10),
+                      marginLeft: `auto`,
+                      marginRight: `auto`,
+                      marginTop: rhythm(1),
+                      paddingBottom: 0,
+                      width: `100%`,
+                    }}
+                  >
+                    <h3
                       style={{
-                        backgroundImage: `url(${ialogo})`,
-                        backgroundSize: `96px`,
-                        height: `128px`,
-                        paddingTop: `96px`,
-                        backgroundRepeat: `no-repeat`,
-                        backgroundPosition: `center top`,
-                        display: `block`,
-                        marginBottom: rhythm(3 / 10),
-                        marginLeft: `auto`,
-                        marginRight: `auto`,
-                        marginTop: rhythm(1),
-                        paddingBottom: 0,
-                        width: `100%`,
+                        marginTop: rhythm(1 / 4),
                       }}
                     >
-                      <h3
-                        style={{
-                          marginTop: rhythm(1 / 4),
-                        }}
-                      >
-                        Internet Archive
-                      </h3>
-                    </a>
-                  </div>
+                      Internet Archive
+                    </h3>
+                  </a>
                   <figcaption>
                     Search millions of free books, movies, software, music, and{` `}
                     the history of hundreds of billions of web&nbsp;pages.
@@ -161,34 +161,32 @@ class LinksPage extends React.Component {
             >
               <article>
                 <figure>
-                  <div>
-                    <a
-                      href="https://developer.mozilla.org/en-US/docs/Web"
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web"
+                    style={{
+                      backgroundImage: `url(${mdnDark})`,
+                      backgroundSize: `256px`,
+                      height: `80px`,
+                      paddingTop: `48px`,
+                      backgroundRepeat: `no-repeat`,
+                      backgroundPosition: `center top`,
+                      display: `block`,
+                      paddingBottom: 0,
+                      marginBottom: rhythm(3 / 10),
+                      marginLeft: `auto`,
+                      marginRight: `auto`,
+                      marginTop: rhythm(1),
+                      width: `100%`,
+                    }}
+                  >
+                    <h3
                       style={{
-                        backgroundImage: `url(${mdnDark})`,
-                        backgroundSize: `256px`,
-                        height: `80px`,
-                        paddingTop: `48px`,
-                        backgroundRepeat: `no-repeat`,
-                        backgroundPosition: `center top`,
-                        display: `block`,
-                        paddingBottom: 0,
-                        marginBottom: rhythm(3 / 10),
-                        marginLeft: `auto`,
-                        marginRight: `auto`,
-                        marginTop: rhythm(1),
-                        width: `100%`,
+                        marginTop: rhythm(1 / 4),
                       }}
                     >
-                      <h3
-                        style={{
-                          marginTop: rhythm(1 / 4),
-                        }}
-                      >
-                        Mozilla Developer Network
-                      </h3>
-                    </a>
-                  </div>
+                      Mozilla Developer Network
+                    </h3>
+                  </a>
                   <figcaption>Open Web Technology&nbsp;Resource</figcaption>
                 </figure>
               </article>
