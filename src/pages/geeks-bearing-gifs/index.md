@@ -11,7 +11,7 @@ excerpt: "Beware of geeks bearing GIFs"
   </span>
 <figcaption>
 <small>(Image source: <a href="https://commons.wikimedia.org/wiki/File:Fuochi_d%27artificio.gif">Wikimedia&nbsp;Commons</a>)</small><br />
-<small>(Dat: <a href="https://hashbase.io/ricky/gif">hashbase.io/ricky/gif</a>)</small><br />
+<small>(Dat: <a href="https://hashbase.io/ricky/gif-ricky">hashbase.io/ricky/gif-ricky</a>)</small><br />
 </figcaption>
 </figure>
 
