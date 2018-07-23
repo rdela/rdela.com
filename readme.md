@@ -18,8 +18,8 @@ Repo background & history:
 
 ```toml
 [build]
-  command = "npm run build"
-  publish = "public"
+  command = "gatsby build"
+  publish = "public/"
 
 [build.environment]
   NODE_ENV = "production"
