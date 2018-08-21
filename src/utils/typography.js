@@ -77,7 +77,9 @@ theme.overrideThemeStyles = () => ({
     marginBottom: `1.625rem`,
   },
   figcaption: {
+    fontSize: `.875rem`,
     fontStyle: `italic`,
+    marginTop: `0.3125rem`,
     textAlign: `center`,
   },
   'h4, h5, h6': {
