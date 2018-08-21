@@ -22,16 +22,17 @@ distateful nature of the activity or behavior takes hold. Moments that in their
 most benign form amount to a psychic wince, a mental flinch over whatever
 malevolent impulse we have succumb to. The way people use the word mindfulness
 seems intended to contradict the willful blindness to these moments of acute
-awareness. That by describing and practicing focused concentration,
-contemplation, and introspection one might avoid malevolent impulses altogether.
+awareness. That one might avoid malevolent impulses altogether by describing
+and practicing focused concentration, contemplation, and introspection.
 
 Interpretations of the literal and semantic meaning of mindfulness work both for
- and against this. Positively, we have connotations of fullness of mind, psychic
- wholeness, mental completion, the state of having traversed the inner void.
- Negatively, we have the state of being full of mind, suggesting a cacophony of
- the kind of nagging inner voices meditation and attention to spirit quiet and
- quell.
+and against this. Positively, we have connotations of fullness of mind, psychic
+wholeness, mental completion, the state of having traversed the inner void.
+Negatively, we have the state of being full of mind, suggesting a cacophony of
+the kind of nagging inner voices meditation and attention to spirit quiet
+and quell.
 
- Maybe “being awake” is another way to verbalize the positive side of
- mindfulness. People use “woke” to signify an awakened sense of compassion for all
- and recognition of our obligation to defend and support our fellow beings.
+Maybe “being awake” is another way to verbalize the positive side of
+mindfulness. People use “woke” to signify an awakened sense of compassion for all
+and an alert recognition of our obligation to defend and support our
+fellow beings.
