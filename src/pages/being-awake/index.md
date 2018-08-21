@@ -2,7 +2,7 @@
 title: Being Awake
 date: "2018-08-18"
 excerpt: "Beyond mindfulness"
-image: "WokeBaby-Jenny-Sowry.jpg"
+image: "WokeBaby-Jenny-Sowry-1080-2.jpg"
 ---
 
 <div style="max-width: 540px; margin: 0 auto"><figure>
