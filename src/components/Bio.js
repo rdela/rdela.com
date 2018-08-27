@@ -1,6 +1,6 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
+// eslint-disable-next-line
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faLink, faRss } from '@fortawesome/free-solid-svg-icons'
@@ -8,59 +8,35 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 import { faGitlab } from '@fortawesome/free-brands-svg-icons/faGitlab'
 
-import knot from '../svg/rdela-knot.svg'
-
 class Bio extends React.Component {
   render() {
     const authorNBSP = this.props.author.replace(/ /g, '&nbsp;')
     const siteEmail = this.props.siteEmail
     const siteGithub = this.props.siteGithub
     const siteGitlab = this.props.siteGitlab
-    const siteTitle = this.props.siteTitle
     const siteTwitter = this.props.siteTwitter
 
     let authorLink, linksLink
 
     authorLink = (
-      <span>
+      <Link to="/">
         <strong>
           <span dangerouslySetInnerHTML={{ __html: authorNBSP }} />
         </strong>
-      </span>
+      </Link>
     )
-    if (this.props.isHome !== true) {
-      authorLink = (
-        <Link to="/">
-          <strong>
-            <span dangerouslySetInnerHTML={{ __html: authorNBSP }} />
-          </strong>
-        </Link>
-      )
-    }
 
     linksLink = (
       <li>
-        <span>
-          <FontAwesomeIcon icon={faLink} />
-        </span>
-        {` `}
-        links
+        <Link to="/l/">
+          <span>
+            <FontAwesomeIcon icon={faLink} />
+          </span>
+          {` `}
+          links
+        </Link>
       </li>
     )
-
-    if (this.props.isLinks !== true) {
-      linksLink = (
-        <li>
-          <Link to="/l/">
-            <span>
-              <FontAwesomeIcon icon={faLink} />
-            </span>
-            {` `}
-            links
-          </Link>
-        </li>
-      )
-    }
 
     return (
       <section>

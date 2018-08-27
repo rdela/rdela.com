@@ -1,9 +1,9 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
 import knot from '../svg/rdela-knot.svg'
-import { rhythm, scale } from '../utils/typography'
+import { rhythm } from '../utils/typography'
 
 const cYear = new Date().getFullYear()
 
@@ -12,70 +12,38 @@ class Masthead extends React.Component {
     const defaultMetaDesc = this.props.description
     const siteTitle = this.props.siteTitle
     const siteTwitter = this.props.siteTwitter
-    let pTop = `48px`
     let topknot
 
     topknot = (
-      <h1
+      <h3
         style={{
-          ...scale(0.4),
           lineHeight: `2rem`,
           marginTop: 0,
-          marginBottom: rhythm(1 / 2),
+          marginBottom: rhythm(1.00875),
         }}
       >
-        <span
-          style={{
-            display: `block`,
-            width: `100%`,
-            height: `76px`,
-            backgroundImage: `url(${knot})`,
-            backgroundRepeat: `no-repeat`,
-            backgroundSize: `52px`,
-            backgroundPosition: `left top`,
-            paddingBottom: 0,
-            paddingTop: pTop,
-            marginBottom: 0,
-            marginTop: 0,
-          }}
-        >
-          {siteTitle}
-        </span>
-      </h1>
+        <Link to={'/'}>
+          <span
+            style={{
+              display: `block`,
+              width: `100%`,
+              height: `76px`,
+              backgroundImage: `url(${knot})`,
+              backgroundRepeat: `no-repeat`,
+              backgroundSize: `52px`,
+              backgroundPosition: `left top`,
+              paddingBottom: 0,
+              paddingTop: `48px`,
+              marginBottom: 0,
+              marginTop: 0,
+            }}
+          >
+            {siteTitle}
+          </span>
+        </Link>
+      </h3>
     )
 
-    if (this.props.isHome !== true) {
-      // pTop = `48px`
-      topknot = (
-        <h3
-          style={{
-            lineHeight: `2rem`,
-            marginTop: 0,
-            marginBottom: rhythm(1.00875),
-          }}
-        >
-          <Link to={'/'}>
-            <span
-              style={{
-                display: `block`,
-                width: `100%`,
-                height: `76px`,
-                backgroundImage: `url(${knot})`,
-                backgroundRepeat: `no-repeat`,
-                backgroundSize: `52px`,
-                backgroundPosition: `left top`,
-                paddingBottom: 0,
-                paddingTop: pTop,
-                marginBottom: 0,
-                marginTop: 0,
-              }}
-            >
-              {siteTitle}
-            </span>
-          </Link>
-        </h3>
-      )
-    }
 
     return (
       <header>

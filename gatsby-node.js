@@ -1,14 +1,15 @@
 const _ = require('lodash')
-const Promise = require('bluebird')
+const Promise = require(`bluebird`)
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
+
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage, createRedirect } = actions
 
   // https://github.com/gatsbyjs/gatsby/blob/master/examples/using-redirects/gatsby-node.js
   // Redirect /index.html to root.
-  // Redirect /rss to /rss.xml
+  // Redirect /rss & /feed to /rss.xml
 
   const feedPath = `/rss.xml`
 
@@ -72,9 +73,9 @@ exports.createPages = ({ graphql, actions }) => {
         })
 
         posts.forEach((edge, index) => {
-          const next = index === 0 ? false : posts[index - 1].node
+          const next = index === 0 ? null : posts[index - 1].node
           const prev =
-            index === posts.length - 1 ? false : posts[index + 1].node
+            index === posts.length - 1 ? null : posts[index + 1].node
 
           createPage({
             path: `${edge.node.fields.slug}`, // required
