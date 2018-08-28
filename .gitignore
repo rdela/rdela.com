@@ -1,9 +1,10 @@
 node_modules/
-public
-.gatsby-context.js
-.DS_Store
-.intermediate-representation/
+/public/
+
 .cache/
+.DS_Store
+.gatsby-context.js
+.intermediate-representation/
 .yarn-integrity
 
 # not ignoring yarn.lock
@@ -13,7 +14,3 @@ package-lock.json
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# dotenv environment variables file
-.env
-
