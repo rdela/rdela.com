@@ -9,9 +9,7 @@ const cYear = new Date().getFullYear()
 
 class Masthead extends React.Component {
   render() {
-    const defaultMetaDesc = this.props.description
     const siteTitle = this.props.siteTitle
-    const siteTwitter = this.props.siteTwitter
     let topknot
 
     topknot = (
@@ -48,10 +46,10 @@ class Masthead extends React.Component {
       <header>
         <Helmet defaultTitle={siteTitle} titleTemplate={'%s - ' + siteTitle}>
           <meta name="copyright" content={cYear} />
-          <meta name="twitter:site" content={siteTwitter} />
+          <meta name="twitter:site" content={this.props.siteTwitter} />
           <meta name="og:type" content="website" />
           <meta name="og:site_name" content={siteTitle} />
-          <meta name="description" content={defaultMetaDesc} />
+          <meta name="description" content={this.props.description} />
           <html lang="en" />
         </Helmet>
         {topknot}

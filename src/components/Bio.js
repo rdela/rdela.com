@@ -16,32 +16,18 @@ class Bio extends React.Component {
     const siteGitlab = this.props.siteGitlab
     const siteTwitter = this.props.siteTwitter
 
-    let authorLink, linksLink
-
-    authorLink = (
-      <Link to="/">
-        <strong>
-          <span dangerouslySetInnerHTML={{ __html: authorNBSP }} />
-        </strong>
-      </Link>
-    )
-
-    linksLink = (
-      <li>
-        <Link to="/l/">
-          <span>
-            <FontAwesomeIcon icon={faLink} />
-          </span>
-          {` `}
-          links
-        </Link>
-      </li>
-    )
-
     return (
       <section>
         <p>
-          Hyperlinked words assembled by <span>{authorLink}</span>,{` `}
+          Hyperlinked words assembled by{' '}
+          <span>
+            <Link to="/">
+              <strong>
+                <span dangerouslySetInnerHTML={{ __html: authorNBSP }} />
+              </strong>
+            </Link>
+          </span>
+          ,{` `}
           author of various bug fixes and
           {` `}
           improvements&nbsp;
@@ -49,7 +35,15 @@ class Bio extends React.Component {
         </p>
 
         <ul className="bio-links">
-          {linksLink}
+          <li>
+            <Link to="/l/">
+              <span>
+                <FontAwesomeIcon icon={faLink} />
+              </span>
+              {` `}
+              links
+            </Link>
+          </li>
 
           <li>
             <a href="/rss.xml">
@@ -67,7 +61,7 @@ class Bio extends React.Component {
                 <FontAwesomeIcon icon={faGitlab} />
               </span>
               {` `}
-              {siteGithub} on gitlab
+              {siteGitlab} on gitlab
             </a>
           </li>
 

@@ -39,7 +39,6 @@ class PostTemplate extends React.Component {
         <section>
           <article>
             {/* Add long list of social meta tags */}
-
             <Helmet>
               <title>{post.frontmatter.title}</title>
               <meta name="description" content={metaDesc} />

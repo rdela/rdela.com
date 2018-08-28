@@ -6,10 +6,15 @@ import Layout from '../components/layout'
 const NotFoundPage = () => (
   <Layout>
     <div>
-      <h3>Not found</h3>
-      <p>
-        <Link to="/">Take me home!</Link>
-      </p>
+      <h2>Not found</h2>
+      <h3>
+        <Link to="/">
+          Take me home, country roads! {` `}
+          <span role="img" aria-label="motorway">
+            🛣
+          </span>
+        </Link>
+      </h3>
     </div>
   </Layout>
 )
