@@ -1,13 +1,21 @@
 {
   "name": "rdela",
   "description": "Various bug fixes and improvements @famebot",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Ricky de Laveaga <https://rdela.com>",
   "license": "SEE LICENSE IN license.txt",
   "private": true,
+  "scripts": {
+    "format": "prettier --write \"{gatsby-*.js,src/**/*.js}\""
+  },
   "bugs": {
     "url": "https://github.com/rdela/rdela.com/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdela/rdela.com.git"
+  },
+  "homepage": "https://rdela.com/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.2",
     "@fortawesome/free-brands-svg-icons": "5.2.0",
@@ -49,20 +57,12 @@
   "devDependencies": {
     "prettier": "1.14.2"
   },
-  "homepage": "https://rdela.com/",
   "keywords": [
     "de Laveaga",
     "gatsby",
     "rdela",
     "ricky"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rdela/rdela.com.git"
-  },
-  "scripts": {
-    "format": "prettier --write \"{gatsby-*.js,src/**/*.js}\""
-  },
   "renovate": {
     "extends": [
       "config:base"
