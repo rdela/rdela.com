@@ -42,8 +42,10 @@ class Bio extends React.Component {
       <section>
         <p>
           Hyperlinked words assembled by <span>{authorLink}</span>,{` `}
-          author of various bug fixes and{` `}
-          improvements&nbsp;<a href="https://famebot.com/">@famebot</a>
+          author of various bug fixes and
+          {` `}
+          improvements&nbsp;
+          <a href="https://famebot.com/">@famebot</a>
         </p>
 
         <ul className="bio-links">
@@ -98,7 +100,6 @@ class Bio extends React.Component {
               {siteEmail}
             </a>
           </li>
-
         </ul>
       </section>
     )

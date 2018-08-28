@@ -3,7 +3,6 @@ const Promise = require(`bluebird`)
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 
-
 exports.createPages = ({ graphql, actions }) => {
   const { createPage, createRedirect } = actions
 
@@ -74,8 +73,7 @@ exports.createPages = ({ graphql, actions }) => {
 
         posts.forEach((edge, index) => {
           const next = index === 0 ? null : posts[index - 1].node
-          const prev =
-            index === posts.length - 1 ? null : posts[index + 1].node
+          const prev = index === posts.length - 1 ? null : posts[index + 1].node
 
           createPage({
             path: `${edge.node.fields.slug}`, // required

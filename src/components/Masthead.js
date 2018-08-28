@@ -44,7 +44,6 @@ class Masthead extends React.Component {
       </h3>
     )
 
-
     return (
       <header>
         <Helmet defaultTitle={siteTitle} titleTemplate={'%s - ' + siteTitle}>

@@ -16,17 +16,33 @@ class LinksPage extends React.Component {
           <Helmet title={`Links Page 🔗📄`}>
             <meta name="description" content="Support Knowledge for Everyone" />
           </Helmet>
-          <h1>Links Page <span role="img" aria-label="link symbol page facing up">🔗📄</span></h1>
+          <h1>
+            Links Page{' '}
+            <span role="img" aria-label="link symbol page facing up">
+              🔗📄
+            </span>
+          </h1>
 
           <section
             style={{
               textAlign: `center`,
             }}
           >
-            <figure style={{
-              marginTop: rhythm(3 / 2),
-            }}><a href='https://readtheprintedword.org'><img src='https://readtheprintedword.org/rtpw-button3-200x128.png' alt='Read the Printed Word!' border='0' width='100' height='64' /></a></figure>
-
+            <figure
+              style={{
+                marginTop: rhythm(3 / 2),
+              }}
+            >
+              <a href="https://readtheprintedword.org">
+                <img
+                  src="https://readtheprintedword.org/rtpw-button3-200x128.png"
+                  alt="Read the Printed Word!"
+                  border="0"
+                  width="100"
+                  height="64"
+                />
+              </a>
+            </figure>
 
             <h1
               style={{
@@ -42,7 +58,11 @@ class LinksPage extends React.Component {
             >
               <figcaption>Knowledge for Everyone</figcaption>
             </figure>
-            <p><span role="img" aria-label="globe with meridians">&#x1F310;</span></p>
+            <p>
+              <span role="img" aria-label="globe with meridians">
+                &#x1F310;
+              </span>
+            </p>
 
             <ul
               style={{
@@ -95,7 +115,8 @@ class LinksPage extends React.Component {
                             movement
                           </a>
                         </em>{' '}
-                        around <a href="https://www.wikimedia.org/">Wikimedia</a>
+                        around{' '}
+                        <a href="https://www.wikimedia.org/">Wikimedia</a>
                       </h3>
                       Technical Collective Educational Content&nbsp;Development
                     </figcaption>
@@ -137,11 +158,14 @@ class LinksPage extends React.Component {
                       </h3>
                     </a>
                     <figcaption>
-                      Search millions of free books, movies, software, music, and{` `}
+                      Search millions of free books, movies, software, music,
+                      and
+                      {` `}
                       the history of hundreds of billions of web&nbsp;pages.
                       <br />
                       <small>
-                        (Image source:{` `}
+                        (Image source:
+                        {` `}
                         <a href="https://commons.wikimedia.org/wiki/File:Internet_Archive_logo_and_wordmark.svg">
                           Wikimedia Commons
                         </a>

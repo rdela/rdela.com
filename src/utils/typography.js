@@ -113,16 +113,15 @@ theme.overrideThemeStyles = () => ({
     listStyle: `none`,
     display: `inline-block`,
     marginBottom: `1.13281rem`,
-    marginRight: `0.90625rem`,
+    marginRight: `1.13281rem`,
   },
   '.bio-links span': {
     width: `1rem`,
     height: `0.888888889rem`,
     lineHeight: `0.888888889rem`,
-    marginRight: `0.219rem`,
     display: `inline-block`,
     verticalAlign: `baseline`,
-  }
+  },
 })
 
 const typography = new Typography(theme)
