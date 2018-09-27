@@ -4,9 +4,9 @@ import Helmet from 'react-helmet'
 import { rhythm } from '../utils/typography'
 
 import Layout from '../components/layout'
-import ialogo from '../svg/Internet_Archive_logo_and_wordmark.svg'
+import ialogo from '../svg/internet-archive-inv.svg'
 import wikicorn from '../svg/wikicorn.svg'
-import mdnDark from '../svg/mdn-dark.svg'
+import mdnDark from '../svg/mdn.svg'
 
 class LinksPage extends React.Component {
   render() {
@@ -33,14 +33,20 @@ class LinksPage extends React.Component {
                 marginTop: rhythm(3 / 2),
               }}
             >
-              <a href="https://readtheprintedword.org">
+              <a
+                href="https://readtheprintedword.org"
+                style={{
+                  display: `block`,
+                }}
+              >
                 <img
-                  src="https://readtheprintedword.org/rtpw-button3-200x128.png"
+                  src="https://readtheprintedword.org/rtpw-button4-200x92white.png"
                   alt="Read the Printed Word!"
                   border="0"
                   width="100"
-                  height="64"
-                />
+                  height="46"
+                /><br />
+                Read the Printed Word
               </a>
             </figure>
 
