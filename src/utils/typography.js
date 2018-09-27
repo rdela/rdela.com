@@ -12,7 +12,6 @@ theme.baseLineHeight = '1.8125'
 theme.headerFontFamily = [
   'Source Sans Pro',
   '-apple-system',
-  'BlinkMacSystemFont',
   'Segoe UI',
   'Roboto',
   'Helvetica',
@@ -26,7 +25,6 @@ theme.headerFontFamily = [
 theme.bodyFontFamily = [
   'Source Serif Pro',
   '-apple-system',
-  'BlinkMacSystemFont',
   'Segoe UI',
   'Roboto',
   'Helvetica',
@@ -52,6 +50,10 @@ https://github.com/gatsbyjs/gatsby/pull/3639#issuecomment-359263286
 */
 
 theme.overrideThemeStyles = () => ({
+  body: {
+    color: 'hsla(0,0%,100%,0.8)',
+    backgroundColor: '#000',
+  },
   a: {
     color: 'hsl(252,56%,56%)',
     textDecoration: 'none',
@@ -67,13 +69,13 @@ theme.overrideThemeStyles = () => ({
     lineHeight: `1.25`,
   },
   hr: {
-    backgroundColor: `hsla(206,96%,76%,.38)`,
+    backgroundColor: `hsla(252,96%,76%,.38)`,
     marginBottom: `1.8125rem`,
     marginTop: `1.8125rem`,
   },
   blockquote: {
-    color: `hsla(0,0%,0%,0.72)`,
-    borderLeft: `4px solid hsla(206,96%,76%,0.38)`,
+    color: `hsla(0,0%,100%,0.72)`,
+    borderLeft: `4px solid hsla(252,96%,76%,0.38)`,
     marginBottom: `1.625rem`,
   },
   figcaption: {
