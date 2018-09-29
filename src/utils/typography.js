@@ -55,11 +55,11 @@ theme.overrideThemeStyles = () => ({
     backgroundColor: '#000',
   },
   a: {
-    color: 'hsl(252,56%,56%)',
+    color: 'hsl(252,96%,76%)',
     textDecoration: 'none',
   },
   'a:hover,a:active': {
-    color: 'hsl(252,96%,76%)',
+    color: 'hsl(252,56%,56%)',
     textDecoration: 'none',
   },
   'h1,h2': {

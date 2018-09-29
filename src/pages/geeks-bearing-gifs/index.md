@@ -6,11 +6,11 @@ excerpt: "Beware of geeks bearing GIFs"
 
 <figure style="text-align: center">
   <span  style="display: block; margin: 0 auto">
-    <img src="https://gif-ricky.hashbase.io/Fuochi_d'artificio.gif"
-      alt="fireworks" />
+    <img src="https://gif-ricky.hashbase.io/pusheen-bakercat.gif "
+      alt="pusheen bakercat gif" />
   </span>
 <figcaption>
-<small>(Image source: <a href="https://commons.wikimedia.org/wiki/File:Fuochi_d%27artificio.gif">Wikimedia&nbsp;Commons</a>)</small><br />
+<small>(Image source: <a href="https://belarr.com/bakercat/">Belarr</a>)</small><br />
 <small>(Dat: <a href="https://hashbase.io/ricky/gif-ricky">hashbase.io/ricky/gif-ricky</a>)</small><br />
 </figcaption>
 </figure>
