@@ -42,30 +42,55 @@ theme.bodyFontFamily = [
 ]
 
 /*
-colors:
+Colors:
 
-Light Slate Blue
 hsl(252,96%,76%)
+#9f87fd - Chrome devtools + Colorable
+Heliotrope - http://chir.ag/projects/name-that-color/#9E86FD
+Light Slate Blue - Color Name & Hue | Colblindor
+Contrast ratio to #000 - AAA
+7.35 - Chrome devtools + https://colorable.jxnblk.com/9f87fd/000000
+7.36 - Contrast app
 
-Light Sky Blue
-hsl(206,96%,76%)
+hsl(252,16%,64%)
+#9b95b2 - Chrome devtools + Colorable
+Amethyst Smoke - http://chir.ag/projects/name-that-color/#9b95b2
+Logan - Color Name & Hue | Colblindor
+Contrast ratio to #000 - AAA
+7.29 - Chrome devtools
+7.34 - https://colorable.jxnblk.com/9b95b2/000000 + Contrast app
 
-according to:
-http://www.color-blindness.com/color-name-hue/
-https://github.com/gatsbyjs/gatsby/pull/3639#issuecomment-359263286
+Colorable made by Jxnblk (Brent Jackson)
+https://colorable.jxnblk.com/
+“If one says ‘Red’ (the name of the color) and there are 50 people listening, it can be expected that there will be 50 reds in their minds. And one can be sure that all these reds will be very different.”
+– Josef Albers
+
+Color Name & Hue | Colblindor
+https://www.color-blindness.com/color-name-hue/
+Found via: https://github.com/gatsbyjs/gatsby/pull/3639#issuecomment-359263286
+See also: http://chir.ag/projects/name-that-color/ (Source of JS code)
+
+Color and contrast | Accessible Styles | Web Fundamentals | Google Developers
+https://developers.google.com/web/fundamentals/accessibility/accessible-styles#color_and_contrast
+
+Contrast app – Guide
+https://usecontrast.com/guide
 */
 
 theme.overrideThemeStyles = () => ({
   body: {
+    color: '#fff',
     color: 'hsla(0,0%,100%,0.8)',
     backgroundColor: '#000',
   },
   a: {
+    color: '#9f87fd',
     color: 'hsl(252,96%,76%)',
     textDecoration: 'none',
   },
   'a:hover,a:active': {
-    color: 'hsl(252,56%,56%)',
+    color: '#9b95b2',
+    color: 'hsl(252,16%,64%)',
     textDecoration: 'none',
   },
   'h1,h2': {
@@ -75,12 +100,15 @@ theme.overrideThemeStyles = () => ({
     lineHeight: `1.25`,
   },
   hr: {
-    backgroundColor: `hsla(252,96%,76%,.38)`,
+    color: '#9f87fd',
+    backgroundColor: `hsla(252,96%,76%,0.38)`,
     marginBottom: `1.8125rem`,
     marginTop: `1.8125rem`,
   },
   blockquote: {
+    color: '#fff',
     color: `hsla(0,0%,100%,0.72)`,
+    borderLeft: `#9f87fd`,
     borderLeft: `4px solid hsla(252,96%,76%,0.38)`,
     marginBottom: `1.625rem`,
   },
