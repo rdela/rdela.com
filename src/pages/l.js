@@ -45,7 +45,8 @@ class LinksPage extends React.Component {
                   border="0"
                   width="100"
                   height="46"
-                /><br />
+                />
+                <br />
                 Read the Printed Word
               </a>
             </figure>
