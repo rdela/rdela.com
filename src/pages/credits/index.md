@@ -37,7 +37,7 @@ is a fun way to noodle out a proto<em><strong>type</strong> design</em>.
 Anyhoo, as of this post I am using a
 [modified version](https://github.com/rdela/rdela.com/blob/master/src/utils/typography.js)
 of the
-[Github&nbsp;theme](https://github.com/KyleAMathews/typography.js/tree/master/packages/typography-theme-github).
+[GitHub&nbsp;theme](https://github.com/KyleAMathews/typography.js/tree/master/packages/typography-theme-github).
 After much staring at the screen and tweaking CSS, had to include the inimitable
 trio of [Source&nbsp;Serif](https://typekit.com/fonts/source-serif)
 by [Frank&nbsp;Grießhammer](https://typekit.com/designers/frank-griesshammer),
