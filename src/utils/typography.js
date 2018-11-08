@@ -1,3 +1,4 @@
+/* eslint-disable */
 const Typography = require('typography')
 let theme = require('typography-theme-github').default
 const CodePlugin = require('typography-plugin-code').default
@@ -154,6 +155,30 @@ theme.overrideThemeStyles = () => ({
   '.post-update': {
     marginBottom: '3.625rem',
     marginTop: '1.8125rem',
+  },
+  '.flex-container': {
+    padding: 0,
+    margin: 0,
+    listStyle: 'none',
+    display: '-webkit-box',
+    display: '-moz-box',
+    display: '-ms-flexbox',
+    display: '-webkit-flex',
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+    alignItems: 'flex-start',
+  },
+  '.flex-item': {
+    // background: 'tomato',
+    textAlign: 'center',
+    maxWidth: '180px',
+  },
+  '.flex-item h3': {
+    marginTop: 0,
+  },
+  '.flex-item a': {
+    display: 'block',
   },
 })
 

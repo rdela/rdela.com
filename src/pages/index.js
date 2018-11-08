@@ -17,6 +17,7 @@ class BlogIndex extends React.Component {
           <div>
             <Helmet />
             <ul
+              className='flex-container'
               style={{
                 marginLeft: 0,
               }}
@@ -28,18 +29,30 @@ class BlogIndex extends React.Component {
                     key={node.fields.slug}
                     style={{
                       listStyle: `none`,
+                      marginBottom: '32px',
+                      marginTop: '32px',
                       marginLeft: 0,
                     }}
                   >
-                    <div>
-                      <h3
-                        style={{
-                          marginBottom: rhythm(1 / 4),
-                        }}
-                      >
-                        <Link to={node.fields.slug}>{title}</Link>
-                      </h3>
-                      <small>{node.frontmatter.date}</small>
+                    <div className='flex-item'>
+                      <Link to={node.fields.slug}>
+                        {node.frontmatter.image && (
+                          <img
+                            alt={title}
+                            src={
+                              node.frontmatter.image.childImageSharp.resize.src
+                            }
+                          />
+                        )}
+                        <h3
+                          style={{
+                            marginBottom: rhythm(1 / 4),
+                          }}
+                        >
+                          {title}
+                        </h3>
+                        <small>{node.frontmatter.date}</small>
+                      </Link>
                     </div>
                   </li>
                 )
@@ -68,6 +81,16 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "DD MMMM YYYY")
             title
+            image {
+              childImageSharp {
+                resize(width: 288, height: 288) {
+                  src
+                }
+                fluid(maxWidth: 96) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }

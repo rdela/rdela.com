@@ -2,6 +2,7 @@
 title: Geeks Bearing GIFs
 date: "2018-03-04"
 excerpt: "Beware of geeks bearing GIFs"
+image: "pusheen-bakercat.png"
 ---
 
 <figure style="text-align: center">
