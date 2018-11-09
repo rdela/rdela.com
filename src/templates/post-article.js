@@ -183,7 +183,7 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
-        date(formatString: "DD MMMM YYYY")
+        date(formatString: "D MMMM YYYY")
         excerpt
         rawDate: date
         image {

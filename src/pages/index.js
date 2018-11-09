@@ -3,7 +3,7 @@ import { graphql, Link } from 'gatsby'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
-import { rhythm, scale } from '../utils/typography'
+import { rhythm } from '../utils/typography'
 
 import Layout from '../components/layout'
 
@@ -49,7 +49,8 @@ class BlogIndex extends React.Component {
                         )}
                         <h3
                           style={{
-                            ...scale(0.03125),
+                            fontSize: `1rem`,
+                            fontWeight: `500`,
                             marginBottom: rhythm(1 / 16),
                             lineHeight: 1.25,
                             textTransform: `uppercase`,
@@ -91,7 +92,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "DD MMMM YYYY")
+            date(formatString: "D MMMM YYYY")
             title
             image {
               childImageSharp {
