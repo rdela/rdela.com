@@ -143,7 +143,6 @@ theme.overrideThemeStyles = () => ({
     listStyle: 'none',
     display: 'inline-block',
     marginBottom: '1.13281rem',
-    // marginRight: '1.13281rem',
   },
   '.bio-links span': {
     width: '1rem',
@@ -170,7 +169,6 @@ theme.overrideThemeStyles = () => ({
     alignItems: 'flex-start',
   },
   '.flex-item': {
-    // background: 'tomato',
     textAlign: 'center',
     width: '202px',
     padding: '11px',

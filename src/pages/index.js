@@ -50,7 +50,6 @@ class BlogIndex extends React.Component {
                         <h3
                           style={{
                             fontSize: `1rem`,
-                            fontWeight: `500`,
                             marginBottom: rhythm(1 / 16),
                             lineHeight: 1.25,
                             textTransform: `uppercase`,
