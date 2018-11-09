@@ -143,7 +143,7 @@ theme.overrideThemeStyles = () => ({
     listStyle: 'none',
     display: 'inline-block',
     marginBottom: '1.13281rem',
-    marginRight: '1.13281rem',
+    // marginRight: '1.13281rem',
   },
   '.bio-links span': {
     width: '1rem',
@@ -166,13 +166,14 @@ theme.overrideThemeStyles = () => ({
     display: '-webkit-flex',
     display: 'flex',
     flexWrap: 'wrap',
-    justifyContent: 'space-around',
+    justifyContent: 'center',
     alignItems: 'flex-start',
   },
   '.flex-item': {
     // background: 'tomato',
     textAlign: 'center',
-    maxWidth: '180px',
+    width: '202px',
+    padding: '11px',
   },
   '.flex-item h3': {
     marginTop: 0,

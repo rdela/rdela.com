@@ -24,10 +24,10 @@ Repo background & history:
 [build.environment]
   NODE_ENV = "production"
   NODE_VERSION = "node"
-  NPM_VERSION = "6.4.0"
+  NPM_VERSION = "6.4.1"
   RUBY_VERSION = "default"
   YARN_FLAGS = "--no-ignore-optional"
-  YARN_VERSION = "1.9.4"
+  YARN_VERSION = "1.12.3"
 ```
 
 #### [Netlify TOML reference](https://www.netlify.com/docs/netlify-toml-reference/)

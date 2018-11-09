@@ -4,9 +4,10 @@ import { Link } from 'gatsby'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faLink, faRss } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 import { faGitlab } from '@fortawesome/free-brands-svg-icons/faGitlab'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 
 class Bio extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class Bio extends React.Component {
     const siteEmail = this.props.siteEmail
     const siteGithub = this.props.siteGithub
     const siteGitlab = this.props.siteGitlab
+    const siteInstagram = this.props.siteInstagram
     const siteTwitter = this.props.siteTwitter
 
     return (
@@ -34,8 +36,18 @@ class Bio extends React.Component {
           <a href="https://famebot.com/">@famebot</a>
         </p>
 
-        <ul className="bio-links">
-          <li>
+        <ul className="bio-links flex-container">
+          <li className="flex-item">
+            <a href={`mailto:${siteEmail}`}>
+              <span>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </span>
+              {` `}
+              {siteEmail}
+            </a>
+          </li>
+
+          <li className="flex-item">
             <Link to="/l/">
               <span>
                 <FontAwesomeIcon icon={faLink} />
@@ -45,7 +57,7 @@ class Bio extends React.Component {
             </Link>
           </li>
 
-          <li>
+          <li className="flex-item">
             <a href="/rss.xml">
               <span>
                 <FontAwesomeIcon icon={faRss} />
@@ -55,43 +67,43 @@ class Bio extends React.Component {
             </a>
           </li>
 
-          <li>
-            <a href={`https://gitlab.com/${siteGitlab.substring(1)}`}>
-              <span>
-                <FontAwesomeIcon icon={faGitlab} />
-              </span>
-              {` `}
-              {siteGitlab} on gitlab
-            </a>
-          </li>
-
-          <li>
+          <li className="flex-item">
             <a href={`https://github.com/${siteGithub.substring(1)}`}>
               <span>
                 <FontAwesomeIcon icon={faGithub} />
               </span>
               {` `}
-              {siteGithub} on github
+              {siteGithub} on&nbsp;github
             </a>
           </li>
 
-          <li>
+          <li className="flex-item">
+            <a href={`https://gitlab.com/${siteGitlab.substring(1)}`}>
+              <span>
+                <FontAwesomeIcon icon={faGitlab} />
+              </span>
+              {` `}
+              {siteGitlab} on&nbsp;gitlab
+            </a>
+          </li>
+
+          <li className="flex-item">
+            <a href={`https://instagram.com/${siteInstagram.substring(1)}`}>
+              <span>
+                <FontAwesomeIcon icon={faInstagram} />
+              </span>
+              {` `}
+              {siteInstagram} on&nbsp;instagram
+            </a>
+          </li>
+
+          <li className="flex-item">
             <a href={`https://twitter.com/${siteTwitter.substring(1)}`}>
               <span>
                 <FontAwesomeIcon icon={faTwitter} />
               </span>
               {` `}
-              {siteTwitter} on twitter
-            </a>
-          </li>
-
-          <li>
-            <a href={`mailto:${siteEmail}`}>
-              <span>
-                <FontAwesomeIcon icon={faEnvelope} />
-              </span>
-              {` `}
-              {siteEmail}
+              {siteTwitter} on&nbsp;twitter
             </a>
           </li>
         </ul>

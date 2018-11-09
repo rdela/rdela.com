@@ -16,7 +16,11 @@ class LinksPage extends React.Component {
           <Helmet title={`Links Page 🔗📄`}>
             <meta name="description" content="Support Knowledge for Everyone" />
           </Helmet>
-          <h1>
+          <h1
+            style={{
+              textAlign: `center`,
+            }}
+          >
             Links Page{' '}
             <span role="img" aria-label="link symbol page facing up">
               🔗📄

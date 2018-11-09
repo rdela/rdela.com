@@ -29,7 +29,7 @@ class Masthead extends React.Component {
               backgroundImage: `url(${knot})`,
               backgroundRepeat: `no-repeat`,
               backgroundSize: `52px`,
-              backgroundPosition: `left top`,
+              backgroundPosition: `center top`,
               paddingBottom: 0,
               paddingTop: `48px`,
               marginBottom: 0,
@@ -43,7 +43,11 @@ class Masthead extends React.Component {
     )
 
     return (
-      <header>
+      <header
+        style={{
+          textAlign: `center`,
+        }}
+      >
         <Helmet defaultTitle={siteTitle} titleTemplate={'%s - ' + siteTitle}>
           <meta name="copyright" content={cYear} />
           <meta name="twitter:site" content={this.props.siteTwitter} />

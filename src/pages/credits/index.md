@@ -5,14 +5,14 @@ excerpt: "How I began developing this site"
 image: "In_happy_far-away_land_1902_14752942545.jpg"
 ---
 
-<figure>
+<div style="max-width: 408px; margin: 0 auto"><figure>
 <img src="In_happy_far-away_land_1902_14752942545.jpg"
-     alt="In happy far-away land (1902)" />
+     alt="In happy far-away land (1902)" /><br />
 <figcaption>
 In happy far-away land (1902)<br />
 <small>(Image source: <a href="https://commons.wikimedia.org/wiki/File:In_happy_far-away_land_(1902)_(14752942545).jpg">Wikimedia&nbsp;Commons</a>)</small>
 </figcaption>
-</figure>
+</figure></div>
 
 <br />
 

@@ -5,15 +5,13 @@ excerpt: "Thank you Netlify"
 image: "full-logo-light.png"
 ---
 
-<figure style="text-align: center">
-  <span  style="display: block; margin: 40px auto">
-    <img src="full-logo-light.png"
-      alt="Netlify Full Logo Light" />
-  </span>
+<div style="margin: 40px auto"><figure style="text-align: center">
+<img src="full-logo-dark.png"
+  alt="Netlify Full Logo Light" /><br />
 <figcaption>
 <small>(Image source: <a href="https://www.netlify.com/press/">Press | Netlify</a>)</small>
 </figcaption>
-</figure>
+</figure></div>
 
 <div id="20180225-upd1" class="post-update">
 

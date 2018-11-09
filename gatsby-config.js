@@ -5,6 +5,7 @@ module.exports = {
     email: `ricky@rdela.com`,
     github: `@rdela`,
     gitlab: `@rdela`,
+    instagram: `@rickydelaveaga`,
     siteUrl: `https://rdela.com`,
     title: `rdela`,
     twitter: `@rickydelaveaga`,
@@ -32,7 +33,8 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 720,
+              backgroundColor: `#000`,
+              maxWidth: 816,
               linkImagesToOriginal: false,
             },
           },

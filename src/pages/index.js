@@ -3,7 +3,7 @@ import { graphql, Link } from 'gatsby'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
-import { rhythm } from '../utils/typography'
+import { rhythm, scale } from '../utils/typography'
 
 import Layout from '../components/layout'
 
@@ -17,7 +17,7 @@ class BlogIndex extends React.Component {
           <div>
             <Helmet />
             <ul
-              className='flex-container'
+              className="flex-container"
               style={{
                 marginLeft: 0,
               }}
@@ -29,12 +29,11 @@ class BlogIndex extends React.Component {
                     key={node.fields.slug}
                     style={{
                       listStyle: `none`,
-                      marginBottom: '32px',
-                      marginTop: '32px',
+                      marginBottom: rhythm(1 / 4),
                       marginLeft: 0,
                     }}
                   >
-                    <div className='flex-item'>
+                    <div className="flex-item">
                       <Link to={node.fields.slug}>
                         {node.frontmatter.image && (
                           <img
@@ -42,16 +41,29 @@ class BlogIndex extends React.Component {
                             src={
                               node.frontmatter.image.childImageSharp.resize.src
                             }
+                            style={{
+                              display: `block`,
+                              marginBottom: rhythm(1 / 6),
+                            }}
                           />
                         )}
                         <h3
                           style={{
-                            marginBottom: rhythm(1 / 4),
+                            ...scale(0.03125),
+                            marginBottom: rhythm(1 / 16),
+                            lineHeight: 1.25,
+                            textTransform: `uppercase`,
                           }}
                         >
                           {title}
                         </h3>
-                        <small>{node.frontmatter.date}</small>
+                        <p
+                          style={{
+                            lineHeight: 1.25,
+                          }}
+                        >
+                          <small>{node.frontmatter.date}</small>
+                        </p>
                       </Link>
                     </div>
                   </li>
@@ -83,10 +95,10 @@ export const pageQuery = graphql`
             title
             image {
               childImageSharp {
-                resize(width: 288, height: 288) {
+                resize(width: 540, height: 540) {
                   src
                 }
-                fluid(maxWidth: 96) {
+                fluid(maxWidth: 180) {
                   ...GatsbyImageSharpFluid
                 }
               }

@@ -23,6 +23,7 @@ export default ({ children, location }) => (
             email
             github
             gitlab
+            instagram
             siteUrl
             title
             twitter
@@ -33,7 +34,7 @@ export default ({ children, location }) => (
     render={data => (
       <div
         style={{
-          maxWidth: rhythm(24),
+          maxWidth: rhythm(26),
           padding: `${rhythm(1 / 2)} ${rhythm(1 / 2)}`,
           margin: `${rhythm(1 / 2)} auto`,
         }}
@@ -47,8 +48,9 @@ export default ({ children, location }) => (
         <hr />
         <footer
           style={{
-            display: 'flex',
+            display: `flex`,
             marginBottom: rhythm(2.5),
+            textAlign: `center`,
           }}
         >
           <Bio
@@ -56,6 +58,7 @@ export default ({ children, location }) => (
             siteEmail={data.site.siteMetadata.email}
             siteGithub={data.site.siteMetadata.github}
             siteGitlab={data.site.siteMetadata.gitlab}
+            siteInstagram={data.site.siteMetadata.instagram}
             siteTitle={data.site.siteMetadata.title}
             siteTwitter={data.site.siteMetadata.twitter}
           />

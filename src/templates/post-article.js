@@ -32,6 +32,7 @@ class PostTemplate extends React.Component {
 
     const nextPrevLabelStyles = {
       marginTop: `0`,
+      textTransform: `uppercase`,
     }
 
     return (
@@ -81,11 +82,17 @@ class PostTemplate extends React.Component {
                 marginBottom: 0,
                 marginTop: rhythm(1 / 4),
                 paddingBottom: rhythm(1 / 16),
+                textAlign: `center`,
+                textTransform: 'uppercase',
               }}
             >
               {post.frontmatter.title}
             </h1>
-            <p>
+            <p
+              style={{
+                textAlign: `center`,
+              }}
+            >
               <small>{post.frontmatter.date}</small>
             </p>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -115,7 +122,7 @@ class PostTemplate extends React.Component {
                   }}
                 >
                   <h4 style={nextPrevLabelStyles}>Previous</h4>
-                  <span>
+                  <span style={nextPrevLabelStyles}>
                     <span className="iconbox" style={iconboxStyles}>
                       <FontAwesomeIcon icon={faArrowLeft} />
                     </span>{' '}
@@ -140,7 +147,7 @@ class PostTemplate extends React.Component {
                   }}
                 >
                   <h4 style={nextPrevLabelStyles}>Next</h4>
-                  <span>
+                  <span style={nextPrevLabelStyles}>
                     {next.frontmatter.title}{' '}
                     <span className="iconbox" style={iconboxStyles}>
                       <FontAwesomeIcon icon={faArrowRight} />
@@ -181,10 +188,10 @@ export const pageQuery = graphql`
         rawDate: date
         image {
           childImageSharp {
-            resize(width: 2358, height: 2358) {
+            resize(width: 2448, height: 2448) {
               src
             }
-            fluid(maxWidth: 786) {
+            fluid(maxWidth: 816) {
               ...GatsbyImageSharpFluid
             }
           }
