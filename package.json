@@ -55,7 +55,7 @@
     "typography-theme-github": "0.15.10"
   },
   "devDependencies": {
-    "prettier": "1.15.1"
+    "prettier": "1.15.2"
   },
   "keywords": [
     "de Laveaga",
