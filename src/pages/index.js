@@ -26,6 +26,7 @@ class BlogIndex extends React.Component {
                 const title = get(node, 'frontmatter.title') || node.fields.slug
                 return (
                   <li
+                    className="flex-item"
                     key={node.fields.slug}
                     style={{
                       listStyle: `none`,
@@ -33,39 +34,37 @@ class BlogIndex extends React.Component {
                       marginLeft: 0,
                     }}
                   >
-                    <div className="flex-item">
-                      <Link to={node.fields.slug}>
-                        {node.frontmatter.image && (
-                          <img
-                            alt={title}
-                            src={
-                              node.frontmatter.image.childImageSharp.resize.src
-                            }
-                            style={{
-                              display: `block`,
-                              marginBottom: rhythm(1 / 6),
-                            }}
-                          />
-                        )}
-                        <h3
+                    <Link to={node.fields.slug}>
+                      {node.frontmatter.image && (
+                        <img
+                          alt={title}
+                          src={
+                            node.frontmatter.image.childImageSharp.resize.src
+                          }
                           style={{
-                            fontSize: `1rem`,
-                            marginBottom: rhythm(1 / 16),
-                            lineHeight: 1.25,
-                            textTransform: `uppercase`,
+                            display: `block`,
+                            marginBottom: rhythm(1 / 6),
                           }}
-                        >
-                          {title}
-                        </h3>
-                        <p
-                          style={{
-                            lineHeight: 1.25,
-                          }}
-                        >
-                          <small>{node.frontmatter.date}</small>
-                        </p>
-                      </Link>
-                    </div>
+                        />
+                      )}
+                      <h3
+                        style={{
+                          fontSize: `1rem`,
+                          marginBottom: rhythm(1 / 16),
+                          lineHeight: 1.25,
+                          textTransform: `uppercase`,
+                        }}
+                      >
+                        {title}
+                      </h3>
+                      <p
+                        style={{
+                          lineHeight: 1.25,
+                        }}
+                      >
+                        <small>{node.frontmatter.date}</small>
+                      </p>
+                    </Link>
                   </li>
                 )
               })}

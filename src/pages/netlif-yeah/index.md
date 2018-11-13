@@ -51,6 +51,6 @@ To the entire [Netlify (OSS) crew](https://github.com/orgs/netlify/people), than
 
 <br />
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed/6Ptrc2cWRxU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="816" height="459" src="https://www.youtube.com/embed/6Ptrc2cWRxU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <br />
