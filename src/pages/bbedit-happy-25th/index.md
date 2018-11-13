@@ -34,10 +34,10 @@ Ya dig?
 
 In addition to its unmatched ability to process and operate on insanely large
  files smoothly, without missing a beat, BBEdit comes well-configured out of
- the box and is easy to customize to your liking. Though I also like
- [Sublime Text](https://www.sublimetext.com),
- [VS Code](https://code.visualstudio.com), and
- [Slugline](https://slugline.co/) for screenplays.
+ the box and is easy to customize to your liking. I also like
+ [Sublime Text](https://www.sublimetext.com) and
+ [VS Code](https://code.visualstudio.com) for general text and code editing, and
+ am digging [Slugline](https://slugline.co/) for screenplays.
 
 <br />
 
