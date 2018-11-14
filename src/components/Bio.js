@@ -21,7 +21,7 @@ class Bio extends React.Component {
     return (
       <section>
         <p>
-          Hyperlinked words assembled by{' '}
+          Hyperlinks assembled by{' '}
           <span>
             <Link to="/">
               <strong>
@@ -29,11 +29,9 @@ class Bio extends React.Component {
               </strong>
             </Link>
           </span>
-          ,{` `}
-          author of various bug fixes and
           {` `}
-          improvements&nbsp;
-          <a href="https://famebot.com/">@famebot</a>
+          of&nbsp;
+          <a href="https://famebot.com/">Famebot</a>
         </p>
 
         <ul className="bio-links flex-container">
