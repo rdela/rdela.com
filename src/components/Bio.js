@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 // eslint-disable-next-line
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faLink, faRss } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faLink, faRobot, faRss } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 import { faGitlab } from '@fortawesome/free-brands-svg-icons/faGitlab'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram'
@@ -11,7 +11,6 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 
 class Bio extends React.Component {
   render() {
-    const authorNBSP = this.props.author.replace(/ /g, '&nbsp;')
     const siteEmail = this.props.siteEmail
     const siteGithub = this.props.siteGithub
     const siteGitlab = this.props.siteGitlab
@@ -20,20 +19,6 @@ class Bio extends React.Component {
 
     return (
       <section>
-        <p>
-          Hyperlinks assembled by{' '}
-          <span>
-            <Link to="/">
-              <strong>
-                <span dangerouslySetInnerHTML={{ __html: authorNBSP }} />
-              </strong>
-            </Link>
-          </span>
-          {` `}
-          of&nbsp;
-          <a href="https://famebot.com/">Famebot</a>
-        </p>
-
         <ul className="bio-links flex-container">
           <li className="flex-item">
             <a href={`mailto:${siteEmail}`}>
@@ -42,6 +27,16 @@ class Bio extends React.Component {
               </span>
               {` `}
               {siteEmail}
+            </a>
+          </li>
+
+          <li className="flex-item">
+            <a href="https://famebot.com/">
+              <span>
+                <FontAwesomeIcon icon={faRobot} />
+              </span>
+              {` `}
+              &nbsp;famebot
             </a>
           </li>
 

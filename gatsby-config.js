@@ -7,7 +7,7 @@ module.exports = {
     gitlab: `@rdela`,
     instagram: `@rickydelaveaga`,
     siteUrl: `https://rdela.com`,
-    title: `rdela`,
+    title: `Ricky de Laveaga`,
     twitter: `@rickydelaveaga`,
   },
   plugins: [
@@ -54,7 +54,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `rdela`,
+        name: `Ricky de Laveaga`,
         short_name: `rdela`,
         icons: [
           {
