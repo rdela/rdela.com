@@ -23,7 +23,6 @@ export default ({ children, location }) => (
             email
             github
             gitlab
-            instagram
             siteUrl
             title
             twitter
@@ -58,7 +57,6 @@ export default ({ children, location }) => (
             siteEmail={data.site.siteMetadata.email}
             siteGithub={data.site.siteMetadata.github}
             siteGitlab={data.site.siteMetadata.gitlab}
-            siteInstagram={data.site.siteMetadata.instagram}
             siteTitle={data.site.siteMetadata.title}
             siteTwitter={data.site.siteMetadata.twitter}
           />

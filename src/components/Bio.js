@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faLink, faRobot, faRss } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 import { faGitlab } from '@fortawesome/free-brands-svg-icons/faGitlab'
-import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 
 class Bio extends React.Component {
@@ -14,7 +13,6 @@ class Bio extends React.Component {
     const siteEmail = this.props.siteEmail
     const siteGithub = this.props.siteGithub
     const siteGitlab = this.props.siteGitlab
-    const siteInstagram = this.props.siteInstagram
     const siteTwitter = this.props.siteTwitter
 
     return (
@@ -77,16 +75,6 @@ class Bio extends React.Component {
               </span>
               {` `}
               {siteGitlab} on&nbsp;gitlab
-            </a>
-          </li>
-
-          <li className="flex-item">
-            <a href={`https://instagram.com/${siteInstagram.substring(1)}`}>
-              <span>
-                <FontAwesomeIcon icon={faInstagram} />
-              </span>
-              {` `}
-              {siteInstagram} on&nbsp;instagram
             </a>
           </li>
 

@@ -63,15 +63,3 @@ Pressley greets a small group of residents at Leventhal House, a senior living c
 > From the outset, Pressley made clear that she meant serious business, telling voters before she sent Capuano packing that she viewed the race as “a fight for the soul of our party and the future of our&nbsp;democracy.”
 
 – [William J. Kole, *Pressley officially Massachusetts’ 1st black congresswoman*,&nbsp;AP](https://apnews.com/153ebc00497c447394b291d8ea37365e)
-
-<br />
-
-> *These barrier-breaking women were candidates and are now Members-elect to the US House of Representatives. Hear their stories LIVE from the Women & Power 2018: National Town Hall.*
-
-– [Vote Run Lead on Facebook](https://www.facebook.com/VoteRunLead/videos/vb.628423320573742/190195738534381/)
-
-Starts ~27:40
-
-<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FVoteRunLead%2Fvideos%2F190195738534381%2F&width=816&show_text=false&height=413&appId" width="816" height="413" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
-
-<br />
