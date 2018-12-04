@@ -38,5 +38,8 @@ Thanks to [Karen Clark’s excellent article for SF Gate Home&nbsp;Guides](https
  see also
  [Ceiba chodatii on Wikipedia](https://en.wikipedia.org/wiki/Ceiba_chodatii),
  which is what I believe this specimen in the photo to&nbsp;be:
+
  > Another tree of the same genus, Ceiba chodatii, is often referred to by the
    same common&nbsp;names.
+
+ – [Ceiba speciosa on Wikipedia](https://en.wikipedia.org/wiki/Ceiba_speciosa)
