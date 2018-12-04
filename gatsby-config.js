@@ -78,7 +78,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-feed`,
       options: {
-        generator: `Gatsby v2 canary`,
+        generator: `Gatsby`,
         query: `
         {
           site {
