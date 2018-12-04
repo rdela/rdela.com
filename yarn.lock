@@ -4142,11 +4142,6 @@ electron-to-chromium@^1.3.47, electron-to-chromium@^1.3.80:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.81.tgz#32af69206ef78973b6a6771b0c8450c2ce253913"
   integrity sha512-+rym2xtzwPWmoi8AYRrCdW65QOT0vfUHjZb5mjgh0VLyj31pGM3CpP3znKhQNBzQaWujR/KEl/mfC2lnKYgADA==
 
-element-resize-event@^2.0.0:
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/element-resize-event/-/element-resize-event-2.0.9.tgz#2f5e1581a296eb5275210c141bc56342e218f876"
-  integrity sha1-L14VgaKW61J1IQwUG8VjQuIY+HY=
-
 elliptic@^6.0.0:
   version "6.4.1"
   resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.4.1.tgz#c2d0b7776911b86722c632c3c06c60f2f819939a"
@@ -9326,11 +9321,6 @@ performance-now@^2.1.0:
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 
-performance-now@~0.1.3:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-0.1.4.tgz#360b642f073ff8c2a693b3c38d7ccbc17b53183b"
-  integrity sha1-NgtkLwc/+MKmk7PDjXzLwXtTGDs=
-
 phin@^2.9.1:
   version "2.9.3"
   resolved "https://registry.yarnpkg.com/phin/-/phin-2.9.3.tgz#f9b6ac10a035636fb65dfc576aaaa17b8743125c"
@@ -10027,13 +10017,6 @@ querystringify@^2.0.0:
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.1.0.tgz#7ded8dfbf7879dcc60d0a644ac6754b283ad17ef"
   integrity sha512-sluvZZ1YiTLD5jsqZcDmFyV2EwToyXZBfpoVOmktMmW+VEnhgakFHnasVph65fOjGPTWN0Nw3+XQaSeMayr0kg==
 
-raf@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/raf/-/raf-2.0.4.tgz#4993e453ea5275bf6ef07a163bdfe9a23233b623"
-  integrity sha1-SZPkU+pSdb9u8HoWO9/pojIztiM=
-  dependencies:
-    performance-now "~0.1.3"
-
 randomatic@^3.0.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/randomatic/-/randomatic-3.1.1.tgz#b776efc59375984e36c537b2f51a1f0aff0da1ed"
@@ -10087,13 +10070,6 @@ rc@^1.0.1, rc@^1.1.2, rc@^1.1.6, rc@^1.2.7:
     ini "~1.3.0"
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
-
-react-component-width-mixin@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-component-width-mixin/-/react-component-width-mixin-2.0.0.tgz#9612806299ccf3de2304f8d40fb02e7c14d2a131"
-  integrity sha1-lhKAYpnM894jBPjUD7AufBTSoTE=
-  dependencies:
-    element-resize-event "^2.0.0"
 
 react-dev-utils@^4.2.1:
   version "4.2.3"
@@ -10160,22 +10136,6 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
-
-react-page-width@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/react-page-width/-/react-page-width-1.0.1.tgz#264e5bffe3cd2a7d7a9ee9bb800df6333aaac990"
-  integrity sha1-Jk5b/+PNKn16num7gA32MzqqyZA=
-  dependencies:
-    raf "^2.0.4"
-
-react-responsive-grid@0.3.4:
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/react-responsive-grid/-/react-responsive-grid-0.3.4.tgz#c94fda1469f36a41e3fc23f63bb6e50f5e866523"
-  integrity sha1-yU/aFGnzakHj/CP2O7blD16GZSM=
-  dependencies:
-    object-assign "^4.0.1"
-    react-component-width-mixin "^2.0.0"
-    react-page-width "^1.0.1"
 
 react-side-effect@^1.1.0:
   version "1.1.5"
