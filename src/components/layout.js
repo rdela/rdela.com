@@ -23,7 +23,6 @@ export default ({ children, location }) => (
             email
             github
             gitlab
-            siteUrl
             title
             twitter
           }
