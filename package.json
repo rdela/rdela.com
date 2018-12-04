@@ -1,7 +1,7 @@
 {
   "name": "rdela",
   "description": "Various bug fixes and improvements @famebot",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "author": "Ricky de Laveaga <https://rdela.com>",
   "license": "SEE LICENSE IN license.txt",
   "private": true,

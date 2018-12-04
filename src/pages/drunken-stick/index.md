@@ -12,7 +12,8 @@ image: "45304143_2072522272840249_6365962805882021069_n.jpg"
  also known as palo&nbsp;borracho, drunken&nbsp;stick<br />🦠🌵🌴</figcaption>
 </figure></div>
 
-In Bolivia, it is called toborochi, meaning “tree of refuge” or “sheltering tree.” It belongs to the same family as the baobab and the&nbsp;kapok.[^toborochi]
+In Bolivia, it is called toborochi, meaning “tree of refuge” or
+ “sheltering&nbsp;tree.”[^toborochi]
 
 > ## [Legend of the Toborochi&nbsp;Tree](http://www.boliviabella.com/legend-of-the-toborochi.html)
 >
@@ -27,11 +28,15 @@ In Bolivia, it is called toborochi, meaning “tree of refuge” or “shelterin
 – [BoliviaBella.com](http://www.boliviabella.com/legend-of-the-toborochi.html)
 
 Thanks to [Karen Clark’s excellent article for SF Gate Home&nbsp;Guides](https://homeguides.sfgate.com/types-trees-spikes-bark-68119.html)
-  on trees “with the spiky bark” I was able to track this one down. I searched
+  on trees “with the spiky bark,” I was able to track this one down. I searched
   “[tree spiky&nbsp;bark](https://start.duckduckgo.com/?q=tree+spiky+bark).”
 
 [^toborochi]:
+ [BoliviaBella.com](http://www.boliviabella.com/legend-of-the-toborochi.html)
+ via
  [Ceiba speciosa on Wikipedia](https://en.wikipedia.org/wiki/Ceiba_speciosa),
- see also [Ceiba chodatii on Wikipedia](https://en.wikipedia.org/wiki/Ceiba_chodatii),
+ see also
+ [Ceiba chodatii on Wikipedia](https://en.wikipedia.org/wiki/Ceiba_chodatii),
  which is what I believe this specimen in the photo to&nbsp;be:
- > Another tree of the same genus, Ceiba chodatii, is often referred to by the same common&nbsp;names.
+ > Another tree of the same genus, Ceiba chodatii, is often referred to by the
+   same common&nbsp;names.

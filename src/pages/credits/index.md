@@ -19,14 +19,14 @@ In happy far-away land (1902)<br />
 Welcome to the new rdela. I will be your host, Ricky de Laveaga.
 
 I began developing this site with [GatsbyJS](https://www.gatsbyjs.org/)
-by running [^gatsby-new] a
+by running a:
 
 ```sh
 git clone
 ```
 
 …of
-[gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog), the
+[gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog)[^gatsby-new], the
 Gatsby starter for creating a blog
 ([demo](https://gatsbyjs.github.io/gatsby-starter-blog/)), which has
 [Typography.js](https://github.com/KyleAMathews/typography.js)
@@ -86,7 +86,7 @@ As an instant bonus for reading all the way down, I give you the…
 <br />
 
 [^gatsby-new]: Having already installed `gatsby-cli`, One could run: <br />
- `gatsby new nameOfSiteHere https://github.com/gatsbyjs/gatsby-starter-blog` <br />
+ ```gatsby new mySite https://github.com/gatsbyjs/gatsby-starter-blog```<br />
  …in the terminal instead of a `git clone` of the
  [gatsby-starter-blog repo](https://github.com/gatsbyjs/gatsby-starter-blog)
  like I did, which then needs to be followed by a `yarn` or `npm install` before
@@ -94,4 +94,4 @@ As an instant bonus for reading all the way down, I give you the…
  [Gatsby&nbsp;Docs](https://www.gatsbyjs.org/docs/) start with the `gatsby new`
  command which takes care of this initial package install. (For more on `git`
  and cloning, see [git-clone docs](https://www.git-scm.com/docs/git-clone).)
- The source of the `gatsby new` command is split between [create-cli.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/create-cli.js#L296) and [init-starter.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/init-starter.js) in the Gatsby repo.
+ The source of the `gatsby new` command is split between [create-cli.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/create-cli.js#L299) and [init-starter.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/init-starter.js) in the Gatsby repo.

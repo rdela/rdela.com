@@ -3,7 +3,12 @@ import { Link } from 'gatsby'
 // eslint-disable-next-line
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faLink, faRobot, faRss } from '@fortawesome/free-solid-svg-icons'
+import {
+  faEnvelope,
+  faLink,
+  faRobot,
+  faRss,
+} from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 import { faGitlab } from '@fortawesome/free-brands-svg-icons/faGitlab'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'

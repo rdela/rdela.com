@@ -1,7 +1,7 @@
 ---
 title: Literal Streetart
 date: "2018-11-05T05:44:37.000Z"
-excerpt: "literal streetart"
+excerpt: "Beautiful decay"
 image: "44544795_487257931778125_5524316198341738956_n.jpg"
 ---
 
@@ -9,8 +9,6 @@ image: "44544795_487257931778125_5524316198341738956_n.jpg"
 <img src="44544795_487257931778125_5524316198341738956_n.jpg"
      alt="literal streetart" /><br />
 <figcaption style="font-style: normal">
-  literal streetart
+  Beautiful decay
 </figcaption>
 </figure></div>
-
-Beautiful decay

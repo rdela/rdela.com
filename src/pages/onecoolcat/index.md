@@ -9,10 +9,8 @@ image: "37126878_1043668015798442_7715782019958964224_n.jpg"
 <img src="37126878_1043668015798442_7715782019958964224_n.jpg"
      alt="one cool cat" /></span><br />
 <figcaption style="font-style: normal">
-  one cool cat
+  1️⃣🆒🐈
 </figcaption>
 </figure></div>
-
-1️⃣🆒🐈
 
 🌭🍔✌️😸🕶
