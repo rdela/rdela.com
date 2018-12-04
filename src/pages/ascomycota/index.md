@@ -1,7 +1,7 @@
 ---
 title: Ascomycota
 date: "2018-11-09T02:38:26.000Z"
-excerpt: "🐱 🐈"
+excerpt: "ascomycota"
 image: "44595592_496701630810658_3468233712362788776_n.jpg"
 ---
 
@@ -9,9 +9,10 @@ image: "44595592_496701630810658_3468233712362788776_n.jpg"
 <img src="44595592_496701630810658_3468233712362788776_n.jpg"
      alt="ascomycota" /><br />
 <figcaption style="font-style: normal">
-<a href="https://www.instagram.com/explore/tags/ascomycota/">#ascomycota</a><br />
-<a href="https://www.instagram.com/explore/tags/%F0%9F%90%B1/">#🐱</a><br />
-<a href="https://www.instagram.com/explore/tags/%F0%9F%90%88/">#🐈</a><br />
-<small>(Image source: <a href="https://www.instagram.com/p/Bp8W9RdlZFv/">@rickydelaveaga on Instagram</a>)</small>
+  ascomycota
 </figcaption>
 </figure></div>
+
+> Familiar examples of sac fungi include morels, truffles, brewer’s yeast and baker’s yeast, dead man’s fingers, and cup fungi.
+
+– [Ascomycota on Wikipedia](https://en.wikipedia.org/wiki/Ascomycota)
