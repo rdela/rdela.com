@@ -158,10 +158,10 @@ theme.overrideThemeStyles = () => ({
     padding: 0,
   },
   '.flex-item, .bio-links li': {
-    padding: '11px',
     textAlign: 'center',
   },
   '.flex-item': {
+    padding: '11px',
     width: '202px',
   },
   '.flex-item h3': {
@@ -172,6 +172,7 @@ theme.overrideThemeStyles = () => ({
   },
   '.bio-links': {
     margin: '0 0 4.53125rem',
+    padding: '12px',
   },
   '.bio-links li': {
     display: 'inline-block',
