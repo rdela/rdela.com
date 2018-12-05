@@ -9,6 +9,18 @@ image: "bbedit_25th_birthday_candle.png"
 <div style="max-width: 256px; margin: 0 auto; text-align: center"><a href="https://www.barebones.com/company/press/bbedit_25_anniversary.html"><img src="bbedit_25th_birthday_candle.png"
  alt="BBEdit birthday candle" /></a></div>
 
+<div id="20181204-upd1" class="post-update">
+
+**Update 4 December 2018:**
+[25th Anniversary BBEdit merch](https://merch.barebones.com) hath landered!
+
+> Hey, how about a new T-shirt? We've got a 25th Anniversary design, a refresh of the classic, and more goodies for you on the brand new store: <https://merch.barebones.com>
+
+– [@bbedit 9:04 4 Dec 2018](https://twitter.com/bbedit/status/1070000786548158464)
+
+</div>
+
+
 ## [BBEdit](https://www.barebones.com/products/bbedit/): Friend to Markdowners Everywhere
 
 - [Live Preview](https://www.barebones.com/products/bbedit/featuresweb.html)
