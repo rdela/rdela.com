@@ -5,6 +5,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faEnvelope,
+  faCode,
   faLink,
   faRobot,
   faRss,
@@ -19,6 +20,7 @@ class Bio extends React.Component {
     const siteGithub = this.props.siteGithub
     const siteGitlab = this.props.siteGitlab
     const siteTwitter = this.props.siteTwitter
+    const siteURL = this.props.siteURL
 
     return (
       <section>
@@ -51,6 +53,16 @@ class Bio extends React.Component {
               {` `}
               links
             </Link>
+          </li>
+
+          <li className="flex-item">
+          <a href={`https://github.com/${siteGithub.substring(1)}/${siteURL.substring(8)}/`}>
+              <span>
+                <FontAwesomeIcon icon={faCode} />
+              </span>
+              {` `}
+              &nbsp;source&nbsp;code
+            </a>
           </li>
 
           <li className="flex-item">
