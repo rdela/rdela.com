@@ -23,6 +23,7 @@ export default ({ children, location }) => (
             email
             github
             gitlab
+            siteURL
             title
             twitter
           }
@@ -58,6 +59,7 @@ export default ({ children, location }) => (
             siteGitlab={data.site.siteMetadata.gitlab}
             siteTitle={data.site.siteMetadata.title}
             siteTwitter={data.site.siteMetadata.twitter}
+            siteURL={data.site.siteMetadata.siteURL}
           />
         </footer>
       </div>

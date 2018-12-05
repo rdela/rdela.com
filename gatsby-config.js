@@ -5,7 +5,7 @@ module.exports = {
     email: `ricky@rdela.com`,
     github: `@rdela`,
     gitlab: `@rdela`,
-    siteUrl: `https://rdela.com`,
+    siteURL: `https://rdela.com`,
     title: `Ricky de Laveaga`,
     twitter: `@rickydelaveaga`,
   },
@@ -85,8 +85,8 @@ module.exports = {
             siteMetadata {
               title
               description
-              siteUrl
-              site_url: siteUrl
+              siteURL
+              site_url: siteURL
             }
           }
         }
@@ -97,8 +97,8 @@ module.exports = {
               return allMarkdownRemark.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
-                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  url: site.siteMetadata.siteURL + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteURL + edge.node.fields.slug,
                   custom_elements: [{ 'content:encoded': edge.node.html }],
                 })
               })
