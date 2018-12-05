@@ -144,9 +144,8 @@ theme.overrideThemeStyles = () => ({
   strong: {
     fontWeight: '700',
   },
-  '.flex-container': {
+  '.flex-container, .bio-links': {
     alignItems: 'flex-start',
-    listStyle: 'none',
     display: '-webkit-box',
     display: '-moz-box',
     display: '-ms-flexbox',
@@ -156,6 +155,11 @@ theme.overrideThemeStyles = () => ({
     justifyContent: 'center',
     margin: 0,
     padding: 0,
+  },
+  '.bio-links': {
+    listStyle: 'none',
+    margin: '0 0 4.53125rem',
+    width: '100%',
   },
   '.flex-item, .bio-links li': {
     textAlign: 'center',
@@ -167,25 +171,19 @@ theme.overrideThemeStyles = () => ({
   '.flex-item h3': {
     marginTop: 0,
   },
-  '.flex-item a': {
+  '.flex-item a, .bio-links a': {
     display: 'block',
-  },
-  '.bio-links': {
-    margin: '0 0 4.53125rem',
-    padding: '12px',
   },
   '.bio-links li': {
     display: 'inline-block',
     listStyle: 'none',
     marginBottom: '1.13281rem',
-    width: '240px',
+    padding: '20px',
+    width: '256px',
   },
   '.bio-links span': {
     display: 'inline-block',
-    height: '0.888888889rem',
-    lineHeight: '0.888888889rem',
-    verticalAlign: 'baseline',
-    width: '1rem',
+    marginRight: '0.25rem';
   },
   '.post-update': {
     marginBottom: '3.625rem',
