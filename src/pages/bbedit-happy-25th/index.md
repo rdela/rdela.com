@@ -11,7 +11,7 @@ image: "bbedit_25th_birthday_candle.png"
 
 <div id="20181204-upd1" class="post-update">
 
-**Update 4 December 2018:**
+**[Update 4 December 2018](https://twitter.com/rickydelaveaga/status/1070116799021105152):**
 [25th Anniversary BBEdit merch](https://merch.barebones.com) hath landered!
 
 > Hey, how about a new T-shirt? We've got a 25th Anniversary design, a refresh of the classic, and more goodies for you on the brand new store: <https://merch.barebones.com>
@@ -28,7 +28,7 @@ image: "bbedit_25th_birthday_candle.png"
 
 - with
   [WebKit Inspector](https://www.barebones.com/products/bbedit/benefitsstandards.html)
-  + > *__New in [BBEdit 12](https://www.barebones.com/support/bbedit/notes-12.0.html) [^twelve]:__ BBEdit preview windows now include access to the powerful WebKit Inspector, so that you can inspect the runtime behavior of your page, debug JavaScript on the fly, and more.* [^current]
+  + > *__New in [BBEdit 12](https://www.barebones.com/support/bbedit/archived_notes.html) [^twelve]:__ BBEdit preview windows now include access to the powerful WebKit Inspector, so that you can inspect the runtime behavior of your page, debug JavaScript on the fly, and more.* [^current]
 
 Ya dig?
 
@@ -53,7 +53,7 @@ In addition to its unmatched ability to process and operate on insanely large
 
 <br />
 
-[^twelve]: [BBEdit 12](https://www.barebones.com/support/bbedit/notes-12.0.html) is a major release which is 64-bit ready and offers over a hundred feature additions, changes, and refinements, including Touch Bar support. [Read all about it!](https://www.barebones.com/products/bbedit/bbedit12.html)
+[^twelve]: [BBEdit 12](https://www.barebones.com/support/bbedit/archived_notes.html) is a major release which is 64-bit ready and offers over a hundred feature additions, changes, and refinements, including Touch Bar support. [Read all about it!](https://www.barebones.com/products/bbedit/bbedit12.html)
 
 [^current]: Current version:
  [BBEdit 12.5](https://www.barebones.com/support/bbedit/notes-12.5.html)
