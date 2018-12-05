@@ -56,22 +56,22 @@ class Bio extends React.Component {
           </li>
 
           <li className="flex-item">
-          <a href={`https://github.com/${siteGithub.substring(1)}/${siteURL.substring(8)}/`}>
-              <span>
-                <FontAwesomeIcon icon={faCode} />
-              </span>
-              {` `}
-              &nbsp;source&nbsp;code
-            </a>
-          </li>
-
-          <li className="flex-item">
             <a href="/rss.xml">
               <span>
                 <FontAwesomeIcon icon={faRss} />
               </span>
               {` `}
               rss feed
+            </a>
+          </li>
+
+          <li className="flex-item">
+          <a href={`https://github.com/${siteGithub.substring(1)}/${siteURL.substring(8)}/`}>
+              <span>
+                <FontAwesomeIcon icon={faCode} />
+              </span>
+              {` `}
+              &nbsp;source&nbsp;code
             </a>
           </li>
 
