@@ -24,8 +24,8 @@ class Bio extends React.Component {
 
     return (
       <section>
-        <ul className="bio-links flex-container">
-          <li className="flex-item">
+        <ul className="bio-links">
+          <li>
             <a href={`mailto:${siteEmail}`}>
               <span>
                 <FontAwesomeIcon icon={faEnvelope} />
@@ -35,7 +35,7 @@ class Bio extends React.Component {
             </a>
           </li>
 
-          <li className="flex-item">
+          <li>
             <a href="https://famebot.com/">
               <span>
                 <FontAwesomeIcon icon={faRobot} />
@@ -45,7 +45,7 @@ class Bio extends React.Component {
             </a>
           </li>
 
-          <li className="flex-item">
+          <li>
             <Link to="/l/">
               <span>
                 <FontAwesomeIcon icon={faLink} />
@@ -55,7 +55,7 @@ class Bio extends React.Component {
             </Link>
           </li>
 
-          <li className="flex-item">
+          <li>
             <a href="/rss.xml">
               <span>
                 <FontAwesomeIcon icon={faRss} />
@@ -65,8 +65,12 @@ class Bio extends React.Component {
             </a>
           </li>
 
-          <li className="flex-item">
-          <a href={`https://github.com/${siteGithub.substring(1)}/${siteURL.substring(8)}/`}>
+          <li>
+            <a
+              href={`https://github.com/${siteGithub.substring(
+                1
+              )}/${siteURL.substring(8)}/`}
+            >
               <span>
                 <FontAwesomeIcon icon={faCode} />
               </span>
@@ -75,7 +79,7 @@ class Bio extends React.Component {
             </a>
           </li>
 
-          <li className="flex-item">
+          <li>
             <a href={`https://github.com/${siteGithub.substring(1)}`}>
               <span>
                 <FontAwesomeIcon icon={faGithub} />
@@ -85,7 +89,7 @@ class Bio extends React.Component {
             </a>
           </li>
 
-          <li className="flex-item">
+          <li>
             <a href={`https://gitlab.com/${siteGitlab.substring(1)}`}>
               <span>
                 <FontAwesomeIcon icon={faGitlab} />
@@ -95,7 +99,7 @@ class Bio extends React.Component {
             </a>
           </li>
 
-          <li className="flex-item">
+          <li>
             <a href={`https://twitter.com/${siteTwitter.substring(1)}`}>
               <span>
                 <FontAwesomeIcon icon={faTwitter} />

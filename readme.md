@@ -23,7 +23,7 @@ Repo background & history:
 
 [build.environment]
   NODE_ENV = "production"
-  NODE_VERSION = "--lts=dubnium"
+  NODE_VERSION = "--lts"
   NPM_VERSION = "6.4.1"
   RUBY_VERSION = "default"
   YARN_FLAGS = "--no-ignore-optional"
