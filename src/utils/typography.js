@@ -178,12 +178,12 @@ theme.overrideThemeStyles = () => ({
     display: 'inline-block',
     listStyle: 'none',
     marginBottom: '1.13281rem',
-    padding: '20px',
+    padding: '16px',
     width: '256px',
   },
   '.bio-links span': {
     display: 'inline-block',
-    marginRight: '0.25rem';
+    marginRight: '0.25rem',
   },
   '.post-update': {
     marginBottom: '3.625rem',
