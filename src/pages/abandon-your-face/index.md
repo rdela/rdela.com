@@ -94,4 +94,4 @@ See also:
 
 [Facebook Is Actually Bad: Kade and Alexis on Humorless Queers&nbsp;E54](https://www.humorlessqueers.com/2018/12/06/facebook-is-actually-bad-e54/)
 
-[Antisocial Media](./antisocial-media)
+[Antisocial Media](/antisocial-media/)
