@@ -81,11 +81,11 @@ Mr. Zuckerberg speaking with Senator Chuck Schumer in July. The lawmaker, whose 
 
 > In an addendum to that note, Sandberg also had a small update, noting that while she “didn’t remember a firm called Definers,” her team later found evidence that its work was “incorporated into materials presented to me and I received a small number of emails where Definers was&nbsp;referenced.”
 
-> Eddie Vale, a spokesperson and consultant for Freedom From Facebook, said that in light of Sandberg's shifting positions, Facebook could not be trusted on the matter. He also told BuzzFeed News that no money from Soros directly or indirectly had been used to fund the coalition's&nbsp;work.
+> Eddie Vale, a spokesperson and consultant for Freedom From Facebook, said that in light of Sandberg’s shifting positions, Facebook could not be trusted on the matter. He also told BuzzFeed News that no money from Soros directly or indirectly had been used to fund the coalition’s&nbsp;work.
 
-> “In light of Sandberg's continuously changing story on the Soros research there's no way their denials about attacking other critics can be taken at face value,” he said. “Facebook must immediately release any emails about, and the research itself, targeting the Freedom From Facebook coalition or any member&nbsp;organizations.”
+> “In light of Sandberg’s continuously changing story on the Soros research there’s no way their denials about attacking other critics can be taken at face value,” he said. “Facebook must immediately release any emails about, and the research itself, targeting the Freedom From Facebook coalition or any member&nbsp;organizations.”
 
-> Sandberg, who manages Facebook’s communications team among other responsibilities, has come under immense pressure since the Times story, which depicts the 49-year-old as a fulcrum for poor decisions and infighting. In a [Bloomberg New](https://www.bloomberg.com/news/articles/2018-11-26/facebook-s-sheryl-sandberg-is-tainted-by-crisis-after-crisis) report, unnamed sources placed the blame for Facebook’s recent woes at the feet of Sandberg, who they say prioritized her own personal brand and entrusted the wrong people, among them Schrage and Facebook vice president of public policy Joel&nbsp;Kaplan.
+> Sandberg, who manages Facebook’s communications team among other responsibilities, has come under immense pressure since the Times story, which depicts the 49-year-old as a fulcrum for poor decisions and infighting. In a [Bloomberg News](https://www.bloomberg.com/news/articles/2018-11-26/facebook-s-sheryl-sandberg-is-tainted-by-crisis-after-crisis) report, unnamed sources placed the blame for Facebook’s recent woes at the feet of Sandberg, who they say prioritized her own personal brand and entrusted the wrong people, among them Schrage and Facebook vice president of public policy Joel&nbsp;Kaplan.
 
 – [Sheryl Sandberg Emailed Staff To Conduct Research On Billionaire George Soros](https://www.buzzfeednews.com/article/ryanmac/emails-show-sheryl-sandberg-aware-facebooks-definers-george): While Facebook maintains that Sandberg was not directly involved in a public relations firm’s opposition research on Soros, it now acknowledges that she did in fact request research on the&nbsp;billionaire.
 
@@ -93,7 +93,7 @@ Mr. Zuckerberg speaking with Senator Chuck Schumer in July. The lawmaker, whose 
 
 > [H]ours ago I sat in a meeting with this woman and said “I don’t believe that the Definers went rogue, someone in your department knew something.” And the whole time it was&nbsp;her.
 
-– [Brandi Collins-Dexter](https://twitter.com/BrandingBrandi/status/1068343309024714752)
+– [Brandi Collins](https://twitter.com/BrandingBrandi/status/1068343309024714752)
 
 <br />
 
