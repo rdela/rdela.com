@@ -71,12 +71,6 @@ Mr. Zuckerberg speaking with Senator Chuck Schumer in July. The lawmaker, whose 
 
 <br />
 
-> [H]ours ago I sat in a meeting with this woman and said “I don’t believe that the Definers went rogue, someone in your department knew something.” And the whole time it was&nbsp;her.
-
-– [Brandi Collins-Dexter](https://twitter.com/BrandingBrandi/status/1068343309024714752)
-
-<br />
-
 > While a Facebook spokesperson maintains that Sandberg did not direct Definers, it now acknowledges that she did in fact request research on Soros following comments he made at the World Economic Forum in January. During a speech, the billionaire said that Facebook and Google were a “menace” to the world and that the “internet monopolies” did not have the will or inclination to protect&nbsp;society.
 
 > In an interview with *CBS This Morning* two days after the Times story revealed Definers’ work for Facebook, Sandberg doubled down on her earlier denial, noting that Definers was one of “lots of firms” hired by the social networking&nbsp;giant.
@@ -92,6 +86,12 @@ Mr. Zuckerberg speaking with Senator Chuck Schumer in July. The lawmaker, whose 
 > Sandberg, who manages Facebook’s communications team among other responsibilities, has come under immense pressure since the Times story, which depicts the 49-year-old as a fulcrum for poor decisions and infighting. In a [Bloomberg New](https://www.bloomberg.com/news/articles/2018-11-26/facebook-s-sheryl-sandberg-is-tainted-by-crisis-after-crisis) report, unnamed sources placed the blame for Facebook’s recent woes at the feet of Sandberg, who they say prioritized her own personal brand and entrusted the wrong people, among them Schrage and Facebook vice president of public policy Joel&nbsp;Kaplan.
 
 – [Sheryl Sandberg Emailed Staff To Conduct Research On Billionaire George Soros](https://www.buzzfeednews.com/article/ryanmac/emails-show-sheryl-sandberg-aware-facebooks-definers-george): While Facebook maintains that Sandberg was not directly involved in a public relations firm’s opposition research on Soros, it now acknowledges that she did in fact request research on the&nbsp;billionaire.
+
+<br />
+
+> [H]ours ago I sat in a meeting with this woman and said “I don’t believe that the Definers went rogue, someone in your department knew something.” And the whole time it was&nbsp;her.
+
+– [Brandi Collins-Dexter](https://twitter.com/BrandingBrandi/status/1068343309024714752)
 
 <br />
 
