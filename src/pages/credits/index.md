@@ -89,7 +89,7 @@ As an instant bonus for reading all the way down, I give you the…
  ```gatsby new mySite https://github.com/gatsbyjs/gatsby-starter-blog```<br />
  …in the terminal instead of a `git clone` of the
  [gatsby-starter-blog repo](https://github.com/gatsbyjs/gatsby-starter-blog)
- like I did, which then needs to be followed by a `yarn` or `npm install` before
+ like I did, which then needs to be followed by a `yarn` or `npm i` before
  running `gatsby develop` for the first time. The
  [Gatsby&nbsp;Docs](https://www.gatsbyjs.org/docs/) start with the `gatsby new`
  command which takes care of this initial package install. (For more on `git`

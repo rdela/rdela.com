@@ -15,6 +15,13 @@ image: "IMG_0073.jpg"
 
 Your TV is watching&nbsp;you.
 
+I am on a Facebook and Instagram hiatus. I deleted all the Facebook owned apps
+off my phone and imported all my Instagram photos here to my site,
+[thanks to Gatsby](/credits/) for making that breezy. The pic above is the first
+one to go up here exclusively. Feels stupendous. I need to manage pages and
+video for projects, but I cannot help them harvest data or contribute
+personal content to their dumpster fire any&nbsp;longer.
+
 <br />
 
 
