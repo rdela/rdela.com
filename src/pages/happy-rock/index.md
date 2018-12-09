@@ -11,4 +11,4 @@ image: "43985007_104403537199712_5715866403350514091_n.jpg"
 <figcaption style="font-style: normal">😬</figcaption>
 </figure></div>
 
-Uses the B&W Antique from [Flare&nbsp;Effects](https://flareapp.com/)
+Uses the B&W Antique filter from [Flare&nbsp;Effects](https://flareapp.com/)
