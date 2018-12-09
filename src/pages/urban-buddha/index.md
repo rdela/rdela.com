@@ -45,16 +45,16 @@ image: "45567676_2180312425522873_1604994486504076486_n.jpg"
 <img src="44705479_275770452965371_568056884068284158_n.jpg"
      alt="Earth’s Elements flyer" /><br />
 <figcaption>
- <a href="https://www.shopearthselements.com">Earth’s&nbsp;Elements</a> sticker
+ <a href="https://www.shopearthselements.com">Earth’s Elements</a> sticker
 </figcaption>
 </figure></div>
 
 Stumbled on this in Encinitas and had to document it. Together we can save our
  oceans, seas, and the rest of the planet. Ditching plastic by using as little
- as you can is a start.
+ as you can is a&nbsp;start.
 
 🕉☸️💠🗑🌊
 
 Video in this
  [Facebook post from United Nations For a Free&nbsp;Tibet](https://www.facebook.com/219532248180934/posts/1403327093134771/) shared by
- [Tashi Norbu](https://www.facebook.com/TashiNorbuArt/)
+ [Tashi&nbsp;Norbu](https://www.facebook.com/TashiNorbuArt/)
