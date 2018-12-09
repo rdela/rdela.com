@@ -56,6 +56,13 @@ theme.overrideThemeStyles = () => ({
   'h1,h2': {
     borderBottom: '0',
   },
+  blockquote: {
+    borderLeft: '4px solid hsla(252,96%,76%,0.38)',
+    marginBottom: '1.625em',
+  },
+  'blockquote, h6': {
+    color: 'hsla(252,0%,100%,0.72)',
+  },
 })
 
 const typography = new Typography(theme)

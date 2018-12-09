@@ -43,14 +43,6 @@ see also
 body {
   background-color: hsl(252,0%,0%);
 }
-blockquote {
-  border-left: 4px solid hsla(252,96%,76%,0.38);
-  margin-bottom: 1.625em;
-}
-blockquote,
-h6 {
-  color: hsla(252,0%,100%,0.72);
-}
 code,
 kbd,
 pre,
