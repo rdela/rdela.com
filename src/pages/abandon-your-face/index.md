@@ -13,6 +13,8 @@ image: "IMG_0073.jpg"
 </figcaption>
 </figure></div>
 
+<br />
+
 Your TV is watching&nbsp;you.
 
 I am on a Facebook and Instagram hiatus. I deleted all the Facebook-owned apps
