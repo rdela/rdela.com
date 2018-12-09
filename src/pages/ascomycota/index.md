@@ -8,7 +8,7 @@ image: "44595592_496701630810658_3468233712362788776_n.jpg"
 <div style="max-width: 408px; margin: 0 auto"><figure>
 <img src="44595592_496701630810658_3468233712362788776_n.jpg"
      alt="ascomycota" /><br />
-<figcaption style="font-style: normal">
+<figcaption>
   ascomycota
 </figcaption>
 </figure></div>

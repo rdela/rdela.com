@@ -8,7 +8,7 @@ image: "43912974_750370881976154_837818579259092068_n.jpg"
 <div style="max-width: 408px; margin: 0 auto"><figure>
 <img src="43912974_750370881976154_837818579259092068_n.jpg"
      alt="antisocial media" /><br />
-<figcaption style="font-style: normal">
+<figcaption>
  Can we all just start calling it antisocial media?
 </figcaption>
 </figure></div>

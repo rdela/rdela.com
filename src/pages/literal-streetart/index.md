@@ -8,7 +8,7 @@ image: "44544795_487257931778125_5524316198341738956_n.jpg"
 <div style="max-width: 408px; margin: 0 auto"><figure>
 <img src="44544795_487257931778125_5524316198341738956_n.jpg"
      alt="literal streetart" /><br />
-<figcaption style="font-style: normal">
+<figcaption>
   Beautiful decay
 </figcaption>
 </figure></div>

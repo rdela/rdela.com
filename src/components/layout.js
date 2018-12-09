@@ -10,7 +10,8 @@ import 'typeface-source-code-pro'
 import 'typeface-source-sans-pro'
 import 'typeface-source-serif-pro'
 
-import '../css/prism/prism-tomorrow.css'
+import './layout.css'
+import '../css/prism/prism-day-after-tomorrow.css'
 
 export default ({ children, location }) => (
   <StaticQuery

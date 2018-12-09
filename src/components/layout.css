@@ -1,0 +1,154 @@
+/*
+Colors:
+
+hsl(252,96%,76%)
+#9f87fd
+Heliotrope - http://chir.ag/projects/name-that-color/#9E86FD
+Light Slate Blue - https://color-blindness.com/color-name-hue
+Contrast ratio to #000 - AAA
+7.35 - Chrome devtools
+7.36 - https://colorable.jxnblk.com/9f87fd/000000, Contrast app
+
+hsl(252,16%,64%)
+#9b95b2
+Amethyst Smoke - http://chir.ag/projects/name-that-color/#9b95b2
+Logan - https://color-blindness.com/color-name-hue
+Contrast ratio to #000 - AAA
+7.34 - Chrome devtools, https://colorable.jxnblk.com/9b95b2/000000, Contrast app
+
+Colorable made by Jxnblk (Brent Jackson)
+https://colorable.jxnblk.com/
+“If one says ‘Red’ (the name of the color) and there are 50 people listening,
+it can be expected that there will be 50 reds in their minds. And one can be
+sure that all these reds will be very different.”
+– Josef Albers
+
+Color Name & Hue | Colblindor
+https://www.color-blindness.com/color-name-hue/
+Found via: https://github.com/gatsbyjs/gatsby/pull/3639#issuecomment-359263286
+See also: http://chir.ag/projects/name-that-color/ (more accurate color names)
+
+Color and contrast | Accessible Styles | Web Fundamentals | Google Developers
+https://developers.google.com/web/fundamentals/accessibility/accessible-styles#color_and_contrast
+
+Contrast app – Guide
+https://usecontrast.com/guide
+
+see also
+
+/src/utils/typography.js
+/src/css/prism/prism-day-after-tomorrow.css
+*/
+
+body {
+  background-color: hsl(252,0%,0%);
+}
+blockquote {
+  border-left: 4px solid hsla(252,96%,76%,0.38);
+  margin-bottom: 1.625em;
+}
+blockquote,
+h6 {
+  color: hsla(252,0%,100%,0.72);
+}
+code,
+kbd,
+pre,
+samp,
+tt {
+  font-family: 'Source Code Pro','SFMono-Regular','Consolas','Roboto Mono', 'Droid Sans Mono','Liberation Mono','Menlo','Monaco','Courier',monospace;
+  max-width: 100%;
+  overflowX: scroll;
+}
+code,
+pre,
+pre code {
+  vertical-align: top;
+}
+code,
+pre {
+  font-size: 0.9375em;
+}
+code {
+  display: inline-block;
+}
+pre {
+  display: block;
+}
+figcaption {
+  font-size: 0.875em;
+  font-style: italic;
+  margin-top: 0.3125em;
+  text-align: center;
+}
+footer {
+  font-size: 0.888888889em;
+}
+h3 {
+  line-height: 1.25;
+}
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+
+hr {
+  background-color: hsla(252,96%,76%,0.38);
+  margin-bottom: 1.8125em;
+  margin-top: 1.8125em;
+}
+small {
+  font-size: 0.833333333em;
+}
+strong {
+  font-weight: 700;
+}
+.flex-container,
+.bio-links {
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.bio-links {
+  list-style: none;
+  margin: 0 0 4.53125em;
+  width: 100%;
+}
+.flex-item,
+.bio-links li {
+  text-align: center;
+}
+.flex-item {
+  padding: 11px;
+  width: 202px;
+}
+.flex-item h3 {
+  margin-top: 0;
+}
+.flex-item a,
+.bio-links a {
+  display: block;
+}
+.bio-links li {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 1.13281em;
+  padding: 16px;
+  width: 256px;
+}
+.bio-links span {
+  display: inline-block;
+  margin-right: 0.25em;
+}
+.post-update {
+  margin-bottom: 3.625em;
+  margin-top: 1.8125em;
+}

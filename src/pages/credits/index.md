@@ -61,7 +61,7 @@ makes adding “syntax highlighting to code blocks in markdown files” using
 [gatsby-config.js](https://github.com/rdela/rdela.com/blob/master/gatsby-config.js#L42)
 and another in
 [layouts/index.js](https://github.com/rdela/rdela.com/blob/master/src/layouts/index.js#L15).
-I have settled on the “prism.js tomorrow night eighties”
+I have settled on a [slight variation](https://github.com/rdela/rdela.com/blob/master/src/css/prism/prism-day-after-tomorrow.css) the “prism.js tomorrow night eighties”
 [theme](https://github.com/PrismJS/prism/blob/gh-pages/themes/prism-tomorrow.css),
 itself based on
 [Tomorrow&nbsp;Theme](https://github.com/chriskempson/tomorrow-theme).
