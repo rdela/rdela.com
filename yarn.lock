@@ -12099,10 +12099,10 @@ typography-normalize@^0.16.18:
   resolved "https://registry.yarnpkg.com/typography-normalize/-/typography-normalize-0.16.18.tgz#19e8db32c6881d3745b7d67dc63ee6f6cfb681d1"
   integrity sha512-HZCOoyg4bbwuy0W6kFOKS8duMhUUO1Oxl8/NgRKDG7kJYGjfmqj6LBjQ4dYGrcuPabYHhP0xmAaYNasEUooYBw==
 
-typography-plugin-code@0.16.11:
-  version "0.16.11"
-  resolved "https://registry.yarnpkg.com/typography-plugin-code/-/typography-plugin-code-0.16.11.tgz#037c72803c2d76113220cf85d1a55d7cfc6a34de"
-  integrity sha512-CHwSbyhziW+NPMPRy3N7XLTSnz37lec1CbXLKgnmzxPlnzDY3smeIBLwsUUBaDrEjCl1GNzyJ/l6lNAnkYoZ3w==
+typography-plugin-code@0.16.18:
+  version "0.16.18"
+  resolved "https://registry.yarnpkg.com/typography-plugin-code/-/typography-plugin-code-0.16.18.tgz#4848d7e06aa08757471b997f687c50d9d40077ef"
+  integrity sha512-HHLkNO3buMJ+qUNVeW9kDiayd4MKDQ9iOzvJRZrZegCsE67mGqCknzIzVz9bcZM45ZI/6YSNtljXYqhxhzMCUQ==
   dependencies:
     gray-percentage "^2.0.0"
     lodash "^4.13.1"
