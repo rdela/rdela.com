@@ -51,7 +51,7 @@
     "typeface-source-serif-pro": "0.0.54",
     "typography": "0.16.18",
     "typography-plugin-code": "0.16.11",
-    "typography-theme-github": "0.15.10"
+    "typography-theme-github": "0.16.18"
   },
   "devDependencies": {
     "prettier": "1.15.3"
