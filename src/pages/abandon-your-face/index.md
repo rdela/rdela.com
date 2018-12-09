@@ -1,5 +1,5 @@
 ---
-title: Abandon Your Facevision
+title: Abandon Your Face
 date: "2018-12-06"
 excerpt: "Your TV is watching you"
 image: "IMG_0073.jpg"
