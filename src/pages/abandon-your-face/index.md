@@ -33,17 +33,15 @@ personal content to their dumpster fire any&nbsp;longer.
 
 <br />
 
-> It’s a company whose CEO used to close all-hands meetings by raising his fist and saying,&nbsp;“Domination!”
+> It’s a company whose CEO used to close all-hands meetings by raising his fist and saying, [“Domination!”](https://www.vox.com/first-person/2018/4/11/17221344/mark-zuckerberg-facebook-cambridge-analytica) A company where a top executive wrote an internal memo making the case for [prioritizing growth at all costs](https://www.buzzfeednews.com/article/ryanmac/growth-at-any-cost-top-facebook-executive-defended-data)—even at the cost of human lives. A company whose staff broke out in cheers at a meeting when CEO Mark Zuckerberg announced that he had tracked down and fired an employee who leaked word of a secret A.I. product to the press. As one anonymous Facebook employee explained to Recode’s Mark Wagner afterward: “[You don’t betray the&nbsp;family](https://www.recode.net/2017/1/5/13987714/mark-zuckerberg-facebook-qa-weekly).”
+
+> That cultlike loyalty helps explain why, when Facebook was under fire earlier this year for having allowed shady app developers to harvest users’ profile information, the word out of Menlo Park was that Facebook employees were [rallying around their chief](https://www.wired.com/story/sigh-of-relief-inside-facebook/). There were rumors of employee anger after Facebook’s top policy executive, Joel Kaplan, turned up to support Supreme Court nominee Brett Kavanaugh at the Senate hearing in which he was accused of sexual harassment. But even then, no one dared speak up&nbsp;publicly.
+
+> The silence held even after the Times reported that Kaplan, along with COO Sheryl Sandberg, had systematically downplayed evidence of Russian interference and misinformation to avoid upsetting conservatives on Capitol&nbsp;Hill.
 
 > Facebook’s leaders and many of its employees may feel that Luckie betrayed the family. But when the family is hurting people, the real betrayal is to remain&nbsp;silent.
 
 – [Where’s the Facebook Walkout? It’s time for employees of the social network to speak&nbsp;out.](https://slate.com/technology/2018/11/facebook-workers-should-speak-up-about-their-company-right-now.html)
-
-<br />
-
-> “You don’t betray the&nbsp;family.”
-
-– [Mark Zuckerberg shares Facebook’s secrets with all his employees, and almost none of it leaks](https://www.recode.net/2017/1/5/13987714/mark-zuckerberg-facebook-qa-weekly): The CEO opens up to 16,000 employees once a week. Why don’t you hear more about&nbsp;it?
 
 <br />
 
