@@ -84,18 +84,6 @@ h5,
 h6 {
   text-transform: uppercase;
 }
-
-hr {
-  background-color: hsla(252,96%,76%,0.38);
-  margin-bottom: 1.8125em;
-  margin-top: 1.8125em;
-}
-small {
-  font-size: 0.833333333em;
-}
-strong {
-  font-weight: 700;
-}
 .flex-container,
 .bio-links {
   align-items: flex-start;
