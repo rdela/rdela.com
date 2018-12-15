@@ -85,7 +85,7 @@ h6 {
   text-transform: uppercase;
 }
 .flex-container,
-.bio-links {
+.footer-links {
   align-items: flex-start;
   display: -webkit-box;
   display: -moz-box;
@@ -97,13 +97,13 @@ h6 {
   margin: 0;
   padding: 0;
 }
-.bio-links {
+.footer-links {
   list-style: none;
   margin: 0 0 4.53125em;
   width: 100%;
 }
 .flex-item,
-.bio-links li {
+.footer-links li {
   text-align: center;
 }
 .flex-item {
@@ -114,17 +114,17 @@ h6 {
   margin-top: 0;
 }
 .flex-item a,
-.bio-links a {
+.footer-links a {
   display: block;
 }
-.bio-links li {
+.footer-links li {
   display: inline-block;
   list-style: none;
   margin-bottom: 1.13281em;
   padding: 16px;
   width: 256px;
 }
-.bio-links span {
+.footer-links span {
   display: inline-block;
   margin-right: 0.25em;
 }

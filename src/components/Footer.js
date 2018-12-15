@@ -14,7 +14,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 import { faGitlab } from '@fortawesome/free-brands-svg-icons/faGitlab'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 
-class Bio extends React.Component {
+class Footer extends React.Component {
   render() {
     const siteEmail = this.props.siteEmail
     const siteGithub = this.props.siteGithub
@@ -24,7 +24,7 @@ class Bio extends React.Component {
 
     return (
       <section>
-        <ul className="bio-links">
+        <ul className="footer-links">
           <li>
             <a href={`mailto:${siteEmail}`}>
               <span>
@@ -114,4 +114,4 @@ class Bio extends React.Component {
   }
 }
 
-export default Bio
+export default Footer

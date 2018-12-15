@@ -3,7 +3,7 @@ import { graphql, StaticQuery } from 'gatsby'
 
 import { rhythm } from '../utils/typography'
 
-import Bio from '../components/Bio'
+import Bio from '../components/Footer'
 import Masthead from '../components/Masthead'
 
 import 'typeface-source-code-pro'
