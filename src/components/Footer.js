@@ -5,6 +5,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faEnvelope,
+  faFileAlt,
   faCode,
   faLink,
   faRobot,
@@ -13,6 +14,7 @@ import {
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 import { faGitlab } from '@fortawesome/free-brands-svg-icons/faGitlab'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
+// https://fontawesome.com/icons?d=gallery
 
 class Footer extends React.Component {
   render() {
@@ -36,23 +38,33 @@ class Footer extends React.Component {
           </li>
 
           <li>
-            <a href="https://famebot.com/">
+            <Link to="/bio/">
               <span>
-                <FontAwesomeIcon icon={faRobot} />
+                <FontAwesomeIcon icon={faFileAlt} />
               </span>
               {` `}
-              &nbsp;famebot
-            </a>
+              bio
+            </Link>
           </li>
 
           <li>
-            <Link to="/l/">
+            <Link to="/links/">
               <span>
                 <FontAwesomeIcon icon={faLink} />
               </span>
               {` `}
               links
             </Link>
+          </li>
+
+          <li>
+            <a href="https://famebot.com/">
+              <span>
+                <FontAwesomeIcon icon={faRobot} />
+              </span>
+              {` `}
+              famebot
+            </a>
           </li>
 
           <li>
@@ -75,7 +87,7 @@ class Footer extends React.Component {
                 <FontAwesomeIcon icon={faCode} />
               </span>
               {` `}
-              &nbsp;source&nbsp;code
+              source code
             </a>
           </li>
 

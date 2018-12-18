@@ -2,6 +2,16 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import { rhythm } from '../utils/typography'
+// eslint-disable-next-line
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faArchive,
+  faBook
+} from '@fortawesome/free-solid-svg-icons'
+import { faWikipediaW } from '@fortawesome/free-brands-svg-icons/faWikipediaW'
+import { faFirefox } from '@fortawesome/free-brands-svg-icons/faFirefox'
+// https://fontawesome.com/icons?d=gallery
 
 import Layout from '../components/layout'
 import ialogo from '../svg/internet-archive-inv.svg'
@@ -51,7 +61,11 @@ class LinksPage extends React.Component {
                   height="46"
                 />
                 <br />
-                Read the Printed Word
+                <span>
+                  <FontAwesomeIcon icon={faBook} />
+                </span>
+                {` `}
+                &nbsp;Read the Printed&nbsp;Word
               </a>
             </figure>
 
@@ -111,7 +125,11 @@ class LinksPage extends React.Component {
                           marginTop: rhythm(1 / 4),
                         }}
                       >
-                        Wikitech
+                        <span>
+                          <FontAwesomeIcon icon={faWikipediaW} />
+                        </span>
+                        {` `}
+                        &nbsp;Wikitech
                       </h3>
                     </a>
                     <figcaption>
@@ -165,7 +183,11 @@ class LinksPage extends React.Component {
                           marginTop: rhythm(1 / 4),
                         }}
                       >
-                        Internet Archive
+                        <span>
+                          <FontAwesomeIcon icon={faArchive} />
+                        </span>
+                        {` `}
+                        &nbsp;Internet Archive
                       </h3>
                     </a>
                     <figcaption>
@@ -217,7 +239,11 @@ class LinksPage extends React.Component {
                           marginTop: rhythm(1 / 4),
                         }}
                       >
-                        Mozilla Developer Network
+                        <span>
+                          <FontAwesomeIcon icon={faFirefox} />
+                        </span>
+                        {` `}
+                        &nbsp;Mozilla Developer Network
                       </h3>
                     </a>
                     <figcaption>Open Web Technology&nbsp;Resource</figcaption>
