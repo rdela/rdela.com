@@ -48,13 +48,13 @@ kbd,
 pre,
 samp,
 tt {
-  font-family: 'Source Code Pro','SFMono-Regular','Consolas','Roboto Mono', 'Droid Sans Mono','Liberation Mono','Menlo','Monaco','Courier',monospace;
+  font-family: 'Source Code Pro','SFMono-Regular','Consolas','Roboto Mono','Droid Sans Mono','Liberation Mono','Menlo','Monaco','Andale Mono','Ubuntu Mono','Courier',monospace;
   max-width: 100%;
   overflowX: scroll;
 }
 code {
   display: inline-block;
-  font-size: 0.9375em;
+  font-size: 0.9375rem;
   vertical-align: baseline;
 }
 pre {
