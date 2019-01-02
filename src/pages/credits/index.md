@@ -81,7 +81,7 @@ especially helpful to me in putting this together.
 
 As an instant bonus for reading all the way down, I give you the…
 
-<h3><a href="/l/"><strong>Links</strong> Page <span role="img" aria-label="link symbol page facing up">🔗📄</span></a></h3>
+<h3><a href="/links/"><strong>Links</strong> Page <span role="img" aria-label="link symbol page facing up">🔗📄</span></a></h3>
 
 <br />
 
