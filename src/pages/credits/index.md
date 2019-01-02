@@ -94,4 +94,4 @@ As an instant bonus for reading all the way down, I give you the…
  [Gatsby&nbsp;Docs](https://www.gatsbyjs.org/docs/) start with the `gatsby new`
  command which takes care of this initial package install. (For more on `git`
  and cloning, see [git-clone docs](https://www.git-scm.com/docs/git-clone).)
- The source of the `gatsby new` command is split between [create-cli.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/create-cli.js#L299) and [init-starter.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/init-starter.js) in the Gatsby repo.
+ The source of the `gatsby new` command is split between [create-cli.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/create-cli.js#L300) and [init-starter.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/init-starter.js) in the Gatsby repo.
