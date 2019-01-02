@@ -52,17 +52,9 @@ tt {
   max-width: 100%;
   overflowX: scroll;
 }
-code,
-pre,
-pre code {
-  vertical-align: top;
-}
-code,
-pre {
-  font-size: 0.9375em;
-}
 code {
   display: inline-block;
+  font-size: 0.9375em;
   vertical-align: baseline;
 }
 pre {
