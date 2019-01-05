@@ -28,16 +28,6 @@ class Footer extends React.Component {
       <section>
         <ul className="footer-links">
           <li>
-            <a href={`mailto:${siteEmail}`}>
-              <span>
-                <FontAwesomeIcon icon={faEnvelope} />
-              </span>
-              {` `}
-              {siteEmail}
-            </a>
-          </li>
-
-          <li>
             <Link to="/bio/">
               <span>
                 <FontAwesomeIcon icon={faFileAlt} />
@@ -58,22 +48,22 @@ class Footer extends React.Component {
           </li>
 
           <li>
-            <a href="https://famebot.com/">
-              <span>
-                <FontAwesomeIcon icon={faRobot} />
-              </span>
-              {` `}
-              famebot
-            </a>
-          </li>
-
-          <li>
             <a href="/rss.xml">
               <span>
                 <FontAwesomeIcon icon={faRss} />
               </span>
               {` `}
               rss feed
+            </a>
+          </li>
+
+          <li>
+            <a href="https://famebot.com/">
+              <span>
+                <FontAwesomeIcon icon={faRobot} />
+              </span>
+              {` `}
+              famebot
             </a>
           </li>
 
@@ -92,22 +82,32 @@ class Footer extends React.Component {
           </li>
 
           <li>
-            <a href={`https://github.com/${siteGithub.substring(1)}`}>
-              <span>
-                <FontAwesomeIcon icon={faGithub} />
-              </span>
-              {` `}
-              {siteGithub} on&nbsp;github
-            </a>
-          </li>
-
-          <li>
             <a href={`https://gitlab.com/${siteGitlab.substring(1)}`}>
               <span>
                 <FontAwesomeIcon icon={faGitlab} />
               </span>
               {` `}
               {siteGitlab} on&nbsp;gitlab
+            </a>
+          </li>
+
+          <li>
+            <a href={`mailto:${siteEmail}`}>
+              <span>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </span>
+              {` `}
+              {siteEmail}
+            </a>
+          </li>
+
+          <li>
+            <a href={`https://github.com/${siteGithub.substring(1)}`}>
+              <span>
+                <FontAwesomeIcon icon={faGithub} />
+              </span>
+              {` `}
+              {siteGithub} on&nbsp;github
             </a>
           </li>
 
