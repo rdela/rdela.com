@@ -24,6 +24,7 @@ export default ({ children, location }) => (
             email
             github
             gitlab
+            keybase
             mastodon
             siteURL
             title

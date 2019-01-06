@@ -13,6 +13,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 import { faGitlab } from '@fortawesome/free-brands-svg-icons/faGitlab'
+import { faKeybase } from '@fortawesome/free-brands-svg-icons/faKeybase'
 import { faMastodon } from '@fortawesome/free-brands-svg-icons/faMastodon'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 // https://fontawesome.com/icons?d=gallery
@@ -110,6 +111,16 @@ class Footer extends React.Component {
               </span>
               {` `}
               {siteGithub} on&nbsp;github
+            </a>
+          </li>
+
+          <li>
+            <a href={`https://keybase.io/${siteKeybase.substring(1)}`}>
+              <span>
+                <FontAwesomeIcon icon={faKeybase} />
+              </span>
+              {` `}
+              {siteKeybase} on&nbsp;keybase
             </a>
           </li>
 
