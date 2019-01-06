@@ -13,6 +13,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 import { faGitlab } from '@fortawesome/free-brands-svg-icons/faGitlab'
+import { faMastodon } from '@fortawesome/free-brands-svg-icons/faMastodon'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 // https://fontawesome.com/icons?d=gallery
 
@@ -21,6 +22,7 @@ class Footer extends React.Component {
     const siteEmail = this.props.siteEmail
     const siteGithub = this.props.siteGithub
     const siteGitlab = this.props.siteGitlab
+    const siteMastodon = this.props.siteMastodon
     const siteTwitter = this.props.siteTwitter
     const siteURL = this.props.siteURL
 
@@ -108,6 +110,16 @@ class Footer extends React.Component {
               </span>
               {` `}
               {siteGithub} on&nbsp;github
+            </a>
+          </li>
+
+          <li>
+            <a href={`https://mastodon.social/${siteMastodon.substring(0,6)}`}>
+              <span>
+                <FontAwesomeIcon icon={faMastodon} />
+              </span>
+              {` `}
+              {siteMastodon}
             </a>
           </li>
 

@@ -5,6 +5,7 @@ module.exports = {
     email: `ricky@rdela.com`,
     github: `@rdela`,
     gitlab: `@rdela`,
+    mastodon: `@rdela@mastodon.social`,
     siteURL: `https://rdela.com`,
     title: `Ricky de Laveaga`,
     twitter: `@rickydelaveaga`,
