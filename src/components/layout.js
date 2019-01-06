@@ -60,6 +60,7 @@ export default ({ children, location }) => (
             siteEmail={data.site.siteMetadata.email}
             siteGithub={data.site.siteMetadata.github}
             siteGitlab={data.site.siteMetadata.gitlab}
+            siteKeybase={data.site.siteMetadata.keybase}
             siteMastodon={data.site.siteMetadata.mastodon}
             siteTitle={data.site.siteMetadata.title}
             siteTwitter={data.site.siteMetadata.twitter}

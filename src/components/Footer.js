@@ -23,6 +23,7 @@ class Footer extends React.Component {
     const siteEmail = this.props.siteEmail
     const siteGithub = this.props.siteGithub
     const siteGitlab = this.props.siteGitlab
+    const siteKeybase = this.props.siteKeybase
     const siteMastodon = this.props.siteMastodon
     const siteTwitter = this.props.siteTwitter
     const siteURL = this.props.siteURL
