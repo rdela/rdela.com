@@ -16,7 +16,8 @@ In happy far-away land (1902)<br />
 
 <br />
 
-Welcome to the new rdela. I will be your host, Ricky de Laveaga.
+Welcome to the new [rdela.com](https://rdela.com). I will be your host,
+Ricky de Laveaga.
 
 I began developing this site with [GatsbyJS](https://www.gatsbyjs.org/)
 by running a:
@@ -26,8 +27,8 @@ git clone
 ```
 
 …of
-[gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog)[^gatsby-new], the
-Gatsby starter for creating a blog
+[gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog)[^gatsby-new],
+the Gatsby starter for creating a blog
 ([demo](https://gatsbyjs.github.io/gatsby-starter-blog/)), which has
 [Typography.js](https://github.com/KyleAMathews/typography.js)
 bundled, whose

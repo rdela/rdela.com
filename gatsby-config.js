@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     author: `Ricky de Laveaga`,
-    description: `Various bug fixes and improvements @famebot`,
+    description: `6th-generation organic click-farmer from California`,
     email: `ricky@rdela.com`,
     github: `@rdela`,
     gitlab: `@rdela`,
@@ -70,7 +70,7 @@ module.exports = {
           },
         ],
         start_url: `/`,
-        background_color: `#fff`,
+        background_color: `#000`,
         theme_color: `#9f87fd`,
         display: `minimal-ui`,
       },
