@@ -36,9 +36,9 @@ export default ({ children, location }) => (
     render={data => (
       <div
         style={{
-          maxWidth: rhythm(26),
-          padding: `${rhythm(1 / 2)} ${rhythm(1 / 2)}`,
-          margin: `${rhythm(1 / 2)} auto`,
+          maxWidth: `848px`,
+          padding: `16px`,
+          margin: `16px auto`,
         }}
       >
         <Masthead
