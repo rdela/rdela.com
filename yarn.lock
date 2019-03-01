@@ -11391,10 +11391,10 @@ typeface-source-sans-pro@0.0.54:
   resolved "https://registry.yarnpkg.com/typeface-source-sans-pro/-/typeface-source-sans-pro-0.0.54.tgz#a570edf565d338b622487ec1ebe2389eb1eed62f"
   integrity sha512-4nsvldyZsOBuvR4oEuUMTquJFVssP4iIVnMEIU4paCWo2940b6r/t95sk7KwDpCablS8DprM/YlhpgqnS7gpKg==
 
-typeface-source-serif-pro@0.0.54:
-  version "0.0.54"
-  resolved "https://registry.yarnpkg.com/typeface-source-serif-pro/-/typeface-source-serif-pro-0.0.54.tgz#80c15a6df8f5d22cde753bb698cdd33f394932b0"
-  integrity sha512-l4FP8XUYYiydig1GBFnH9rg4pHROhPK6W/nn+bBCh09c/qDY6p98g/I6PJnVZWxCEkMxHkXhCysgGu+UASUurQ==
+typeface-source-serif-pro@0.0.73:
+  version "0.0.73"
+  resolved "https://registry.yarnpkg.com/typeface-source-serif-pro/-/typeface-source-serif-pro-0.0.73.tgz#182ea12e355efca7901f6de39703bab95e4288d9"
+  integrity sha512-qqerHufceim/HokhQ+pvgCazsy53JG0rsOkYPdO9XtnqX9Uj/Uso+ziLtCtYu2go+rk86SZuPBp4tBQ4mQCpRg==
 
 typography-normalize@^0.16.18:
   version "0.16.18"
