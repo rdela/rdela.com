@@ -9389,10 +9389,10 @@ react-side-effect@^1.1.0:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
 
-react-typography@0.16.18:
-  version "0.16.18"
-  resolved "https://registry.yarnpkg.com/react-typography/-/react-typography-0.16.18.tgz#89341b63d615f1dfcf5e471797df5acce5bde1f3"
-  integrity sha512-BFkw59H2mkYRLLtHOT2UZve/9/RticAvL7o7rheOo/+tlwQyfF61wF2XzGRcA3IWASg+DbXnNViyywHBFlNj6A==
+react-typography@0.16.19:
+  version "0.16.19"
+  resolved "https://registry.yarnpkg.com/react-typography/-/react-typography-0.16.19.tgz#5736b47961dcf6b9605b6fa38d41980db2588e28"
+  integrity sha512-kV2qLEsdm0x9P4YXQEDVc88tDb4Vg0h/vdVZGgbqaRn8ERvNzV76JHUeOby3vvcUYU5MPd5Kz5DPH9Bhp4I/iw==
 
 react@16.8.4:
   version "16.8.4"
@@ -11254,30 +11254,30 @@ typeface-source-serif-pro@0.0.73:
   resolved "https://registry.yarnpkg.com/typeface-source-serif-pro/-/typeface-source-serif-pro-0.0.73.tgz#182ea12e355efca7901f6de39703bab95e4288d9"
   integrity sha512-qqerHufceim/HokhQ+pvgCazsy53JG0rsOkYPdO9XtnqX9Uj/Uso+ziLtCtYu2go+rk86SZuPBp4tBQ4mQCpRg==
 
-typography-normalize@^0.16.18:
-  version "0.16.18"
-  resolved "https://registry.yarnpkg.com/typography-normalize/-/typography-normalize-0.16.18.tgz#19e8db32c6881d3745b7d67dc63ee6f6cfb681d1"
-  integrity sha512-HZCOoyg4bbwuy0W6kFOKS8duMhUUO1Oxl8/NgRKDG7kJYGjfmqj6LBjQ4dYGrcuPabYHhP0xmAaYNasEUooYBw==
+typography-normalize@^0.16.19:
+  version "0.16.19"
+  resolved "https://registry.yarnpkg.com/typography-normalize/-/typography-normalize-0.16.19.tgz#58e0cf12466870c5b27006daa051fe7307780660"
+  integrity sha512-vtnSv/uGBZVbd4e/ZhZB9HKBgKKlWQUXw74+ADIHHxzKp27CEf8PSR8TX1zF2qSyQ9/qMdqLwXYz8yRQFq9JLQ==
 
-typography-plugin-code@0.16.18:
-  version "0.16.18"
-  resolved "https://registry.yarnpkg.com/typography-plugin-code/-/typography-plugin-code-0.16.18.tgz#4848d7e06aa08757471b997f687c50d9d40077ef"
-  integrity sha512-HHLkNO3buMJ+qUNVeW9kDiayd4MKDQ9iOzvJRZrZegCsE67mGqCknzIzVz9bcZM45ZI/6YSNtljXYqhxhzMCUQ==
+typography-plugin-code@0.16.19:
+  version "0.16.19"
+  resolved "https://registry.yarnpkg.com/typography-plugin-code/-/typography-plugin-code-0.16.19.tgz#e65e9527b7fb096f9c73a69b714013eeab07af4c"
+  integrity sha512-iIERwepUUdNPODL/nBnGuTCkA0TnflowsdZNMhhG50NNaZ2jNAhK2TWUEdSUZB+Iig1UMHtRSSXFuMt+9mWYig==
   dependencies:
     gray-percentage "^2.0.0"
     lodash "^4.13.1"
 
-typography-theme-github@0.16.18:
-  version "0.16.18"
-  resolved "https://registry.yarnpkg.com/typography-theme-github/-/typography-theme-github-0.16.18.tgz#b2ac344695b6f6c5499f016f11d7b0112a46e374"
-  integrity sha512-GMyanLcYhJrS6/oaV7tZRdS1ClblRWcGv8M9Mm5uzjDkyxOBsbx2zpmEsd8clkBjI3yUrEVRO9ahozoQzTPD3g==
+typography-theme-github@0.16.19:
+  version "0.16.19"
+  resolved "https://registry.yarnpkg.com/typography-theme-github/-/typography-theme-github-0.16.19.tgz#91842d3e0a92ad952adf6350ede0924d574193e8"
+  integrity sha512-kDfFjbeh2JW3buPub1JUA39AIKQrZhMuEeqJo6P+9c9JOEMLUBPvcHGrNd+wtAuZlVehPbqG6bcW6KAANHrsGw==
   dependencies:
     gray-percentage "^2.0.0"
 
-typography@0.16.18:
-  version "0.16.18"
-  resolved "https://registry.yarnpkg.com/typography/-/typography-0.16.18.tgz#bdd2dc7297682339e8ded5fcb6783b9ae3c71b76"
-  integrity sha512-bYpxtDptzesYMy4pzwb0fYZuzms+65RckONH9+miHi2WSeOF9P/nNjprqbsn50ClhUa4zK6RBAe75tNVVE785g==
+typography@0.16.19:
+  version "0.16.19"
+  resolved "https://registry.yarnpkg.com/typography/-/typography-0.16.19.tgz#092bf30a5a47495c955b54f40d3b55a7a9f28e8a"
+  integrity sha512-zfsyjPPB1RaK8TzU3REta6EGDZa++YQ6g/CWw7hy/8xQK1qyzFWisMIw5J+Yg1KyiVgcchmxlgMcMA6JAJ9oew==
   dependencies:
     compass-vertical-rhythm "^1.4.5"
     decamelize "^1.2.0"
@@ -11285,7 +11285,7 @@ typography@0.16.18:
     lodash "^4.13.1"
     modularscale "^1.0.2"
     object-assign "^4.1.0"
-    typography-normalize "^0.16.18"
+    typography-normalize "^0.16.19"
 
 ua-parser-js@^0.7.18:
   version "0.7.19"
