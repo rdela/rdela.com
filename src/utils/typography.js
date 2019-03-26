@@ -72,7 +72,7 @@ theme.overrideThemeStyles = () => ({
   },
   strong: {
     fontWeight: '700',
-  }
+  },
 })
 
 const typography = new Typography(theme)

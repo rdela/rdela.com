@@ -16,7 +16,9 @@ class BlogIndex extends React.Component {
           <Helmet />
           <ul className="flex-container">
             {posts.map(({ node }) => {
-              const title = node.frontmatter.title || (node.fields.slug).slice(1,-1).replace(/-/g, ' ')
+              const title =
+                node.frontmatter.title ||
+                node.fields.slug.slice(1, -1).replace(/-/g, ' ')
               return (
                 <li
                   className="flex-item"
@@ -31,9 +33,7 @@ class BlogIndex extends React.Component {
                     {node.frontmatter.image && (
                       <img
                         alt={title}
-                        src={
-                          node.frontmatter.image.childImageSharp.resize.src
-                        }
+                        src={node.frontmatter.image.childImageSharp.resize.src}
                         style={{
                           display: `block`,
                           marginBottom: rhythm(1 / 6),

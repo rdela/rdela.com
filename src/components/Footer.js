@@ -126,7 +126,10 @@ class Footer extends React.Component {
           </li>
 
           <li>
-            <a rel="me" href={`https://mastodon.social/${siteMastodon.substring(0,6)}`}>
+            <a
+              rel="me"
+              href={`https://mastodon.social/${siteMastodon.substring(0, 6)}`}
+            >
               <span>
                 <FontAwesomeIcon icon={faMastodon} />
               </span>

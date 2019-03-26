@@ -30,12 +30,16 @@ class PostTemplate extends React.Component {
               <meta name="description" content={metaDesc} />
               <meta property="og:description" content={metaDesc} />
               <meta name="twitter:description" content={metaDesc} />
+              <meta
+                property="og:url"
+                content={`${siteMetadata.siteURL}${post.fields.slug}`}
+              />
               {post.frontmatter.title && (
                 <meta property="og:title" content={post.frontmatter.title} />
               )}
               {post.frontmatter.image && (
                 <meta
-                property="og:image"
+                  property="og:image"
                   content={`${siteMetadata.siteURL}${
                     post.frontmatter.image.childImageSharp.resize.src
                   }`}
@@ -64,17 +68,16 @@ class PostTemplate extends React.Component {
                 />
               )}
             </Helmet>
-            {post.frontmatter.title && (
-              <h1>
-                {post.frontmatter.title}
-              </h1>
-            )}
+            {post.frontmatter.title && <h1>{post.frontmatter.title}</h1>}
             {post.frontmatter.date && (
-            <p className="date">
-              <small>{post.frontmatter.date}</small>
-            </p>
+              <p className="date">
+                <small>{post.frontmatter.date}</small>
+              </p>
             )}
-            <div className="content" dangerouslySetInnerHTML={{ __html: post.html }} />
+            <div
+              className="content"
+              dangerouslySetInnerHTML={{ __html: post.html }}
+            />
           </article>
           <hr />
           <nav>

@@ -31,15 +31,18 @@ class Masthead extends React.Component {
         <Helmet defaultTitle={siteTitle} titleTemplate={'%s - ' + siteTitle}>
           <html lang="en" />
           <meta name="copyright" content={cYear} />
+          <meta name="description" content={this.props.description} />
+          <meta property="og:locale" content="en" />
           <meta property="og:url" content={siteURL} />
           <meta property="og:type" content="website" />
-          <meta property="og:locale" content="en" />
           <meta property="og:site_name" content={siteTitle} />
           <meta property="og:image" content={`${siteURL}/rdela-512.png`} />
+          <meta property="og:title" content={siteTitle} />
+          <meta property="og:description" content={this.props.description} />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content={this.props.siteTwitter} />
           <meta name="twitter:creator" content={this.props.siteTwitter} />
-          <meta name="description" content={this.props.description} />
+          <meta name="twitter:description" content={this.props.description} />
         </Helmet>
         {topknot}
       </header>

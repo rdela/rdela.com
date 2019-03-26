@@ -5,11 +5,16 @@ import Layout from '../components/layout'
 
 class BioPage extends React.Component {
   render() {
+    const metaDesc = `Digital media consultant, specializing in video and web design/development`
+
     return (
       <Layout>
         <main role="main">
           <Helmet title={`Bio`}>
-            <meta name="description" content="Digital media consultant, specializing in video and web design/development" />
+            <meta name="description" content={metaDesc} />
+            <meta property="og:description" content={metaDesc} />
+            <meta name="twitter:description" content={metaDesc} />
+            <meta property="og:url" content="https://rdela.com/bio/" />
           </Helmet>
           <h1>
             Bio{' '}
@@ -20,18 +25,19 @@ class BioPage extends React.Component {
 
           <section className="bio">
             <article>
-              <p>I started out drawing and painting in grade school, and by{' '}
-              high school I had expanded into photography and video. I{' '}
-              majored in film at UT Austin, concentrating on documentary{' '}
-              editing and ethnographic film. Between shooting and editing{' '}
-              commercials, TV, and feature films, I worked with ad agencies{' '}
-              producing and documenting audiovisual experiences and{' '}
-              installations. For the past decade I have been working as a{' '}
-              digital media consultant, specializing in video and web{' '}
-              design/development. I continue to pursue cinematic projects,{' '}
-              lately focusing on animated shorts under the banner of my{' '}
-              up-and-coming{' '}
-              studio,&nbsp;<a href="https://famebot.com">Famebot</a>.</p>
+              <p>
+                I started out drawing and painting in grade school, and by high
+                school I had expanded into photography and video. I majored in
+                film at UT Austin, concentrating on documentary editing and
+                ethnographic film. Between shooting and editing commercials, TV,
+                and feature films, I worked with ad agencies producing and
+                documenting audiovisual experiences and installations. For the
+                past decade I have been working as a digital media consultant,
+                specializing in video and web design/development. I continue to
+                pursue cinematic projects, lately focusing on animated shorts
+                under the banner of my up-and-coming studio,&nbsp;
+                <a href="https://famebot.com">Famebot</a>.
+              </p>
             </article>
           </section>
         </main>

@@ -5,10 +5,7 @@ import { rhythm } from '../utils/typography'
 // eslint-disable-next-line
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faArchive,
-  faBook
-} from '@fortawesome/free-solid-svg-icons'
+import { faArchive, faBook } from '@fortawesome/free-solid-svg-icons'
 import { faWikipediaW } from '@fortawesome/free-brands-svg-icons/faWikipediaW'
 import { faFirefox } from '@fortawesome/free-brands-svg-icons/faFirefox'
 // https://fontawesome.com/icons?d=gallery
@@ -20,11 +17,16 @@ import mdnDark from '../svg/mdn.svg'
 
 class LinksPage extends React.Component {
   render() {
+    const metaDesc = `Support Knowledge for Everyone`
+
     return (
       <Layout>
         <main role="main">
           <Helmet title={`Links Page 🔗📄`}>
-            <meta name="description" content="Support Knowledge for Everyone" />
+            <meta name="description" content={metaDesc} />
+            <meta property="og:description" content={metaDesc} />
+            <meta name="twitter:description" content={metaDesc} />
+            <meta property="og:url" content="https://rdela.com/links/" />
           </Helmet>
           <h1>
             Links Page{' '}
