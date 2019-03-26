@@ -5,11 +5,11 @@ excerpt: "🥀🌹😈👯‍"
 image: "grody-hellscape-1632.jpg"
 ---
 
-<div style="margin: 0 auto"><figure style="text-align: center">
+<figure class="mw848">
 <img src="grody-hellscape-1632.jpg"
   alt="Green Gritty in front of McDonald’s hellscape" /><br />
 <figcaption>Grody, Gritty’s evil twin<br /><span style="font-style: normal">🥀🌹😈👯‍</span></figcaption>
-</figure></div>
+</figure>
 
 <br />
 

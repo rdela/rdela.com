@@ -5,17 +5,17 @@ excerpt: "Thank you Netlify"
 image: "full-logo-light.png"
 ---
 
-<div style="margin: 40px auto"><figure style="text-align: center">
+<figure class="mw848">
 <img src="full-logo-dark.png"
   alt="Netlify Full Logo Light" /><br />
 <figcaption>
 <small>(Image source: <a href="https://www.netlify.com/press/">Press | Netlify</a>)</small>
 </figcaption>
-</figure></div>
+</figure>
 
-<div id="20180225-upd1" class="post-update">
+<div id="20180225-upd1" class="update">
 
-**[Update 25 February 2018](https://twitter.com/rickydelaveaga/status/967778916734615552):** If you are having trouble with Netlify the answer is very often “Retry deploy” with “[Clear build cache](https://www.netlify.com/docs/build-gotchas/#build-cache)” checked.
+**Update 25 February 2018:** If you are having trouble with Netlify the answer is very often “Retry deploy” with “[Clear build cache](https://www.netlify.com/docs/build-gotchas/#build-cache)” checked.
 
 </div>
 
@@ -51,6 +51,10 @@ To the entire [Netlify (OSS) crew](https://github.com/orgs/netlify/people), than
 
 <br />
 
-<iframe width="816" height="459" src="https://www.youtube.com/embed/6Ptrc2cWRxU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="iframe-outer-wrapper">
+
+<iframe width="816" height="459" src="https://www.youtube-nocookie.com/embed/6Ptrc2cWRxU?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
 
 <br />

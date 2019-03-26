@@ -1,7 +1,6 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
-import get from 'lodash/get'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 
 import { rhythm } from '../utils/typography'
 
@@ -9,67 +8,60 @@ import Layout from '../components/layout'
 
 class BlogIndex extends React.Component {
   render() {
-    const posts = get(this, 'props.data.allMarkdownRemark.edges')
+    const posts = this.props.data.allMarkdownRemark.edges
 
     return (
       <Layout>
         <nav>
-          <div>
-            <Helmet />
-            <ul
-              className="flex-container"
-              style={{
-                marginLeft: 0,
-              }}
-            >
-              {posts.map(({ node }) => {
-                const title = get(node, 'frontmatter.title') || node.fields.slug
-                return (
-                  <li
-                    className="flex-item"
-                    key={node.fields.slug}
-                    style={{
-                      listStyle: `none`,
-                      marginBottom: rhythm(1 / 4),
-                      marginLeft: 0,
-                    }}
-                  >
-                    <Link to={node.fields.slug}>
-                      {node.frontmatter.image && (
-                        <img
-                          alt={title}
-                          src={
-                            node.frontmatter.image.childImageSharp.resize.src
-                          }
-                          style={{
-                            display: `block`,
-                            marginBottom: rhythm(1 / 6),
-                          }}
-                        />
-                      )}
-                      <h3
+          <Helmet />
+          <ul className="flex-container">
+            {posts.map(({ node }) => {
+              const title = node.frontmatter.title || (node.fields.slug).slice(1,-1).replace(/-/g, ' ')
+              return (
+                <li
+                  className="flex-item"
+                  key={node.fields.slug}
+                  style={{
+                    listStyle: `none`,
+                    marginBottom: rhythm(1 / 4),
+                    marginLeft: 0,
+                  }}
+                >
+                  <Link to={node.fields.slug}>
+                    {node.frontmatter.image && (
+                      <img
+                        alt={title}
+                        src={
+                          node.frontmatter.image.childImageSharp.resize.src
+                        }
                         style={{
-                          fontSize: `1rem`,
-                          marginBottom: rhythm(1 / 16),
-                          lineHeight: 1.25,
-                          textTransform: `uppercase`,
+                          display: `block`,
+                          marginBottom: rhythm(1 / 6),
                         }}
-                      >
-                        {title}
-                      </h3>
-                      <p
-                        style={{
-                          lineHeight: 1.25,
-                        }}
-                      >
-                        <small>{node.frontmatter.date}</small>
-                      </p>
-                    </Link>
-                  </li>
-                )
-              })}
-            </ul>
-          </div>
+                      />
+                    )}
+                    <h3
+                      style={{
+                        fontSize: `1rem`,
+                        marginBottom: rhythm(1 / 16),
+                        lineHeight: 1.25,
+                        textTransform: `uppercase`,
+                      }}
+                    >
+                      {title}
+                    </h3>
+                    <p
+                      style={{
+                        lineHeight: 1.25,
+                      }}
+                    >
+                      <small>{node.frontmatter.date}</small>
+                    </p>
+                  </Link>
+                </li>
+              )
+            })}
+          </ul>
         </nav>
       </Layout>
     )

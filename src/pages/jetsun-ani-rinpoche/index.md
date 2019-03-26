@@ -5,11 +5,11 @@ excerpt: "Jetsun Khacho Wangmo, also known as Ani Sherab Chotso Rinpoche, is one
 image: "jetsun-ani-rinpoche-sq.jpg"
 ---
 
-<div style="max-width: 313px; margin: 0 auto"><figure style="text-align: center">
+<figure class="mw313">
 <a href="http://www.vajrayana.it/jetsun_ani_rinpoche.htm"><img src="jetsun-ani-rinpoche.jpg"
 alt="Jetsun Ani Rinpoche" /></a><br />
-<figcaption><a href="http://www.vajrayana.it/jetsun_ani_rinpoche.htm">Jetsun Ani Sherab Chotso Rinpoche</a></figcaption>
-</figure></div>
+<figcaption><a href="http://www.vajrayana.it/jetsun_ani_rinpoche.htm">Jetsun Ani Sherab Chotso&nbsp;Rinpoche</a></figcaption>
+</figure>
 
 <br />
 

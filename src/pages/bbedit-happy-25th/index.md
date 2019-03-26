@@ -5,13 +5,12 @@ excerpt: "It (still) doesn't suck."
 image: "bbedit_25th_birthday_candle.png"
 ---
 
+<figure class="mw256"><a href="https://www.barebones.com/company/press/bbedit_25_anniversary.html"><img src="bbedit_25th_birthday_candle.png"
+ alt="BBEdit birthday candle" /></a></figure>
 
-<div style="max-width: 256px; margin: 0 auto; text-align: center"><a href="https://www.barebones.com/company/press/bbedit_25_anniversary.html"><img src="bbedit_25th_birthday_candle.png"
- alt="BBEdit birthday candle" /></a></div>
+<div id="20181204-upd1" class="update">
 
-<div id="20181204-upd1" class="post-update">
-
-**[Update 4 December 2018](https://twitter.com/rickydelaveaga/status/1070116799021105152):**
+**Update 4 December 2018:**
 [25th Anniversary BBEdit merch](https://merch.barebones.com) hath landered!
 
 > Hey, how about a new T-shirt? We've got a 25th Anniversary design, a refresh of the classic, and more goodies for you on the brand new store: <https://merch.barebones.com>

@@ -5,14 +5,14 @@ excerpt: "How I began developing this site"
 image: "In_happy_far-away_land_1902_14752942545.jpg"
 ---
 
-<div style="max-width: 408px; margin: 0 auto"><figure>
+<figure class="mw408">
 <img src="In_happy_far-away_land_1902_14752942545.jpg"
      alt="In happy far-away land (1902)" /><br />
 <figcaption>
 In happy far-away land (1902)<br />
 <small>(Image source: <a href="https://commons.wikimedia.org/wiki/File:In_happy_far-away_land_(1902)_(14752942545).jpg">Wikimedia&nbsp;Commons</a>)</small>
 </figcaption>
-</figure></div>
+</figure>
 
 <br />
 
@@ -95,4 +95,4 @@ As an instant bonus for reading all the way down, I give you the…
  [Gatsby&nbsp;Docs](https://www.gatsbyjs.org/docs/) start with the `gatsby new`
  command which takes care of this initial package install. (For more on `git`
  and cloning, see [git-clone docs](https://www.git-scm.com/docs/git-clone).)
- The source of the `gatsby new` command is split between [create-cli.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/create-cli.js#L300) and [init-starter.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/init-starter.js) in the Gatsby repo.
+ The source of the `gatsby new` command is split between [create-cli.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/create-cli.js#L316) and [init-starter.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/init-starter.js) in the Gatsby repo.

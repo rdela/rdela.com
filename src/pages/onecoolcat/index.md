@@ -5,12 +5,12 @@ excerpt: "1️⃣🆒🐈"
 image: "37126878_1043668015798442_7715782019958964224_n.jpg"
 ---
 
-<div style="max-width: 408px; margin: 0 auto"><figure>
+<figure class="mw408">
 <img src="37126878_1043668015798442_7715782019958964224_n.jpg"
      alt="one cool cat" /></span><br />
 <figcaption style="font-style: normal">
   1️⃣🆒🐈
 </figcaption>
-</figure></div>
+</figure>
 
 🌭🍔✌️😸🕶

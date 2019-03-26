@@ -5,11 +5,11 @@ excerpt: "2010"
 image: "bokeh-xmas-1632.jpg"
 ---
 
-<div style="margin: 0 auto"><figure style="text-align: center">
+<figure class="mw848">
 <img src="bokeh-xmas-1632.jpg"
   alt="blurry balls of light" /><br />
 <figcaption>Taken 9 August 2010<br />Canon PowerShot&nbsp;S80<br />f/2.8 | 1/2&nbsp;sec | 5.8&nbsp;mm</figcaption>
-</figure></div>
+</figure>
 
 <br />
 

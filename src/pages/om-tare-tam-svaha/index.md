@@ -5,11 +5,11 @@ excerpt: "Tara’s “seed syllable,” a single, untranslatable sound that expr
 image: "om-tare-tam-svaha-jersey-wide.jpg"
 ---
 
-<div style="margin: 0 auto"><figure style="text-align: center">
+<figure class="mw848">
 <a href="https://famebot.teemill.com/product/om-tare-tam-svaha-tee/"><img src="om-tare-tam-svaha-tee-wide.jpg"
 alt="Om Tare Tam Svaha Tee on model" /></a><br />
-<figcaption><a href="https://famebot.teemill.com/product/om-tare-tam-svaha-tee/">Om Tare Tam Svaha Tee <strong>Available NOW</strong></a></figcaption>
-</figure></div>
+<figcaption><a href="https://famebot.teemill.com/product/om-tare-tam-svaha-tee/">Om Tare Tam Svaha Tee <strong>Available&nbsp;NOW</strong></a></figcaption>
+</figure>
 
 <br />
 
@@ -21,15 +21,19 @@ A [Famebot](https://famebot.com/) experimental clothing offering.
 
 <br />
 
-<iframe width="816" height="459" src="https://www.youtube-nocookie.com/embed/FLGkfzh5618" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="iframe-outer-wrapper">
+
+<iframe width="816" height="459" src="https://www.youtube-nocookie.com/embed/FLGkfzh5618?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
 
 <br />
 
-<div style="margin: 0 auto"><figure style="text-align: center">
+<figure class="mw848">
 <a href="https://famebot.teemill.com/product/om-tare-tam-svaha-baseball-jersey/"><img src="om-tare-tam-svaha-jersey-wide.jpg"
 alt="Om Tare Tam Svaha Jersey on model" /></a><br />
-<figcaption><a href="https://famebot.teemill.com/product/om-tare-tam-svaha-baseball-jersey/">Om Tare Tam Svaha Jersey <strong>Available NOW</strong></a></figcaption>
-</figure></div>
+<figcaption><a href="https://famebot.teemill.com/product/om-tare-tam-svaha-baseball-jersey/">Om Tare Tam Svaha Jersey <strong>Available&nbsp;NOW</strong></a></figcaption>
+</figure>
 
 <br />
 

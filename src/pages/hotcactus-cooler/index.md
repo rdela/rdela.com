@@ -5,12 +5,12 @@ excerpt: "Cool as a 🌵"
 image: "40376102_233431717326133_7480389200173103747_n.jpg"
 ---
 
-<div style="max-width: 408px; margin: 0 auto"><figure style="text-align: center">
+<figure class="mw408">
 <img src="40376102_233431717326133_7480389200173103747_n.jpg"
      alt="hotcactus cooler" /><br />
 <figcaption>
   Shot at <a href="https://shop.hotcactus.la/collections/plants/products/haageocereus-tenuis">www.hotcactus.la</a>
 </figcaption>
-</figure></div>
+</figure>
 
 Cool as a 🌵

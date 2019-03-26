@@ -52,76 +52,228 @@ tt {
   max-width: 100%;
   overflowX: scroll;
 }
-code {
+code,
+.footer-links li,
+.footer-links span,
+.iconbox,
+.next-prev a {
   display: inline-block;
+}
+code {
   font-size: 0.944444444rem;
   vertical-align: baseline;
 }
-pre {
+header h3 span,
+figure,
+pre,
+.flex-item a,
+.footer-links a,
+.links-icon {
   display: block;
 }
 figcaption {
   font-size: 0.875em;
   font-style: italic;
   margin-top: 0.3125em;
-  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+footer,
+.flex-container,
+.footer-links,
+.post nav {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 }
 footer {
   font-size: 0.888888889em;
+  margin-bottom: 4.53125rem;
 }
 h3 {
   line-height: 1.25;
 }
 h4,
 h5,
-h6 {
+h6,
+.next-prev-label,
+.post h1 {
   text-transform: uppercase;
+}
+figcaption,
+figure,
+footer,
+h1,
+header,
+.flex-item,
+.footer-links li,
+.links,
+.post .date {
+  text-align: center;
+}
+header h3,
+header h3 span,
+.flex-item h3,
+.next-prev-label {
+  margin-top: 0;
+}
+header h3 {
+  line-height: 2rem;
+  margin-bottom: 1.37523rem;
+}
+header h3 span,
+.post h1 {
+  margin-bottom: 0;
+}
+header h3 span,
+.footer-links,
+.links-icon {
+  width: 100%;
+}
+header h3 span,
+.links-icon {
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+header h3 span {
+  min-height: 84px;
+  background-size: 52px;
+  padding-top: 48px;
+}
+.bio article {
+  font-size: 1.125em;
 }
 .flex-container,
 .footer-links {
   align-items: flex-start;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0;
   padding: 0;
 }
-.footer-links {
-  list-style: none;
-  margin: 0 0 4.53125em;
-  width: 100%;
-}
-.flex-item,
-.footer-links li {
-  text-align: center;
-}
 .flex-item {
   padding: 11px;
   width: 202px;
 }
-.flex-item h3 {
-  margin-top: 0;
-}
-.flex-item a,
-.footer-links a {
-  display: block;
+.footer-links,
+.links ul {
+  list-style: none;
+  margin: 0 0 4.53125em;
 }
 .footer-links li {
-  display: inline-block;
-  list-style: none;
   margin-bottom: 1.13281em;
   padding: 16px;
   width: 256px;
 }
 .footer-links span {
-  display: inline-block;
   margin-right: 0.25em;
 }
-.post-update {
+.iconbox {
+  width: 1rem;
+  height: 1rem;
+  line-height: 1rem;
+  vertical-align: baseline;
+}
+.links li {
+  margin-bottom: 2.71875rem;
+}
+.links li figure a h3,
+.post h1 {
+  margin-top: 0.45313rem;
+}
+.links-icon {
+  margin: 1.8125rem auto 0.54375rem;
+}
+.next {
+  text-align: right;
+}
+.next-prev {
+  width: 50%;
+  flex-basis: 50%;
+  height: 8rem;
+}
+.page-container {
+  max-width: 848px;
+  margin: 16px auto;
+  padding: 0 16px;
+}
+.post figure {
+  margin: 0 auto 1.625em;
+}
+.post h1 {
+  padding-bottom: 0.11328rem;
+}
+.post nav {
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 12rem;
+}
+.post .update {
   margin-bottom: 3.625em;
   margin-top: 1.8125em;
+}
+.post figure.mw640 {
+  max-width: 640px;
+}
+.post figure.mw624 {
+  max-width: 624px;
+}
+.post figure.mw512 {
+  max-width: 512px;
+}
+.post figure.mw408 {
+  max-width: 408px;
+}
+.post figure.mw313 {
+  max-width: 313px;
+}
+.post figure.mw256 {
+  max-width: 256px;
+}
+@media screen and (max-width: 848px) {
+  .iframe-outer-wrapper,
+  .post figure.mw848 {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .post figure.mw640 {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}
+@media screen and (max-width: 624px) {
+  .post figure.mw624 {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}
+@media screen and (max-width: 512px) {
+  .post figure.mw512 {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}
+@media screen and (max-width: 408px) {
+  .post figure.mw408 {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}
+@media screen and (max-width: 313px) {
+  .post figure.mw313 {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}
+@media screen and (max-width: 256px) {
+  .post figure.mw256 {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
 }

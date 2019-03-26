@@ -1,8 +1,6 @@
 import React from 'react'
 import { graphql, StaticQuery } from 'gatsby'
 
-import { rhythm } from '../utils/typography'
-
 import Footer from '../components/Footer'
 import Masthead from '../components/Masthead'
 
@@ -34,27 +32,16 @@ export default ({ children, location }) => (
       }
     `}
     render={data => (
-      <div
-        style={{
-          maxWidth: `848px`,
-          padding: `16px`,
-          margin: `16px auto`,
-        }}
-      >
+      <div className="page-container">
         <Masthead
           description={data.site.siteMetadata.description}
           siteTitle={data.site.siteMetadata.title}
           siteTwitter={data.site.siteMetadata.twitter}
+          siteURL={data.site.siteMetadata.siteURL}
         />
         {children}
         <hr />
-        <footer
-          style={{
-            display: `flex`,
-            marginBottom: rhythm(2.5),
-            textAlign: `center`,
-          }}
-        >
+        <footer>
           <Footer
             author={data.site.siteMetadata.author}
             siteEmail={data.site.siteMetadata.email}

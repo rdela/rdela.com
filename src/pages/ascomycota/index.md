@@ -5,13 +5,13 @@ excerpt: "ascomycota"
 image: "44595592_496701630810658_3468233712362788776_n.jpg"
 ---
 
-<div style="max-width: 408px; margin: 0 auto"><figure>
+<figure class="mw408">
 <img src="44595592_496701630810658_3468233712362788776_n.jpg"
      alt="ascomycota" /><br />
 <figcaption>
   ascomycota
 </figcaption>
-</figure></div>
+</figure>
 
 > Familiar examples of sac fungi include morels, truffles, brewer’s yeast and baker’s yeast, dead man’s fingers, and cup fungi.
 

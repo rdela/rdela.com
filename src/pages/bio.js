@@ -1,5 +1,5 @@
 import React from 'react'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 
 import Layout from '../components/layout'
 
@@ -9,21 +9,17 @@ class BioPage extends React.Component {
       <Layout>
         <main role="main">
           <Helmet title={`Bio`}>
-            <meta name="description" content="Support Knowledge for Everyone" />
+            <meta name="description" content="Digital media consultant, specializing in video and web design/development" />
           </Helmet>
-          <h1
-            style={{
-              textAlign: `center`,
-            }}
-          >
+          <h1>
             Bio{' '}
             <span role="img" aria-label="link symbol page facing up">
               📝
             </span>
           </h1>
 
-          <section>
-            <article style={{fontSize: `1.125em`}}>
+          <section className="bio">
+            <article>
               <p>I started out drawing and painting in grade school, and by{' '}
               high school I had expanded into photography and video. I{' '}
               majored in film at UT Austin, concentrating on documentary{' '}

@@ -5,13 +5,13 @@ excerpt: "Beware of geeks bearing GIFs"
 image: "pusheen-bakercat.png"
 ---
 
-<div style="margin: 0 auto"><figure style="text-align: center">
+<figure class="mw408">
 <img src="/gif/pusheen-bakercat.gif"
   alt="pusheen bakercat gif" /><br />
 <figcaption>
 <small>(Image source: <a href="https://belarr.com/bakercat/">Belarr</a>)</small>
 </figcaption>
-</figure></div>
+</figure>
 
 From [phrases.org.uk](https://www.phrases.org.uk/meanings/beware-of-greeks-bearing-gifts.html)
 

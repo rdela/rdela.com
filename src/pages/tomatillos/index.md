@@ -5,10 +5,10 @@ excerpt: "🌴🍂"
 image: "43048735_343427876392660_7242269455155230026_n.jpg"
 ---
 
-<div style="max-width: 408px; margin: 0 auto"><figure>
+<figure class="mw408">
 <img src="43048735_343427876392660_7242269455155230026_n.jpg"
      alt="Tomatillos?" /><br />
 <figcaption style="font-style: normal">
   🌴🍂
 </figcaption>
-</figure></div>
+</figure>

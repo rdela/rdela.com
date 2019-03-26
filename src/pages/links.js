@@ -1,5 +1,5 @@
 import React from 'react'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 
 import { rhythm } from '../utils/typography'
 // eslint-disable-next-line
@@ -26,22 +26,14 @@ class LinksPage extends React.Component {
           <Helmet title={`Links Page 🔗📄`}>
             <meta name="description" content="Support Knowledge for Everyone" />
           </Helmet>
-          <h1
-            style={{
-              textAlign: `center`,
-            }}
-          >
+          <h1>
             Links Page{' '}
             <span role="img" aria-label="link symbol page facing up">
               🔗📄
             </span>
           </h1>
 
-          <section
-            style={{
-              textAlign: `center`,
-            }}
-          >
+          <section className="links">
             <figure
               style={{
                 marginTop: rhythm(3 / 2),
@@ -56,7 +48,6 @@ class LinksPage extends React.Component {
                 <img
                   src="https://readtheprintedword.org/rtpw-button4-200x92white.png"
                   alt="Read the Printed Word!"
-                  border="0"
                   width="100"
                   height="46"
                 />
@@ -89,42 +80,21 @@ class LinksPage extends React.Component {
               </span>
             </p>
 
-            <ul
-              style={{
-                listStyle: `none`,
-                marginLeft: 0,
-              }}
-            >
-              <li
-                style={{
-                  marginBottom: rhythm(1.5),
-                }}
-              >
+            <ul>
+              <li>
                 <article>
                   <figure>
                     <a
+                      className="links-icon"
                       href="https://wikitech.wikimedia.org/wiki/Main_Page"
                       style={{
                         backgroundImage: `url(${wikicorn})`,
                         backgroundSize: `96px`,
-                        height: `128px`,
+                        minHeight: `134px`,
                         paddingTop: `96px`,
-                        backgroundRepeat: `no-repeat`,
-                        backgroundPosition: `center top`,
-                        display: `block`,
-                        marginBottom: rhythm(3 / 10),
-                        marginLeft: `auto`,
-                        marginRight: `auto`,
-                        marginTop: rhythm(1),
-                        paddingBottom: 0,
-                        width: `100%`,
                       }}
                     >
-                      <h3
-                        style={{
-                          marginTop: rhythm(1 / 4),
-                        }}
-                      >
+                      <h3>
                         <span>
                           <FontAwesomeIcon icon={faWikipediaW} />
                         </span>
@@ -153,36 +123,20 @@ class LinksPage extends React.Component {
                 </article>
               </li>
 
-              <li
-                style={{
-                  marginBottom: rhythm(1.5),
-                }}
-              >
+              <li>
                 <article>
                   <figure>
                     <a
+                      className="links-icon"
                       href="https://archive.org"
                       style={{
                         backgroundImage: `url(${ialogo})`,
                         backgroundSize: `96px`,
-                        height: `128px`,
+                        minHeight: `134px`,
                         paddingTop: `96px`,
-                        backgroundRepeat: `no-repeat`,
-                        backgroundPosition: `center top`,
-                        display: `block`,
-                        marginBottom: rhythm(3 / 10),
-                        marginLeft: `auto`,
-                        marginRight: `auto`,
-                        marginTop: rhythm(1),
-                        paddingBottom: 0,
-                        width: `100%`,
                       }}
                     >
-                      <h3
-                        style={{
-                          marginTop: rhythm(1 / 4),
-                        }}
-                      >
+                      <h3>
                         <span>
                           <FontAwesomeIcon icon={faArchive} />
                         </span>
@@ -209,36 +163,20 @@ class LinksPage extends React.Component {
                 </article>
               </li>
 
-              <li
-                style={{
-                  marginBottom: rhythm(1.5),
-                }}
-              >
+              <li>
                 <article>
-                  <figure>
+                  <figure class="mw256">
                     <a
+                      className="links-icon"
                       href="https://developer.mozilla.org/en-US/docs/Web"
                       style={{
                         backgroundImage: `url(${mdnDark})`,
                         backgroundSize: `256px`,
-                        height: `80px`,
+                        minHeight: `86px`,
                         paddingTop: `48px`,
-                        backgroundRepeat: `no-repeat`,
-                        backgroundPosition: `center top`,
-                        display: `block`,
-                        paddingBottom: 0,
-                        marginBottom: rhythm(3 / 10),
-                        marginLeft: `auto`,
-                        marginRight: `auto`,
-                        marginTop: rhythm(1),
-                        width: `100%`,
                       }}
                     >
-                      <h3
-                        style={{
-                          marginTop: rhythm(1 / 4),
-                        }}
-                      >
+                      <h3>
                         <span>
                           <FontAwesomeIcon icon={faFirefox} />
                         </span>

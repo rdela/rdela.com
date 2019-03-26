@@ -5,12 +5,12 @@ excerpt: "Ceiba chodatii"
 image: "45304143_2072522272840249_6365962805882021069_n.jpg"
 ---
 
-<div style="max-width: 408px; margin: 0 auto"><figure>
+<figure class="mw408">
 <img src="45304143_2072522272840249_6365962805882021069_n.jpg"
      alt="Palo Borracho (Ceiba chodatii)" /><br />
 <figcaption style="font-style: normal">Árbol de lana, the silk floss tree,
  also known as palo&nbsp;borracho, drunken&nbsp;stick<br />🦠🌵🌴</figcaption>
-</figure></div>
+</figure>
 
 In Bolivia, it is called toborochi, meaning “tree of refuge” or
  “sheltering&nbsp;tree.”[^toborochi]
