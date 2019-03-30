@@ -13,7 +13,7 @@ alt="Jetsun Ani Rinpoche" /></a><br />
 
 <br />
 
-*The text below is translated from the Vajrayana.it article [Jetsun Ani Sherab Chotso Rinpoche](http://www.vajrayana.it/jetsun_ani_rinpoche.htm), which is the source of the image above as&nbsp;well.*
+*I translated the text below from the Vajrayana.it article [Jetsun Ani Sherab Chotso Rinpoche](http://www.vajrayana.it/jetsun_ani_rinpoche.htm), which was the source of the image above as&nbsp;well.*
 
 Jetsun Khacho Wangmo, also known as Ani Sherab Chotso Rinpoche, is one of the few Lama women in Tibet and is authorized to give initiations and teachings. She has been recognized by many as a living emanation of [Tara](/om-tare-tam-svaha/)—female representation of enlightenment and compassion in Tibetan Buddhism—of [Samantabhadrī](https://en.wikipedia.org/wiki/Samantabhadrī_(tutelary)), [Yeshe&nbsp;Tsogyal](https://en.wikipedia.org/wiki/Yeshe_Tsogyal) and [Machig&nbsp;Labdrön](https://en.wikipedia.org/wiki/Machig_Labdrön).
 
