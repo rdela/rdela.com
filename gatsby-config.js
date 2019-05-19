@@ -57,6 +57,12 @@ module.exports = {
       options: {
         name: `Ricky de Laveaga`,
         short_name: `rdela`,
+        start_url: `/`,
+        background_color: `#000`,
+        theme_color: `#9f87fd`,
+        display: `standalone`,
+        include_favicon: false,
+        legacy: false,
         icons: [
           {
             src: `/icons/rdela-fav-16.png`,
@@ -119,12 +125,6 @@ module.exports = {
             type: `image/png`,
           },
         ],
-        start_url: `/`,
-        background_color: `#000`,
-        theme_color: `#9f87fd`,
-        display: `standalone`,
-        include_favicon: false,
-        legacy: false,
       },
     },
     `gatsby-plugin-offline`,
