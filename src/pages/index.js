@@ -6,7 +6,7 @@ import { rhythm } from '../utils/typography'
 
 import Layout from '../components/layout'
 
-class BlogIndex extends React.Component {
+class PostIndex extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
 
@@ -68,7 +68,7 @@ class BlogIndex extends React.Component {
   }
 }
 
-export default BlogIndex
+export default PostIndex
 
 export const pageQuery = graphql`
   {
