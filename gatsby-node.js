@@ -1,6 +1,7 @@
 const _ = require('lodash')
 const Promise = require(`bluebird`)
 const path = require('path')
+const slash = require(`slash`)
 const { createFilePath } = require('gatsby-source-filesystem')
 
 exports.createPages = ({ graphql, actions }) => {
@@ -32,6 +33,7 @@ exports.createPages = ({ graphql, actions }) => {
 
   return new Promise((resolve, reject) => {
     const postArticle = path.resolve('./src/templates/post-article.js')
+    const postList = path.resolve('./src/templates/post-list.js')
     resolve(
       graphql(
         `
@@ -64,13 +66,35 @@ exports.createPages = ({ graphql, actions }) => {
         const posts = _.filter(result.data.allMarkdownRemark.edges, edge => {
           const slug = _.get(edge, `node.fields.slug`)
           const draft = _.get(edge, `node.frontmatter.draft`)
-          if (!slug) return
+          if (!slug) return undefined
 
           if (!draft) {
             return edge
           }
+
+          return undefined
         })
 
+        // Create post-list pages
+        const postsPerPage = 12
+        const numPages = Math.ceil(posts.length / postsPerPage)
+
+        Array.from({
+          length: numPages,
+        }).forEach((_, i) => {
+          createPage({
+            path: i === 0 ? `/` : `/page/${i + 1}`,
+            component: slash(postList),
+            context: {
+              limit: postsPerPage,
+              skip: i * postsPerPage,
+              numPages,
+              currentPage: i + 1,
+            },
+          })
+        })
+
+        // Create post-article pages
         posts.forEach((edge, index) => {
           const next = index === 0 ? null : posts[index - 1].node
           const prev = index === posts.length - 1 ? null : posts[index + 1].node

@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet'
 import { rhythm } from '../utils/typography'
 
 import Layout from '../components/layout'
+import Pagination from "../components/pagination"
 
 class PostIndex extends React.Component {
   render() {
@@ -13,7 +14,9 @@ class PostIndex extends React.Component {
     return (
       <Layout>
         <nav>
-          <Helmet />
+          <Helmet>
+            <title>{`Page ${this.props.pageContext.currentPage}`}</title>
+          </Helmet>
           <ul className="flex-container">
             {posts.map(({ node }) => {
               const title =
@@ -62,6 +65,7 @@ class PostIndex extends React.Component {
               )
             })}
           </ul>
+          <Pagination context={this.props.pageContext} />
         </nav>
       </Layout>
     )
@@ -70,11 +74,18 @@ class PostIndex extends React.Component {
 
 export default PostIndex
 
-export const pageQuery = graphql`
-  {
+export const postListQuery = graphql`
+  query postsQuery($skip: Int!, $limit: Int!) {
+    site {
+      siteMetadata {
+        title
+      }
+    }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { draft: { ne: true } } }
+      limit: $limit
+      skip: $skip
     ) {
       edges {
         node {

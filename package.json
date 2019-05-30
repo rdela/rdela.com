@@ -46,6 +46,7 @@
     "react-dom": "16.8.6",
     "react-helmet": "5.2.1",
     "react-typography": "0.16.19",
+    "slash": "^3.0.0",
     "typeface-source-code-pro": "0.0.71",
     "typeface-source-sans-pro": "0.0.54",
     "typeface-source-serif-pro": "0.0.73",
