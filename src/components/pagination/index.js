@@ -4,7 +4,7 @@ import { navigate } from "gatsby"
 // eslint-disable-next-line
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowDown, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faChevronDown, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 import PaginationLink from "./PaginationLink"
 
@@ -86,8 +86,8 @@ class Pagination extends React.Component {
               color: linkColor,
               fontWeight: `bold`,
               padding: `0.5ch 2ch 0.5ch 0.5ch`,
-              webkitAppearance: `none`,
-              mozAppearance: `none`,
+              WebkitAppearance: `none`,
+              MozAppearance: `none`,
               appearance: `none`,
             }}
           >
@@ -108,8 +108,8 @@ class Pagination extends React.Component {
               fontSize: `0.75rem`,
               pointerEvents: `none`,
               position: `relative`,
-              right: `0.875rem`,
-            }} icon={faArrowDown} />
+              right: `0.8125rem`,
+            }} icon={faChevronDown} />
           </span>
           <span>of &nbsp;</span>
           <span>{numPages}</span>
