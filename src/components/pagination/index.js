@@ -49,7 +49,7 @@ class Pagination extends React.Component {
           style={{
             display: `flex`,
             fontWeight: `600`,
-            margin: `0 0 0.75rem`,
+            margin: `0 0 1.25rem`,
             padding: `0`,
             justifyContent: `space-between`,
             alignItems: `center`,
