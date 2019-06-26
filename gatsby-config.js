@@ -78,11 +78,13 @@ module.exports = {
             src: `/icons/rdela-192.png`,
             sizes: `192x192`,
             type: `image/png`,
+            purpose: `maskable`,
           },
           {
             src: `/icons/rdela-512.png`,
             sizes: `512x512`,
             type: `image/png`,
+            purpose: `maskable`,
           },
         ],
       },
