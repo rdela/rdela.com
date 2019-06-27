@@ -43,6 +43,8 @@ class Masthead extends React.Component {
           <meta name="twitter:site" content={this.props.siteTwitter} />
           <meta name="twitter:creator" content={this.props.siteTwitter} />
           <meta name="twitter:description" content={this.props.description} />
+          <link rel="icon" type="image/png" href="icons/favicon-16x16.png" sizes="16x16" />
+          <link rel="icon" type="image/png" href="icons/favicon-32x32.png" sizes="32x32" />
         </Helmet>
         {topknot}
       </header>
