@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { Helmet } from 'react-helmet'
 
-import knot from '../svg/rdela-knot.svg'
+import knot from '../svg/rdela-diamond.svg'
 
 const cYear = new Date().getFullYear()
 
