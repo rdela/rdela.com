@@ -2,11 +2,11 @@
 title: Om Tare Tam Svaha
 date: "2019-03-16T11:08:11.000Z"
 excerpt: "Tara’s “seed syllable,” a single, untranslatable sound that expresses her entire essence, is *Tam*."
-image: "om-tare-tam-svaha-jersey-wide.jpg"
+image: "om-tare-tam-svaha-jersey-rd-wide.jpg"
 ---
 
 <figure class="mw848">
-<a href="https://famebot.teemill.com/product/om-tare-tam-svaha-tee/"><img src="om-tare-tam-svaha-tee-wide.jpg"
+<a href="https://famebot.teemill.com/product/om-tare-tam-svaha-tee/"><img src="om-tare-tam-svaha-tee-rd-wide.jpg"
 alt="Om Tare Tam Svaha Tee on model" /></a><br />
 <figcaption><a href="https://famebot.teemill.com/product/om-tare-tam-svaha-tee/">Om Tare Tam Svaha Tee <strong>Available&nbsp;NOW</strong></a></figcaption>
 </figure>
@@ -30,7 +30,7 @@ A [Famebot](https://famebot.com/) experimental clothing offering.
 <br />
 
 <figure class="mw848">
-<a href="https://famebot.teemill.com/product/om-tare-tam-svaha-baseball-jersey/"><img src="om-tare-tam-svaha-jersey-wide.jpg"
+<a href="https://famebot.teemill.com/product/om-tare-tam-svaha-baseball-jersey/"><img src="om-tare-tam-svaha-jersey-rd-wide.jpg"
 alt="Om Tare Tam Svaha Jersey on model" /></a><br />
 <figcaption><a href="https://famebot.teemill.com/product/om-tare-tam-svaha-baseball-jersey/">Om Tare Tam Svaha Jersey <strong>Available&nbsp;NOW</strong></a></figcaption>
 </figure>

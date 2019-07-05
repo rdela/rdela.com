@@ -59,7 +59,7 @@ See current [NPM_VERSION](https://github.com/rdela/rdela.com/blob/master/netlify
 
 > For example, to make nvm default to the latest 5.9 release, the latest LTS version, or the latest node version for the current directory:
 
-```sh
+```shell
 $ echo "5.9" > .nvmrc
 
 $ echo "lts/*" > .nvmrc # to default to the latest LTS version

@@ -22,7 +22,7 @@ Ricky de Laveaga.
 I began developing this site with [GatsbyJS](https://www.gatsbyjs.org/)
 by running a:
 
-```sh
+```shell
 git clone
 ```
 
@@ -87,7 +87,7 @@ As an instant bonus for reading all the way down, I give you the…
 <br />
 
 [^gatsby-new]: Having already installed `gatsby-cli`, One could run: <br />
- ```gatsby new mySite https://github.com/gatsbyjs/gatsby-starter-blog```<br />
+ `gatsby new mySite https://github.com/gatsbyjs/gatsby-starter-blog`<br />
  …in the terminal instead of a `git clone` of the
  [gatsby-starter-blog repo](https://github.com/gatsbyjs/gatsby-starter-blog)
  like I did, which then needs to be followed by a `yarn` or `npm i` before
