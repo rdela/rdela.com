@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     author: `Ricky de Laveaga`,
-    description: `6th-generation organic click-farmer from California`,
+    description: `A source familiar with the situation`,
     email: `ricky@rdela.com`,
     github: `@rdela`,
     gitlab: `@rdela`,

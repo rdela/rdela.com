@@ -47,14 +47,4 @@ Odds are high I will write more about this soon. At this point, I can recommend 
 
 > [full details \[…\] plans and pricing&nbsp;page](https://www.netlify.com/pricing/)
 
-To the entire [Netlify (OSS) crew](https://github.com/orgs/netlify/people), thank&nbsp;you.
-
-<br />
-
-<div class="iframe-outer-wrapper">
-
-<iframe width="816" height="459" src="https://www.youtube-nocookie.com/embed/6Ptrc2cWRxU?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</div>
-
-<br />
+To the entire [Netlify (OSS)](https://github.com/orgs/netlify/people) crew, [thank&nbsp;you](https://www.youtube.com/watch?v=6Ptrc2cWRxU).
