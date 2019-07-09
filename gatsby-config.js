@@ -1,7 +1,77 @@
+let activeEnv =
+process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || "development"
+
+console.log(`Using environment config: '${activeEnv}'`)
+console.log(`NODE_ENV is ${process.env.NODE_ENV}`)
+
+require("dotenv").config({
+  path: `.env.${activeEnv}`,
+})
+
+// const pageQuery = `{
+//   allSitePage(
+//     filter: {
+//       componentChunkName: {nin: [
+//         "component---src-templates-post-list-js",
+//         "component---src-templates-post-article-js"
+//       ]},
+//       path: {in: ["/links/", "/bio/"]}
+//     }
+//   ) {
+//     edges {
+//       node {
+//         objectID: id
+//         path
+//         internal {
+//           contentDigest
+//         }
+//       }
+//     }
+//   }
+// }`
+
+const postQuery = `{
+  allMarkdownRemark {
+    edges {
+      node {
+        frontmatter {
+          excerpt
+          title
+          image {
+            id
+            publicURL
+            relativePath
+          }
+        }
+        headings {
+          value
+        }
+        excerpt
+        rawMarkdownBody
+        objectID: id
+        internal {
+          contentDigest
+        }
+      }
+    }
+  }
+}`
+
+const queries = [
+  // {
+  //   query: pageQuery,
+  //   transformer: ({ data }) => data.allSitePage.edges.map(({ node }) => node), // optional
+  // },
+  {
+    query: postQuery,
+    transformer: ({ data }) => data.allMarkdownRemark.edges.map(({ node }) => node), // optional
+  },
+];
+
 module.exports = {
   siteMetadata: {
     author: `Ricky de Laveaga`,
-    description: `6th-generation organic click-farmer from California`,
+    description: `A source familiar with the situation`,
     email: `ricky@rdela.com`,
     github: `@rdela`,
     gitlab: `@rdela`,
@@ -143,6 +213,16 @@ module.exports = {
             output: 'rss.xml',
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: {
+        appId: process.env.ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_API_KEY,
+        indexName: process.env.ALGOLIA_INDEX_NAME, // for all queries
+        queries,
+        chunkSize: 10000, // default: 1000
       },
     },
     `gatsby-plugin-netlify`,

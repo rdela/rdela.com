@@ -1,12 +1,18 @@
 {
   "name": "rdela",
-  "description": "6th-generation organic click-farmer from California",
-  "version": "2.0.5",
+  "description": "A source familiar with the situation",
+  "version": "2.1.0",
   "author": "Ricky de Laveaga <https://rdela.com>",
   "license": "SEE LICENSE IN license.txt",
   "private": true,
   "scripts": {
-    "format": "prettier --write \"{gatsby-*.js,src/**/*.js}\""
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "devbuild": "GATSBY_ACTIVE_ENV=development gatsby build",
+    "format": "prettier --write \"{gatsby-*.js,src/**/*.js}\"",
+    "serve": "gatsby serve",
+    "start": "gatsby develop",
+    "test": "GATSBY_ACTIVE_ENV=development gatsby build && gatsby serve"
   },
   "bugs": {
     "url": "https://github.com/rdela/rdela.com/issues"
@@ -21,8 +27,10 @@
     "@fortawesome/free-brands-svg-icons": "5.9.0",
     "@fortawesome/free-solid-svg-icons": "5.9.0",
     "@fortawesome/react-fontawesome": "0.1.4",
+    "dotenv": "^8.0.0",
     "gatsby": "2.11.3",
     "gatsby-image": "2.2.3",
+    "gatsby-plugin-algolia": "0.3.2",
     "gatsby-plugin-feed": "2.3.1",
     "gatsby-plugin-lodash": "3.1.0",
     "gatsby-plugin-manifest": "2.2.0",
