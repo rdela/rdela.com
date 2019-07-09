@@ -6,7 +6,12 @@
   "license": "SEE LICENSE IN license.txt",
   "private": true,
   "scripts": {
-    "format": "prettier --write \"{gatsby-*.js,src/**/*.js}\""
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "format": "prettier --write \"{gatsby-*.js,src/**/*.js}\"",
+    "serve": "gatsby serve",
+    "start": "gatsby develop",
+    "test": "gatsby build && gatsby serve"
   },
   "bugs": {
     "url": "https://github.com/rdela/rdela.com/issues"

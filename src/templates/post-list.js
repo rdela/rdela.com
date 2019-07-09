@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet'
 import { rhythm } from '../utils/typography'
 
 import Layout from '../components/layout'
-import Pagination from "../components/pagination"
+import Pagination from '../components/pagination'
 
 class PostIndex extends React.Component {
   render() {
