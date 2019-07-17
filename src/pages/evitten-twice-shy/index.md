@@ -13,13 +13,13 @@ image: "evite-jack-o-lantern-balloons-sq.jpg"
 
 Did you have an Evite account as of August&nbsp;2013?
 
-‘*Why August 2013?…*’ You might ask. Well it seems Evite’s systems were breached sometime around February 22, 2019, and that they became aware of this “malicious activity” in April 2019, apparently when [ZDNet notified Evite](https://www.zdnet.com/article/evite-e-invite-website-admits-security-breach/) the data was for sale on the dark&nbsp;web.
+‘*Why August 2013?…*’ you might ask. Well it seems Evite’s systems were breached sometime around February 22, 2019, and that they became aware of this “malicious activity” in April 2019, apparently when [ZDNet notified Evite](https://www.zdnet.com/article/evite-e-invite-website-admits-security-breach/) the data was for sale on the dark&nbsp;web.
 
 In this compromise, the attackers made off with a database archive, old data from&nbsp;2013:
 
 > On May 14, 2019, we concluded that an unauthorized party had acquired an inactive data storage file associated with our user&nbsp;accounts.
 
-– FAQ #1 from [Evite’s “Data Incident”&nbsp;notice](https://www.evite.com/security/update?usource=lc&lctid=1800182)
+– FAQ #1 from [Evite’s “Data Incident” notice](https://www.evite.com/security/update?usource=lc&lctid=1800182)
 
 There is also a notice at Have I Been Pwned (which is how I found out about the breach on July 14) which&nbsp;lists:
 
@@ -31,6 +31,6 @@ HIBP’s summary is:
 
 – Have I Been Pwned: [Pwned websites - Evite](https://haveibeenpwned.com/PwnedWebsites#Evite)
 
-If you are asking yourself, 'OK but what am I supposed to do?', your best bet is to check your Evite password. If you know that you have reused that password elsewhere, particularly on financial or email accounts, **change those passwords now**. Likely damage would have already been done, since apparently the stolen data has been for sale since April, but better late than never when it comes to protecting yourself. If you are unsure whether you still have an account, go to [evite.com/login](https://www.evite.com/login) and, if needed, request a password reset email with the "Forgot Your Password?" link at the bottom of the form to determine if your email address has an associated&nbsp;account.
+If you are asking yourself, ‘*OK but what am I supposed to do?…*’ your best bet is to check your Evite password. If you know that you have reused that password elsewhere, particularly on financial or email accounts, **change those passwords now**. Likely damage would have already been done, since apparently the stolen data has been for sale since April, but better late than never when it comes to protecting yourself. If you are unsure whether you still have an account, go to [evite.com/login](https://www.evite.com/login) and, if needed, request a password reset email with the “Forgot Your Password?” link at the bottom of the form to determine if your email address has an associated&nbsp;account.
 
 If you have any further questions or want help, feel free to get in touch using one of the links&nbsp;below.
