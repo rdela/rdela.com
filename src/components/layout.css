@@ -234,6 +234,13 @@ header h3 span {
 .post figure.mw256 {
   max-width: 256px;
 }
+.gatsby-resp-image-image {
+ box-shadow: inset 0px 0px 0px 400px transparent !important;
+}
+.ais-Hits-list li {
+  list-style: none;
+}
+
 @media screen and (min-width: 640px) {
   .pagination {
     flex-direction: row !important;

@@ -1,12 +1,16 @@
-import React from "react"
-import { navigate } from "gatsby"
+import React from 'react'
+import { navigate } from 'gatsby'
 
 // eslint-disable-next-line
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronDown, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import {
+  faChevronDown,
+  faArrowLeft,
+  faArrowRight,
+} from '@fortawesome/free-solid-svg-icons'
 
-import PaginationLink from "./PaginationLink"
+import PaginationLink from './PaginationLink'
 
 class Pagination extends React.Component {
   changePage = e => {
@@ -24,7 +28,7 @@ class Pagination extends React.Component {
     const linkColor = `hsl(252,96%,76%)`
 
     const prevNextLinkStyles = {
-      "&&": {
+      '&&': {
         borderBottom: 0,
       },
     }
@@ -100,16 +104,22 @@ class Pagination extends React.Component {
               </option>
             ))}
           </select>
-          <span style={{
-            marginRight: `-0.5rem`,
-          }} className="iconbox">
-            <FontAwesomeIcon style={{
-              color: linkColor,
-              fontSize: `0.75rem`,
-              pointerEvents: `none`,
-              position: `relative`,
-              right: `0.8125rem`,
-            }} icon={faChevronDown} />
+          <span
+            style={{
+              marginRight: `-0.5rem`,
+            }}
+            className="iconbox"
+          >
+            <FontAwesomeIcon
+              style={{
+                color: linkColor,
+                fontSize: `0.75rem`,
+                pointerEvents: `none`,
+                position: `relative`,
+                right: `0.8125rem`,
+              }}
+              icon={faChevronDown}
+            />
           </span>
           <span>of &nbsp;</span>
           <span>{numPages}</span>

@@ -40,17 +40,13 @@ class PostTemplate extends React.Component {
               {post.frontmatter.image && (
                 <meta
                   property="og:image"
-                  content={`${siteMetadata.siteURL}${
-                    post.frontmatter.image.childImageSharp.resize.src
-                  }`}
+                  content={`${siteMetadata.siteURL}${post.frontmatter.image.childImageSharp.resize.src}`}
                 />
               )}
               {post.frontmatter.image && (
                 <meta
                   name="twitter:image"
-                  content={`${siteMetadata.siteURL}${
-                    post.frontmatter.image.childImageSharp.resize.src
-                  }`}
+                  content={`${siteMetadata.siteURL}${post.frontmatter.image.childImageSharp.resize.src}`}
                 />
               )}
               <meta property="og:type" content="article" />
@@ -144,7 +140,7 @@ export const postArticleQuery = graphql`
               src
             }
             fluid(maxWidth: 816) {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_tracedSVG
             }
           }
         }

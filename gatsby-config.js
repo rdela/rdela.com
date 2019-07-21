@@ -8,65 +8,7 @@ require("dotenv").config({
   path: `.env.${activeEnv}`,
 })
 
-// const pageQuery = `{
-//   allSitePage(
-//     filter: {
-//       componentChunkName: {nin: [
-//         "component---src-templates-post-list-js",
-//         "component---src-templates-post-article-js"
-//       ]},
-//       path: {in: ["/links/", "/bio/"]}
-//     }
-//   ) {
-//     edges {
-//       node {
-//         objectID: id
-//         path
-//         internal {
-//           contentDigest
-//         }
-//       }
-//     }
-//   }
-// }`
-
-const postQuery = `{
-  allMarkdownRemark {
-    edges {
-      node {
-        frontmatter {
-          excerpt
-          title
-          image {
-            id
-            publicURL
-            relativePath
-          }
-        }
-        headings {
-          value
-        }
-        excerpt
-        rawMarkdownBody
-        objectID: id
-        internal {
-          contentDigest
-        }
-      }
-    }
-  }
-}`
-
-const queries = [
-  // {
-  //   query: pageQuery,
-  //   transformer: ({ data }) => data.allSitePage.edges.map(({ node }) => node), // optional
-  // },
-  {
-    query: postQuery,
-    transformer: ({ data }) => data.allMarkdownRemark.edges.map(({ node }) => node), // optional
-  },
-];
+const queries = require("./src/utils/algolia")
 
 module.exports = {
   siteMetadata: {
@@ -104,7 +46,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              backgroundColor: `#000`,
+              backgroundColor: `transparent`,
               maxWidth: 816,
               linkImagesToOriginal: false,
             },
@@ -218,13 +160,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-algolia`,
       options: {
-        appId: process.env.ALGOLIA_APP_ID,
-        apiKey: process.env.ALGOLIA_API_KEY,
-        indexName: process.env.ALGOLIA_INDEX_NAME, // for all queries
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        // indexName: process.env.ALGOLIA_INDEX_NAME, // for all queries
         queries,
-        chunkSize: 10000, // default: 1000
+        chunkSize: 20000, // default: 1000
       },
     },
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-netlify`,
   ],
 }

@@ -18,6 +18,13 @@ import { faMastodon } from '@fortawesome/free-brands-svg-icons/faMastodon'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 // https://fontawesome.com/icons?d=gallery
 
+
+import Search from "./Search"
+const searchIndices = [
+  // { name: `Pages`, title: `Pages`, hitComp: `PageHit` },
+  { name: `Posts`, title: `Posts`, hitComp: `PostHit` },
+]
+
 class Footer extends React.Component {
   render() {
     const siteEmail = this.props.siteEmail
@@ -30,6 +37,7 @@ class Footer extends React.Component {
 
     return (
       <section>
+        <Search collapse indices={searchIndices} />
         <ul className="footer-links">
           <li>
             <Link to="/bio/">
