@@ -101,7 +101,7 @@ export const postListQuery = graphql`
                   src
                 }
                 fluid(maxWidth: 180) {
-                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluid_tracedSVG
                 }
               }
             }
