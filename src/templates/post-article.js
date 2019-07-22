@@ -140,7 +140,7 @@ export const postArticleQuery = graphql`
               src
             }
             fluid(maxWidth: 816) {
-              ...GatsbyImageSharpFluid_noBase64
+              ...GatsbyImageSharpFluid_tracedSVG
             }
           }
         }
