@@ -1,6 +1,10 @@
 /*
 Colors:
 
+text
+hsla(252,0%,100%,0.8)
+
+link
 hsl(252,96%,76%)
 #9f87fd
 Heliotrope - http://chir.ag/projects/name-that-color/#9E86FD
@@ -9,12 +13,32 @@ Contrast ratio to #000 - AAA
 7.35 - Chrome devtools
 7.36 - https://colorable.jxnblk.com/9f87fd/000000, Contrast app
 
+hr
+hsla(252,96%,76%,0.38)
+
+hover
 hsl(252,16%,64%)
 #9b95b2
 Amethyst Smoke - http://chir.ag/projects/name-that-color/#9b95b2
 Logan - https://color-blindness.com/color-name-hue
 Contrast ratio to #000 - AAA
 7.34 - Chrome devtools, https://colorable.jxnblk.com/9b95b2/000000, Contrast app
+
+SVG fill
+hsl(252, 100%, 77%)
+#a18aff
+Heliotrope - http://chir.ag/projects/name-that-color/#A18AFF
+Light Slate Blue - https://color-blindness.com/color-name-hue
+Contrast ratio to #000 - AAA
+7.59 Chrome devtools, https://colorable.jxnblk.com/a18aff/000000, Contrast app
+
+SVG trace
+hsl(252, 50%, 44%)
+#4f38a8
+Gigas - http://chir.ag/projects/name-that-color/#4F38A8
+Royal Purple - https://color-blindness.com/color-name-hue
+Contrast ratio to #000 - Fail
+2.46 - Chrome devtools, https://colorable.jxnblk.com/4f38a8/000000, Contrast app
 
 Colorable made by Jxnblk (Brent Jackson)
 https://colorable.jxnblk.com/

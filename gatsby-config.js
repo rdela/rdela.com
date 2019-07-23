@@ -37,7 +37,10 @@ module.exports = {
               backgroundColor: `transparent`,
               maxWidth: 816,
               linkImagesToOriginal: false,
-              tracedSVG: true,
+              tracedSVG: {
+                color: "#4F38A8",
+                blackOnWhite: false,
+              },
             },
           },
           {
