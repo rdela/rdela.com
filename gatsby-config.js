@@ -1,3 +1,15 @@
+let activeEnv =
+  process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || 'development'
+
+console.log(`Using environment config: '${activeEnv}'`)
+console.log(`NODE_ENV is ${process.env.NODE_ENV}`)
+
+require('dotenv').config({
+  path: `.env.${activeEnv}`,
+})
+
+const queries = require('./src/utils/algolia')
+
 module.exports = {
   siteMetadata: {
     author: `Ricky de Laveaga`,
@@ -38,7 +50,7 @@ module.exports = {
               maxWidth: 816,
               linkImagesToOriginal: false,
               tracedSVG: {
-                color: "#4F38A8",
+                color: '#4F38A8',
                 blackOnWhite: false,
               },
             },
@@ -149,6 +161,17 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        // indexName: process.env.ALGOLIA_INDEX_NAME, // for all queries
+        queries,
+        chunkSize: 20000, // default: 1000
+      },
+    },
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-netlify`,
   ],
 }

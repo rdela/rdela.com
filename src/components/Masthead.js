@@ -1,8 +1,12 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import { Helmet } from 'react-helmet'
+import Topknot from './Topknot'
 
-import knot from '../svg/rdela-diamond.svg'
+import Search from './Search'
+const searchIndices = [
+  // { name: `Pages`, title: `Pages`, hitComp: `PageHit` },
+  { name: `Posts`, title: `Posts`, hitComp: `PostHit` },
+]
 
 const cYear = new Date().getFullYear()
 
@@ -10,24 +14,9 @@ class Masthead extends React.Component {
   render() {
     const siteTitle = this.props.siteTitle
     const siteURL = this.props.siteURL
-    let topknot
-
-    topknot = (
-      <h3>
-        <Link to={'/'}>
-          <span
-            style={{
-              backgroundImage: `url(${knot})`,
-            }}
-          >
-            {siteTitle}
-          </span>
-        </Link>
-      </h3>
-    )
 
     return (
-      <header>
+      <header className="masthead">
         <Helmet defaultTitle={siteTitle} titleTemplate={'%s - ' + siteTitle}>
           <html lang="en" />
           <meta name="copyright" content={cYear} />
@@ -56,7 +45,8 @@ class Masthead extends React.Component {
             sizes="32x32"
           />
         </Helmet>
-        {topknot}
+        <Topknot />
+        <Search expand indices={searchIndices} />
       </header>
     )
   }

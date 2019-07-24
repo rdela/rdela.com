@@ -1,7 +1,7 @@
 ---
 title: Ascomycota
 date: "2018-11-09T02:38:26.000Z"
-excerpt: "ascomycota"
+excerpt: "Truffles the kitty cat"
 image: "44595592_496701630810658_3468233712362788776_n.jpg"
 ---
 

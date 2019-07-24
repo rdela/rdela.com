@@ -1,17 +1,18 @@
 {
   "name": "rdela",
   "description": "A source familiar with the situation",
-  "version": "2.0.6",
+  "version": "2.1.0",
   "author": "Ricky de Laveaga <https://rdela.com>",
   "license": "SEE LICENSE IN license.txt",
   "private": true,
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
+    "devbuild": "GATSBY_ACTIVE_ENV=development gatsby build",
     "format": "prettier --write \"{gatsby-*.js,src/**/*.js}\"",
     "serve": "gatsby serve",
     "start": "gatsby develop",
-    "test": "gatsby build && gatsby serve"
+    "test": "GATSBY_ACTIVE_ENV=development gatsby build && gatsby serve"
   },
   "bugs": {
     "url": "https://github.com/rdela/rdela.com/issues"
@@ -26,8 +27,10 @@
     "@fortawesome/free-brands-svg-icons": "5.9.0",
     "@fortawesome/free-solid-svg-icons": "5.9.0",
     "@fortawesome/react-fontawesome": "0.1.4",
+    "algoliasearch": "3.33.0",
     "gatsby": "2.13.39",
     "gatsby-image": "2.2.6",
+    "gatsby-plugin-algolia": "0.3.2",
     "gatsby-plugin-feed": "2.3.5",
     "gatsby-plugin-lodash": "3.1.2",
     "gatsby-plugin-manifest": "2.2.4",
@@ -35,6 +38,7 @@
     "gatsby-plugin-offline": "2.2.4",
     "gatsby-plugin-react-helmet": "3.1.2",
     "gatsby-plugin-sharp": "2.2.9",
+    "gatsby-plugin-styled-components": "3.1.2",
     "gatsby-plugin-typography": "2.3.2",
     "gatsby-remark-copy-linked-files": "2.1.3",
     "gatsby-remark-images": "3.1.7",
@@ -50,8 +54,11 @@
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-helmet": "5.2.1",
+    "react-instantsearch-dom": "5.7.0",
     "react-typography": "0.16.19",
     "slash": "3.0.0",
+    "styled-components": "4.3.2",
+    "styled-icons": "8.3.0",
     "typeface-source-code-pro": "0.0.71",
     "typeface-source-sans-pro": "0.0.75",
     "typeface-source-serif-pro": "0.0.75",
