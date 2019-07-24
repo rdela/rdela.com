@@ -2,11 +2,12 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import Topknot from './Topknot'
 
-import Search from './Search'
+import Search from './search'
 const searchIndices = [
   // { name: `Pages`, title: `Pages`, hitComp: `PageHit` },
   { name: `Posts`, title: `Posts`, hitComp: `PostHit` },
 ]
+
 
 const cYear = new Date().getFullYear()
 
