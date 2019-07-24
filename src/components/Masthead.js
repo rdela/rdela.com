@@ -8,7 +8,6 @@ const searchIndices = [
   { name: `Posts`, title: `Posts`, hitComp: `PostHit` },
 ]
 
-
 const cYear = new Date().getFullYear()
 
 class Masthead extends React.Component {

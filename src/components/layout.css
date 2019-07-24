@@ -211,7 +211,7 @@ footer h3 {
   font-size: 1.125rem;
   margin-bottom: 1.37523rem;
 }
-header.masthead h3 {
+.masthead h3.topknot {
   background-color: transparent;
   color: transparent;
   font-size: 0px;
