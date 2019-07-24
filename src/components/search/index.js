@@ -1,22 +1,37 @@
-import React, { useState, useEffect, createRef } from "react"
+import React, { useState, useEffect, createRef } from 'react'
 import {
   InstantSearch,
   Index,
   Hits,
   connectStateResults,
-} from "react-instantsearch-dom"
-import algoliasearch from "algoliasearch/lite"
-import { Root, HitsWrapper, PoweredBy } from "./styles"
-import Input from "./Input"
-import * as hitComps from "./hitComps"
+} from 'react-instantsearch-dom'
+import algoliasearch from 'algoliasearch/lite'
+import { Root, HitsWrapper, PoweredBy } from './styles'
+import Input from './Input'
+import * as hitComps from './hitComps'
+
+/*
+Dank search using
+https://github.com/algolia/gatsby-plugin-algolia
+https://github.com/algolia/react-instantsearch
+
+Inspired by and derived from Janosh’s example
+https://github.com/janosh/janosh.io/tree/master/src/components/Search
+https://janosh.io/blog/gatsby-algolia-search
+https://github.com/algolia/gatsby-plugin-algolia/issues/24
+https://www.gatsbyjs.org/docs/adding-search-with-algolia/
+*/
+
 const Results = connectStateResults(
   ({ searchState: state, searchResults: res, children }) =>
     res && res.nbHits > 0 ? children : `No results for '${state.query}'`
 )
+
 const Stats = connectStateResults(
   ({ searchResults: res }) =>
     res && res.nbHits > 0 && `${res.nbHits} result${res.nbHits > 1 ? `s` : ``}`
 )
+
 const useClickOutside = (ref, handler, events) => {
   if (!events) events = [`mousedown`, `touchstart`]
   const detectClickOutside = event =>
@@ -30,6 +45,7 @@ const useClickOutside = (ref, handler, events) => {
     }
   })
 }
+
 export default function Search({ indices, collapse, hitsAsGrid }) {
   const ref = createRef()
   const [query, setQuery] = useState(``)

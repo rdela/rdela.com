@@ -41,7 +41,6 @@
 //   }
 // }`
 
-
 // https://www.gatsbyjs.org/docs/adding-search-with-algolia/
 // const postQuery = `{
 //   posts: allMarkdownRemark(
@@ -101,7 +100,6 @@ internal {
 }
 */
 
-
 // https://www.gatsbyjs.org/docs/adding-search-with-algolia/
 const flatten = arr =>
   arr.map(({ node: { fields, frontmatter, headings, ...rest } }) => ({
@@ -140,7 +138,6 @@ const queries = [
     transformer: ({ data }) => flatten(data.posts.edges),
     indexName: `Posts`,
   },
-];
-
+]
 
 module.exports = queries

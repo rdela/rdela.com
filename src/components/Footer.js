@@ -18,12 +18,7 @@ import { faMastodon } from '@fortawesome/free-brands-svg-icons/faMastodon'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 // https://fontawesome.com/icons?d=gallery
 
-
-import Search from "./Search"
-const searchIndices = [
-  // { name: `Pages`, title: `Pages`, hitComp: `PageHit` },
-  { name: `Posts`, title: `Posts`, hitComp: `PostHit` },
-]
+import Topknot from './Topknot'
 
 class Footer extends React.Component {
   render() {
@@ -32,12 +27,13 @@ class Footer extends React.Component {
     const siteGitlab = this.props.siteGitlab
     const siteKeybase = this.props.siteKeybase
     const siteMastodon = this.props.siteMastodon
+    const siteTitle = this.props.siteTitle
     const siteTwitter = this.props.siteTwitter
     const siteURL = this.props.siteURL
 
     return (
       <section>
-        <Search collapse indices={searchIndices} />
+        <Topknot siteTitle={siteTitle} />
         <ul className="footer-links">
           <li>
             <Link to="/bio/">
