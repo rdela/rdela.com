@@ -10,7 +10,7 @@ theme.plugins = [new CodePlugin()]
 theme.baseFontSize = '18px'
 theme.baseLineHeight = '1.8125'
 
-theme.bodyColor = 'hsla(252,0%,100%,0.8)'
+theme.bodyColor = 'hsla(252,2%,100%,0.8)'
 
 theme.bodyFontFamily = [
   'Source Serif Pro',

@@ -1,28 +1,92 @@
 /*
-Colors:
 
-text
-hsla(252,0%,100%,0.8)
+colors
 
-link
+
+see also
+
+/src/utils/typography.js
+/src/css/prism/prism-day-after-tomorrow.css
+/src/components/search/styles.js
+
+Heliotrope
 hsl(252,96%,76%)
 #9f87fd
-Heliotrope - http://chir.ag/projects/name-that-color/#9E86FD
+Heliotrope - http://chir.ag/projects/name-that-color/#9F87FD
 Light Slate Blue - https://color-blindness.com/color-name-hue
 Contrast ratio to #000 - AAA
 7.35 - Chrome devtools
 7.36 - https://colorable.jxnblk.com/9f87fd/000000, Contrast app
+Used for links
 
-hr
-hsla(252,96%,76%,0.38)
-
-hover
+Amethyst Smoke
 hsl(252,16%,64%)
 #9b95b2
 Amethyst Smoke - http://chir.ag/projects/name-that-color/#9b95b2
 Logan - https://color-blindness.com/color-name-hue
 Contrast ratio to #000 - AAA
 7.34 - Chrome devtools, https://colorable.jxnblk.com/9b95b2/000000, Contrast app
+Used for hover states
+
+Neon Pink
+hsl(329, 100%, 77%)
+#ff88c6
+Carnation Pink - http://chir.ag/projects/name-that-color/#FF88C6
+Neon Pink - https://www.color-blindness.com/color-name-hue/
+Contrast ratio to #000 - AAA
+9.59 - Chrome devtools, https://colorable.jxnblk.com/9b95b2/000000, Contrast app
+Used for mark in Algoia hits
+
+Black Russian
+hsl(252, 96%, 8%)
+#090128
+Black Russian - http://chir.ag/projects/name-that-color/#090128
+Sapphire - https://www.color-blindness.com/color-name-hue/
+Used for mark background in Algoia hits
+
+SVG fill
+hsl(252, 100%, 77%)
+#a18aff
+Heliotrope - http://chir.ag/projects/name-that-color/#A18AFF
+Light Slate Blue - https://color-blindness.com/color-name-hue
+Contrast ratio to #000 - AAA
+7.59 Chrome devtools, https://colorable.jxnblk.com/a18aff/000000, Contrast app
+
+SVG trace
+hsl(252, 50%, 44%)
+#4f38a8
+Gigas - http://chir.ag/projects/name-that-color/#4F38A8
+Royal Purple - https://color-blindness.com/color-name-hue
+Contrast ratio to #000 - Fail
+2.46 - Chrome devtools, https://colorable.jxnblk.com/4f38a8/000000, Contrast app
+
+text (bodyColor)
+hsla(252,0%,100%,0.8)
+
+blockquote borderLeft
+4px solid hsla(252,96%,76%,0.38)
+
+blockquote, h6
+hsla(252,0%,100%,0.72)'
+
+hr backgroundColor
+hsla(252,96%,76%,0.38)
+
+
+/src/components/search/styles.js
+
+const amethystSmoke = `hsl(252,16%,64%)`
+const amethystSmokeDiaphanous = `hsl(252,16%,64%,0.3)`
+const amethystSmokeDimmed = `hsl(252,16%,64%,0.7)`
+const background = `hsl(252, 2%, 10%)`
+const backgroundFocus = `hsl(252, 2%, 16%)`
+const blackRussian = `hsl(252, 96%, 8%)`
+const bodyColor = `hsla(252,2%,100%,0.8)`
+const bodyColorDimmed = `hsla(252,2%,100%,0.4)`
+const heliotrope = `hsl(252,96%,76%)`
+const heliotropeDiaphanous = `hsla(252,96%,76%,0.38)`
+const neonPink = `hsl(329, 100%, 77%)`
+
 
 SVG fill
 hsl(252, 100%, 77%)
@@ -58,10 +122,6 @@ https://developers.google.com/web/fundamentals/accessibility/accessible-styles#c
 Contrast app – Guide
 https://usecontrast.com/guide
 
-see also
-
-/src/utils/typography.js
-/src/css/prism/prism-day-after-tomorrow.css
 */
 
 body {
@@ -74,7 +134,7 @@ samp,
 tt {
   font-family: 'Source Code Pro','SFMono-Regular','Consolas','Roboto Mono','Droid Sans Mono','Liberation Mono','Menlo','Monaco','Andale Mono','Ubuntu Mono','Courier',monospace;
   max-width: 100%;
-  overflowX: scroll;
+  overflow-x: scroll;
 }
 code,
 .footer-links li,
@@ -87,6 +147,7 @@ code {
   font-size: 0.944444444rem;
   vertical-align: baseline;
 }
+footer h3 span,
 header h3 span,
 figure,
 pre,
@@ -137,25 +198,38 @@ header,
 .post .date {
   text-align: center;
 }
-header h3,
+footer h3,
+footer h3 span,
+header h3 span,
 header h3 span,
 .flex-item h3,
 .next-prev-label {
   margin-top: 0;
 }
-header h3 {
+footer h3 {
   line-height: 2rem;
+  font-size: 1.125rem;
   margin-bottom: 1.37523rem;
 }
+.masthead h3.topknot {
+  background-color: transparent;
+  color: transparent;
+  font-size: 0px;
+  line-height: 0.01em;
+  margin-bottom: 1.37523rem;
+}
+footer h3 span,
 header h3 span,
 .post h1 {
   margin-bottom: 0;
 }
+footer h3 span,
 header h3 span,
 .footer-links,
 .links-icon {
   width: 100%;
 }
+footer h3 span,
 header h3 span,
 .links-icon {
   padding-bottom: 0;
@@ -163,9 +237,14 @@ header h3 span,
   background-position: center top;
 }
 header h3 span {
-  min-height: 84px;
+  min-height: 48px;
   background-size: 48px;
   padding-top: 48px;
+}
+footer h3 span {
+  min-height: 68px;
+  background-size: 32px;
+  padding-top: 32px;
 }
 .bio article {
   font-size: 1.125em;
@@ -260,6 +339,12 @@ header h3 span {
 }
 .gatsby-resp-image-image {
  box-shadow: inset 0px 0px 0px 400px transparent !important;
+}
+.ais-Hits-list li {
+  list-style: none;
+}
+.hit-date {
+  line-height: 1.5rem;
 }
 
 @media screen and (min-width: 640px) {
