@@ -1,5 +1,5 @@
 let activeEnv =
-  process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || 'development'
+  process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || `development`
 
 console.log(`Using environment config: '${activeEnv}'`)
 console.log(`NODE_ENV is ${process.env.NODE_ENV}`)
@@ -129,6 +129,7 @@ module.exports = {
               return allMarkdownRemark.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
+                  date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteURL + edge.node.fields.slug,
                   guid: site.siteMetadata.siteURL + edge.node.fields.slug,
                   custom_elements: [{ 'content:encoded': edge.node.html }],
@@ -156,7 +157,8 @@ module.exports = {
               }
             }
           `,
-            output: 'rss.xml',
+            output: `rss.xml`,
+            title: `Ricky de Laveaga`,
           },
         ],
       },
