@@ -84,7 +84,8 @@ class PostTemplate extends React.Component {
                   <span className="next-prev-label">
                     <span className="iconbox">
                       <FontAwesomeIcon icon={faArrowLeft} />
-                    </span>{' '}
+                    </span>
+                    {` `}
                     {prev.frontmatter.title}
                   </span>
                 </Link>
@@ -95,7 +96,8 @@ class PostTemplate extends React.Component {
                 <Link to={next.fields.slug}>
                   <h4 className="next-prev-label">Next</h4>
                   <span className="next-prev-label">
-                    {next.frontmatter.title}{' '}
+                    {next.frontmatter.title}
+                    {` `}
                     <span className="iconbox">
                       <FontAwesomeIcon icon={faArrowRight} />
                     </span>

@@ -62,11 +62,12 @@ class Pagination extends React.Component {
           <PaginationLink to={prevPageLink} style={prevNextLinkStyles}>
             <span className="iconbox">
               <FontAwesomeIcon icon={faArrowLeft} />
-            </span>{' '}
+            </span>
+            {` `}
             Newer posts
           </PaginationLink>
           <PaginationLink to={nextPageLink} style={prevNextLinkStyles}>
-            Older posts{' '}
+            Older posts{` `}
             <span className="iconbox">
               <FontAwesomeIcon icon={faArrowRight} />
             </span>

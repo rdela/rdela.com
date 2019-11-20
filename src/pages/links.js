@@ -29,7 +29,7 @@ class LinksPage extends React.Component {
             <meta property="og:url" content="https://rdela.com/links/" />
           </Helmet>
           <h1>
-            Links Page{' '}
+            Links Page{` `}
             <span role="img" aria-label="link symbol page facing up">
               🔗📄
             </span>
@@ -110,13 +110,14 @@ class LinksPage extends React.Component {
                           marginTop: rhythm(1 / 8),
                         }}
                       >
-                        &#8230;and the entire{' '}
+                        &#8230;and the entire{` `}
                         <em>
                           <a href="https://meta.wikimedia.org/wiki/Wikimedia_movement">
                             movement
                           </a>
-                        </em>{' '}
-                        around{' '}
+                        </em>
+                        {` `}
+                        around{` `}
                         <a href="https://www.wikimedia.org/">Wikimedia</a>
                       </h3>
                       Technical Collective Educational Content&nbsp;Development
@@ -167,7 +168,7 @@ class LinksPage extends React.Component {
 
               <li>
                 <article>
-                  <figure class="mw256">
+                  <figure className="mw256">
                     <a
                       className="links-icon"
                       href="https://developer.mozilla.org/en-US/docs/Web"

@@ -1,14 +1,14 @@
-import React, { useState, useEffect, createRef } from 'react'
-import {
-  InstantSearch,
-  Index,
-  Hits,
-  connectStateResults,
-} from 'react-instantsearch-dom'
 import algoliasearch from 'algoliasearch/lite'
-import { Root, HitsWrapper, PoweredBy } from './styles'
+import React, { createRef, useMemo, useState } from 'react'
+import {
+  connectStateResults,
+  Index,
+  InstantSearch,
+} from 'react-instantsearch-dom'
+import { useOnClickOutside } from '../../hooks/useOnClickOutside'
+import Hits from './Hits'
 import Input from './Input'
-import * as hitComps from './hitComps'
+import { HitsWrapper, PoweredBy, Root } from './styles'
 
 /*
 Dank search using
@@ -23,8 +23,11 @@ https://www.gatsbyjs.org/docs/adding-search-with-algolia/
 */
 
 const Results = connectStateResults(
-  ({ searchState: state, searchResults: res, children }) =>
-    res && res.nbHits > 0 ? children : `No results for '${state.query}'`
+  ({ searching, searchState: state, searchResults: res }) =>
+    (searching && <div>Searching...</div>) ||
+    (res && res.nbHits === 0 && (
+      <div>No results for &apos;{state.query}&apos;</div>
+    ))
 )
 
 const Stats = connectStateResults(
@@ -32,51 +35,41 @@ const Stats = connectStateResults(
     res && res.nbHits > 0 && `${res.nbHits} result${res.nbHits > 1 ? `s` : ``}`
 )
 
-const useClickOutside = (ref, handler, events) => {
-  if (!events) events = [`mousedown`, `touchstart`]
-  const detectClickOutside = event =>
-    !ref.current.contains(event.target) && handler()
-  useEffect(() => {
-    for (const event of events)
-      document.addEventListener(event, detectClickOutside)
-    return () => {
-      for (const event of events)
-        document.removeEventListener(event, detectClickOutside)
-    }
-  })
-}
-
 export default function Search({ indices, collapse, hitsAsGrid }) {
   const ref = createRef()
   const [query, setQuery] = useState(``)
   const [focus, setFocus] = useState(false)
-  const searchClient = algoliasearch(
-    process.env.GATSBY_ALGOLIA_APP_ID,
-    process.env.GATSBY_ALGOLIA_SEARCH_KEY
-  )
-  useClickOutside(ref, () => setFocus(false))
+  const appId = process.env.GATSBY_ALGOLIA_APP_ID
+  const searchKey = process.env.GATSBY_ALGOLIA_SEARCH_KEY
+  // useMemo prevents the searchClient from being recreated on every render.
+  // Avoids unnecessary XHR requests (see https://github.com/algolia/gatsby-plugin-algolia/issues/24#issuecomment-518793812).
+  const searchClient = useMemo(() => algoliasearch(appId, searchKey), [
+    appId,
+    searchKey,
+  ])
+  useOnClickOutside(ref, () => setFocus(false))
   return (
-    <InstantSearch
-      searchClient={searchClient}
-      indexName={indices[0].name}
-      onSearchStateChange={({ query }) => setQuery(query)}
-      root={{ Root, props: { ref } }}
-    >
-      <Input onFocus={() => setFocus(true)} {...{ collapse, focus }} />
-      <HitsWrapper show={query.length > 0 && focus} asGrid={hitsAsGrid}>
-        {indices.map(({ name, title, hitComp }) => (
-          <Index key={name} indexName={name}>
-            <header>
-              <h3>{title}</h3>
-              <Stats />
-            </header>
-            <Results>
-              <Hits hitComponent={hitComps[hitComp](() => setFocus(false))} />
-            </Results>
-          </Index>
-        ))}
-        <PoweredBy />
-      </HitsWrapper>
-    </InstantSearch>
+    <Root ref={ref}>
+      <InstantSearch
+        searchClient={searchClient}
+        indexName={indices[0].name}
+        onSearchStateChange={({ query }) => setQuery(query)}
+      >
+        <Input onFocus={() => setFocus(true)} {...{ collapse, focus }} />
+        <HitsWrapper show={query.length > 0 && focus} asGrid={hitsAsGrid}>
+          {indices.map(({ name, title, type }) => (
+            <Index key={name} indexName={name}>
+              <header>
+                <h3>{title}</h3>
+                <Stats />
+              </header>
+              <Results />
+              <Hits type={type} onClick={() => setFocus(false)} />
+            </Index>
+          ))}
+          <PoweredBy />
+        </HitsWrapper>
+      </InstantSearch>
+    </Root>
   )
 }

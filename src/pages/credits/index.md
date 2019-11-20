@@ -17,10 +17,10 @@ In happy far-away land (1902)<br />
 <br />
 
 Welcome to the new [rdela.com](https://rdela.com). I will be your host,
-Ricky de Laveaga.
+Ricky de&nbsp;Laveaga.
 
 I began developing this site with [GatsbyJS](https://www.gatsbyjs.org/)
-by running a:
+by running&nbsp;a:
 
 ```shell
 git clone
@@ -33,7 +33,7 @@ the Gatsby starter for creating a blog
 [Typography.js](https://github.com/KyleAMathews/typography.js)
 bundled, whose
 [demo&nbsp;playground](https://kyleamathews.github.io/typography.js/)
-is a fun way to noodle out a proto<em><strong>type</strong> design</em>.
+is a fun way to noodle out a proto<em><strong>type</strong>&nbsp;design</em>.
 
 Anyhoo, as of this post I am using a
 [modified version](https://github.com/rdela/rdela.com/blob/master/src/utils/typography.js)
@@ -48,7 +48,8 @@ and
 [Source&nbsp;Code&nbsp;Pro](https://typekit.com/fonts/source-sans)
 by [Paul&nbsp;D.&nbsp;Hunt](https://typekit.com/designers/paul-d-hunt) and
 [Teo&nbsp;Tuominen](https://typekit.com/designers/teo-tuominen). All 3 are
-part of the [_Adobe Originals_](https://blog.typekit.com/category/making-type/) series.
+part of the
+[_Adobe&nbsp;Originals_](https://blog.typekit.com/category/making-type/)&nbsp;series.
 
 [Typefaces](https://github.com/KyleAMathews/typefaces) makes
 including NPM packages for open source typefaces and self-hosting webfonts
@@ -78,11 +79,28 @@ are both superb open learning resources in the wild.
 [bricolage.io](https://www.bricolage.io/) by Kyle Mathews
 ([repo](https://github.com/KyleAMathews/blog))
 is maybe less generally useful while also being more approachable and
-especially helpful to me in putting this together.
+especially helpful to me in putting this&nbsp;together.
 
-As an instant bonus for reading all the way down, I give you the…
+<div id="20191120-upd1" class="update">
 
-<h3><a href="/links/"><strong>Links</strong> Page <span role="img" aria-label="link symbol page facing up">🔗📄</span></a></h3>
+**UPDATE 20 November 2019:** I have been using Algolia search since 24 July 2019
+via [gatsby-plugin-algolia](https://github.com/algolia/gatsby-plugin-algolia),
+thanks to the
+[excellent example by Janosh](https://janosh.io/blog/gatsby-algolia-search)
+that has become
+[part of the Gatsby docs](https://www.gatsbyjs.org/docs/adding-search-with-algolia/). I don’t think either article has been updated for changes [React InstantSearch](https://github.com/algolia/react-instantsearch) made in
+[v6](https://github.com/algolia/react-instantsearch/blob/master/MIGRATION.md#upgrade-to-6xx)
+to adopt React 16.3+’s [Context](https://reactjs.org/docs/context.html) API, but
+[Janosh’s repo](https://github.com/janosh/janosh.io/tree/master/src/components/Search) and
+[this one](https://github.com/rdela/rdela.com/tree/master/src/components/search)
+have been updated, in case that helps intrepid folks trying to make
+the&nbsp;switch.
+
+</div>
+
+As an instant bonus for reading all the way down, I give you&nbsp;the…
+
+<h3><a href="/links/"><strong>Links</strong>&nbsp;Page <span role="img" aria-label="link symbol page facing up">🔗📄</span></a></h3>
 
 <br />
 
@@ -95,4 +113,4 @@ As an instant bonus for reading all the way down, I give you the…
  [Gatsby&nbsp;Docs](https://www.gatsbyjs.org/docs/) start with the `gatsby new`
  command which takes care of this initial package install. (For more on `git`
  and cloning, see [git-clone docs](https://www.git-scm.com/docs/git-clone).)
- The source of the `gatsby new` command is split between [create-cli.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/create-cli.js#L316) and [init-starter.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/init-starter.js) in the Gatsby repo.
+ The source of the `gatsby new` command is split between [create-cli.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/create-cli.js#L316) and [init-starter.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/init-starter.js) in the Gatsby&nbsp;repo.

@@ -1,8 +1,8 @@
-const _ = require('lodash')
+const _ = require(`lodash`)
 const Promise = require(`bluebird`)
-const path = require('path')
+const path = require(`path`)
 const slash = require(`slash`)
-const { createFilePath } = require('gatsby-source-filesystem')
+const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage, createRedirect } = actions
@@ -32,8 +32,8 @@ exports.createPages = ({ graphql, actions }) => {
   })
 
   return new Promise((resolve, reject) => {
-    const postArticle = path.resolve('./src/templates/post-article.js')
-    const postList = path.resolve('./src/templates/post-list.js')
+    const postArticle = path.resolve(`./src/templates/post-article.js`)
+    const postList = path.resolve(`./src/templates/post-list.js`)
     resolve(
       graphql(
         `
@@ -58,6 +58,7 @@ exports.createPages = ({ graphql, actions }) => {
         `
       ).then(result => {
         if (result.errors) {
+          // eslint-disable-next-line no-console
           console.log(result.errors)
           reject(result.errors)
         }

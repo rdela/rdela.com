@@ -21,7 +21,7 @@ class PostIndex extends React.Component {
             {posts.map(({ node }) => {
               const title =
                 node.frontmatter.title ||
-                node.fields.slug.slice(1, -1).replace(/-/g, ' ')
+                node.fields.slug.slice(1, -1).replace(/-/g, ` `)
               return (
                 <li
                   className="flex-item"

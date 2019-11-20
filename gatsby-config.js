@@ -1,14 +1,15 @@
+/* eslint-disable no-console */
 let activeEnv =
   process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || `development`
 
 console.log(`Using environment config: '${activeEnv}'`)
 console.log(`NODE_ENV is ${process.env.NODE_ENV}`)
 
-require('dotenv').config({
+require(`dotenv`).config({
   path: `.env.${activeEnv}`,
 })
 
-const queries = require('./src/utils/algolia')
+const queries = require(`./src/utils/algolia`)
 
 module.exports = {
   siteMetadata: {
@@ -42,7 +43,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          'gatsby-remark-numbered-footnotes',
+          `gatsby-remark-numbered-footnotes`,
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -50,7 +51,7 @@ module.exports = {
               maxWidth: 816,
               linkImagesToOriginal: false,
               tracedSVG: {
-                color: '#4F38A8',
+                color: `#4F38A8`,
                 blackOnWhite: false,
               },
             },

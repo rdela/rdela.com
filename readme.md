@@ -32,7 +32,6 @@ Repo background & history:
 
 See current [NPM_VERSION](https://github.com/rdela/rdela.com/blob/master/netlify.toml#L8) or [YARN_VERSION](https://github.com/rdela/rdela.com/blob/master/netlify.toml#L11).
 
-
 #### [Netlify TOML reference](https://www.netlify.com/docs/netlify-toml-reference/)
 
 #### [Netlify > Continuous Deployment > Deploy Contexts](https://www.netlify.com/docs/continuous-deployment/#deploy-contexts)
@@ -60,11 +59,11 @@ See current [NPM_VERSION](https://github.com/rdela/rdela.com/blob/master/netlify
 > For example, to make nvm default to the latest 5.9 release, the latest LTS version, or the latest node version for the current directory:
 
 ```shell
-$ echo "5.9" > .nvmrc
+echo "5.9" > .nvmrc
 
-$ echo "lts/*" > .nvmrc # to default to the latest LTS version
+echo "lts/*" > .nvmrc # to default to the latest LTS version
 
-$ echo "node" > .nvmrc # to default to the latest version
+echo "node" > .nvmrc # to default to the latest version
 ```
 
 #### `NPM_VERSION`
@@ -78,13 +77,13 @@ $ echo "node" > .nvmrc # to default to the latest version
 
 There to appease quirk that begat this lag/error I was seeing in deploy logs:
 
-```
-Attempting ruby version 2.2.3, read from environment
-** WARNING **
-Using custom ruby version 2.2.3, this will slow down the build.
-To ensure fast builds, set the RUBY_VERSION environment variable,
-or .ruby-version file, to an included ruby version.
-Included versions: 2.2.9 2.4.3 2.3.6
+```shell
+# Attempting ruby version 2.2.3, read from environment
+# ** WARNING **
+# Using custom ruby version 2.2.3, this will slow down the build.
+# To ensure fast builds, set the RUBY_VERSION environment variable,
+# or .ruby-version file, to an included ruby version.
+# Included versions: 2.2.9 2.4.3 2.3.6
 ```
 
 ##### [Netlify > Continuous Deployment > Set Node, Ruby, or Python version](https://www.netlify.com/docs/continuous-deployment/#set-node-ruby-or-python-version)
@@ -93,8 +92,8 @@ Included versions: 2.2.9 2.4.3 2.3.6
 
 ##### [RVM > Switching between ruby versions](https://github.com/rvm/rvm/blob/master/README.md#switching-between-ruby-versions)
 
-> * `default`    - default ruby (or the system ruby if a default hasn't been set)
-> * `system`     - system ruby (state before RVM was installed)
+> - `default`    - default ruby (or the system ruby if a default hasn't been set)
+> - `system`     - system ruby (state before RVM was installed)
 
 #### YARN_FLAGS + YARN_VERSION
 
@@ -112,7 +111,7 @@ See these commits on the Gatsby Netlify CMS starter.
 
 ## License
 
-https://docs.npmjs.com/files/package.json#license
+<https://docs.npmjs.com/files/package.json#license>
 
 > You should specify a license for your package so that people know how they are permitted to use it, and any restrictions you're placing on it.
 

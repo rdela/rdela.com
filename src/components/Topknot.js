@@ -7,7 +7,7 @@ class Topknot extends React.Component {
     const siteTitle = this.props.siteTitle
     return (
       <h3 className="topknot">
-        <Link tabIndex="0" to={'/'}>
+        <Link tabIndex="0" to={`/`}>
           <span
             style={{
               backgroundImage: `url(${knot})`,
