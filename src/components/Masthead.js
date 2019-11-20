@@ -17,7 +17,7 @@ class Masthead extends React.Component {
 
     return (
       <header className="masthead">
-        <Helmet defaultTitle={siteTitle} titleTemplate={'%s - ' + siteTitle}>
+        <Helmet defaultTitle={siteTitle} titleTemplate={`%s - ` + siteTitle}>
           <html lang="en" />
           <meta name="copyright" content={cYear} />
           <meta name="description" content={this.props.description} />

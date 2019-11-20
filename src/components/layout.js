@@ -11,7 +11,7 @@ import 'typeface-source-serif-pro'
 import '../css/prism/prism-day-after-tomorrow.css'
 import './layout.css'
 
-export default ({ children, location }) => (
+export default ({ children }) => (
   <StaticQuery
     query={graphql`
       {

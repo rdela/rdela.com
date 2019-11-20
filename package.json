@@ -10,8 +10,10 @@
     "clean": "gatsby clean",
     "devbuild": "GATSBY_ACTIVE_ENV=development gatsby build",
     "format": "prettier --write \"{gatsby-*.js,src/**/*.js}\"",
+    "lint": "eslint --ignore-path .gitignore --ignore-path .prettierignore --ext .js,.jsx .",
     "serve": "gatsby serve",
     "start": "gatsby develop",
+    "svgo": "svgo --pretty --indent=2 --config=svgo.yml --multipass -f ./src/svg",
     "test": "GATSBY_ACTIVE_ENV=development gatsby build && gatsby serve"
   },
   "bugs": {
@@ -22,6 +24,20 @@
     "url": "git+https://github.com/rdela/rdela.com.git"
   },
   "homepage": "https://rdela.com/",
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --ignore-path .gitignore --ignore-path .prettierignore --fix",
+      "git add"
+    ],
+    "*.{md,css,scss,yaml,yml}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.svg": [
+      "svgo --pretty --indent=2 --config=svgo.yml --multipass",
+      "git add"
+    ]
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.25",
     "@fortawesome/free-brands-svg-icons": "5.11.2",
@@ -54,7 +70,7 @@
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-helmet": "5.2.1",
-    "react-instantsearch-dom": "5.7.0",
+    "react-instantsearch-dom": "6.0.0",
     "react-typography": "0.16.19",
     "slash": "3.0.0",
     "styled-components": "4.4.1",
@@ -67,7 +83,13 @@
     "typography-theme-github": "0.16.19"
   },
   "devDependencies": {
-    "prettier": "1.19.1"
+    "babel-eslint": "10.0.3",
+    "eslint": "6.6.0",
+    "eslint-plugin-react": "7.16.0",
+    "eslint-plugin-react-hooks": "2.3.0",
+    "lint-staged": "10.0.0-beta.4",
+    "prettier": "1.19.1",
+    "svgo": "1.3.2"
   },
   "keywords": [
     "de Laveaga",

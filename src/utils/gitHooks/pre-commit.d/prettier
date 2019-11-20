@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Get all .js(x) files excluding deleted ones (--diff-filter=d).
+files=$(git diff --cached --name-only --diff-filter=d "*.js" "*.jsx")
+
+# Prettify files in place.
+# Adapted from https://prettier.io/docs/en/precommit.html#option-5-bash-script.
+echo "$files" | xargs ./node_modules/.bin/prettier --write
+
+# Stage prettified files.
+echo "$files" | xargs git add

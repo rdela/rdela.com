@@ -145,7 +145,13 @@ code,
 }
 code {
   font-size: 0.944444444rem;
-  vertical-align: baseline;
+  vertical-align: middle;
+}
+a code[class*="language-"],
+a pre[class*="language-"],
+code[class*="language-"] a,
+pre[class*="language-"] a {
+  color: inherit;
 }
 footer h3 span,
 header h3 span,

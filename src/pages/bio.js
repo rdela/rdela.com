@@ -17,7 +17,7 @@ class BioPage extends React.Component {
             <meta property="og:url" content="https://rdela.com/bio/" />
           </Helmet>
           <h1>
-            Bio{' '}
+            Bio{` `}
             <span role="img" aria-label="link symbol page facing up">
               📝
             </span>
