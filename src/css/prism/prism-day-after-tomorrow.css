@@ -1,7 +1,7 @@
 /**
  * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
  * Based on https://github.com/chriskempson/tomorrow-theme
- * @author Rose Pritchard
+ * @author Rose Pritchard and Ricky de Laveaga
  */
 
 code[class*="language-"],
@@ -42,8 +42,8 @@ pre[class*="language-"] {
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
-	padding: .125em;
-	border-radius: .3em;
+	padding: 0.125em 0 0.15625em;
+	border-radius: 0.3em;
 	white-space: normal;
 }
 
