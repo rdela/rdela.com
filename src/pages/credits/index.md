@@ -56,7 +56,7 @@ including NPM packages for open source typefaces and self-hosting webfonts
 significantly easier. Library author Kyle Mathews explained the motivations
 [in&nbsp;January&nbsp;2017](https://www.bricolage.io/typefaces-easiest-way-to-self-host-fonts/).
 
-Though the `git clone` example above hardly does it justice,
+Though the `shell±git clone` example above hardly does it justice,
 gatsby-remark-prismjs ([docs](https://www.gatsbyjs.org/packages/gatsby-remark-prismjs/), [on&nbsp;GitHub](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-remark-prismjs))
 makes adding “syntax highlighting to code blocks in markdown files” using
 [Prism](https://github.com/PrismJS/prism) a drop-in affair with a line in
@@ -86,7 +86,7 @@ especially helpful to me in putting this&nbsp;together.
 **UPDATE 20 November 2019:** I have been using Algolia search since 24 July 2019
 via [gatsby-plugin-algolia](https://github.com/algolia/gatsby-plugin-algolia),
 thanks to the
-[excellent example by Janosh](https://janosh.io/blog/gatsby-algolia-search)
+[excellent example by Janosh Riebesell](https://janosh.io/blog/gatsby-algolia-search)
 that has become
 [part of the Gatsby docs](https://www.gatsbyjs.org/docs/adding-search-with-algolia/). I don’t think either article has been updated for changes [React InstantSearch](https://github.com/algolia/react-instantsearch) made in
 [v6](https://github.com/algolia/react-instantsearch/blob/master/MIGRATION.md#upgrade-to-6xx)
@@ -104,13 +104,13 @@ As an instant bonus for reading all the way down, I give you&nbsp;the…
 
 <br />
 
-[^gatsby-new]: Having already installed `gatsby-cli`, One could run: <br />
- `gatsby new mySite https://github.com/gatsbyjs/gatsby-starter-blog`<br />
- …in the terminal instead of a `git clone` of the
+[^gatsby-new]: Having already installed `shell±gatsby-cli`, One could run: <br />
+ `shell±gatsby new mySite https://github.com/gatsbyjs/gatsby-starter-blog`<br />
+ …in the terminal instead of a `shell±git clone` of the
  [gatsby-starter-blog repo](https://github.com/gatsbyjs/gatsby-starter-blog)
- like I did, which then needs to be followed by a `yarn` or `npm i` before
- running `gatsby develop` for the first time. The
- [Gatsby&nbsp;Docs](https://www.gatsbyjs.org/docs/) start with the `gatsby new`
- command which takes care of this initial package install. (For more on `git`
+ like I did, which then needs to be followed by a `shell±yarn` or `shell±npm i` before
+ running `shell±gatsby develop` for the first time. The
+ [Gatsby&nbsp;Docs](https://www.gatsbyjs.org/docs/) start with the `shell±gatsby new`
+ command which takes care of this initial package install. (For more on `shell±git`
  and cloning, see [git-clone docs](https://www.git-scm.com/docs/git-clone).)
- The source of the `gatsby new` command is split between [create-cli.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/create-cli.js) and [init-starter.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/init-starter.js) in the Gatsby&nbsp;repo.
+ The source of the `shell±gatsby new` command is split between [create-cli.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/create-cli.js) and [init-starter.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/init-starter.js) in the Gatsby&nbsp;repo.

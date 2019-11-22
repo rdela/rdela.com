@@ -62,7 +62,12 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              inlineCodeMarker: `±`,
+            },
+          },
           `gatsby-remark-copy-linked-files`,
         ],
       },
@@ -169,7 +174,6 @@ module.exports = {
       options: {
         appId: process.env.GATSBY_ALGOLIA_APP_ID,
         apiKey: process.env.ALGOLIA_ADMIN_KEY,
-        // indexName: process.env.ALGOLIA_INDEX_NAME, // for all queries
         queries,
         chunkSize: 20000, // default: 1000
       },

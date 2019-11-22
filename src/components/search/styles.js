@@ -2,7 +2,6 @@ import React from 'react'
 import styled, { css } from 'styled-components'
 import { Algolia } from 'styled-icons/fa-brands/Algolia'
 import { Search } from 'styled-icons/fa-solid/Search'
-import { Calendar } from 'styled-icons/octicons/Calendar'
 
 const amethystSmoke = `hsl(252,16%,64%)`
 const amethystSmokeDiaphanous = `hsl(252,16%,64%,0.7)`
@@ -30,12 +29,6 @@ export const Root = styled.div`
 export const SearchIcon = styled(Search)`
   width: 1em;
   pointer-events: none;
-`
-
-export const CalendarIcon = styled(Calendar)`
-  width: 1em;
-  pointer-events: none;
-  vertical-align: -0.1875em;
 `
 
 export const Form = styled.form`

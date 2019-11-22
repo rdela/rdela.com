@@ -14,11 +14,6 @@ const postQuery = `{
         frontmatter {
           title
           frontmatterExcerpt: excerpt
-          date(formatString: "D MMMM YYYY")
-          rawDate: date
-        }
-        headings {
-          headingValue: value
         }
         excerpt(pruneLength: 5000)
         objectID: id
@@ -28,10 +23,9 @@ const postQuery = `{
 }`
 
 const flatten = arr =>
-  arr.map(({ node: { fields, frontmatter, headings, ...rest } }) => ({
+  arr.map(({ node: { fields, frontmatter, ...rest } }) => ({
     ...fields,
     ...frontmatter,
-    ...headings,
     ...rest,
   }))
 
