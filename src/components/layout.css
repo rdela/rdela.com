@@ -423,7 +423,8 @@ footer h3 span {
   blockquote, h6 {
     color: hsla(252,0%,0%,0.72);
   }
-  figure.needs-img-bkd img {
+  figure.needs-img-bkd img,
+  figure.needs-img-bkd .links-icon {
     background-color: #000;
   }
 }
