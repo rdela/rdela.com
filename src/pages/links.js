@@ -128,7 +128,7 @@ class LinksPage extends React.Component {
 
               <li>
                 <article>
-                  <figure>
+                  <figure className="needs-img-bkd">
                     <a
                       className="links-icon"
                       href="https://archive.org"
@@ -168,7 +168,7 @@ class LinksPage extends React.Component {
 
               <li>
                 <article>
-                  <figure className="mw256">
+                  <figure className="mw256 needs-img-bkd">
                     <a
                       className="links-icon"
                       href="https://developer.mozilla.org/en-US/docs/Web"
