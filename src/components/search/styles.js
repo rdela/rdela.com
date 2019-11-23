@@ -129,6 +129,7 @@ const hitsGrid = css`
 export const HitsWrapper = styled.div`
   display: ${props => (props.show ? `grid` : `none`)};
   background-color: ${background};
+  color: hsla(252, 2%, 100%, 0.8);
   text-align: left;
   max-height: 80vh;
   overflow: scroll;
@@ -138,6 +139,13 @@ export const HitsWrapper = styled.div`
   * {
     margin-top: 0;
     padding: 0;
+  }
+  a {
+    color: hsl(252, 96%, 76%);
+  }
+  a:hover,
+  a:active {
+    color: hsl(252, 16%, 64%);
   }
   ul {
     list-style: none;

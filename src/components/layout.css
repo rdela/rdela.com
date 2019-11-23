@@ -406,3 +406,24 @@ footer h3 span {
     margin-right: -16px;
   }
 }
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #fff;
+    color: hsla(252,2%,0%,0.8);
+  }
+  a {
+    color: hsl(252,96%,56%);
+    text-decoration: none;
+  }
+  a:hover, a:active {
+    text-decoration: none;
+    color: hsl(252,16%,40%);
+  }
+  blockquote, h6 {
+    color: hsla(252,0%,0%,0.72);
+  }
+  figure.needs-img-bkd img {
+    background-color: #000;
+  }
+}

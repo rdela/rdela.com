@@ -5,7 +5,7 @@ excerpt: "Thank you Netlify"
 image: "full-logo-light.png"
 ---
 
-<figure class="mw848">
+<figure class="mw848 needs-img-bkd">
 <img src="full-logo-dark.png"
   alt="Netlify Full Logo Light" /><br />
 <figcaption>
