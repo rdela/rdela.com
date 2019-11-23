@@ -18,7 +18,7 @@ Pwned, today I found out I my email address was among [over 622 million unique
 email addresses exposed in a data breach of an index indicating it was sourced
 from People Data Labs
 (PDL)](https://www.troyhunt.com/data-enrichment-people-data-labs-and-another-622m-email-addresses/).
-This section really resonates with me:
+This section really resonates with&nbsp;me:
 
 > The recurring theme I'm finding with exposed data of this nature is increasing
 > outrage that the data aggregator obtained and used personal information in a
@@ -29,7 +29,7 @@ This section really resonates with me:
 > companies secure their own system, once they pass the data downstream to
 > customers it's completely out of their control. My data—almost certainly
 > your data too—is replicated, mishandled and exposed and there's absolutely
-> nothing we can do about it. Well, almost nothing…
+> nothing we can do about it. Well, almost&nbsp;nothing…
 
 After reading [Troy’s post](https://www.troyhunt.com/data-enrichment-people-data-labs-and-another-622m-email-addresses/), I wrote the following to
 [support@peopledatalabs.com](mailto:support@peopledatalabs.com)
@@ -38,34 +38,33 @@ After reading [Troy’s post](https://www.troyhunt.com/data-enrichment-people-da
 > them” and that you will “reply to a person’s request within five business
 > days” or delete it&nbsp;outright.
 >
-> Today I found out this email address, ricky@rdela.com, was exposed in a data
+> Today I found out [my email address] was exposed in a data
 > breach of an index indicating it was sourced from People Data Labs (PDL)
 > along with over 622 million other unique email&nbsp;addresses.
 > <https://www.troyhunt.com/data-enrichment-people-data-labs-and-another-622m-email-addresses/>
 >
 > I would like to know exactly what data you have associated with the email
-> address above or my name, Richard (Ricky) de Laveaga. Secondly I want
-> confirmation that my data—that I never gave you permission to obtain, collect,
-> or pass along downstream to customers—has been deleted from your systems and
-> will not be shared, bundled, packaged, or sold&nbsp;again.
+> address above or [my name]. Secondly I want confirmation that my data—that I
+> never gave you permission to obtain, collect, or pass along downstream to
+> customers—has been deleted from your systems and will not be shared, bundled,
+> packaged, or sold&nbsp;again.
 
 If your data is in the breach, I suggest you do the same.
 [Visit HIBP](https://haveibeenpwned.com/) to check. Here is [the breach summary
 on&nbsp;HIBP](https://haveibeenpwned.com/PwnedWebsites#PDL):
 
-> Breach date: 16 October 2019
->
-> Date added to HIBP: 22 November 2019
->
-> Compromised accounts: 622,161,052
->
-> Compromised data: Email addresses, Employers, Geographic locations, Job titles, Names, Phone numbers, Social media profiles
+<blockquote>
+Breach date: 16 October 2019<br />
+Date added to HIBP: 22 November 2019<br />
+Compromised accounts: 622,161,052<br />
+Compromised data: Email addresses, Employers, Geographic locations, Job titles, Names, Phone numbers, Social media profiles
+</blockquote>
 
 – [Pwned websites - Data Enrichment Exposure From PDL Customer](https://haveibeenpwned.com/PwnedWebsites#PDL)
 
 Along with [Evite](https://haveibeenpwned.com/PwnedWebsites#Evite),
 [PDL](https://haveibeenpwned.com/PwnedWebsites#PDL) joins the ever-growing list
-of companies who have leaked my data, in my personal HIBP wall of shame:
+of companies in my personal HIBP wall of shame who have leaked my data:
 [Dropbox](https://haveibeenpwned.com/PwnedWebsites#Dropbox),
 [Tumblr](https://haveibeenpwned.com/PwnedWebsites#Tumblr),
 [Adobe](https://haveibeenpwned.com/PwnedWebsites#Adobe),
