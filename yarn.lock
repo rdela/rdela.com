@@ -5107,22 +5107,6 @@ execa@^1.0.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
-execa@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/execa/-/execa-3.3.0.tgz#7e348eef129a1937f21ecbbd53390942653522c1"
-  integrity sha512-j5Vit5WZR/cbHlqU97+qcnw9WHRCIL4V1SVe75VcHcD1JRBdt8fv0zw89b7CQHQdUHTt2VjuhcF5ibAgVOxqpg==
-  dependencies:
-    cross-spawn "^7.0.0"
-    get-stream "^5.0.0"
-    human-signals "^1.1.1"
-    is-stream "^2.0.0"
-    merge-stream "^2.0.0"
-    npm-run-path "^4.0.0"
-    onetime "^5.1.0"
-    p-finally "^2.0.0"
-    signal-exit "^3.0.2"
-    strip-final-newline "^2.0.0"
-
 execa@^3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/execa/-/execa-3.4.0.tgz#c08ed4550ef65d858fac269ffc8572446f37eb89"
@@ -8233,17 +8217,17 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-lint-staged@10.0.0-beta.6:
-  version "10.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.0.0-beta.6.tgz#1f188085b21cd52b723550e1acd6dd719d040997"
-  integrity sha512-gpwm3Y8PbdONUbqDw7QYIoimvaoIdtkwQdh9CBcgTn9fTGDLHC1dP2dQEnz+mp5UvQXb3FDTezD25ss9oDrj3A==
+lint-staged@10.0.0-beta.7:
+  version "10.0.0-beta.7"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.0.0-beta.7.tgz#c6ee4e2b72d2106f2dd8955689ff0dfe26217891"
+  integrity sha512-YfuR1+uOt56hPAZ1gIPglzzP6zUV5A94LsFKbq4C9nFdTsNGetNFdET1opUYhWsBY/aYUfcmf1YEYH/+1R9bIA==
   dependencies:
     chalk "^3.0.0"
     commander "^4.0.1"
     cosmiconfig "^6.0.0"
     debug "^4.1.1"
     dedent "^0.7.0"
-    execa "^3.3.0"
+    execa "^3.4.0"
     listr "^0.14.3"
     log-symbols "^3.0.0"
     micromatch "^4.0.2"
