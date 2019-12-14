@@ -425,6 +425,6 @@ footer h3 span {
   }
   figure.needs-img-bkd img,
   figure.needs-img-bkd .links-icon {
-    background-color: #000;
+    filter: brightness(0.1);
   }
 }

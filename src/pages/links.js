@@ -37,6 +37,7 @@ class LinksPage extends React.Component {
 
           <section className="links">
             <figure
+              className="needs-img-bkd"
               style={{
                 marginTop: rhythm(3 / 2),
               }}
@@ -135,10 +136,11 @@ class LinksPage extends React.Component {
                       style={{
                         backgroundImage: `url(${ialogo})`,
                         backgroundSize: `96px`,
-                        minHeight: `134px`,
+                        minHeight: `96px`,
                         paddingTop: `96px`,
                       }}
-                    >
+                    ></a>
+                    <a href="https://archive.org">
                       <h3>
                         <span>
                           <FontAwesomeIcon icon={faArchive} />
@@ -175,10 +177,11 @@ class LinksPage extends React.Component {
                       style={{
                         backgroundImage: `url(${mdnDark})`,
                         backgroundSize: `256px`,
-                        minHeight: `86px`,
+                        minHeight: `48px`,
                         paddingTop: `48px`,
                       }}
-                    >
+                    ></a>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web">
                       <h3>
                         <span>
                           <FontAwesomeIcon icon={faFirefox} />
