@@ -1,13 +1,18 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import { Helmet } from 'react-helmet'
 
 import { rhythm } from '../utils/typography'
 // eslint-disable-next-line
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArchive, faBook } from '@fortawesome/free-solid-svg-icons'
-import { faWikipediaW } from '@fortawesome/free-brands-svg-icons/faWikipediaW'
+import { faArchive, faBook, faRobot } from '@fortawesome/free-solid-svg-icons'
 import { faFirefox } from '@fortawesome/free-brands-svg-icons/faFirefox'
+import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
+import { faGitlab } from '@fortawesome/free-brands-svg-icons/faGitlab'
+import { faKeybase } from '@fortawesome/free-brands-svg-icons/faKeybase'
+import { faMastodon } from '@fortawesome/free-brands-svg-icons/faMastodon'
+import { faWikipediaW } from '@fortawesome/free-brands-svg-icons/faWikipediaW'
 // https://fontawesome.com/icons?d=gallery
 
 import Layout from '../components/layout'
@@ -18,6 +23,7 @@ import mdnDark from '../svg/mdn.svg'
 class LinksPage extends React.Component {
   render() {
     const metaDesc = `Support Knowledge for Everyone`
+    const siteMetadata = this.props.data.site.siteMetadata
 
     return (
       <Layout>
@@ -31,11 +37,114 @@ class LinksPage extends React.Component {
           <h1>
             Links Page{` `}
             <span role="img" aria-label="link symbol page facing up">
-              🔗📄
+              &#x1f517;&#x1f4c4; {/* 🔗📄 */}
             </span>
           </h1>
 
           <section className="links">
+            <h2
+              style={{
+                marginBottom: 0,
+              }}
+            >
+              Me Around the Web
+            </h2>
+            <h2
+              style={{
+                marginTop: 0,
+              }}
+            >
+              <span role="img" aria-label="counter-clockwise arrows spiderweb">
+                &#x1f504;&#x1f578; {/* 🔄🕸 */}
+              </span>
+            </h2>
+            <ul className="footer-links">
+              <li>
+                <a href="https://famebot.com/">
+                  <span>
+                    <FontAwesomeIcon icon={faRobot} />
+                  </span>
+                  {` `}
+                  famebot
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href={`https://gitlab.com/${siteMetadata.gitlab.substring(
+                    1
+                  )}`}
+                >
+                  <span>
+                    <FontAwesomeIcon icon={faGitlab} />
+                  </span>
+                  {` `}
+                  {siteMetadata.gitlab} on&nbsp;gitlab
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href={`https://github.com/${siteMetadata.github.substring(
+                    1
+                  )}`}
+                >
+                  <span>
+                    <FontAwesomeIcon icon={faGithub} />
+                  </span>
+                  {` `}
+                  {siteMetadata.github} on&nbsp;github
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href={`https://keybase.io/${siteMetadata.keybase.substring(
+                    1
+                  )}`}
+                >
+                  <span>
+                    <FontAwesomeIcon icon={faKeybase} />
+                  </span>
+                  {` `}
+                  {siteMetadata.keybase} on&nbsp;keybase
+                </a>
+              </li>
+
+              <li>
+                <a
+                  rel="me"
+                  href={`https://mastodon.social/${siteMetadata.mastodon.substring(
+                    0,
+                    6
+                  )}`}
+                >
+                  <span>
+                    <FontAwesomeIcon icon={faMastodon} />
+                  </span>
+                  {` `}
+                  {siteMetadata.mastodon}
+                </a>
+              </li>
+            </ul>
+
+            <h2
+              style={{
+                marginBottom: 0,
+              }}
+            >
+              Keep on Readin’ On
+            </h2>
+            <h2
+              style={{
+                marginTop: 0,
+              }}
+            >
+              <span role="img" aria-label="open book books">
+                &#x1f4d6;&#x1f4da; {/* 📖📚 */}
+              </span>
+            </h2>
+
             <figure
               className="needs-img-bkd"
               style={{
@@ -63,25 +172,36 @@ class LinksPage extends React.Component {
               </a>
             </figure>
 
-            <h1
+            <h2
               style={{
-                marginBottom: rhythm(1 / 4),
+                marginBottom: 0,
+                marginTop: rhythm(3.125),
               }}
             >
               Support
-            </h1>
+            </h2>
             <figure
               style={{
                 marginBottom: rhythm(1 / 4),
               }}
             >
-              <figcaption>Knowledge for Everyone</figcaption>
+              <figcaption
+                style={{
+                  marginTop: 0,
+                }}
+              >
+                Knowledge for Everyone
+              </figcaption>
             </figure>
-            <p>
-              <span role="img" aria-label="globe with meridians">
-                &#x1F310;
+            <h2
+              style={{
+                marginTop: 0,
+              }}
+            >
+              <span role="img" aria-label="brain globe with meridians">
+                &#x1f9e0;&#x1F310; {/* 🧠🌐 */}
               </span>
-            </p>
+            </h2>
 
             <ul>
               <li>
@@ -203,3 +323,22 @@ class LinksPage extends React.Component {
 }
 
 export default LinksPage
+
+export const LinksQuery = graphql`
+  {
+    site {
+      siteMetadata {
+        author
+        description
+        email
+        github
+        gitlab
+        keybase
+        mastodon
+        siteURL
+        title
+        twitter
+      }
+    }
+  }
+`

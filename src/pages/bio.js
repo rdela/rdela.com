@@ -19,7 +19,7 @@ class BioPage extends React.Component {
           <h1>
             Bio{` `}
             <span role="img" aria-label="link symbol page facing up">
-              📝
+              &#x1f4dd; {/* 📝 */}
             </span>
           </h1>
 
