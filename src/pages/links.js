@@ -328,16 +328,10 @@ export const LinksQuery = graphql`
   {
     site {
       siteMetadata {
-        author
-        description
-        email
         github
         gitlab
         keybase
         mastodon
-        siteURL
-        title
-        twitter
       }
     }
   }

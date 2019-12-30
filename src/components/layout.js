@@ -21,9 +21,6 @@ export default ({ children }) => (
             description
             email
             github
-            gitlab
-            keybase
-            mastodon
             siteURL
             title
             twitter
@@ -46,9 +43,6 @@ export default ({ children }) => (
             author={data.site.siteMetadata.author}
             siteEmail={data.site.siteMetadata.email}
             siteGithub={data.site.siteMetadata.github}
-            siteGitlab={data.site.siteMetadata.gitlab}
-            siteKeybase={data.site.siteMetadata.keybase}
-            siteMastodon={data.site.siteMetadata.mastodon}
             siteTitle={data.site.siteMetadata.title}
             siteTwitter={data.site.siteMetadata.twitter}
             siteURL={data.site.siteMetadata.siteURL}
