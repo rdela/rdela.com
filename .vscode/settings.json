@@ -1,8 +1,16 @@
 {
   "cSpell.words": [
-    "SPDX",
     "linebreak",
     "nvmrc",
-    "rdela"
+    "rdela",
+    "SPDX"
+  ],
+  "cSpell.ignorePaths": [
+    ".eslintrc.js",
+    "gatsby-config.js",
+    "gatsby-node.js",
+    "package.json",
+    "node_modules",
+    "src"
   ]
 }
