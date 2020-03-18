@@ -99,7 +99,8 @@
   ],
   "renovate": {
     "extends": [
-      "config:base"
+      "config:base",
+      "schedule:weekly"
     ],
     "labels": [
       "renovate"
