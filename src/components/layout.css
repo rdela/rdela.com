@@ -159,7 +159,7 @@ figure,
 pre,
 .flex-item a,
 .footer-links a,
-.links-icon {
+.links-icon  {
   display: block;
 }
 figcaption {
@@ -241,6 +241,13 @@ header h3 span,
 .links-icon {
   padding-bottom: 0;
   background-repeat: no-repeat;
+}
+footer h3 span,
+header h3 span,
+.links-icon {
+  background-position: center top;
+}
+.links-web-icon {
   background-position: center top;
 }
 header h3 span {
@@ -287,6 +294,13 @@ footer h3 span {
 }
 .footer-links span {
   margin-right: 0.25em;
+}
+.footer-links span.microblog {
+  margin-right: 0.375em;
+}
+.footer-links a.microblog:hover {
+  color: hsl(252,96%,76%);
+  filter: grayscale(64%);
 }
 .iconbox {
   width: 1rem;

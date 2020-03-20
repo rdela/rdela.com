@@ -20,6 +20,7 @@ import Layout from '../components/layout'
 import ialogo from '../svg/internet-archive-inv.svg'
 import wikicorn from '../svg/wikicorn.svg'
 import mdnDark from '../svg/mdn.svg'
+import microblog from '../svg/microblog.svg'
 
 class LinksPage extends React.Component {
   render() {
@@ -99,6 +100,31 @@ class LinksPage extends React.Component {
                   </span>
                   {` `}
                   {siteMetadata.keybase} on&nbsp;keybase
+                </a>
+              </li>
+
+              <li>
+                <a
+                  rel="me"
+                  className="microblog"
+                  href={`https://${siteMetadata.microblog.substring(
+                    1
+                  )}.micro.blog/`}
+                >
+                  <span
+                    className="microblog"
+                    style={{
+                      backgroundImage: `url(${microblog})`,
+                      backgroundPosition: `left center`,
+                      backgroundRepeat: `no-repeat`,
+                      backgroundSize: `16px`,
+                      fontSize: `inherit`,
+                      minHeight: `1em`,
+                      paddingLeft: `1em`,
+                      verticalAlign: `-0.125em`,
+                    }}
+                  ></span>
+                  {siteMetadata.microblog} on&nbsp;microblog
                 </a>
               </li>
 
@@ -337,6 +363,7 @@ export const LinksQuery = graphql`
         gitlab
         keybase
         mastodon
+        microblog
         twitter
       }
     }

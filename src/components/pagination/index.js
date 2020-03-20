@@ -13,6 +13,7 @@ import {
 import PaginationLink from './PaginationLink'
 
 class Pagination extends React.Component {
+// eslint-disable-next-line
   changePage = e => {
     navigate(e.target.value ? `/page/${e.target.value}` : `/`)
   }

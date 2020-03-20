@@ -19,6 +19,7 @@ module.exports = {
     github: `@rdela`,
     gitlab: `@rdela`,
     keybase: `@rdela`,
+    microblog: `@ricky`,
     mastodon: `@rdela@mastodon.social`,
     siteURL: `https://rdela.com`,
     title: `Ricky de Laveaga`,
