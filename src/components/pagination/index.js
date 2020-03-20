@@ -1,7 +1,6 @@
 import React from 'react'
 import { navigate } from 'gatsby'
 
-// eslint-disable-next-line
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -13,7 +12,6 @@ import {
 import PaginationLink from './PaginationLink'
 
 class Pagination extends React.Component {
-// eslint-disable-next-line
   changePage = e => {
     navigate(e.target.value ? `/page/${e.target.value}` : `/`)
   }

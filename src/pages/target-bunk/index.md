@@ -10,7 +10,7 @@ date: 2020-03-18T21:44:55.735Z
 <img src="140208-M-NP085-003.jpg"
      alt="A black-handed spider monkey hangs from the chain link fence of its enclosure at the Honolulu Zoo, Feb. 10, 2014." /><br />
 <figcaption>
-Every time you hijack a tab, a monkeys gets locked in a cage.&trade;<br />
+Every time you hijack a tab, a monkey gets locked in a cage.&trade;<br />
 <small>(Photo source: <a href="https://www.mcbhawaii.marines.mil/News/News-Article-Display/Article/540194/honolulu-zoo-wild-about-giving-back/">Lance Cpl. Suzanna&nbsp;Knotts/U.S. Marine&nbsp;Corps</a>)</small>
 </figcaption>
 </figure>
@@ -21,7 +21,7 @@ Often, while building a website, clients and designers will ask something like:
 
 I am super against this for various reasons, the main one being that `target=_blank` [breaks the back button](https://news.ycombinator.com/item?id=7040661), the only browser feature most people understand.
 
-[Jakob Nielsen in 2005]():
+[Jakob Nielsen in 2005](https://www.nngroup.com/articles/open-new-windows-for-pdfs/):
 
 > Since 1999, it’s been a firm Web usability guideline to [refrain from opening new browser windows](https://www.nngroup.com/articles/the-top-ten-web-design-mistakes-of-1999) for several reasons:
 >

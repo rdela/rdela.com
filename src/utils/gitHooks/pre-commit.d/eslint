@@ -8,7 +8,7 @@
 files=$(git diff --cached --name-only --diff-filter=d "*.js" "*.jsx")
 
 # Verify that changes conform to eslint rules.
-echo "$files" | xargs ./node_modules/.bin/eslint
+echo "$files --ignore-path .gitignore --ignore-path .prettierignore" | xargs ./node_modules/.bin/eslint
 # Prevent commit with non-zero exit code in case of errors.
 if [[ $? != 0 ]]; then
   echo "-->" eslint error, commit denied!

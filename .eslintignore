@@ -1,0 +1,13 @@
+*.min.js
+**/node_modules/**
+
+# built sites
+/public
+
+# cache-dirs
+**/.cache
+
+# bug workaround
+# 17:14  error  Parsing error: Unexpected token =
+# ignoring eslint-disable-next-line ¯\_(ツ)_/¯
+src/components/pagination/index.js
