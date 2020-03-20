@@ -201,7 +201,7 @@ header,
 .flex-item,
 .footer-links li,
 .links,
-.post .date {
+.post .meta {
   text-align: center;
 }
 footer h3,
@@ -226,7 +226,8 @@ footer h3 {
 }
 footer h3 span,
 header h3 span,
-.post h1 {
+.post h1,
+.post .meta {
   margin-bottom: 0;
 }
 footer h3 span,
@@ -282,7 +283,7 @@ footer h3 span {
 .footer-links li {
   margin-bottom: 1.13281em;
   padding: 16px;
-  width: 260px;
+  width: 276px;
 }
 .footer-links span {
   margin-right: 0.25em;
@@ -312,7 +313,8 @@ footer h3 span {
 .post figure {
   margin: 0 auto 1.625em;
 }
-.post h1 {
+.post h1,
+.post .meta {
   padding-bottom: 0.11328rem;
 }
 .post nav {
@@ -323,7 +325,10 @@ footer h3 span {
 }
 .post .update {
   margin-bottom: 3.625em;
-  margin-top: 1.8125em;
+}
+.post .update,
+.post .content {
+  margin-top: 1.8125rem;
 }
 .post figure.mw640 {
   max-width: 640px;

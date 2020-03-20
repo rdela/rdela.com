@@ -44,7 +44,6 @@ export default ({ children }) => (
             siteEmail={data.site.siteMetadata.email}
             siteGithub={data.site.siteMetadata.github}
             siteTitle={data.site.siteMetadata.title}
-            siteTwitter={data.site.siteMetadata.twitter}
             siteURL={data.site.siteMetadata.siteURL}
           />
         </footer>

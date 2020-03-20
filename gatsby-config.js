@@ -138,6 +138,11 @@ module.exports = {
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteURL + edge.node.fields.slug,
                   guid: site.siteMetadata.siteURL + edge.node.fields.slug,
+                  enclosure: edge.node.frontmatter.image && {
+                    url:
+                      site.siteMetadata.siteURL +
+                      edge.node.frontmatter.image.publicURL,
+                  },
                   custom_elements: [{ 'content:encoded': edge.node.html }],
                 })
               })
@@ -157,6 +162,9 @@ module.exports = {
                     frontmatter {
                       title
                       date
+                      image {
+                        publicURL
+                      }
                     }
                   }
                 }

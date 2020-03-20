@@ -1,7 +1,7 @@
 ---
 title: Om Tare Tam Svaha
 date: "2019-03-16T11:08:11.000Z"
-excerpt: "Tara’s “seed syllable,” a single, untranslatable sound that expresses her entire essence, is *Tam*."
+excerpt: "Tara’s seed syllable is Tam."
 image: "om-tare-tam-svaha-jersey-rd-wide.jpg"
 ---
 

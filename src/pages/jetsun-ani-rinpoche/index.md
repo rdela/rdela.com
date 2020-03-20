@@ -1,7 +1,7 @@
 ---
 title: Jetsun Ani Rinpoche
 date: "2019-03-16T10:08:00.000Z"
-excerpt: "Jetsun Khacho Wangmo, also known as Ani Sherab Chotso Rinpoche, is one of the few Lama women in Tibet and is authorized to give initiations and teachings. She has been recognized by many as a living emanation of Tara."
+excerpt: "Many recognize Jetsun Khacho Wangmo, also known as Ani Sherab Chotso Rinpoche, as a living emanation of Tara."
 image: "jetsun-ani-rinpoche-sq.jpg"
 ---
 

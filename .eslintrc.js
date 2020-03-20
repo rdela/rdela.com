@@ -8,7 +8,11 @@ module.exports = {
     node: true,
   },
   extends: ['eslint:recommended', 'plugin:react/recommended'],
-  parser: 'babel-eslint',
+  // parser: 'babel-eslint', // causing
+  // TypeError: Cannot read property 'range' of null
+  // in VS Code, similar to https://stackoverflow.com/questions/42978761/babel-eslint-typeerror-cannot-read-property-range-of-null
+  // switching to default/Esprima for now like:
+  // https://github.com/gatsbyjs/gatsby/blob/master/www/.eslintrc.json
   parserOptions: {
     ecmaFeatures: {
       jsx: true,

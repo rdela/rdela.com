@@ -66,10 +66,11 @@ class PostTemplate extends React.Component {
             </Helmet>
             {post.frontmatter.title && <h1>{post.frontmatter.title}</h1>}
             {post.frontmatter.date && (
-              <p className="date">
+              <p className="meta">
                 <small>{post.frontmatter.date}</small>
               </p>
             )}
+            <p className="meta">{metaDesc}</p>
             <div
               className="content"
               dangerouslySetInnerHTML={{ __html: post.html }}

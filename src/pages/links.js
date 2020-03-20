@@ -6,12 +6,13 @@ import { rhythm } from '../utils/typography'
 // eslint-disable-next-line
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArchive, faBook, faRobot } from '@fortawesome/free-solid-svg-icons'
+import { faArchive, faBook } from '@fortawesome/free-solid-svg-icons'
 import { faFirefox } from '@fortawesome/free-brands-svg-icons/faFirefox'
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 import { faGitlab } from '@fortawesome/free-brands-svg-icons/faGitlab'
 import { faKeybase } from '@fortawesome/free-brands-svg-icons/faKeybase'
 import { faMastodon } from '@fortawesome/free-brands-svg-icons/faMastodon'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 import { faWikipediaW } from '@fortawesome/free-brands-svg-icons/faWikipediaW'
 // https://fontawesome.com/icons?d=gallery
 
@@ -59,16 +60,6 @@ class LinksPage extends React.Component {
               </span>
             </h2>
             <ul className="footer-links">
-              <li>
-                <a href="https://famebot.com/">
-                  <span>
-                    <FontAwesomeIcon icon={faRobot} />
-                  </span>
-                  {` `}
-                  famebot
-                </a>
-              </li>
-
               <li>
                 <a
                   href={`https://gitlab.com/${siteMetadata.gitlab.substring(
@@ -124,6 +115,20 @@ class LinksPage extends React.Component {
                   </span>
                   {` `}
                   {siteMetadata.mastodon}
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href={`https://twitter.com/${siteMetadata.twitter.substring(
+                    1
+                  )}`}
+                >
+                  <span>
+                    <FontAwesomeIcon icon={faTwitter} />
+                  </span>
+                  {` `}
+                  {siteMetadata.twitter} on&nbsp;twitter
                 </a>
               </li>
             </ul>
@@ -332,6 +337,7 @@ export const LinksQuery = graphql`
         gitlab
         keybase
         mastodon
+        twitter
       }
     }
   }

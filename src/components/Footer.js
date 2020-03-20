@@ -8,9 +8,9 @@ import {
   faFileAlt,
   faCode,
   faLink,
+  faRobot,
   faRss,
 } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 // https://fontawesome.com/icons?d=gallery
 
 import Topknot from './Topknot'
@@ -20,7 +20,6 @@ class Footer extends React.Component {
     const siteEmail = this.props.siteEmail
     const siteGithub = this.props.siteGithub
     const siteTitle = this.props.siteTitle
-    const siteTwitter = this.props.siteTwitter
     const siteURL = this.props.siteURL
 
     return (
@@ -58,6 +57,16 @@ class Footer extends React.Component {
           </li>
 
           <li>
+            <a href="https://famebot.com/">
+              <span>
+                <FontAwesomeIcon icon={faRobot} />
+              </span>
+              {` `}
+              famebot
+            </a>
+          </li>
+
+          <li>
             <a
               href={`https://github.com/${siteGithub.substring(
                 1
@@ -78,16 +87,6 @@ class Footer extends React.Component {
               </span>
               {` `}
               {siteEmail}
-            </a>
-          </li>
-
-          <li>
-            <a href={`https://twitter.com/${siteTwitter.substring(1)}`}>
-              <span>
-                <FontAwesomeIcon icon={faTwitter} />
-              </span>
-              {` `}
-              {siteTwitter} on&nbsp;twitter
             </a>
           </li>
         </ul>
