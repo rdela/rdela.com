@@ -6,11 +6,18 @@
     "SPDX"
   ],
   "cSpell.ignorePaths": [
+    ".env.example",
     ".eslintrc.js",
     "gatsby-config.js",
     "gatsby-node.js",
     "package.json",
     "node_modules",
-    "src"
+    "src/components/",
+    "src/css/",
+    "src/hooks/",
+    "src/svg/",
+    "src/templates/",
+    "src/utils/",
+    "static"
   ]
 }

@@ -11,3 +11,6 @@
 # 17:14  error  Parsing error: Unexpected token =
 # ignoring eslint-disable-next-line ¯\_(ツ)_/¯
 src/components/pagination/index.js
+
+# static html verification files
+/static

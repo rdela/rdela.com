@@ -38,7 +38,7 @@ There are also associated security issues, the upshot being that if you do ever 
 
 > Don’t use `target=_blank` (or any other `target` that opens a new navigation context), especially for links in user-generated content, unless you have [a good reason to](https://css-tricks.com/use-target_blank/).
 
-That last link is to a [solid artice on CSS Tricks](https://css-tricks.com/use-target_blank/) about possible reasons to use it legitimately, like when someone might lose work in progress or there is media playing. Marco Arment provides another example in his 2014 article, [Forcing links to open in new windows: an argument that should have ended 15 years ago](https://marco.org/2014/01/10/target-blank).
+That last link is to a [solid article on CSS Tricks](https://css-tricks.com/use-target_blank/) about possible reasons to use it legitimately, like when someone might lose work in progress or there is media playing. Marco Arment provides another example in his 2014 article, [Forcing links to open in new windows: an argument that should have ended 15 years ago](https://marco.org/2014/01/10/target-blank).
 
 For more background on the security issue:
 
