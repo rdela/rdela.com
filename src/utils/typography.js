@@ -7,7 +7,7 @@ const CodePlugin = require('typography-plugin-code').default
 
 theme.plugins = [new CodePlugin()]
 
-theme.baseFontSize = '18px'
+theme.baseFontSize = '20px' // 18px
 theme.baseLineHeight = '1.8125'
 
 theme.bodyColor = 'hsla(252,2%,100%,0.8)'
