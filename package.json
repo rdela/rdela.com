@@ -48,7 +48,7 @@
     "algoliasearch": "4.2.0",
     "gatsby": "2.20.28",
     "gatsby-image": "2.3.4",
-    "gatsby-plugin-algolia": "0.7.0",
+    "gatsby-plugin-algolia": "0.9.0",
     "gatsby-plugin-feed": "2.4.3",
     "gatsby-plugin-lodash": "3.2.3",
     "gatsby-plugin-manifest": "2.3.6",
