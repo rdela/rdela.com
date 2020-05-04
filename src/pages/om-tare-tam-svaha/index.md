@@ -6,12 +6,14 @@ image: "om-tare-tam-svaha-jersey-rd-wide.jpg"
 ---
 
 <figure class="mw848">
-<a href="https://famebot.teemill.com/product/om-tare-tam-svaha-tee/"><img src="om-tare-tam-svaha-tee-rd-wide.jpg"
-alt="Om Tare Tam Svaha Tee on model" /></a><br />
-<figcaption><a href="https://famebot.teemill.com/product/om-tare-tam-svaha-tee/">Om Tare Tam Svaha Tee <strong>Available&nbsp;NOW</strong></a></figcaption>
+<a href="https://famebot.teemill.com/product/om-tare-tam-svaha-tee/"><img
+  src="om-tare-tam-svaha-tee-rd-wide.jpg"
+  alt="Om Tare Tam Svaha Tee on model"
+/></a>
+<figcaption>
+<a href="https://famebot.teemill.com/product/om-tare-tam-svaha-tee/">Om Tare Tam Svaha Tee <strong>Available&nbsp;NOW</strong></a>
+</figcaption>
 </figure>
-
-<br />
 
 A [Famebot](https://famebot.com/) experimental clothing offering.
 
@@ -22,9 +24,13 @@ A [Famebot](https://famebot.com/) experimental clothing offering.
 <br />
 
 <figure class="mw848">
-<a href="https://famebot.teemill.com/product/om-tare-tam-svaha-baseball-jersey/"><img src="om-tare-tam-svaha-jersey-rd-wide.jpg"
-alt="Om Tare Tam Svaha Jersey on model" /></a><br />
-<figcaption><a href="https://famebot.teemill.com/product/om-tare-tam-svaha-baseball-jersey/">Om Tare Tam Svaha Jersey <strong>Available&nbsp;NOW</strong></a></figcaption>
+<a href="https://famebot.teemill.com/product/om-tare-tam-svaha-baseball-jersey/"><img
+  src="om-tare-tam-svaha-jersey-rd-wide.jpg"
+  alt="Om Tare Tam Svaha Jersey on model"
+/></a>
+<figcaption>
+<a href="https://famebot.teemill.com/product/om-tare-tam-svaha-baseball-jersey/">Om Tare Tam Svaha Jersey <strong>Available&nbsp;NOW</strong></a>
+</figcaption>
 </figure>
 
 <br />

@@ -6,9 +6,8 @@ image: "43048735_343427876392660_7242269455155230026_n.jpg"
 ---
 
 <figure class="mw408">
-<img src="43048735_343427876392660_7242269455155230026_n.jpg"
-     alt="Tomatillos?" /><br />
-<figcaption style="font-style: normal">
-  🌴🍂
-</figcaption>
+<img
+  src="43048735_343427876392660_7242269455155230026_n.jpg"
+  alt="Tomatillos?"
+/>
 </figure>

@@ -6,14 +6,14 @@ image: "IMG_0073.jpg"
 ---
 
 <figure class="mw408">
-<img src="IMG_0073.jpg"
-     alt="Abandon Your TV" /><br />
+<img
+  src="IMG_0073.jpg"
+  alt="Abandon Your TV"
+/>
 <figcaption>
- Abandon Your TV
+Abandon Your TV
 </figcaption>
 </figure>
-
-Your TV is watching&nbsp;you.
 
 I am on a Facebook and Instagram hiatus. I deleted all the Facebook-owned apps
 off my phone and imported all my Instagram photos here to my site,
@@ -50,8 +50,10 @@ personal content to their dumpster fire any&nbsp;longer.
 > In at least one instance, the company also relied on Mr. Schumer, the New York senator and Senate Democratic leader. He has long worked to advance Silicon Valley’s interests on issues such as commercial drone regulations and patent reform. During the 2016 election cycle, he raised more money from Facebook employees than any other member of Congress, [according to the Center for Responsive&nbsp;Politics](https://www.opensecrets.org/orgs/toprecips.php?id=D000033563&type=P&sort=A&cycle=2016).
 
 <figure class="mw408">
-<img src="merlin_141182193_5f23f285-d744-4e14-868e-ae8566b026cc-jumbo-100.jpg"
-     alt="Zuckerberg speaking with Schumer" /><br />
+<img
+  src="merlin_141182193_5f23f285-d744-4e14-868e-ae8566b026cc-jumbo-100.jpg"
+  alt="Zuckerberg speaking with Schumer"
+/>
 <figcaption>
 Mr. Zuckerberg speaking with Senator Chuck Schumer in July. The lawmaker, whose daughter works at Facebook, has intervened on the company’s&nbsp&nbsp;behalf.<br />
 <small>Drew&nbsp;Angerer/Getty&nbsp;Images</small></figcaption>

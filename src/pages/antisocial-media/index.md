@@ -1,7 +1,7 @@
 ---
 title: Antisocial Media
 date: "2018-10-25T16:33:47.000Z"
-excerpt: "Maybe terminology matters. Maybe words still mean something."
+excerpt: "Maybe terminology matters."
 image: "43912974_750370881976154_837818579259092068_n.jpg"
 ---
 
@@ -9,10 +9,9 @@ image: "43912974_750370881976154_837818579259092068_n.jpg"
 <img
   src="43912974_750370881976154_837818579259092068_n.jpg"
   alt="antisocial media"
-/><br />
-<figcaption>
- Can we all just start calling it antisocial media?
-</figcaption>
+/>
 </figure>
+
+Can we all just start calling it antisocial media?
 
 Maybe terminology matters. Maybe words still mean something.

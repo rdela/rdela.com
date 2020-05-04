@@ -6,8 +6,10 @@ image: "pusheen-bakercat.png"
 ---
 
 <figure class="mw408">
-<img src="/gif/pusheen-bakercat.gif"
-  alt="pusheen bakercat gif" /><br />
+<img
+  src="/gif/pusheen-bakercat.gif"
+  alt="pusheen bakercat gif"
+/>
 <figcaption>
 <small>(Image source: <a href="https://belarr.com/bakercat/">Belarr</a>)</small>
 </figcaption>

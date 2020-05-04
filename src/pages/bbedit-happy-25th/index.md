@@ -6,7 +6,10 @@ image: "bbedit_25th_birthday_candle.png"
 ---
 
 <figure class="mw256">
-<a href="https://www.barebones.com/company/press/bbedit_25_anniversary.html"><img src="bbedit_25th_birthday_candle.png" alt="BBEdit birthday candle" /></a>
+<a href="https://www.barebones.com/company/press/bbedit_25_anniversary.html"><img
+  src="bbedit_25th_birthday_candle.png"
+  alt="BBEdit birthday candle"
+/></a>
 </figure>
 
 <div id="20190404-upd2" class="update">
@@ -51,14 +54,6 @@ The title of John Gruber’s roundup post,
     > WebKit Inspector, so that you can inspect the runtime behavior of your
     > page, debug JavaScript on the fly, and&nbsp;more.* [^current]
 
-
-In addition to its unmatched ability to process and operate on insanely large
- files smoothly, without missing a beat, BBEdit comes well-configured out of
- the box and is easy to customize to your liking. I also like
- [Sublime Text](https://www.sublimetext.com) and
- [VS Code](https://code.visualstudio.com) for general text and code editing,
- and am digging [Slugline](https://slugline.co/) for&nbsp;screenplays.
-
 <br />
 
 🅱️🅱️✍️
@@ -72,6 +67,13 @@ BBEdit <3s ✍︎
  (and&nbsp;counting).*
 
 <br />
+
+In addition to its unmatched ability to process and operate on insanely large
+ files smoothly, without missing a beat, BBEdit comes well-configured out of
+ the box and is easy to customize to your liking. I also like
+ [Sublime Text](https://www.sublimetext.com) and
+ [VS Code](https://code.visualstudio.com) for general text and code editing,
+ and am digging [Slugline](https://slugline.co/) and [Highland 2](https://quoteunquoteapps.com/highland-2/) for&nbsp;screenplays.
 
 [^current]: Current version is
  [BBEdit 12.6.3](https://www.barebones.com/support/bbedit/notes-12.6.3.html)

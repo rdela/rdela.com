@@ -24,7 +24,7 @@ draft: true
 <img
   src=""
   alt=""
-/><br />
+/>
 <figcaption>
 
 </figcaption>

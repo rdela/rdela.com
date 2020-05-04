@@ -6,12 +6,12 @@ image: "grody-hellscape-1632.jpg"
 ---
 
 <figure class="mw848">
-<img src="grody-hellscape-1632.jpg"
-  alt="Green Gritty in front of McDonald’s hellscape" /><br />
+<img
+  src="grody-hellscape-1632.jpg"
+  alt="Green Gritty in front of McDonald’s hellscape"
+/>
 <figcaption>Grody, Gritty’s evil twin</figcaption>
 </figure>
-
-<br />
 
 Grody 🥀
 

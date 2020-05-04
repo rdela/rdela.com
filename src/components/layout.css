@@ -165,9 +165,13 @@ pre,
 figcaption {
   font-size: 0.875em;
   font-style: italic;
-  margin-top: 0.3125em;
+  margin-top: 0.9375em;
   padding-left: 16px;
   padding-right: 16px;
+}
+figcaption.normal,
+figcaption .normal {
+  font-style: normal;
 }
 footer,
 .flex-container,

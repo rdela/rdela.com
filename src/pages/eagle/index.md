@@ -6,9 +6,8 @@ image: "43915034_501328507008022_3950515775099451297_n.jpg"
 ---
 
 <figure class="mw408">
-<img src="43915034_501328507008022_3950515775099451297_n.jpg"
-     alt="eagle" /><br />
-<figcaption style="font-style: normal">
- Fly like an 🦅🕶
-</figcaption>
+<img
+  src="43915034_501328507008022_3950515775099451297_n.jpg"
+  alt="eagle"
+/>
 </figure>

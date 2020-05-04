@@ -6,9 +6,13 @@ image: "evite-jack-o-lantern-balloons-sq.jpg"
 ---
 
 <figure class="mw848">
-<img src="evite-jack-o-lantern-balloons.jpg"
-  alt="blurry balls of light" /><br />
-<figcaption>Derived from Evite’s Party Ideas <a href="https://ideas.evite.com/diy/diy-jack-o-lantern-balloons/">DIY Jack-O’-Lantern Balloons</a> social&nbsp;images</figcaption>
+<img
+  src="evite-jack-o-lantern-balloons.jpg"
+  alt="blurry balls of light"
+/>
+<figcaption>
+Derived from Evite’s Party Ideas <a href="https://ideas.evite.com/diy/diy-jack-o-lantern-balloons/">DIY Jack-O’-Lantern Balloons</a> social&nbsp;images
+</figcaption>
 </figure>
 
 <div id="20191122-upd1" class="update">

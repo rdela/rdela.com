@@ -6,8 +6,10 @@ image: "WokeBaby-Jenny-Sowry-1080-2.jpg"
 ---
 
 <figure class="mw408">
-<img src="WokeBaby-Jenny-Sowry-1080-2.jpg"
-     alt="#WokeBaby" /><br />
+<img
+  src="WokeBaby-Jenny-Sowry-1080-2.jpg"
+  alt="#WokeBaby"
+/>
 <figcaption>
 Jenny Sowry’s 22-month-old daughter proudly displays the sign she made at the Women’s&nbsp;March in Charlotte, North Carolina on 21&nbsp;Januany&nbsp;2017.<br />
 <small>(Photo source: <a href="https://www.huffingtonpost.com/entry/toddler-protest-sign-womens-march-washington-charlotte_us_58861fcce4b096b4a2330682">Jenny&nbsp;Sowry</a>)</small>

@@ -1,14 +1,15 @@
 ---
 title: target=_bunk
-slug: Why target=_blank sucks
+date: "2020-03-18T21:44:55.735Z"
 excerpt: "Respect the back button."
 image: "140208-M-NP085-003.jpg"
-date: 2020-03-18T21:44:55.735Z
 ---
 
 <figure class="mw848">
-<img src="140208-M-NP085-003.jpg"
-     alt="A black-handed spider monkey hangs from the chain link fence of its enclosure at the Honolulu Zoo, Feb. 10, 2014." /><br />
+<img
+  src="140208-M-NP085-003.jpg"
+  alt="A black-handed spider monkey hangs from the chain link fence of its enclosure at the Honolulu Zoo, Feb. 10, 2014."
+/>
 <figcaption>
 Every time you hijack a tab, a monkey gets locked in a cage.&trade;<br />
 <small>(Photo source: <a href="https://www.mcbhawaii.marines.mil/News/News-Article-Display/Article/540194/honolulu-zoo-wild-about-giving-back/">Lance Cpl. Suzanna&nbsp;Knotts/U.S. Marine&nbsp;Corps</a>)</small>

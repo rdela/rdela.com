@@ -6,12 +6,14 @@ image: "jetsun-ani-rinpoche-sq.jpg"
 ---
 
 <figure class="mw313">
-<a href="http://www.vajrayana.it/jetsun_ani_rinpoche.htm"><img src="jetsun-ani-rinpoche.jpg"
-alt="Jetsun Ani Rinpoche" /></a><br />
-<figcaption><a href="http://www.vajrayana.it/jetsun_ani_rinpoche.htm">Jetsun Ani Sherab Chotso&nbsp;Rinpoche</a></figcaption>
+<a href="http://www.vajrayana.it/jetsun_ani_rinpoche.htm"><img
+  src="jetsun-ani-rinpoche.jpg"
+  alt="Jetsun Ani Rinpoche"
+/></a>
+<figcaption>
+<a href="http://www.vajrayana.it/jetsun_ani_rinpoche.htm">Jetsun Ani Sherab Chotso&nbsp;Rinpoche</a>
+</figcaption>
 </figure>
-
-<br />
 
 *I translated the text below from the Vajrayana.it article [Jetsun Ani Sherab Chotso Rinpoche](http://www.vajrayana.it/jetsun_ani_rinpoche.htm), which was the source of the image above as&nbsp;well.*
 

@@ -6,8 +6,10 @@ image: "full-logo-light.png"
 ---
 
 <figure class="mw848 needs-img-bkd">
-<img src="full-logo-dark.png"
-  alt="Netlify Full Logo Light" /><br />
+<img
+  src="full-logo-dark.png"
+  alt="Netlify Full Logo Light"
+/>
 <figcaption>
 <small>(Image source: <a href="https://www.netlify.com/press/">Press | Netlify</a>)</small>
 </figcaption>

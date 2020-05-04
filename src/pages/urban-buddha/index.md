@@ -6,44 +6,54 @@ image: "45567676_2180312425522873_1604994486504076486_n.jpg"
 ---
 
 <figure class="mw408">
-<img src="45567676_2180312425522873_1604994486504076486_n.jpg"
-     alt="Urban Buddha" /><br />
+<img
+  src="45567676_2180312425522873_1604994486504076486_n.jpg"
+  alt="Urban Buddha"
+/>
 <figcaption>
- Urban Buddha by <a href="https://www.tashinorbu.com">Tashi&nbsp;Norbu</a>, a
+Urban Buddha by <a href="https://www.tashinorbu.com">Tashi&nbsp;Norbu</a>, a
  sculpture made of plastic waste reclaimed from the&nbsp;Ocean.
 </figcaption>
 </figure>
 
 <figure class="mw408">
-<img src="46659152_369739176921932_4070943413755909544_n.jpg"
-     alt="Front MoCTA brochure" /><br />
+<img
+  src="46659152_369739176921932_4070943413755909544_n.jpg"
+  alt="Front MoCTA brochure"
+/>
 <figcaption>
- Front side of brochure from
+Front side of brochure from
  <a href="https://www.museumofcontemporarytibetanart.com">Museum of Contemporary Tibetan&nbsp;Art</a>
 </figcaption>
 </figure>
 
 <figure class="mw408">
-<img src="46315695_343470882872305_2587105434259340389_n.jpg"
-     alt="Back MoCTA brochure" /><br />
+<img
+  src="46315695_343470882872305_2587105434259340389_n.jpg"
+  alt="Back MoCTA brochure"
+/>
 <figcaption>
- Back side of brochure from
+Back side of brochure from
  <a href="https://www.museumofcontemporarytibetanart.com">Museum of Contemporary Tibetan&nbsp;Art</a>
 </figcaption>
 </figure>
 
 <figure class="mw408">
-<img src="44711449_2130560267260431_2647641493852178345_n.jpg"
-     alt="Earth’s Elements flyer" /><br />
+<img
+  src="44711449_2130560267260431_2647641493852178345_n.jpg"
+  alt="Earth’s Elements flyer"
+/>
 <figcaption>
- <a href="https://www.shopearthselements.com">Earth’s&nbsp;Elements</a> flyer
+<a href="https://www.shopearthselements.com">Earth’s&nbsp;Elements</a> flyer
  for Tashi&nbsp;Norbu&nbsp;event
 </figcaption>
 </figure>
 
 <figure class="mw408">
-<img src="44705479_275770452965371_568056884068284158_n.jpg"
-     alt="Earth’s Elements flyer" /><br />
+<img
+  src="44705479_275770452965371_568056884068284158_n.jpg"
+  alt="Earth’s Elements flyer"
+/>
 <figcaption>
  <a href="https://www.shopearthselements.com">Earth’s Elements</a> sticker
 </figcaption>

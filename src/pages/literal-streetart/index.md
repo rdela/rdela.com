@@ -6,9 +6,8 @@ image: "44544795_487257931778125_5524316198341738956_n.jpg"
 ---
 
 <figure class="mw408">
-<img src="44544795_487257931778125_5524316198341738956_n.jpg"
-     alt="literal streetart" /><br />
-<figcaption>
-  Beautiful decay
-</figcaption>
+<img
+  src="44544795_487257931778125_5524316198341738956_n.jpg"
+  alt="literal streetart"
+/>
 </figure>

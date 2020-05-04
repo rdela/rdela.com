@@ -6,11 +6,11 @@ image: "37126878_1043668015798442_7715782019958964224_n.jpg"
 ---
 
 <figure class="mw408">
-<img src="37126878_1043668015798442_7715782019958964224_n.jpg"
-     alt="one cool cat" /></span><br />
-<figcaption style="font-style: normal">
-  1️⃣🆒🐈
+<img
+  src="37126878_1043668015798442_7715782019958964224_n.jpg"
+  alt="one cool cat"
+/>
+<figcaption class="normal">
+🌭🍔✌️😸🕶
 </figcaption>
 </figure>
-
-🌭🍔✌️😸🕶
