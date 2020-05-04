@@ -52,7 +52,7 @@ module.exports = {
               maxWidth: 816,
               linkImagesToOriginal: false,
               tracedSVG: {
-                color: `#4F38A8`,
+                color: `#333`,
                 blackOnWhite: false,
               },
             },
