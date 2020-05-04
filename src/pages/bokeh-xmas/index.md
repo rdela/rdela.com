@@ -1,14 +1,18 @@
 ---
 title: Bokeh Xmas
 date: "2019-01-17T09:46:42Z"
-excerpt: "2010"
+excerpt: "blurry balls of light"
 image: "bokeh-xmas-1632.jpg"
 ---
 
 <figure class="mw848">
-<img src="bokeh-xmas-1632.jpg"
-  alt="blurry balls of light" /><br />
-<figcaption>Taken 9 August 2010<br />Canon PowerShot&nbsp;S80<br />f/2.8 | 1/2&nbsp;sec | 5.8&nbsp;mm</figcaption>
+<img
+  src="bokeh-xmas-1632.jpg"
+  alt="blurry, colorful balls of light in the dark"
+/><br />
+<figcaption>
+  Taken 9 August 2010<br />Canon PowerShot&nbsp;S80<br />f/2.8 | 1/2&nbsp;sec | 5.8&nbsp;mm
+</figcaption>
 </figure>
 
 <br />

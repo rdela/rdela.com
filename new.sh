@@ -19,5 +19,17 @@ excerpt: ""
 image: ""
 draft: true
 ---
+
+<figure class="mw848">
+<img
+  src=""
+  alt=""
+/><br />
+<figcaption>
+
+</figcaption>
+</figure>
+
+
 EOF
 $EDITOR src/pages/$d/$slug/index.md

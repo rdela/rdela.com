@@ -6,7 +6,7 @@ image: "140208-M-NP085-003.jpg"
 date: 2020-03-18T21:44:55.735Z
 ---
 
-<figure>
+<figure class="mw848">
 <img src="140208-M-NP085-003.jpg"
      alt="A black-handed spider monkey hangs from the chain link fence of its enclosure at the Honolulu Zoo, Feb. 10, 2014." /><br />
 <figcaption>
