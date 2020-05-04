@@ -64,7 +64,7 @@ Compromised data: Email addresses, Employers, Geographic locations, Job titles, 
 
 Along with [Evite](https://haveibeenpwned.com/PwnedWebsites#Evite),
 [PDL](https://haveibeenpwned.com/PwnedWebsites#PDL) joins the ever-growing list
-of companies in my personal HIBP wall of shame who have leaked my data:
+of companies who have leaked my data, in my personal HIBP wall of shame:
 [Dropbox](https://haveibeenpwned.com/PwnedWebsites#Dropbox),
 [Tumblr](https://haveibeenpwned.com/PwnedWebsites#Tumblr),
 [Adobe](https://haveibeenpwned.com/PwnedWebsites#Adobe),
