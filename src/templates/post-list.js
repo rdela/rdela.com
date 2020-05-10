@@ -10,13 +10,21 @@ import Pagination from '../components/pagination'
 class PostIndex extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
+    const pageNumber = this.props.pageContext.currentPage
+    let pageTitle
+
+    if (pageNumber > 1) {
+      pageTitle = (
+        <Helmet>
+          <title>{`Page ${pageNumber}`}</title>
+        </Helmet>
+      )
+    }
 
     return (
       <Layout>
         <nav>
-          <Helmet>
-            <title>{`Page ${this.props.pageContext.currentPage}`}</title>
-          </Helmet>
+          {pageTitle}
           <ul className="flex-container">
             {posts.map(({ node }) => {
               const title =
