@@ -1152,6 +1152,13 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@babel/runtime@^7.10.3":
+  version "7.10.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.10.4.tgz#a6724f1a6b8d2f6ea5236dbfe58c7d7ea9c5eb99"
+  integrity sha512-UpTN5yUJr9b4EX2CnGNWIvER7Ab83ibv0pcvvHc4UOdrBI5jb8bj+32cCwPX6xu0mt2daFNjYhoi+X7beH0RSw==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@^7.8.4":
   version "7.8.7"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.8.7.tgz#8fefce9802db54881ba59f90bb28719b4996324d"
@@ -1844,13 +1851,13 @@
     "@styled-icons/styled-icon" "^10.0.0"
     tslib "^1.11.1"
 
-"@styled-icons/fa-solid@10.0.0":
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/@styled-icons/fa-solid/-/fa-solid-10.0.0.tgz#6f4c34d5f5155e565b082a03007fa99bde88aa2a"
-  integrity sha512-ZfRhJNHudVLYoqHANjNt0UifFrmkiWAJi6SkAcPujX9iwxBdC3bDMQm+J9j7Z1XWstVIusZoLJ7Ax3rdywpK/A==
+"@styled-icons/fa-solid@10.6.0":
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/@styled-icons/fa-solid/-/fa-solid-10.6.0.tgz#92b249fdeb63ac98c5e7c213704198c2275e6c2e"
+  integrity sha512-RUZSQfXXqTXwTYAi3AEjYjZTixUHMPfZK66tJsl5u+p3Dgy5OM8D6Yun9QDSLYIsHMLiDG3asrHe8NAlnsPooQ==
   dependencies:
-    "@styled-icons/styled-icon" "^10.0.0"
-    tslib "^1.11.1"
+    "@babel/runtime" "^7.10.3"
+    "@styled-icons/styled-icon" "^10.6.0"
 
 "@styled-icons/styled-icon@^10.0.0":
   version "10.0.0"
@@ -1859,6 +1866,14 @@
   dependencies:
     "@emotion/is-prop-valid" "^0.8.7"
     tslib "^1.11.1"
+
+"@styled-icons/styled-icon@^10.6.0":
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/@styled-icons/styled-icon/-/styled-icon-10.6.0.tgz#1eccbe047fee34b11aefe853492ed3d2f73faa23"
+  integrity sha512-aJ+KkrZq/yrpz3U76vN1IoB4Notr7DoVyzlwW2bJm+XYvLlzytRtHZduS2XePSAznC5vQJZn8Inuw11M7HAtRg==
+  dependencies:
+    "@babel/runtime" "^7.10.3"
+    "@emotion/is-prop-valid" "^0.8.7"
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
