@@ -8,10 +8,10 @@ image: "mih_fig-3_cloudsao-search_crewarrives.jpg"
 <figure>
 <img
   src="mih_fig-3_cloudsao-search_crewarrives.jpg"
-  alt="Rendering of the Mars Ice Home concept."
+  alt="Rendering of the Mars Ice Home concept"
 />
 <figcaption>
-An artist's rendering of the <a href="https://www.nasa.gov/feature/langley/a-new-home-on-mars-nasa-langley-s-icy-concept-for-living-on-the-red-planet">Mars Ice Home concept</a>.<br />
+An artist’s rendering of the <a href="https://www.nasa.gov/feature/langley/a-new-home-on-mars-nasa-langley-s-icy-concept-for-living-on-the-red-planet">Mars Ice Home concept</a><br />
 <small>(Credits: NASA/Clouds AO/SEArch)</small>
 </figcaption>
 </figure>
