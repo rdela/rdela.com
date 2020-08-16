@@ -433,6 +433,9 @@ footer h3 span {
 @media (prefers-color-scheme: light) {
   body {
     background-color: #fff;
+  }
+  body,
+  .masthead input {
     color: hsla(252,2%,0%,0.8);
   }
   a {
@@ -449,5 +452,16 @@ footer h3 span {
   figure.needs-img-bkd img,
   figure.needs-img-bkd .links-icon {
     filter: brightness(0.1);
+  }
+  .pagination select {
+    background-color: #fff !important;
+  }
+  .pagination select,
+  .pagination .iconbox svg {
+    background-color: #fff !important;
+    color: hsl(252,96%,56%) !important;
+  }
+  .masthead input {
+    background-color: hsl(252,2%,90%);
   }
 }
