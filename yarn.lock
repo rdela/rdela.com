@@ -2232,10 +2232,10 @@
     "@babel/runtime" "^7.10.5"
     "@styled-icons/styled-icon" "^10.6.0"
 
-"@styled-icons/fa-solid@10.14.1":
-  version "10.14.1"
-  resolved "https://registry.yarnpkg.com/@styled-icons/fa-solid/-/fa-solid-10.14.1.tgz#d17952937906a1b6b93a0dfc9b620736c28e63f1"
-  integrity sha512-uSHunuZy1ZkG9lfVVH/f2MWzyvNgkR+l6c/OhVMxFflmqsDhzz+SmAuP9MMWmr+wI7P9+wMwi+doJ11eDaAGOg==
+"@styled-icons/fa-solid@10.18.0":
+  version "10.18.0"
+  resolved "https://registry.yarnpkg.com/@styled-icons/fa-solid/-/fa-solid-10.18.0.tgz#058900161ac0148e0ff389ac3424cd32e35abca5"
+  integrity sha512-lpBXAwymZiVbfwnUyKXgRL/qcc1VUUYJ6wOJueg6NyDOggvpTMhjlRs0mMF+9Zn/NhtCOrDf2tAW653smH11KQ==
   dependencies:
     "@babel/runtime" "^7.10.5"
     "@styled-icons/styled-icon" "^10.6.0"
