@@ -111,7 +111,7 @@ See these commits on the Gatsby Netlify CMS starter.
 
 ## License
 
-<https://docs.npmjs.com/files/package.json#license>
+[npm Docs > package.json > license](https://docs.npmjs.com/cli/v6/configuring-npm/package-json#license)
 
 > You should specify a license for your package so that people know how they are permitted to use it, and any restrictions you're placing on it.
 
