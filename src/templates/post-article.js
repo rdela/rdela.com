@@ -142,8 +142,8 @@ export const postArticleQuery = graphql`
             resize(width: 2448, height: 2448) {
               src
             }
-            fluid(maxWidth: 816) {
-              ...GatsbyImageSharpFluid_tracedSVG
+            fluid(quality: 72, maxWidth: 816) {
+              ...GatsbyImageSharpFluid_noBase64
             }
           }
         }

@@ -1,4 +1,5 @@
 /* eslint-disable no-console */
+// https://www.gatsbyjs.com/docs/environment-variables/#additional-environments-staging-test-etc
 let activeEnv =
   process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || `development`
 
@@ -48,13 +49,11 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              backgroundColor: `transparent`,
-              maxWidth: 816,
+              backgroundColor: `none`,
+              disableBgImage: true,
               linkImagesToOriginal: false,
-              tracedSVG: {
-                color: `#333`,
-                blackOnWhite: false,
-              },
+              maxWidth: 816,
+              quality: 72,
             },
           },
           {
@@ -133,7 +132,7 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map(edge => {
+              return allMarkdownRemark.edges.map((edge) => {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
