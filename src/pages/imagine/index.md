@@ -28,4 +28,4 @@ When you hear
 
 A majority of people in Russia, China, and the USA support that truth, and
  fostering it into being is simply a matter of triggering the conditions
- that allow that transformation, that transcendance, to take place.
+ that allow that transformation, that transcendence, to take place.
