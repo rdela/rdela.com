@@ -6371,10 +6371,10 @@ gatsby-plugin-manifest@3.0.0:
     semver "^7.3.2"
     sharp "^0.27.0"
 
-gatsby-plugin-netlify@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-3.0.0.tgz#39d615fe86a8574324b7ac83923cebb56a81fe69"
-  integrity sha512-CwBU76pbrgEs3tUQidL8iH5f48QQQn4+3p0ze6pfO7u4eU3qkSaSMbrILzGfqh6yjN/bdDTFldfFmdENjC78Ew==
+gatsby-plugin-netlify@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-3.0.1.tgz#586716f7b24e71fc8f19232004f6dd149e1d0c74"
+  integrity sha512-RH7Lo45dFsJadW9DfG0fMvpuavAT5JOVgTPnpsbNjsb6JKWYhDzRvavPOB2bW/+YpxlyoW0VHR3h6F4ZuFDnww==
   dependencies:
     "@babel/runtime" "^7.12.5"
     fs-extra "^8.1.0"
@@ -6408,10 +6408,10 @@ gatsby-plugin-remove-serviceworker@1.0.0:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-remove-serviceworker/-/gatsby-plugin-remove-serviceworker-1.0.0.tgz#9fb433bc8bd766e14e1d3711c4ac6f051e1dff7c"
   integrity sha1-n7QzvIvXZuFOHTcRxKxvBR4d/3w=
 
-gatsby-plugin-sharp@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-3.0.0.tgz#276557883ccfc9ea5503bb16b2fcd24f7a55928e"
-  integrity sha512-gmIzHjv+JaW1Gyyrz81s43yBkqtMpgvGb6qbPzH2ZX8V2YTyd9LnfUxKx/uTwluEB5oz/om4jtHSCH5DSUsTFA==
+gatsby-plugin-sharp@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-3.0.1.tgz#994a2a2a0305bd7d3e4aa698e30532c0b7cfba96"
+  integrity sha512-HL519LIhTmTySUPFO2IuwIHBlgo/0N7gJng2gu2XwD/DJ3ENgw5+SXmiVTwvERx7Pr5YVPECgYuszWdlYgJmgw==
   dependencies:
     "@babel/runtime" "^7.12.5"
     async "^3.2.0"
