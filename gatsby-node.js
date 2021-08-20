@@ -1,7 +1,7 @@
 const _ = require(`lodash`)
 const Promise = require(`bluebird`)
 const path = require(`path`)
-const slash = require(`slash`)
+// const slash = require(`slash`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = ({ graphql, actions }) => {
@@ -56,7 +56,7 @@ exports.createPages = ({ graphql, actions }) => {
             }
           }
         `
-      ).then(result => {
+      ).then((result) => {
         if (result.errors) {
           // eslint-disable-next-line no-console
           console.log(result.errors)
@@ -64,7 +64,7 @@ exports.createPages = ({ graphql, actions }) => {
         }
 
         // filter drafts
-        const posts = _.filter(result.data.allMarkdownRemark.edges, edge => {
+        const posts = _.filter(result.data.allMarkdownRemark.edges, (edge) => {
           const slug = _.get(edge, `node.fields.slug`)
           const draft = _.get(edge, `node.frontmatter.draft`)
           if (!slug) return undefined
@@ -85,7 +85,7 @@ exports.createPages = ({ graphql, actions }) => {
         }).forEach((_, i) => {
           createPage({
             path: i === 0 ? `/` : `/page/${i + 1}`,
-            component: slash(postList),
+            component: postList, // slash(postList)
             context: {
               limit: postsPerPage,
               skip: i * postsPerPage,
