@@ -6107,10 +6107,10 @@ gatsby-page-utils@^2.3.0:
     lodash "^4.17.21"
     micromatch "^4.0.4"
 
-gatsby-plugin-algolia@0.22.2:
-  version "0.22.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-algolia/-/gatsby-plugin-algolia-0.22.2.tgz#eab52a1ada820bda510c3dc768eb3276238795c4"
-  integrity sha512-P4LC+e5KE9v2S4t9188MmIldL8QTPKPrI4KI+pgnzgbuMpLYT39Acypdp1c8CpsIo9tNoQmlbqX07EI6SW5J1Q==
+gatsby-plugin-algolia@0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-algolia/-/gatsby-plugin-algolia-0.24.0.tgz#1a3d1db5869be5fa86e9431b9b9ef59be91ea8c6"
+  integrity sha512-EdJQcKxBgAlpxlHycBEGmrw9s9/AM0618lGSi5fkjByksV5dM5Q/JruN31N34IRbOamER5fwfiU7GTaGpXP5kA==
   dependencies:
     algoliasearch "^4.9.1"
     deep-equal "^2.0.5"
@@ -10237,12 +10237,7 @@ prepend-http@^2.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
-prettier@2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.0.tgz#a6370e2d4594e093270419d9cc47f7670488f893"
-  integrity sha512-FM/zAKgWTxj40rH03VxzIPdXmj39SwSjwG0heUcNFwI+EMZJnY93yAiKXM3dObIKAM5TA88werc8T/EwhB45eg==
-
-prettier@^2.4.1:
+prettier@2.5.0, prettier@^2.4.1:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.0.tgz#a6370e2d4594e093270419d9cc47f7670488f893"
   integrity sha512-FM/zAKgWTxj40rH03VxzIPdXmj39SwSjwG0heUcNFwI+EMZJnY93yAiKXM3dObIKAM5TA88werc8T/EwhB45eg==
