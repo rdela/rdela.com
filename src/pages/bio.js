@@ -26,16 +26,17 @@ class BioPage extends React.Component {
           <section className="bio">
             <article>
               <p>
-                I started out drawing and painting in grade school, and by high
-                school I had expanded into photography and video. I majored in
-                film at UT Austin, concentrating on documentary editing and
-                ethnographic film. Between shooting and editing commercials, TV,
-                and feature films, I worked with ad agencies producing and
+                Ricky de Laveaga was born an artist, started making movies in
+                high school, and never looked back. He majored in film at UT
+                Austin, concentrating on documentary editing and ethnographic
+                film. Between shooting and editing commercials, television, and
+                feature films, he collaborated with ad agencies producing and
                 documenting audiovisual experiences and installations. For the
-                past decade I have been working as a digital media consultant,
-                specializing in video and web design/development. I continue to
-                pursue cinematic projects, lately focusing on animated shorts
-                under the banner of my up-and-coming studio,&nbsp;
+                past decade, he has been working as a digital media consultant,
+                specializing in video and web design/development, as he
+                continues to pursue cinematic projects, lately focusing on
+                animated shorts under the banner of his up-and-coming
+                studio,&nbsp;
                 <a href="https://famebot.com">Famebot</a>.
               </p>
             </article>
