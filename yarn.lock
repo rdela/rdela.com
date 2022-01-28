@@ -1394,7 +1394,7 @@
     core-js-pure "^3.16.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.10.5", "@babel/runtime@^7.11.2", "@babel/runtime@^7.14.0", "@babel/runtime@^7.14.6", "@babel/runtime@^7.14.8", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.10.5", "@babel/runtime@^7.11.2", "@babel/runtime@^7.14.0", "@babel/runtime@^7.14.6", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.15.3"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.3.tgz#2e1c2880ca118e5b2f9988322bd8a7656a32502b"
   integrity sha512-OvwMLqNXkCXSz1kSm58sEsNuhqOx/fKpnUnKnFB5v8uDda5bLNEHNgKPvhDN6IU0LDcnHQ90LlJ0Q6jnyBSIBA==
@@ -1405,6 +1405,13 @@
   version "7.15.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.4.tgz#fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a"
   integrity sha512-99catp6bHCaxr4sJ/DbTGgHS4+Rs2RVd2g7iOap6SLGPDknRK9ztKNsE/Fg6QhSeh1FGE5f6gHGQmvvn3I3xhw==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.16.7":
+  version "7.16.7"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.16.7.tgz#03ff99f64106588c9c403c6ecb8c3bafbbdff1fa"
+  integrity sha512-9E9FJowqAsytyOY6LG+1KuueckRL+aQW+mKvXRXnuFGyRAyepJPmEo9vgMfXUA6O9u3IeEdv9MAkppFcaQwogQ==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -3624,7 +3631,7 @@ cacheable-request@^6.0.0:
     normalize-url "^4.1.0"
     responselike "^1.0.2"
 
-cacheable-request@^7.0.1:
+cacheable-request@^7.0.1, cacheable-request@^7.0.2:
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/cacheable-request/-/cacheable-request-7.0.2.tgz#ea0d0b889364a25854757301ca12b2da77f91d27"
   integrity sha512-pouW8/FmiPQbuGpkXQ9BAPv/Mo5xDGANgSNXzTzJ8DrKGuXOssM4wIQRjfanNRh3Yu5cfYPvcorqbhg2KIJtew==
@@ -5994,6 +6001,23 @@ gatsby-core-utils@^3.3.0:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
+gatsby-core-utils@^3.5.2:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.6.0.tgz#0e2f951e2c53731bdb459eb118eb3815a90a9393"
+  integrity sha512-xmjtOWQfLinNbgBiDRT1KpEfDZm0Z0u6+hsf8EH8Ps5UCIhKinGrdtK+QH+RzPGCV1PUg/E/pnLVqQLCvD+tmA==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    ci-info "2.0.0"
+    configstore "^5.0.1"
+    file-type "^16.5.3"
+    fs-extra "^10.0.0"
+    got "^11.8.3"
+    lock "^1.1.0"
+    node-object-hash "^2.3.10"
+    proper-lockfile "^4.1.2"
+    tmp "^0.2.1"
+    xdg-basedir "^4.0.0"
+
 gatsby-graphiql-explorer@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-2.3.0.tgz#8ca3b5bc5ef272891cc4f735751285ae90c90380"
@@ -6083,13 +6107,14 @@ gatsby-plugin-manifest@4.3.0:
     semver "^7.3.5"
     sharp "^0.29.2"
 
-gatsby-plugin-netlify@3.14.0:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-3.14.0.tgz#fa1b2441531d958a26b378c76753c5d24bd428d5"
-  integrity sha512-+lv5i0IhtIHFecP3uL6u/vF0DzDBGlkGzPyPIhgM1krZqlLy2LzKos1nyCMoi7aHm54/B8DENl4J+hMCkC0wjQ==
+gatsby-plugin-netlify@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-4.1.0.tgz#c37e38b73846a3cc0c3bf645b223cd61c115202d"
+  integrity sha512-7yLTnPqZH+Vukd6XCFjDUkRSOc9dtOFtPn53tMJ92NzkHWbpn+7nl4TL2m1J+YRkX81y1C8k/URe/m1e0DRkSQ==
   dependencies:
-    "@babel/runtime" "^7.14.8"
+    "@babel/runtime" "^7.16.7"
     fs-extra "^10.0.0"
+    gatsby-core-utils "^3.5.2"
     kebab-hash "^0.1.2"
     lodash "^4.17.21"
     webpack-assets-manifest "^5.0.6"
@@ -6815,6 +6840,23 @@ got@^11.8.2:
     "@types/responselike" "^1.0.0"
     cacheable-lookup "^5.0.3"
     cacheable-request "^7.0.1"
+    decompress-response "^6.0.0"
+    http2-wrapper "^1.0.0-beta.5.2"
+    lowercase-keys "^2.0.0"
+    p-cancelable "^2.0.0"
+    responselike "^2.0.0"
+
+got@^11.8.3:
+  version "11.8.3"
+  resolved "https://registry.yarnpkg.com/got/-/got-11.8.3.tgz#f496c8fdda5d729a90b4905d2b07dbd148170770"
+  integrity sha512-7gtQ5KiPh1RtGS9/Jbv1ofDpBFuq42gyfEib+ejaRBJuj/3tQFeR5+gw57e4ipaU8c/rCjvX6fkQz2lyDlGAOg==
+  dependencies:
+    "@sindresorhus/is" "^4.0.0"
+    "@szmarczak/http-timer" "^4.0.5"
+    "@types/cacheable-request" "^6.0.1"
+    "@types/responselike" "^1.0.0"
+    cacheable-lookup "^5.0.3"
+    cacheable-request "^7.0.2"
     decompress-response "^6.0.0"
     http2-wrapper "^1.0.0-beta.5.2"
     lowercase-keys "^2.0.0"
@@ -8271,7 +8313,7 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lock@^1.0.0:
+lock@^1.0.0, lock@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/lock/-/lock-1.1.0.tgz#53157499d1653b136ca66451071fca615703fa55"
   integrity sha1-UxV0mdFlOxNspmRRBx/KYVcD+lU=
