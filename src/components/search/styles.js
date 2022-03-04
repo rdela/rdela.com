@@ -62,9 +62,9 @@ const collapse = css`
   ::placeholder {
     color: ${bodyColorDimmed};
   }
-  ${props => props.focus && focus}
-  margin-left: ${props => (props.focus ? `-1.8rem` : `-1rem`)};
-  padding-left: ${props => (props.focus ? `1.8rem` : `1rem`)};
+  ${(props) => props.focus && focus}
+  margin-left: ${(props) => (props.focus ? `-1.8rem` : `-1rem`)};
+  padding-left: ${(props) => (props.focus ? `1.8rem` : `1rem`)};
 `
 
 const expand = css`
@@ -80,7 +80,7 @@ const expand = css`
   ::placeholder {
     color: ${heliotrope};
   }
-  ${props => props.focus && focus}
+  ${(props) => props.focus && focus}
 `
 
 export const Input = styled.input`
@@ -90,7 +90,7 @@ export const Input = styled.input`
   background: transparent;
   transition: ${transShort};
   border-radius: ${borderRadiusSmall};
-  ${props => (props.collapse ? collapse : expand)};
+  ${(props) => (props.collapse ? collapse : expand)};
 `
 
 const hitsList = css`
@@ -127,7 +127,7 @@ const hitsGrid = css`
 `
 
 export const HitsWrapper = styled.div`
-  display: ${props => (props.show ? `grid` : `none`)};
+  display: ${(props) => (props.show ? `grid` : `none`)};
   background-color: ${background};
   color: ${bodyColor};
   text-align: left;
@@ -135,7 +135,7 @@ export const HitsWrapper = styled.div`
   overflow: scroll;
   z-index: 2;
   -webkit-overflow-scrolling: touch;
-  ${props => (props.asGrid ? hitsGrid : hitsList)};
+  ${(props) => (props.asGrid ? hitsGrid : hitsList)};
   * {
     margin-top: 0;
     padding: 0;

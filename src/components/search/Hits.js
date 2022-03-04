@@ -3,7 +3,7 @@ import React from 'react'
 import { connectHits, Highlight, Snippet } from 'react-instantsearch-dom'
 
 export default connectHits(function HitComp({ hits, onClick }) {
-  return hits.map(hit => (
+  return hits.map((hit) => (
     <div key={hit.objectID}>
       <Link to={hit.slug} onClick={onClick}>
         <h4>
