@@ -43,10 +43,10 @@ export default function Search({ indices, collapse, hitsAsGrid }) {
   const searchKey = process.env.GATSBY_ALGOLIA_SEARCH_KEY
   // useMemo prevents the searchClient from being recreated on every render.
   // Avoids unnecessary XHR requests (see https://github.com/algolia/gatsby-plugin-algolia/issues/24#issuecomment-518793812).
-  const searchClient = useMemo(() => algoliasearch(appId, searchKey), [
-    appId,
-    searchKey,
-  ])
+  const searchClient = useMemo(
+    () => algoliasearch(appId, searchKey),
+    [appId, searchKey]
+  )
   useOnClickOutside(ref, () => setFocus(false))
   return (
     <Root ref={ref}>

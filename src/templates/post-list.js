@@ -108,9 +108,12 @@ export const postListQuery = graphql`
                 resize(width: 540, height: 540) {
                   src
                 }
-                fluid(maxWidth: 180, quality: 72) {
-                  ...GatsbyImageSharpFluid_noBase64
-                }
+                gatsbyImageData(
+                  width: 180
+                  quality: 72
+                  placeholder: NONE
+                  layout: CONSTRAINED
+                )
               }
             }
           }

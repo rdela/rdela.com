@@ -40,6 +40,8 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
@@ -72,7 +74,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-sharp`,
     `gatsby-plugin-lodash`,
     {
       resolve: `gatsby-plugin-manifest`,

@@ -17,7 +17,7 @@ export function useEventListener(eventNames, handler, element = globalThis) {
     if (!elementSupportsListener) return
 
     // Create event listener that calls handler function stored in ref
-    const listener = event => savedHandler.current(event)
+    const listener = (event) => savedHandler.current(event)
     for (const e of eventNames) element.addEventListener(e, listener)
     return () => {
       for (const e of eventNames) element.removeEventListener(e, listener)

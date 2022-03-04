@@ -116,7 +116,7 @@ class PostTemplate extends React.Component {
 export default PostTemplate
 
 export const postArticleQuery = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     site {
       siteMetadata {
         author
@@ -142,9 +142,12 @@ export const postArticleQuery = graphql`
             resize(width: 2448, height: 2448) {
               src
             }
-            fluid(quality: 72, maxWidth: 816) {
-              ...GatsbyImageSharpFluid_noBase64
-            }
+            gatsbyImageData(
+              quality: 72
+              width: 816
+              placeholder: NONE
+              layout: CONSTRAINED
+            )
           }
         }
       }

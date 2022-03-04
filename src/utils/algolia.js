@@ -22,7 +22,7 @@ const postQuery = `{
   }
 }`
 
-const flatten = arr =>
+const flatten = (arr) =>
   arr.map(({ node: { fields, frontmatter, ...rest } }) => ({
     ...fields,
     ...frontmatter,

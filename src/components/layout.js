@@ -28,7 +28,7 @@ export default ({ children }) => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <div className="page-container">
         <Masthead
           description={data.site.siteMetadata.description}
