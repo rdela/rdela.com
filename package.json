@@ -46,7 +46,7 @@
     "@styled-icons/fa-brands": "10.38.0",
     "@styled-icons/fa-solid": "10.34.0",
     "algoliasearch": "4.12.2",
-    "gatsby": "4.9.1",
+    "gatsby": "4.7.2",
     "gatsby-plugin-algolia": "0.26.0",
     "gatsby-plugin-feed": "4.9.0",
     "gatsby-plugin-image": "2.9.0",
@@ -95,17 +95,5 @@
     "gatsby",
     "rdela",
     "ricky"
-  ],
-  "renovate": {
-    "extends": [
-      "config:base",
-      "schedule:weekly"
-    ],
-    "labels": [
-      "renovate"
-    ],
-    "assignees": [
-      "rdela"
-    ]
-  }
+  ]
 }

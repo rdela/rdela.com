@@ -1,0 +1,18 @@
+{
+    "extends": [
+        "config:base",
+        "schedule:weekly"
+    ],
+    "packageRules": [
+        {
+            "matchPackageNames": ["gatsby"],
+            "enabled": false
+        }
+    ],
+    "labels": [
+        "renovate"
+    ],
+    "assignees": [
+        "rdela"
+    ]
+}
