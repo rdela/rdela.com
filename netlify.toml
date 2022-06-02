@@ -5,6 +5,5 @@
 [build.environment]
   NODE_ENV = "production"
   NODE_VERSION = "--lts"
-  NPM_VERSION = "8.5.3"
-  RUBY_VERSION = "default"
-  YARN_VERSION = "1.22.17"
+  NPM_VERSION = "8.12.1"
+  YARN_VERSION = "1.22.19"

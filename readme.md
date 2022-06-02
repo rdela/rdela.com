@@ -25,8 +25,6 @@ Repo background & history:
   NODE_ENV = "production"
   NODE_VERSION = "--lts"
   NPM_VERSION = "[X.X.X]"
-  RUBY_VERSION = "default"
-  YARN_FLAGS = "--no-ignore-optional"
   YARN_VERSION = "[X.X.X]"
 ```
 
@@ -75,7 +73,20 @@ echo "node" > .nvmrc # to default to the latest version
 
 #### `RUBY_VERSION = "default"`
 
-There to appease quirk that begat this lag/error I was seeing in deploy logs:
+**Removed** 2022-06-02, after updating [Build image selection](https://docs.netlify.com/configure-builds/manage-dependencies/#build-image-defaults) to Ubuntu Focal 20.04 (default):
+
+```shell
+# WARNING: Your site had a deprecated version of Ruby pinned (2.3.6), which is incompatible with this
+# build image. This build image only supports 2.4.x and later. We changed it to 2.7.2.
+# 
+# To learn how to set a custom Ruby version, visit the following link:
+# https://docs.netlify.com/configure-builds/manage-dependencies/#ruby
+# 
+# If you set a custom Ruby version lower than 2.4.x, you will need to select a different build image (Ubuntu Xenial 16.04).
+# The current build image only supports 2.4.x and later.
+```
+
+Was there to appease quirk that begat this lag/error I was seeing in deploy logs:
 
 ```shell
 # Attempting ruby version 2.2.3, read from environment
@@ -100,6 +111,8 @@ There to appease quirk that begat this lag/error I was seeing in deploy logs:
 See these commits on the Gatsby Netlify CMS starter.
 
 ##### [Update netlify.toml](https://github.com/AustinGreen/gatsby-starter-netlify-cms/commit/5c349ced8c4c915c15d322f6fd9ff0e188fd78dd)
+
+**Removed** `YARN_FLAGS = "--no-ignore-optional"`
 
 ##### [Add "--no-ignore-optional" for netlify](https://github.com/AustinGreen/gatsby-starter-netlify-cms/commit/b6cdfce0277cf2d2023cd7427ee32390ce8e419b)
 
