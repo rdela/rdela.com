@@ -294,7 +294,7 @@ footer h3 span {
 .footer-links li {
   margin-bottom: 1.13281em;
   padding: 16px;
-  width: 276px;
+  width: 17.8125rem;
 }
 .footer-links span {
   margin-right: 0.25em;
@@ -324,9 +324,13 @@ footer h3 span {
   height: 8rem;
 }
 .page-container {
-  max-width: 848px;
   margin: 16px auto;
   padding: 0 16px;
+}
+.bio,
+.post {
+  max-width: 848px;
+  margin: 0 auto;
 }
 .post figure {
   margin: 0 auto 1.625em;

@@ -75,9 +75,4 @@ In addition to its unmatched ability to process and operate on insanely large
  [VS Code](https://code.visualstudio.com) for general text and code editing,
  and am digging [Slugline](https://slugline.co/) and [Highland 2](https://quoteunquoteapps.com/highland-2/) for&nbsp;screenplays.
 
-[^current]: Current version is
- [BBEdit 12.6.3](https://www.barebones.com/support/bbedit/notes-12.6.3.html)
- (412068, 2019-04-04). BBEdit 12 is 64-bit ready and offers over a hundred
- feature additions, changes, and refinements. Head over to the
- [Release Notes Archive](https://www.barebones.com/support/bbedit/archived_notes.html)
- for copious&nbsp;detail.
+[^current]: Current version is [BBEdit 12.6.3](https://www.barebones.com/support/bbedit/notes-12.6.3.html) (412068, 2019-04-04). BBEdit 12 is 64-bit ready and offers over a hundred feature additions, changes, and refinements. Head over to the [Release Notes Archive](https://www.barebones.com/support/bbedit/archived_notes.html) for copious&nbsp;detail.

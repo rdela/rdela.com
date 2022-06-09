@@ -104,13 +104,4 @@ As an instant bonus for reading all the way down, I give you&nbsp;the…
 
 <br />
 
-[^gatsby-new]: Having already installed `shell±gatsby-cli`, One could run: <br />
- `shell±gatsby new mySite https://github.com/gatsbyjs/gatsby-starter-blog`<br />
- …in the terminal instead of a `shell±git clone` of the
- [gatsby-starter-blog repo](https://github.com/gatsbyjs/gatsby-starter-blog)
- like I did, which then needs to be followed by a `shell±yarn` or `shell±npm i` before
- running `shell±gatsby develop` for the first time. The
- [Gatsby&nbsp;Docs](https://www.gatsbyjs.org/docs/) start with the `shell±gatsby new`
- command which takes care of this initial package install. (For more on `shell±git`
- and cloning, see [git-clone docs](https://www.git-scm.com/docs/git-clone).)
- The source of the `shell±gatsby new` command is split between [create-cli.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/create-cli.js) and [init-starter.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/init-starter.js) in the Gatsby&nbsp;repo.
+[^gatsby-new]: Having already installed `shell±gatsby-cli`, One could run: `shell±gatsby new mySite https://github.com/gatsbyjs/gatsby-starter-blog` …in the terminal instead of a `shell±git clone` of the [gatsby-starter-blog repo](https://github.com/gatsbyjs/gatsby-starter-blog) like I did, which then needs to be followed by a `shell±yarn` or `shell±npm i` before running `shell±gatsby develop` for the first time. The [Gatsby&nbsp;Docs](https://www.gatsbyjs.org/docs/) start with the `shell±gatsby new` command which takes care of this initial package install. (For more on `shell±git` and cloning, see [git-clone docs](https://www.git-scm.com/docs/git-clone).) The source of the `shell±gatsby new` command is split between [create-cli.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/create-cli.js) and [init-starter.js](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-cli/src/init-starter.js) in the Gatsby&nbsp;repo.

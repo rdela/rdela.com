@@ -23,6 +23,7 @@ module.exports = {
     microblog: `@ricky`,
     mastodon: `@rdela@mastodon.social`,
     siteURL: `https://rdela.com`,
+    tiktok: `@famebot.com`,
     title: `Ricky de Laveaga`,
     twitter: `@rickydelaveaga`,
   },

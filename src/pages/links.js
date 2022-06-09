@@ -8,10 +8,13 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArchive, faBook } from '@fortawesome/free-solid-svg-icons'
 import { faFirefox } from '@fortawesome/free-brands-svg-icons/faFirefox'
+import { faFacebook } from '@fortawesome/free-brands-svg-icons/faFacebook'
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 import { faGitlab } from '@fortawesome/free-brands-svg-icons/faGitlab'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram'
 import { faKeybase } from '@fortawesome/free-brands-svg-icons/faKeybase'
 import { faMastodon } from '@fortawesome/free-brands-svg-icons/faMastodon'
+import { faTiktok } from '@fortawesome/free-brands-svg-icons/faTiktok'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 import { faWikipediaW } from '@fortawesome/free-brands-svg-icons/faWikipediaW'
 // https://fontawesome.com/icons?d=gallery
@@ -145,6 +148,16 @@ class LinksPage extends React.Component {
               </li>
 
               <li>
+                <a href={`https://www.tiktok.com/${siteMetadata.tiktok}`}>
+                  <span>
+                    <FontAwesomeIcon icon={faTiktok} />
+                  </span>
+                  {` `}
+                  {siteMetadata.tiktok} on&nbsp;tiktok
+                </a>
+              </li>
+
+              <li>
                 <a
                   href={`https://twitter.com/${siteMetadata.twitter.substring(
                     1
@@ -155,6 +168,34 @@ class LinksPage extends React.Component {
                   </span>
                   {` `}
                   {siteMetadata.twitter} on&nbsp;twitter
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href={`https://www.facebook.com/${siteMetadata.twitter.substring(
+                    1
+                  )}`}
+                >
+                  <span>
+                    <FontAwesomeIcon icon={faFacebook} />
+                  </span>
+                  {` `}
+                  {siteMetadata.twitter} on&nbsp;facebook
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href={`https://www.instagram.com/${siteMetadata.twitter.substring(
+                    1
+                  )}`}
+                >
+                  <span>
+                    <FontAwesomeIcon icon={faInstagram} />
+                  </span>
+                  {` `}
+                  {siteMetadata.twitter} on&nbsp;instagram
                 </a>
               </li>
             </ul>
@@ -230,7 +271,7 @@ class LinksPage extends React.Component {
               }}
             >
               <span role="img" aria-label="brain globe with meridians">
-                &#x1f9e0;&#x1F310; {/* 🧠🌐 */}
+                &#x1f9e0;&#x1f310; {/* 🧠🌐 */}
               </span>
             </h2>
 
@@ -364,6 +405,7 @@ export const LinksQuery = graphql`
         keybase
         mastodon
         microblog
+        tiktok
         twitter
       }
     }
