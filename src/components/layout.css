@@ -299,13 +299,6 @@ footer h3 span {
 .footer-links span {
   margin-right: 0.25em;
 }
-.footer-links span.microblog {
-  margin-right: 0.375em;
-}
-.footer-links a.microblog:hover {
-  color: hsl(252,96%,76%);
-  filter: grayscale(64%);
-}
 .iconbox {
   width: 1rem;
   height: 1rem;
