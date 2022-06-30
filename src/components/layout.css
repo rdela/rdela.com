@@ -125,14 +125,16 @@ https://usecontrast.com/guide
 */
 
 body {
-  background-color: hsl(252,0%,0%);
+  background-color: hsl(252, 0%, 0%);
 }
 code,
 kbd,
 pre,
 samp,
 tt {
-  font-family: 'Source Code Pro','SFMono-Regular','Consolas','Roboto Mono','Droid Sans Mono','Liberation Mono','Menlo','Monaco','Andale Mono','Ubuntu Mono','Courier',monospace;
+  font-family: 'Source Code Pro', 'SFMono-Regular', 'Consolas', 'Roboto Mono',
+    'Droid Sans Mono', 'Liberation Mono', 'Menlo', 'Monaco', 'Andale Mono',
+    'Ubuntu Mono', 'Courier', monospace;
   max-width: 100%;
   overflow-x: scroll;
 }
@@ -147,10 +149,10 @@ code {
   font-size: 0.944444444rem;
   vertical-align: middle;
 }
-a code[class*="language-"],
-a pre[class*="language-"],
-code[class*="language-"] a,
-pre[class*="language-"] a {
+a code[class*='language-'],
+a pre[class*='language-'],
+code[class*='language-'] a,
+pre[class*='language-'] a {
   color: inherit;
 }
 footer h3 span,
@@ -159,7 +161,7 @@ figure,
 pre,
 .flex-item a,
 .footer-links a,
-.links-icon  {
+.links-icon {
   display: block;
 }
 figcaption {
@@ -264,8 +266,8 @@ footer h3 span {
   background-size: 32px;
   padding-top: 32px;
 }
-.bio article {
-  font-size: 1.125em;
+footer section {
+  width: 100%;
 }
 .flex-container,
 .footer-links {
@@ -325,6 +327,9 @@ footer h3 span {
   max-width: 848px;
   margin: 0 auto;
 }
+.bio article {
+  font-size: 1.125em;
+}
 .post figure {
   margin: 0 auto 1.625em;
 }
@@ -364,7 +369,7 @@ footer h3 span {
   max-width: 256px;
 }
 .gatsby-resp-image-image {
- box-shadow: inset 0px 0px 0px 400px transparent !important;
+  box-shadow: inset 0px 0px 0px 400px transparent !important;
 }
 .ais-Hits-list li {
   list-style: none;
@@ -433,18 +438,20 @@ footer h3 span {
   }
   body,
   .masthead input {
-    color: hsla(252,2%,0%,0.8);
+    color: hsla(252, 2%, 0%, 0.8);
   }
   a {
-    color: hsl(252,96%,56%);
+    color: hsl(252, 96%, 56%);
     text-decoration: none;
   }
-  a:hover, a:active {
+  a:hover,
+  a:active {
     text-decoration: none;
-    color: hsl(252,16%,40%);
+    color: hsl(252, 16%, 40%);
   }
-  blockquote, h6 {
-    color: hsla(252,0%,0%,0.72);
+  blockquote,
+  h6 {
+    color: hsla(252, 0%, 0%, 0.72);
   }
   figure.needs-img-bkd img,
   figure.needs-img-bkd .links-icon {
@@ -456,9 +463,9 @@ footer h3 span {
   .pagination select,
   .pagination .iconbox svg {
     background-color: #fff !important;
-    color: hsl(252,96%,56%) !important;
+    color: hsl(252, 96%, 56%) !important;
   }
   .masthead input {
-    background-color: hsl(252,2%,90%);
+    background-color: hsl(252, 2%, 90%);
   }
 }
