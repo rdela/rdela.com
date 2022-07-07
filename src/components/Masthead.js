@@ -20,7 +20,6 @@ class Masthead extends React.Component {
           <meta property="og:url" content={siteURL} />
           <meta property="og:type" content="website" />
           <meta property="og:site_name" content={siteTitle} />
-          <meta property="og:image" content={`${siteURL}/rdela-1260x630.png`} />
           <meta property="og:title" content={siteTitle} />
           <meta property="og:description" content={description} />
           <meta name="twitter:card" content="summary_large_image" />
