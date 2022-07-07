@@ -15,7 +15,7 @@ const queries = require(`./src/utils/algolia`)
 module.exports = {
   siteMetadata: {
     author: `Ricky de Laveaga`,
-    description: `A reformed artist turned filmmaking techie`,
+    description: `Artist who makes movies, designs, and programs`,
     email: `ricky@rdela.com`,
     github: `@rdela`,
     gitlab: `@rdela`,
