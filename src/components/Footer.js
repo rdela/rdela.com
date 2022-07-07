@@ -4,9 +4,10 @@ import { Link } from 'gatsby'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
+  faCode,
   faEnvelope,
   faFileAlt,
-  faCode,
+  faHouse,
   faLink,
   faRobot,
   faRss,
@@ -14,6 +15,14 @@ import {
 // https://fontawesome.com/icons?d=gallery
 
 import Topknot from './Topknot'
+
+import Search from './search'
+const searchIndices = [
+  // { name: `Pages`, title: `Pages`, hitComp: `PageHit` },
+  { name: `Posts`, title: `Posts`, hitComp: `PostHit` },
+]
+
+const cYear = new Date().getFullYear()
 
 class Footer extends React.Component {
   render() {
@@ -25,6 +34,7 @@ class Footer extends React.Component {
     return (
       <section>
         <Topknot siteTitle={siteTitle} />
+        <Search expand indices={searchIndices} />
         <ul className="footer-links">
           <li>
             <Link to="/bio/">
@@ -43,6 +53,16 @@ class Footer extends React.Component {
               </span>
               {` `}
               links
+            </Link>
+          </li>
+
+          <li>
+            <Link to="/">
+              <span>
+                <FontAwesomeIcon icon={faHouse} />
+              </span>
+              {` `}
+              home
             </Link>
           </li>
 
@@ -90,6 +110,12 @@ class Footer extends React.Component {
             </a>
           </li>
         </ul>
+
+        <p>
+          <small>
+            &copy; {cYear} {siteTitle}
+          </small>
+        </p>
       </section>
     )
   }

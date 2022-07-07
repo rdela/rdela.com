@@ -1,37 +1,32 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import Topknot from './Topknot'
-
-import Search from './search'
-const searchIndices = [
-  // { name: `Pages`, title: `Pages`, hitComp: `PageHit` },
-  { name: `Posts`, title: `Posts`, hitComp: `PostHit` },
-]
 
 const cYear = new Date().getFullYear()
 
 class Masthead extends React.Component {
   render() {
+    const description = this.props.description
     const siteTitle = this.props.siteTitle
     const siteURL = this.props.siteURL
+    const twitter = this.props.siteTwitter
 
     return (
       <header className="masthead">
         <Helmet defaultTitle={siteTitle} titleTemplate={`%s - ` + siteTitle}>
           <html lang="en" />
           <meta name="copyright" content={cYear} />
-          <meta name="description" content={this.props.description} />
+          <meta name="description" content={description} />
           <meta property="og:locale" content="en" />
           <meta property="og:url" content={siteURL} />
           <meta property="og:type" content="website" />
           <meta property="og:site_name" content={siteTitle} />
           <meta property="og:image" content={`${siteURL}/rdela-512.png`} />
           <meta property="og:title" content={siteTitle} />
-          <meta property="og:description" content={this.props.description} />
+          <meta property="og:description" content={description} />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content={this.props.siteTwitter} />
-          <meta name="twitter:creator" content={this.props.siteTwitter} />
-          <meta name="twitter:description" content={this.props.description} />
+          <meta name="twitter:site" content={twitter} />
+          <meta name="twitter:creator" content={twitter} />
+          <meta name="twitter:description" content={description} />
           <link
             rel="icon"
             type="image/png"
@@ -45,8 +40,7 @@ class Masthead extends React.Component {
             sizes="32x32"
           />
         </Helmet>
-        <Topknot />
-        <Search expand indices={searchIndices} />
+        <h1 className="visually-hidden">{siteTitle}</h1>
       </header>
     )
   }

@@ -1,8 +1,8 @@
 ---
 title: Netlif-Yeah
-date: "2018-02-23"
-excerpt: "Thank you Netlify"
-image: "full-logo-light.png"
+date: '2018-02-23'
+excerpt: 'Thank you Netlify'
+image: 'full-logo-light.png'
 ---
 
 <figure class="mw848 needs-img-bkd">
@@ -29,24 +29,34 @@ Odds are high I will write more about this soon. At this point, I can recommend 
 
 > some of the features included in the new, free Bronze&nbsp;plan:
 
-> * HTTPS with Custom Domains and Domain Aliases
-> * Let’s Encrypt and Custom HTTPS certificates
-> * Continuous Deployment
-> * Instant Cache Invalidation and Atomic Deploys
-> * Deploy Previews and Deep Git Integration
-> * Branch-Based Split Testing
-> * CDN-Level Proxying
-> * GeoIP and Language-Based Redirects
-> * Integrated DNS hosting
-> * Prerendering
-> * Asset Acceleration
-> * JavaScript Snippet Injection
-> * Form Processing
-> * Redirect and Rewrite Rules
-> * Custom HTTP Headers
-> * Client-Side Routing Support
-> * Teams
+> - HTTPS with Custom Domains and Domain Aliases
+> - Let’s Encrypt and Custom HTTPS certificates
+> - Continuous Deployment
+> - Instant Cache Invalidation and Atomic Deploys
+> - Deploy Previews and Deep Git Integration
+> - Branch-Based Split Testing
+> - CDN-Level Proxying
+> - GeoIP and Language-Based Redirects
+> - Integrated DNS hosting
+> - Prerendering
+> - Asset Acceleration
+> - JavaScript Snippet Injection
+> - Form Processing
+> - Redirect and Rewrite Rules
+> - Custom HTTP Headers
+> - Client-Side Routing Support
+> - Teams
 
 > [full details \[…\] plans and pricing&nbsp;page](https://www.netlify.com/pricing/)
 
-To the entire [Netlify (OSS)](https://github.com/orgs/netlify/people) crew, [thank&nbsp;you](https://www.youtube.com/watch?v=6Ptrc2cWRxU).
+To the entire [Netlify (OSS)](https://github.com/orgs/netlify/people) crew, [thank&nbsp;you](https://www.youtube.com/watch?v=z9e6tUFWKUA).
+
+<iframe
+  width="848"
+  height="636"
+  src="https://www.dailymotion.com/embed/video/x2to9dv"
+  title="Thank You (Falettinme Be Mice Elf Agin) - Sly and the Family Stone - Dailymotion video player"
+  type="text/html"
+  frameborder="0"
+  allowfullscreen
+/>

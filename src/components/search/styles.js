@@ -18,23 +18,24 @@ const neonPink = `hsl(329, 100%, 77%)`
 const borderRadiusSmall = `0.2rem`
 const transShort = `0.3s`
 
-const searchBoxWidth = `8.445rem`
+const searchBoxWidth = `12.8125rem`
 
 export const Root = styled.div`
-  position: relative;
   display: grid;
   grid-gap: 1em;
+  margin-bottom: 1.1328125rem;
+  position: relative;
 `
 
 export const SearchIcon = styled(Search)`
-  width: 1em;
   pointer-events: none;
+  width: 1em;
 `
 
 export const Form = styled.form`
+  align-items: center;
   display: flex;
   flex-direction: row-reverse;
-  align-items: center;
   justify-content: center;
 `
 
@@ -53,9 +54,9 @@ const focus = css`
 `
 
 const collapse = css`
-  width: 0;
   cursor: pointer;
   color: ${background};
+  width: 0;
   + ${SearchIcon} {
     color: ${heliotrope};
   }
@@ -70,9 +71,9 @@ const collapse = css`
 const expand = css`
   background-color: ${background};
   color: ${heliotrope};
-  width: ${searchBoxWidth};
   margin-left: -1.8em;
   padding-left: 1.8em;
+  width: ${searchBoxWidth};
   + ${SearchIcon} {
     color: ${heliotrope};
     margin: 0.3em 0.4em;
@@ -84,25 +85,25 @@ const expand = css`
 `
 
 export const Input = styled.input`
-  outline: none;
-  border: none;
-  font-size: 1em;
   background: transparent;
-  transition: ${transShort};
+  border: none;
   border-radius: ${borderRadiusSmall};
+  font-size: 1em;
+  outline: none;
+  transition: ${transShort};
   ${(props) => (props.collapse ? collapse : expand)};
 `
 
 const hitsList = css`
-  position: absolute;
+  border-radius: ${borderRadiusSmall};
   left: 0;
+  margin: 0 auto;
+  max-width: 30em;
+  padding: 0.7em 1em 0.4em;
+  position: absolute;
   right: 0;
   top: calc(100% + 0.5em);
   width: 80vw;
-  max-width: 30em;
-  margin: 0 auto;
-  padding: 0.7em 1em 0.4em;
-  border-radius: ${borderRadiusSmall};
   > * + * {
     padding-top: 0.7em !important;
     border-top: 2px solid ${heliotropeDiaphanous};
@@ -127,15 +128,6 @@ const hitsGrid = css`
 `
 
 export const HitsWrapper = styled.div`
-  display: ${(props) => (props.show ? `grid` : `none`)};
-  background-color: ${background};
-  color: ${bodyColor};
-  text-align: left;
-  max-height: 80vh;
-  overflow: scroll;
-  z-index: 2;
-  -webkit-overflow-scrolling: touch;
-  ${(props) => (props.asGrid ? hitsGrid : hitsList)};
   * {
     margin-top: 0;
     padding: 0;
@@ -147,13 +139,14 @@ export const HitsWrapper = styled.div`
   a:active {
     color: ${amethystSmoke};
   }
-  ul {
-    list-style: none;
-    margin-left: 0;
+  background-color: ${background};
+  color: ${bodyColor};
+  display: ${(props) => (props.show ? `grid` : `none`)};
+  h3 {
+    margin: 0 0 0.5em;
   }
-  mark {
-    color: ${neonPink};
-    background-color: ${blackRussian};
+  h4 {
+    margin-bottom: 0.3em;
   }
   header {
     display: flex;
@@ -166,17 +159,25 @@ export const HitsWrapper = styled.div`
       border-radius: ${borderRadiusSmall};
     }
   }
-  h3 {
-    margin: 0 0 0.5em;
+  mark {
+    color: ${neonPink};
+    background-color: ${blackRussian};
   }
-  h4 {
-    margin-bottom: 0.3em;
+  max-height: 80vh;
+  overflow: scroll;
+  text-align: left;
+  ul {
+    list-style: none;
+    margin-left: 0;
   }
+  z-index: 2;
+  -webkit-overflow-scrolling: touch;
+  ${(props) => (props.asGrid ? hitsGrid : hitsList)};
 `
 
 const AlgoliaIcon = styled(Algolia)`
-  width: 0.9375rem;
   vertical-align: -0.1875em;
+  width: 0.9375rem;
 `
 
 export const PoweredBy = () => (
