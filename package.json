@@ -46,7 +46,7 @@
     "@fortawesome/react-fontawesome": "0.2.0",
     "@styled-icons/fa-brands": "10.38.0",
     "@styled-icons/fa-solid": "10.34.0",
-    "algoliasearch": "4.13.1",
+    "algoliasearch": "4.14.2",
     "gatsby": "4.19.2",
     "gatsby-plugin-algolia": "0.26.0",
     "gatsby-plugin-feed": "4.19.0",
