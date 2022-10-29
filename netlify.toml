@@ -5,5 +5,8 @@
 [build.environment]
   NODE_ENV = "production"
   NODE_VERSION = "--lts"
-  NPM_VERSION = "8.12.1"
+  NPM_VERSION = "8.19.2"
   YARN_VERSION = "1.22.19"
+
+[[plugins]]
+  package = "@netlify/plugin-gatsby"
