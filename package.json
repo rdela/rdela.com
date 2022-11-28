@@ -45,7 +45,7 @@
     "@fortawesome/free-solid-svg-icons": "6.2.1",
     "@fortawesome/react-fontawesome": "0.2.0",
     "@styled-icons/fa-brands": "10.46.0",
-    "@styled-icons/fa-solid": "10.34.0",
+    "@styled-icons/fa-solid": "10.46.0",
     "algoliasearch": "4.14.2",
     "gatsby": "5.2.0",
     "gatsby-plugin-algolia": "0.26.0",
