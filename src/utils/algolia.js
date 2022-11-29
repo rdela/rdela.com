@@ -8,6 +8,7 @@ const postQuery = `{
   ) {
     edges {
       node {
+        excerpt(pruneLength: 5000)
         fields {
           slug
         }
@@ -15,8 +16,10 @@ const postQuery = `{
           title
           frontmatterExcerpt: excerpt
         }
-        excerpt(pruneLength: 5000)
-        objectID: id
+        id
+        internal {
+          contentDigest
+        }
       }
     }
   }
