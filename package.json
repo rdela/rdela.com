@@ -8,7 +8,9 @@
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
+    "d": "gatsby develop",
     "dev": "gatsby develop",
+    "develop": "gatsby develop",
     "devbuild": "GATSBY_ACTIVE_ENV=development gatsby build",
     "format": "prettier --write \"{gatsby-*.js,src/**/*.js}\"",
     "lint": "eslint --ignore-path .gitignore --ignore-path .prettierignore --ext .js,.jsx .",
@@ -44,8 +46,6 @@
     "@fortawesome/free-brands-svg-icons": "6.2.1",
     "@fortawesome/free-solid-svg-icons": "6.2.1",
     "@fortawesome/react-fontawesome": "0.2.0",
-    "@styled-icons/fa-brands": "10.46.0",
-    "@styled-icons/fa-solid": "10.34.0",
     "algoliasearch": "4.14.2",
     "gatsby": "5.2.0",
     "gatsby-plugin-algolia": "0.26.0",
