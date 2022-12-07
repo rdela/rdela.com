@@ -5570,10 +5570,10 @@ gatsby-parcel-config@^1.2.0:
     "@parcel/transformer-js" "2.6.2"
     "@parcel/transformer-json" "2.6.2"
 
-gatsby-plugin-algolia@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-algolia/-/gatsby-plugin-algolia-1.0.0.tgz#7cb47262065284b31b8e6cf365616afe578822e2"
-  integrity sha512-Y7hHR/5HdA6Ck8N0RqzVGgiH/ruPxIfkvP2o0aPfTYcaAinRsAaKrBZPRre3uh3ZPp0fYIDFTmhvGE4gHu2JTQ==
+gatsby-plugin-algolia@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-algolia/-/gatsby-plugin-algolia-1.0.2.tgz#98e9bba8d2f5c046bc6e6ec9b9832af24cef885b"
+  integrity sha512-fYR/n04S/MQVvNxkNU6pnBtCLdkEF+XSrNyFnND65So+ncKLYhM+QsE9a1sC865XMiPzp9EX0x2lBkD776y89w==
   dependencies:
     algoliasearch "^4.9.1"
     lodash.chunk "^4.2.0"
