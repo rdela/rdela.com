@@ -5,6 +5,7 @@ import knot from '../svg/rdela-diamond.svg'
 class Topknot extends React.Component {
   render() {
     const siteTitle = this.props.siteTitle
+    const hideTitle = this.props.hideTitle
     return (
       <h3 className="topknot">
         <Link tabIndex="0" to={`/`}>
@@ -13,7 +14,7 @@ class Topknot extends React.Component {
               backgroundImage: `url(${knot})`,
             }}
           >
-            {siteTitle}
+            {hideTitle ? `` : siteTitle}
           </span>
         </Link>
       </h3>

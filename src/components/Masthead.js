@@ -1,6 +1,14 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
+import Topknot from './Topknot'
+
+import Search from './search'
+const searchIndices = [
+  // { name: `Pages`, title: `Pages`, hitComp: `PageHit` },
+  { name: `Posts`, title: `Posts`, hitComp: `PostHit` },
+]
+
 const cYear = new Date().getFullYear()
 
 class Masthead extends React.Component {
@@ -44,6 +52,10 @@ class Masthead extends React.Component {
           />
         </Helmet>
         <h1 className="visually-hidden">{siteTitle}</h1>
+        <div className="navbar">
+          <Topknot siteTitle={siteTitle} />
+          <Search expand indices={searchIndices} />
+        </div>
       </header>
     )
   }

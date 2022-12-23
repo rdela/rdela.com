@@ -82,6 +82,14 @@ const expand = css`
   ${(props) => props.focus && focus}
 `
 
+const above = css`
+  bottom: calc(100% + 0.5em);
+`
+
+const below = css`
+  top: calc(100% + 0.5em);
+`
+
 export const Input = styled.input`
   background: transparent;
   border: none;
@@ -94,13 +102,13 @@ export const Input = styled.input`
 
 const hitsList = css`
   border-radius: ${borderRadiusSmall};
-  left: 0;
   margin: 0 auto;
   max-width: 30em;
   padding: 0.7em 1em 0.4em;
   position: absolute;
+  ${(props) => (props.centerHits ? `left: 0;` : ``)};
   right: 0;
-  top: calc(100% + 0.5em);
+  ${(props) => (props.hitsAbove ? above : below)};
   width: 80vw;
   > * + * {
     padding-top: 0.7em !important;
@@ -110,18 +118,6 @@ const hitsList = css`
     margin-top: 0.7em;
     padding-top: 0.7em;
     border-top: 1px solid ${heliotropeDiaphanous};
-  }
-`
-
-const hitsGrid = css`
-  ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
-    grid-gap: 1em;
-    li {
-      padding: 0.3em 0.5em;
-      border-radius: ${borderRadiusSmall};
-    }
   }
 `
 
@@ -170,7 +166,7 @@ export const HitsWrapper = styled.div`
   }
   z-index: 2;
   -webkit-overflow-scrolling: touch;
-  ${(props) => (props.asGrid ? hitsGrid : hitsList)};
+  ${hitsList};
 `
 
 const AlgoliaIcon = styled.svg`
@@ -191,8 +187,8 @@ export const PoweredBy = () => (
     <a href="https://algolia.com/">
       <AlgoliaIcon
         viewBox="0 0 500 500.34"
-        height="0.75rem"
-        width="0.75rem"
+        height="16px"
+        width="16px"
         aria-hidden="true"
         focusable="false"
         fill="currentColor"

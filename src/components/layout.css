@@ -178,6 +178,7 @@ figcaption .normal {
 footer,
 .flex-container,
 .footer-links,
+.navbar,
 .post nav {
   display: -webkit-box;
   display: -moz-box;
@@ -221,7 +222,7 @@ header h3 span,
 footer h3 {
   line-height: 2rem;
   font-size: 1.125rem;
-  margin-bottom: 1.37523rem;
+  /* margin-bottom: 1.37523rem; */
 }
 footer h3 span,
 header h3 span,
@@ -250,12 +251,17 @@ header h3 span,
   background-position: center top;
 }
 header h3 span {
-  min-height: 48px;
-  background-size: 48px;
-  padding-top: 48px;
+  min-height: 32px;
+  min-width: 32px;
+  background-position: center left;
+  background-size: 32px;
+  padding-left: 40px;
+}
+h3.topknot {
+  margin: 0;
 }
 footer h3 span {
-  min-height: 68px;
+  /* min-height: 68px; */
   background-size: 32px;
   padding-top: 32px;
 }
@@ -266,12 +272,19 @@ footer small {
   color: hsl(252, 2%, 56.25%);
 }
 .flex-container,
-.footer-links {
+.footer-links,
+.navbar {
   align-items: flex-start;
   flex-wrap: wrap;
-  justify-content: center;
   margin: 0;
   padding: 0;
+}
+.flex-container,
+.footer-links {
+  justify-content: center;
+}
+.navbar {
+  justify-content: space-between;
 }
 .flex-item {
   padding: 11px;

@@ -35,7 +35,7 @@ const Stats = connectStateResults(
     res && res.nbHits > 0 && `${res.nbHits} result${res.nbHits > 1 ? `s` : ``}`
 )
 
-export default function Search({ indices, collapse, hitsAsGrid }) {
+export default function Search({ indices, collapse, centerHits, hitsAbove }) {
   const ref = createRef()
   const [query, setQuery] = useState(``)
   const [focus, setFocus] = useState(false)
@@ -56,7 +56,11 @@ export default function Search({ indices, collapse, hitsAsGrid }) {
         onSearchStateChange={({ query }) => setQuery(query)}
       >
         <Input onFocus={() => setFocus(true)} {...{ collapse, focus }} />
-        <HitsWrapper show={query.length > 0 && focus} asGrid={hitsAsGrid}>
+        <HitsWrapper
+          show={query.length > 0 && focus}
+          centerHits={centerHits}
+          hitsAbove={hitsAbove}
+        >
           {indices.map(({ name, title, type }) => (
             <Index key={name} indexName={name}>
               <header>

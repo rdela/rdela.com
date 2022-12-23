@@ -33,8 +33,6 @@ class Footer extends React.Component {
 
     return (
       <section>
-        <Topknot siteTitle={siteTitle} />
-        <Search expand indices={searchIndices} />
         <ul className="footer-links">
           <li>
             <Link to="/bio/">
@@ -110,6 +108,10 @@ class Footer extends React.Component {
             </a>
           </li>
         </ul>
+
+        <Search indices={searchIndices} centerHits hitsAbove />
+
+        <Topknot siteTitle={siteTitle} hideTitle />
 
         <p>
           <small>
