@@ -21,7 +21,6 @@ const searchBoxWidth = `12.125rem`
 export const Root = styled.div`
   display: grid;
   grid-gap: 1em;
-  margin-bottom: 0.375rem;
   position: relative;
 `
 
@@ -35,6 +34,7 @@ export const Form = styled.form`
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
+  margin: 0;
 `
 
 const focus = css`
