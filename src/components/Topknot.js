@@ -7,17 +7,16 @@ class Topknot extends React.Component {
     const siteTitle = this.props.siteTitle
     const hideTitle = this.props.hideTitle
     return (
-      <h3 className="topknot">
-        <Link tabIndex="0" to={`/`}>
-          <span
-            style={{
-              backgroundImage: `url(${knot})`,
-            }}
-          >
-            {hideTitle ? `` : siteTitle}
-          </span>
-        </Link>
-      </h3>
+      <Link tabIndex="0" to={`/`}>
+        <h3
+          className="topknot"
+          style={{
+            backgroundImage: `url(${knot})`,
+          }}
+        >
+          <span>{hideTitle ? `` : siteTitle}</span>
+        </h3>
+      </Link>
     )
   }
 }

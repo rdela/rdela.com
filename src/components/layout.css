@@ -155,8 +155,6 @@ code[class*='language-'] a,
 pre[class*='language-'] a {
   color: inherit;
 }
-footer h3 span,
-header h3 span,
 figure,
 pre,
 .flex-item a,
@@ -211,57 +209,47 @@ header,
 .post .meta {
   text-align: center;
 }
-footer h3,
-footer h3 span,
-header h3 span,
-header h3 span,
+footer .topknot,
+header .topknot,
 .flex-item h3,
 .next-prev-label {
   margin-top: 0;
 }
-footer h3 {
-  line-height: 2rem;
-  font-size: 1.125rem;
-  /* margin-bottom: 1.37523rem; */
-}
-footer h3 span,
-header h3 span,
+footer .topknot,
+header .topknot,
 .post h1,
 .post .meta {
   margin-bottom: 0;
 }
-footer h3 span,
-header h3 span,
 .footer-links,
 .links-icon {
   width: 100%;
 }
-footer h3 span,
-header h3 span,
+footer .topknot,
+header .topknot,
 .links-icon {
   padding-bottom: 0;
   background-repeat: no-repeat;
 }
-footer h3 span,
-header h3 span,
+footer .topknot,
 .links-icon {
   background-position: center top;
 }
 .links-web-icon {
   background-position: center top;
 }
-header h3 span {
-  min-height: 32px;
-  min-width: 32px;
-  background-position: center left;
-  background-size: 32px;
-  padding-left: 40px;
+header .topknot {
+  min-height: 38px;
+  min-width: 38px;
+  background-position: left center;
+  background-size: 38px;
+  padding-left: 42px;
 }
-h3.topknot {
+.topknot {
+  line-height: 38px;
   margin: 0;
 }
-footer h3 span {
-  /* min-height: 68px; */
+footer .topknot {
   background-size: 32px;
   padding-top: 32px;
 }
@@ -425,11 +413,19 @@ footer small {
     margin-left: -16px;
     margin-right: -16px;
   }
+
+  .topknot {
+    font-size: 1rem;
+  }
 }
 @media screen and (max-width: 512px) {
   .post figure.mw512 {
     margin-left: -16px;
     margin-right: -16px;
+  }
+
+  header .topknot span {
+    display: none;
   }
 }
 @media screen and (max-width: 408px) {

@@ -16,12 +16,12 @@ const neonPink = `hsl(329, 100%, 77%)`
 const borderRadiusSmall = `0.2rem`
 const transShort = `0.3s`
 
-const searchBoxWidth = `12.8125rem`
+const searchBoxWidth = `12.125rem`
 
 export const Root = styled.div`
   display: grid;
   grid-gap: 1em;
-  margin-bottom: 1.1328125rem;
+  margin-bottom: 0.375rem;
   position: relative;
 `
 
