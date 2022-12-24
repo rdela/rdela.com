@@ -8,14 +8,14 @@ class Topknot extends React.Component {
     const hideTitle = this.props.hideTitle
     return (
       <Link tabIndex="0" to={`/`}>
-        <h3
+        <h1
           className="topknot"
           style={{
             backgroundImage: `url(${knot})`,
           }}
         >
           <span>{hideTitle ? `` : siteTitle}</span>
-        </h3>
+        </h1>
       </Link>
     )
   }

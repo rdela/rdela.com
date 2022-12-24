@@ -233,24 +233,24 @@ header .topknot,
 }
 footer .topknot,
 .links-icon {
-  background-position: center top;
-}
-.links-web-icon {
-  background-position: center top;
+  background-position: top;
 }
 .topknot {
   font-size: 1.125rem;
-  line-height: 38px;
   margin: 0;
-  background-size: 32px;
 }
 header .topknot {
-  min-height: 32px;
-  min-width: 32px;
+  line-height: 38px;
+  background-size: 38px;
   background-position: left;
-  padding-left: 38px;
+  min-height: 38px;
+  min-width: 38px;
+  padding-left: 44px;
 }
 footer .topknot {
+  background-size: 32px;
+  line-height: 32px;
+  margin-top: 1.5rem;
   padding-top: 32px;
 }
 footer section {
@@ -283,6 +283,12 @@ footer small {
 .footer-links,
 .links ul {
   list-style: none;
+  margin: 0 0 1.1328125rem;
+}
+.footer-links {
+  margin: 0;
+}
+.links ul {
   margin: 0 0 1.1328125rem;
 }
 .links li {

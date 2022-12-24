@@ -51,7 +51,6 @@ class Masthead extends React.Component {
             sizes="32x32"
           />
         </Helmet>
-        <h1 className="visually-hidden">{siteTitle}</h1>
         <div className="navbar">
           <Topknot siteTitle={siteTitle} />
           <Search expand indices={searchIndices} />
