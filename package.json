@@ -42,9 +42,9 @@
     ]
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "6.2.1",
-    "@fortawesome/free-brands-svg-icons": "6.2.1",
-    "@fortawesome/free-solid-svg-icons": "6.2.1",
+    "@fortawesome/fontawesome-svg-core": "6.3.0",
+    "@fortawesome/free-brands-svg-icons": "6.3.0",
+    "@fortawesome/free-solid-svg-icons": "6.3.0",
     "@fortawesome/react-fontawesome": "0.2.0",
     "algoliasearch": "4.14.3",
     "gatsby": "5.7.0",
