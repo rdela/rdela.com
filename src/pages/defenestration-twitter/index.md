@@ -26,7 +26,7 @@ Yet everyone pretends to care about hypothetical threats TikTok/ByteDance poses 
 >
 > Some things in life are priceless. For everything else, there’s soulless patsies and bribed regulators.
 
-Reminds me of this Chris Jankowski quote about [project REDMAP](https://en.wikipedia.org/wiki/REDMAP), which was a Republican undertaking to use gerrymandering as a national strategy, from the excellent documentary [Slay the Dragon](https://www.slaythedragonfilm.com) (streaming on [Hulu](https://www.hulu.com/movie/slay-the-dragon-3835d61e-bde9-44de-8eba-bb2cafba4b93) and [Kanopy](https://www.kanopy.com/en/product/slay-dragon) currently), [paraphrased here by co-director Chris Durrance](https://www.rogerebert.com/interviews/advocates-for-democracy-barak-goodman-and-chris-durrance-on-the-gerrymandering-documentary-slay-the-dragon):
+Reminds me of this Chris Jankowski quote about [project REDMAP](https://en.wikipedia.org/wiki/REDMAP), which was a Republican undertaking to use gerrymandering as a national strategy, from the excellent documentary [Slay the Dragon](https://www.slaythedragonfilm.com) ([streaming](https://www.justwatch.com/us/movie/slay-the-dragon) on [Hulu](https://www.hulu.com/movie/slay-the-dragon-3835d61e-bde9-44de-8eba-bb2cafba4b93) and [Kanopy](https://www.kanopy.com/en/product/slay-dragon) currently), [paraphrased here by co-director Chris Durrance](https://www.rogerebert.com/interviews/advocates-for-democracy-barak-goodman-and-chris-durrance-on-the-gerrymandering-documentary-slay-the-dragon):
 
 > [Chris Jankowski] took control of a large number of states and basically the lower house of Congress for the best part of ten years and did it in a marathon political sense for peanuts (for about $30 million).
 
