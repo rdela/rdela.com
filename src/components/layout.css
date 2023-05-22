@@ -354,8 +354,14 @@ footer small {
 .post .content {
   margin-top: 1.8125rem;
 }
+.post figure.mw730 {
+  max-width: 730px;
+}
 .post figure.mw640 {
   max-width: 640px;
+}
+.post figure.mw634 {
+  max-width: 634px;
 }
 .post figure.mw624 {
   max-width: 624px;
@@ -409,8 +415,20 @@ footer small {
     margin-right: -16px;
   }
 }
+@media screen and (max-width: 730px) {
+  .post figure.mw730 {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}
 @media screen and (max-width: 640px) {
   .post figure.mw640 {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}
+@media screen and (max-width: 634px) {
+  .post figure.mw634 {
     margin-left: -16px;
     margin-right: -16px;
   }
