@@ -46,4 +46,4 @@ draft: true
 
 
 EOF
-$EDITOR src/pages/$d/$slug/index.md
+$EDITOR src/pages/$slug/index.md
