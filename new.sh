@@ -21,7 +21,7 @@ title="$*"
 if [ -z "$title" ]; then
   read -p "title: " title
 fi
-trimmed=$(node -p "process.argv[1].replace(/\b(?:a|an|in|of|the|)\b/gi,'').replace(/\s+/g, ' ').trim()" "$title")
+trimmed=$(node -p "process.argv[1].replace(/\b(?:a|an|in|of|the|to)\b/gi,'').replace(/\s+/g, ' ').trim()" "$title")
 slug=$(node -p 'require("lodash").kebabCase(process.argv[1])' "$trimmed")
 
 mkdir -p src/pages/$slug
