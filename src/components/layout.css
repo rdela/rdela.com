@@ -158,9 +158,13 @@ pre[class*='language-'] a {
 figure,
 pre,
 .flex-item a,
-.footer-links a,
 .links-icon {
   display: block;
+}
+.footer-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 figcaption {
   font-size: 0.875em;
@@ -298,12 +302,17 @@ footer small {
   margin-top: 0.45313rem;
 }
 .footer-links li {
+  font-weight: 600;
   margin-bottom: 1.13281em;
   padding: 16px;
-  width: 17.8125rem;
+  width: 14rem;
+  text-transform: uppercase;
+}
+.footer-links.wide li {
+  width: 18.25rem;
 }
 .footer-links span {
-  margin-right: 0.25em;
+  margin-right: 0.5em;
 }
 .iconbox {
   width: 1rem;

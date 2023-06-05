@@ -73,6 +73,9 @@ theme.overrideThemeStyles = () => ({
   strong: {
     fontWeight: '700',
   },
+  '.header-font': {
+    fontFamily: theme.headerFontFamily.join(`,`),
+  },
 })
 
 const typography = new Typography(theme)

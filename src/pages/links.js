@@ -62,7 +62,7 @@ class LinksPage extends React.Component {
                 &#x1f504;&#x1f578; {/* 🔄🕸 */}
               </span>
             </h2>
-            <ul className="footer-links">
+            <ul className="footer-links wide header-font">
               <li>
                 <a
                   href={`https://gitlab.com/${siteMetadata.gitlab.substring(
@@ -73,7 +73,7 @@ class LinksPage extends React.Component {
                     <FontAwesomeIcon icon={faGitlab} />
                   </span>
                   {` `}
-                  {siteMetadata.gitlab} on&nbsp;gitlab
+                  GitLab {siteMetadata.gitlab}
                 </a>
               </li>
 
@@ -87,7 +87,7 @@ class LinksPage extends React.Component {
                     <FontAwesomeIcon icon={faGithub} />
                   </span>
                   {` `}
-                  {siteMetadata.github} on&nbsp;github
+                  GitHub {siteMetadata.github}
                 </a>
               </li>
 
@@ -101,7 +101,7 @@ class LinksPage extends React.Component {
                     <FontAwesomeIcon icon={faKeybase} />
                   </span>
                   {` `}
-                  {siteMetadata.keybase} on&nbsp;keybase
+                  Keybase {siteMetadata.keybase}
                 </a>
               </li>
 
@@ -127,7 +127,7 @@ class LinksPage extends React.Component {
                     <FontAwesomeIcon icon={faTiktok} />
                   </span>
                   {` `}
-                  {siteMetadata.tiktok} on&nbsp;tiktok
+                  TikTok {siteMetadata.tiktok}
                 </a>
               </li>
 
@@ -141,7 +141,7 @@ class LinksPage extends React.Component {
                     <FontAwesomeIcon icon={faTwitter} />
                   </span>
                   {` `}
-                  {siteMetadata.twitter} on&nbsp;twitter
+                  Twitter {siteMetadata.twitter}
                 </a>
               </li>
 
@@ -155,7 +155,7 @@ class LinksPage extends React.Component {
                     <FontAwesomeIcon icon={faFacebook} />
                   </span>
                   {` `}
-                  {siteMetadata.twitter} on&nbsp;facebook
+                  Facebook {siteMetadata.twitter}
                 </a>
               </li>
 
@@ -169,7 +169,7 @@ class LinksPage extends React.Component {
                     <FontAwesomeIcon icon={faInstagram} />
                   </span>
                   {` `}
-                  {siteMetadata.twitter} on&nbsp;instagram
+                  Instagram {siteMetadata.twitter}
                 </a>
               </li>
             </ul>

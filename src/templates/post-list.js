@@ -53,7 +53,7 @@ class PostIndex extends React.Component {
                     )}
                     <h3
                       style={{
-                        fontSize: `1rem`,
+                        fontSize: `0.8125rem`,
                         marginBottom: rhythm(1 / 16),
                         lineHeight: 1.25,
                         textTransform: `uppercase`,
@@ -63,6 +63,7 @@ class PostIndex extends React.Component {
                     </h3>
                     <p
                       style={{
+                        fontSize: `0.75rem`,
                         lineHeight: 1.25,
                       }}
                     >

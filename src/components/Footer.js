@@ -33,7 +33,7 @@ class Footer extends React.Component {
 
     return (
       <section>
-        <ul className="footer-links">
+        <ul className="footer-links header-font">
           <li>
             <Link to="/bio/">
               <span>
