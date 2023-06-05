@@ -161,7 +161,8 @@ pre,
 .links-icon {
   display: block;
 }
-.footer-links a {
+.footer-links a,
+.footer-links span {
   display: flex;
   align-items: center;
   justify-content: center;
