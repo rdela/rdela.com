@@ -40,7 +40,7 @@ class Footer extends React.Component {
                 <FontAwesomeIcon icon={faFileAlt} />
               </span>
               {` `}
-              bio
+              Bio
             </Link>
           </li>
 
@@ -50,7 +50,7 @@ class Footer extends React.Component {
                 <FontAwesomeIcon icon={faLink} />
               </span>
               {` `}
-              links
+              Links
             </Link>
           </li>
 
@@ -60,7 +60,7 @@ class Footer extends React.Component {
                 <FontAwesomeIcon icon={faHouse} />
               </span>
               {` `}
-              home
+              Home
             </Link>
           </li>
 
@@ -70,7 +70,7 @@ class Footer extends React.Component {
                 <FontAwesomeIcon icon={faRss} />
               </span>
               {` `}
-              rss feed
+              RSS Feed
             </a>
           </li>
 
@@ -80,7 +80,7 @@ class Footer extends React.Component {
                 <FontAwesomeIcon icon={faRobot} />
               </span>
               {` `}
-              famebot
+              Famebot
             </a>
           </li>
 
@@ -94,7 +94,7 @@ class Footer extends React.Component {
                 <FontAwesomeIcon icon={faCode} />
               </span>
               {` `}
-              source code
+              Source Code
             </a>
           </li>
 
