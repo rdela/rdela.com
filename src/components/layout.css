@@ -303,10 +303,11 @@ footer small {
 }
 .footer-links li {
   font-weight: 600;
+  line-height: 1.125;
   margin-bottom: 1.13281em;
   padding: 16px;
-  width: 14rem;
   text-transform: uppercase;
+  width: 14rem;
 }
 .footer-links.wide li {
   width: 18.25rem;
