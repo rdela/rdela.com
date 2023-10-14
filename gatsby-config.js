@@ -10,6 +10,7 @@ require(`dotenv`).config({
   path: `.env.${activeEnv}`,
 })
 
+const netlify = require(`gatsby-adapter-netlify`).default
 const queries = require(`./src/utils/algolia`)
 
 module.exports = {
@@ -26,6 +27,7 @@ module.exports = {
     title: `Ricky de Laveaga`,
     twitter: `@rickydelaveaga`,
   },
+  adapter: netlify(),
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -195,6 +197,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-netlify`,
   ],
 }
