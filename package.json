@@ -48,7 +48,7 @@
     "@fortawesome/react-fontawesome": "0.2.0",
     "algoliasearch": "4.20.0",
     "babel-plugin-styled-components": "2.1.4",
-    "gatsby": "5.12.6",
+    "gatsby": "5.12.7",
     "gatsby-adapter-netlify": "^1.0.1",
     "gatsby-plugin-algolia": "1.0.3",
     "gatsby-plugin-feed": "5.12.1",
