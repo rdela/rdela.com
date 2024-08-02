@@ -89,7 +89,7 @@
     "eslint-plugin-react": "7.34.1",
     "eslint-plugin-react-hooks": "4.6.2",
     "lint-staged": "15.2.7",
-    "prettier": "3.2.5",
+    "prettier": "3.3.3",
     "svgo": "3.3.2"
   },
   "keywords": [
