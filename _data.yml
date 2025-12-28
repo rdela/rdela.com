@@ -1,0 +1,17 @@
+lang: en
+home:
+  welcome: "Aloha"
+  intro: "Welcome to the new [rdela.com](https://rdela.com) powered by [**Xeo**](https://xeo.land)"
+
+copyright: "&copy; 2007-2025 [Ricky&nbsp;de&nbsp;Laveaga](https://rdela.com/)"
+
+menu_links: []
+metas:
+  site: Ricky de Laveaga
+  description: Artist who makes movies, designs, and programs
+  title: =title
+  image: =image
+  # twitter: "@rickydelaveaga"
+  mastodon: "@rdela@mastodon.social"
+  lang: en
+  generator: false
