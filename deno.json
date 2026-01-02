@@ -1,9 +1,11 @@
 {
   "imports": {
-    "lume/": "https://cdn.jsdelivr.net/gh/lumeland/lume@3.1.2/",
-    "xeo/": "https://deno.land/x/xeo@v6.3.8/",
-    "lume/cms/": "https://cdn.jsdelivr.net/gh/lumeland/cms@0.14.2/",
-    "lume/jsx-runtime": "https://cdn.jsdelivr.net/gh/oscarotero/ssx@0.1.14/jsx-runtime.ts"
+    "lume/": "https://cdn.jsdelivr.net/gh/lumeland/lume@3.1.4/",
+    "xeo/": "https://cdn.jsdelivr.net/gh/famebot/xeo@7.0.3/",
+    "lume/cms/": "https://cdn.jsdelivr.net/gh/lumeland/cms@0.14.4/",
+    "lume/jsx-runtime": "https://cdn.jsdelivr.net/gh/oscarotero/ssx@0.1.14/jsx-runtime.ts",
+    "lume/markdown-plugins/": "https://cdn.jsdelivr.net/gh/lumeland/markdown-plugins@0.10.0/",
+    "mdit/plugin-alert": "https://cdn.jsdelivr.net/npm/@mdit/plugin-alert@0.22.3/lib/index.js"
   },
   "tasks": {
     "lume": {
@@ -38,7 +40,7 @@
   ],
   "lint": {
     "plugins": [
-      "https://cdn.jsdelivr.net/gh/lumeland/lume@3.1.2/lint.ts"
+      "https://cdn.jsdelivr.net/gh/lumeland/lume@3.1.4/lint.ts"
     ],
     "rules": {
       "exclude": [
@@ -55,16 +57,15 @@
       "import": [
         "cdn.jsdelivr.net:443",
         "jsr.io:443",
-        "deno.land:443",
-        "esm.sh:443"
+        "deno.land:443"
       ],
       "net": [
         "0.0.0.0",
         "cdn.jsdelivr.net:443",
         "data.jsdelivr.com:443",
+        "fonts.googleapis.com:443",
+        "fonts.gstatic.com:443",
         "jsr.io:443",
-        "deno.land:443",
-        "esm.sh:443",
         "registry.npmjs.org:443"
       ],
       "env": true,
