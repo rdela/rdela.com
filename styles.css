@@ -95,6 +95,18 @@ figcaption {
   margin-block: var(--row-gap-xsmall);
 }
 
+.body figcaption h2,
+.body figcaption h3,
+.body figcaption h4,
+.body figcaption h5,
+.body figcaption h6 {
+  margin-block-start: 0;
+}
+
+figcaption.svg-label {
+  margin-block-start: calc(var(--row-gap-xsmall) / 2);
+}
+
 figure {
   margin: 0 0 var(--row-gap-xsmall);
 }

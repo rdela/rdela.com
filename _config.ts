@@ -31,6 +31,8 @@ site
   }))
   .add("img")
   .add("lyt")
+  .add("svg")
+  .add("keybase.txt")
   .add(
     "https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.4/src/lite-yt-embed.min.js",
     "lyt/lite-yt-embed.js",
