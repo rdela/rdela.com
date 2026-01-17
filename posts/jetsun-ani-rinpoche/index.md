@@ -17,7 +17,7 @@ tags:
 
 _I translated the text below from the Vajrayana.it article
 [Jetsun Ani Sherab Chotso Rinpoche](http://www.vajrayana.it/jetsun_ani_rinpoche.htm),
-which was the source of the image above as&nbsp;well._
+which was the source of the accompanying image as&nbsp;well._
 
 Jetsun Khacho Wangmo, also known as Ani Sherab Chotso Rinpoche, is one of the
 few Lama women in Tibet and is authorized to give initiations and teachings. She
