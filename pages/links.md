@@ -20,13 +20,13 @@ Welcome to my links&nbsp;page&nbsp;🔗📄
 
 ### Featured accounts elsewhere
 
- -[github.com/rdela](https://github.com/rdela)
+- [github.com/rdela](https://github.com/rdela)
  
- -[@rdela@mastodon.social](https://mastodon.social/@rdela)
+- [@rdela@mastodon.social](https://mastodon.social/@rdela)
  
- -[@famebot.com on Bluesky](https://bsky.app/profile/famebot.com)
+- [@famebot.com on Bluesky](https://bsky.app/profile/famebot.com)
  
- -[@artact.io on Bluesky](https://bsky.app/profile/artact.io)
+- [@artact.io on Bluesky](https://bsky.app/profile/artact.io)
 
 ## Keep on Readin’ On
 
@@ -37,8 +37,9 @@ Welcome to my links&nbsp;page&nbsp;🔗📄
   style="display: block; margin-block-start: 12px"><img
   src="https://readtheprintedword.org/rtpw-button4-200x92white.png"
   alt="Read the Printed Word!"
-  width="100"
-  height="46" /><br />Read the Printed&nbsp;Word</a></figure>
+  width="132"
+  height="78"
+  style="background-color: black; padding: 16px; border-radius: 16px;" /><br />Read the Printed&nbsp;Word</a></figure>
 
 ## Support *Knowledge for Everyone*
 
