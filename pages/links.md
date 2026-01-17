@@ -69,7 +69,7 @@ Technical Collective Educational Content&nbsp;Development
   alt="wikicorn"
   width="150"
   height="145.775"
-  style="background-color: var(--code-background); padding: 16px; border-radius: 16px;" /></a><figcaption class="svg-label">
+  style="background-color: black; padding: 16px; border-radius: 16px;" /></a><figcaption class="svg-label">
 
 ### [Internet Archive](https://archive.org/)
 
@@ -88,7 +88,7 @@ Search millions of free books, movies, software, music, and the history of hundr
   alt="MDN dino"
   width="544.5" 
   height="132"
-  style="background-color: var(--code-background); padding: 16px; border-radius: 16px;" /></a><figcaption class="svg-label">
+  style="background-color: black; padding: 16px; border-radius: 16px;" /></a><figcaption class="svg-label">
 
 ### [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web)
 
