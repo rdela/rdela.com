@@ -2,10 +2,10 @@ lang: en
 home:
   welcome: "Aloha"
   intro: "Welcome to the new [rdela.com](https://rdela.com) powered by [**Xeo**](https://xeo.land)"
-  posts: 48
+  posts: 12
 
 archives:
-  posts: 48
+  posts: 24
   tag: 12
   author: 12
   basename: archive

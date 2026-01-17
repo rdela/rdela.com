@@ -39,6 +39,7 @@ site
     "https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.4/src/lite-yt-embed.min.css",
     "lyt/lite-yt-embed.css",
   )
+  .ignore("README.md")
   // .use(relativeUrls()) // https://lume.land/plugins/relative_urls/
   .use(transformImages());
 
