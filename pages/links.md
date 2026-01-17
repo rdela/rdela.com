@@ -1,12 +1,15 @@
 ---
 layout: layouts/page.vto
 title: Links
+excerpt: "My links page: Hyperlinks to me around the web, studios I co-founded, featured accounts elsewhere + my favorite websites"
 menu:
   visible: true
   order: 3
 ---
 
 Welcome to my links&nbsp;page&nbsp;🔗📄
+
+Hyperlinks to me around the web + my favorite websites
 
 ## Me Around the Web 
 

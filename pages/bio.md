@@ -1,6 +1,7 @@
 ---
 layout: layouts/page.vto
 title: Bio
+excerpt: Ricky de Laveaga was born an artist, started making movies in high school, and never looked back.
 menu:
   visible: true
   order: 2

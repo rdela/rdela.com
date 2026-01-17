@@ -20,7 +20,7 @@ logo:
 
 metas:
   site: Ricky de Laveaga
-  description: Artist who makes movies, designs, and programs
+  description: =excerpt || Artist who makes movies, designs, and programs
   title: =title
   image: =image || /img/rdela-720p.png
   # twitter: "@rickydelaveaga"
