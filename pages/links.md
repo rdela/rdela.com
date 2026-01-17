@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.vto
 title: Links
-excerpt: "My links page: Hyperlinks to me around the web (studios I co-founded & featured accounts elsewhere) + my favorite websites"
+excerpt: "My links page: Hyperlinks to my favorite websites + me around the web (studios I co-founded and featured accounts elsewhere)"
 menu:
   visible: true
   order: 3
