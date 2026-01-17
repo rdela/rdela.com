@@ -1,27 +1,26 @@
 ---
 title: The Defenestration of Twitter
 date: 2023-05-22T16:04:05.850Z
-excerpt: "Poisoning political discourse for peanuts"
-image: "musk-dubai-sq-427.jpg"
+excerpt: Poisoning political discourse for peanuts
+imgContainerAttr: 'style="max-width:634px"'
+image: /img/musk-dubai-sq-427.jpg
+alt: Musk with Saeed Al Tayer in Dubai during the World Government Summit in February 2017
+# caption: Elon Musk meeting with His Excellency Saeed Mohammed Al Tayer, the Managing Director and CEO of the Dubai Electricity and Water Authority (DEWA), during the World Government Summit in February 2017.
+images:
+  - src: /img/musk-dubai-634x387.jpg
+    alt: Musk with Mohammed Al-Gergawi in Dubai
+    caption: 'Elon Musk grins at Mohammed Al-Gergawi, UAE Minister of Cabinet Affairs and Future, <a href="https://english.alarabiya.net/business/economy/2017/02/25/Dubai-Holding-chief-al-Gergawi-quits-to-focus-on-government-role">former chairman of Dubai Holding</a>, the investment vehicle of the emirate, in 2017 during the World Government Summit, Dubai. <a href="https://moderndiplomacy.eu/2023/02/21/dubai-summit-elon-musk-against-the-idea-of-world-government/">Musk appeared again</a> in 2023 over a video feed to rail against unity and cooperation between&nbsp;governments.'
+  - src: /img/musk-kushner-2022-wc-lusail-quatar-731x372.jpg
+    alt: Musk with Jared Kushner in Lusail, Qatar
+    caption: Elon Musk and former White House senior adviser Jared Kushner during the 2022 FIFA World Cup final at Lusail Stadium in Lusail,&nbsp;Qatar.
 tags:
-  - Twitter
-  - Musk
-  - UAE
-  - Dubai
-  - Saudi Arabia
-  - Republican
+  - Oligarchy
   - Petrostate
+  - Social Media
+  - USA
 ---
 
-<figure class="mw634">
-<img
-  src="/img/musk-dubai-634x387.jpg"
-alt=""
-/>
-<figcaption>
-Elon Musk grins at Mohammed Al-Gergawi, UAE Minister of Cabinet Affairs and Future, <a href="https://english.alarabiya.net/business/economy/2017/02/25/Dubai-Holding-chief-al-Gergawi-quits-to-focus-on-government-role">former chairman of Dubai Holding</a>, the investment vehicle of the emirate, in 2017 during the World Government Summit, Dubai. <a href="https://moderndiplomacy.eu/2023/02/21/dubai-summit-elon-musk-against-the-idea-of-world-government/">Musk appeared again</a> in 2023 over a video feed to rail against unity and cooperation between&nbsp;governments.
-</figcaption>
-</figure>
+## Poisoning political discourse for peanuts
 
 Cannot think of a better example of how woefully unprepared we are to deal with
 foreign influence operations than the defenestration of Twitter by repressive
@@ -33,10 +32,10 @@ That such an obvious and easily traceable gambit to poison political discourse
 was such a wild success at a relatively affordable price for the players
 involved has set an diabolical precedent.
 
-Yet everyone pretends to care about hypothetical threats TikTok/ByteDance poses
+<!-- Yet everyone pretends to care about hypothetical threats TikTok/ByteDance poses
 and floats along unquestioningly as unenforceable bans, hilarious attempts to
 nationalize sovereign foreign assets, and other daydreams and hallucinations get
-passed off as policy.
+passed off as policy. -->
 
 > Twitter: Forty four billion dollars.
 >
@@ -44,6 +43,8 @@ passed off as policy.
 >
 > Some things in life are priceless. For everything else, there’s soulless
 > patsies and bribed regulators.
+
+## Bloodstained Maps
 
 Reminds me of this Chris Jankowski quote about
 [project REDMAP](https://en.wikipedia.org/wiki/REDMAP), which was a Republican
@@ -57,11 +58,3 @@ and [Kanopy](https://www.kanopy.com/en/product/slay-dragon) currently),
 > [Chris Jankowski] took control of a large number of states and basically the
 > lower house of Congress for the best part of ten years and did it in a
 > marathon political sense for peanuts (for about $30 million).
-
-<figure class="mw730">
-<img
-  src="/img/musk-kushner-2022-wc-lusail-quatar-731x372.jpg"
-  alt=""
-/>
-<figcaption>Elon Musk and former White House senior adviser Jared Kushner during the 2022 FIFA World Cup final at Lusail Stadium in Lusail,&nbsp;Qatar.</figcaption>
-</figure>

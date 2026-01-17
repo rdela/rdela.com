@@ -1,6 +1,15 @@
 # Redirect default Netlify subdomain to primary domain
 https://rdela.netlify.com/* https://rdela.com/:splat 301!
 
-# Remove articles in old post slugs
-/the-silent-peal/   /silent-peal/
-/a-bit-of-cheer/    /bit-cheer/
+# Deleted posts
+/grody-grittys-evil-twin/   /
+
+# Post slugs that had articles removed
+/the-silent-peal/	/silent-peal/
+/a-bit-of-cheer/	/bit-cheer/
+
+# Renamed posts
+/tomatillos/ /wild-cucumber/
+
+# Lume path fun
+/archive/1/ /archive/

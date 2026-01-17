@@ -1,0 +1,35 @@
+<figure class="video-player">
+  <div class="fluid-width-video-wrapper">
+    <lite-youtube
+      videoid="{{ id }}"
+      style="background-image: url('https://i.ytimg.com/vi/{{ id }}/hqdefault.jpg')"
+    >
+      <a
+        href="https://youtube.com/watch?v={{ id }}"
+        class="lyt-playbtn"
+        title="Play Video"
+      >
+        <span class="lyt-visually-hidden">Play Video: {{ title }}</span>
+      </a>
+    </lite-youtube>
+  </div>
+  <figcaption class="video-description">
+    {{ caption }}
+  </figcaption>
+</figure>
+
+<style>
+  /* in styles.css: figure.video-player + FitVids .fluid-width-video-wrapper */
+
+  .fluid-width-video-wrapper lite-youtube {
+    max-width: 1280px;
+  }
+
+  .fluid-width-video-wrapper lite-youtube {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>

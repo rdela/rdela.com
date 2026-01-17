@@ -1,33 +1,43 @@
 ---
 title: Netlif-Yeah
-date: '2018-02-23'
-excerpt: 'Thank you Netlify'
-image: 'full-logo-light.png'
+date: 2018-02-23
+excerpt: Thank you Netlify
+image: /img/full-logo-light.png
+alt: Netlify Full Logo Light
+images:
+  - src: /img/full-logo-dark.png
+    alt: Netlify Full Logo Dark
+    backdrop: true
+tags:
+  - Apps
+  - Open Source
+  - Web
 ---
-
-<figure class="mw848 needs-img-bkd">
-<img
-  src="full-logo-dark.png"
-  alt="Netlify Full Logo Light"
-/>
-<figcaption>
-<small>(Image source: <a href="https://www.netlify.com/press/">Press | Netlify</a>)</small>
-</figcaption>
-</figure>
 
 <div id="20180225-upd1" class="update">
 
-**Update 25 February 2018:** If you are having trouble with Netlify the answer is very often “Retry deploy” with “[Clear build cache](https://www.netlify.com/docs/build-gotchas/#build-cache)” checked.
+## Dud deploy? Dump cache & retry
+
+**Update 25 February 2018:** If you are having trouble with Netlify the answer
+is very often “Retry deploy” with
+“[Clear build cache](https://www.netlify.com/docs/build-gotchas/#build-cache)”
+checked.
 
 </div>
 
-According to the [web&nbsp;UI](https://www.netlify.com/docs/), I have been publishing projects from GitHub with Netlify for 4 months now (since 24 Oct. 2017), including [this&nbsp;site](https://github.com/rdela/rdela.com).
+## Four months in: recommended
 
-Odds are high I will write more about this soon. At this point, I can recommend them to anyone looking to host static sites with them, whether [open&nbsp;source](https://www.netlify.com/open-source/) or [private&nbsp;repos](https://www.netlify.com/blog/2017/06/28/introducing-teams-new-features-and-an-update-to-our-plans/):
+I have been publishing projects from GitHub with Netlify for 4 months now (since
+24 Oct. 2017), including [this&nbsp;site](https://github.com/rdela/rdela.com).
+At this point, I can recommend them to anyone looking to host static sites with
+them, whether [open&nbsp;source](https://www.netlify.com/open-source/) or
+[private&nbsp;repos](https://www.netlify.com/blog/2017/06/28/introducing-teams-new-features-and-an-update-to-our-plans/).
 
-> This free plan can be used on personal and commercial projects (even with private&nbsp;code)
+## Freely Featureful
 
-> some of the features included in the new, free Bronze&nbsp;plan:
+> This free plan can be used on personal and commercial projects (even with
+> private&nbsp;code) […] some of the features included in the new, free
+> Bronze&nbsp;plan:
 
 > - HTTPS with Custom Domains and Domain Aliases
 > - Let’s Encrypt and Custom HTTPS certificates
@@ -47,16 +57,12 @@ Odds are high I will write more about this soon. At this point, I can recommend 
 > - Client-Side Routing Support
 > - Teams
 
-> [full details \[…\] plans and pricing&nbsp;page](https://www.netlify.com/pricing/)
+> [Full details \[on the\] plans and pricing&nbsp;page](https://www.netlify.com/pricing/)
 
-To the entire [Netlify (OSS)](https://github.com/orgs/netlify/people) crew, [thank&nbsp;you](https://www.youtube.com/watch?v=z9e6tUFWKUA).
+## Thank You (Falettinme Be Mice Elf Agin)
 
-<iframe
-  width="848"
-  height="636"
-  src="https://www.dailymotion.com/embed/video/x2to9dv"
-  title="Thank You (Falettinme Be Mice Elf Agin) - Sly and the Family Stone - Dailymotion video player"
-  type="text/html"
-  frameborder="0"
-  allowfullscreen
-/>
+To the entire Netlify crew, past and present, thank&nbsp;you.
+
+🎶 Watch **Thank You (Falettinme Be Mice Elf Agin)** performed live by **Sly &
+the Family Stone** on [YouTube](https://www.youtube.com/watch?v=z9e6tUFWKUA)
+or&nbsp;[Dailymotion](https://www.dailymotion.com/video/x2to9dv).

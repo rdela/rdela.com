@@ -1,0 +1,42 @@
+<ul class="postList">
+  {{ for post of postslist }}
+    <li class="post">
+      {{ if post.image }}
+        <div class="post-thumb">
+          <a href="{{ post.url }}">
+            {{ if post.thumb }}
+              <img src="{{ post.thumb }}" alt="{{ post.thumbAlt }}" />
+            {{ else }}
+              <img src="{{ post.image }}" alt="{{ post.alt }}" />
+            {{ /if }}
+          </a>
+        </div>
+      {{ /if }}
+
+      <div class="post-card">
+        <h2 class="post-title">
+          <a
+            href="{{ post.url }}"
+            {{ if post.url == url }}
+              aria-current="page"{{ /if }}
+          >{{ post.title }}</a>
+        </h2>
+
+        {{
+          include "templates/post-details.vto" {
+            author: post.author,
+            date: post.date,
+            image: post.image,
+            readingInfo: post.readingInfo,
+            tags: post.tags,
+          }
+        }}
+
+        <div class="post-excerpt body">
+          {{ post.excerpt |> md }}
+        </div>
+      </div>
+      {{# /post-card #}}
+    </li>
+  {{ /for }}
+</ul>

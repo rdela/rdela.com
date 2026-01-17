@@ -1,29 +1,32 @@
 ---
 title: Credits
-date: "2025-12-27T13:00Z"
-excerpt: "Now powered by Lume and Xeo"
-image: "In_happy_far-away_land_1902_14752942545.jpg"
+date: 2025-12-27T13:00Z
+excerpt: Now powered by Lume and Xeo
+image: /img/In_happy_far-away_land_1902_14752942545.jpg
+alt: In happy far-away land (1902)
+images:
+  - src: /img/In_happy_far-away_land_1902_14752942545.jpg
+    alt: In happy far-away land (1902)
+    caption: 'In happy far-away land (1902)<br />
+  <small>(Image source: <a href="https://commons.wikimedia.org/wiki/File:In_happy_far-away_land_(1902)_(14752942545).jpg">Wikimedia&nbsp;Commons</a>)</small>'
 tags:
   - Lume
-  - Xeo
   - Open Source
+  - Xeo
 ---
-
-<figure class="mw408">
-<img
-  src="/img/In_happy_far-away_land_1902_14752942545.jpg"
-  alt="In happy far-away land (1902)"
-/>
-<figcaption>
-In happy far-away land (1902)<br />
-<small>(Image source: <a href="https://commons.wikimedia.org/wiki/File:In_happy_far-away_land_(1902)_(14752942545).jpg">Wikimedia&nbsp;Commons</a>)</small>
-</figcaption>
-</figure>
 
 Welcome to the new edition of [rdela.com](https://rdela.com) powered by
 [Lume](https://lume.land/) and [Xeo](https://lume.land/theme/xeo/). I am still
 your host, Ricky de&nbsp;Laveaga.
 
-Like [Artist Activist](https://artact.io/artact-xeo/) and many more sites to
-come, this site thrives on the open source creations and contributions of
-[Óscar Otero](https://oscarotero.com/). Thank you Óscar.
+Like the new [Artist Activist](https://artact.io/artact-xeo/) website and many more sites to
+come I have brewing, this site thrives on the open source creations and
+contributions of [Óscar Otero](https://oscarotero.com/), particularly
+[Lume](https://lume.land/) and the elegant
+[Simple Blog](https://lume.land/theme/simple-blog/) theme that is the root of Xeo.
+
+Thank you Óscar.
+
+I spent several years surveying the landscape and state of the art of static site generation. That research culminated in the work I am currently embarking on with Lume alongside Óscar and its other lovely contributors and community members. As we progress, I am consistently blown away by Óscar’s archetectural sensibilities and design intuition. Come on in, [the water is fire](https://lume.land/docs/overview/about-lume/).
+
+Onwards!

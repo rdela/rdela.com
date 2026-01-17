@@ -1,0 +1,122 @@
+---
+layout: layouts/base.vto
+bodyClass: body-post
+---
+
+<link rel="stylesheet" href="/lyt/lite-yt-embed.css">
+
+<main class="{{ it.bodyClass }}">
+  <article
+    class="post"
+    data-pagefind-body
+    data-title="{{ title }}"
+    data-pagefind-index-attrs="data-title"
+  >
+    <header class="post-header">
+      <h1 class="post-title">{{ title }}</h1>
+
+      {{ include "templates/post-details.vto" }}
+    </header>
+
+    <div class="post-body body">
+      <section class="post-main" {{ mainContainerAttr }}>
+        {{ if toc.length }}
+          <nav class="toc">
+            <h2>{{ i18n.nav.toc }}</h2>
+            <ol>
+              {{ for item of toc }}
+                <li>
+                  <a href="#{{ item.slug }}">{{ item.text }}</a>
+
+                  {{ if item.children.length }}
+                    <ul>
+                      {{ for child of item.children }}
+                        <li>
+                          <a href="#{{ child.slug }}">{{ child.text }}</a>
+                        </li>
+                      {{ /for }}
+                    </ul>
+                  {{ /if }}
+                </li>
+              {{ /for }}
+            </ol>
+          </nav>
+        {{ /if }}
+        {{# /toc.length #}}
+
+        {{ content }}
+      </section>
+
+      <section class="post-extras" {{ imgContainerAttr }}>
+        {{ if videos }}
+          {{ for vid of videos }}
+            {{
+              await comp.lyt({
+                id: vid.id,
+                title: vid.title,
+                caption: vid.caption,
+              })
+            }}
+          {{ /for }}
+        {{ /if }}
+        {{# /videos #}}
+
+        {{ if images }}
+          {{ for img of images }}
+            {{
+              await comp.hero({
+                image: img.src,
+                alt: img.alt,
+                caption: img.caption,
+                backdrop: img.backdrop,
+              })
+            }}
+          {{ /for }}
+        {{ /if }}
+        {{# /images #}}
+      </section>
+    </div>
+
+    {{ if it.footnotes.length }}
+      <aside role="note" class="footnotes">
+        <dl>
+          {{ for note of footnotes }}
+            <div id="{{ note.id }}" class="footnote">
+              <dt><a href="#{{ note.refId }}">{{ note.label }}</a></dt>
+              <dd>{{ note.content }}</dd>
+            </div>
+          {{ /for }}
+        </dl>
+      </aside>
+    {{ /if }}
+  </article>
+
+  <nav class="page-pagination pagination">
+    <ul>
+      {{- set previousPost = search.previousPage(url, "type=post") }}
+      {{- if previousPost }}
+        <li class="pagination-prev">
+          <a href="{{ previousPost.url }}" rel="prev">
+            <span>{{ i18n.nav.previous_post }}</span>
+            <strong>{{ previousPost.title }}</strong>
+          </a>
+        </li>
+      {{ /if }}
+
+      {{- set nextPost = search.nextPage(url, "type=post") }}
+      {{- if nextPost }}
+        <li class="pagination-next">
+          <a href="{{ nextPost.url }}" rel="next">
+            <span>{{ i18n.nav.next_post }}</span>
+            <strong>{{ nextPost.title }}</strong>
+          </a>
+        </li>
+      {{ /if }}
+    </ul>
+  </nav>
+  <hr />
+  <p>{{ i18n.nav.archive }}</p>
+  <div class="search" id="search"></div>
+</main>
+
+<script defer src="/lyt/lite-yt-embed.js"></script>

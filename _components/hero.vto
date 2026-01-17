@@ -1,0 +1,27 @@
+<figure class="post-hero">
+  <a href="{{ image }}">
+    <img
+      src="{{ image }}"
+      alt="{{ alt }}"
+      {{ if backdrop }}class="backdrop"{{ /if }}
+    />
+  </a>
+
+  {{ if caption }}
+    <figcaption>
+      {{ caption }}
+    </figcaption>
+  {{ /if }}
+</figure>
+
+<style>
+  figure.post-hero {
+    margin-block-end: var(--row-gap-small);
+  }
+
+  .post-hero img.backdrop {
+    background-color: var(--code-background);
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+</style>

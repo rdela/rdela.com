@@ -1,32 +1,34 @@
 ---
-title: Advanced Data Protection + Vaporizes Shared Albums
+title: Advanced Data Protection
 date: 2022-12-23T18:07:00.865Z
-excerpt: "My wallpaper on my phone disappeared and I was unable to access years of shared albums on any of my devices."
-image: "advanced-data-protection-icloud.jpg"
+excerpt: People who want “their trusted devices [to] retain sole access to the encryption keys for the majority of their iCloud data,” can share albums in Apple Photos again as of 2025.
+image: /img/advanced-data-protection-icloud.jpg
+alt: Advanced Data Protection
+images:
+  - src: /img/advanced-data-protection-icloud.jpg
+    alt: Advanced Data Protection
+    caption: People who want “their trusted devices [to] retain sole access to the encryption keys for the majority of their iCloud data,” can share albums in Apple Photos again as of 2025.
+  - src: /img/security-implications-sharing-collaboration.jpg
+    alt: Screenshot of Apple support documentation
+    caption: '<a href="https://support.apple.com/guide/security/advanced-data-protection-for-icloud-sec973254c5f/web#secdd4a5beab">Security implications of sharing and collaboration</a> section of Apple support documentation in 2022'
 tags:
   - Apple
+  - Photography
+  - Privacy
   - Security
 ---
 
-<figure class="mw848">
-<a href="https://support.apple.com/guide/security/advanced-data-protection-for-icloud-sec973254c5f/web#secdd4a5beab">
-<img
-  src="/img/security-implications-sharing-collaboration.jpg"
-  alt="Security implications of sharing and collaboration section of Apple support documentation"
-/>
-</a>
-<figcaption>
-
-</figcaption>
-</figure>
-
 <div id="20250406-upd1" class="update">
 
-**Update 6 April 2025:** Apple fixed all the issues described below, and as far
-as I can tell Apple Photos Shared Albums and iWork collaboration both function
-fully and without issue Advanced Data Protection. I have not found anything to
-link to about this (please share it if you do). I **wholeheartedly recommend you
+**Update 6 April 2025:** As far as I can tell, Apple Photos Shared Albums now
+function fully and without issue when Advanced Data Protection is enabled. I
+have not found anything to link to about this (please share it if you do). I
+**wholeheartedly recommend you
 [turn ADP on immediately](https://support.apple.com/guide/security/advanced-data-protection-for-icloud-sec973254c5f/web)**.
+I have had mixed results trying to use iWork collaboration with Advanced Data
+Protection enabled, but it is hard to tell what is iCloud file sync flakiness,
+or iWork collaboration not working in general. Few people I know use iCloud for
+file sharing. iCloud Drive experiments with my family have fared poorly overall.
 
 </div>
 

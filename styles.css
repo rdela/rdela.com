@@ -1,0 +1,216 @@
+/* 
+ * Lume Design System 0.5.2
+ * https://github.com/lumeland/ds
+ */
+@import "css/ds.css";
+
+/* Custom components */
+@import "css/navbar.css";
+@import "css/page.css";
+@import "css/post-list.css";
+@import "css/post.css";
+
+/* google-fonts */
+
+@view-transition {
+  navigation: auto;
+}
+
+/* Color scheme and mixing values set in pages/color-options.vto and imported in base.vto */
+:root {
+  /* mixed colors */
+  --color-base: hsl(var(--a), var(--sl), var(--dr));
+  --color-text: hsl(var(--a), var(--sl), var(--d));
+  --color-dim: hsl(var(--a), var(--sl), var(--lm));
+
+  --color-line: hsl(var(--a), var(--sl), var(--lr));
+  --color-highlight: hsl(var(--a), var(--sl), var(--xl));
+
+  /* = #fff, white, browser default */
+  --color-background: hsl(var(--a), var(--sl), 100%);
+
+  --color-primary: hsl(var(--h), var(--sm), var(--d));
+  --color-primary-highlight: hsl(var(--h), var(--sm), var(--m));
+
+  --color-link: var(--color-primary);
+  --color-link-hover: var(--color-primary-highlight);
+
+  --code-text: var(--color-base);
+  --code-comment: #708090;
+  --code-token-1: #aa0909;
+  --code-token-2: #909;
+  --code-token-3: #06c;
+  --code-token-4: #00802b;
+  --code-inserted: #639108;
+  --code-deleted: #910853;
+  --code-border: var(--color-line);
+  --code-background: var(--color-highlight);
+  --code-background-selection: #b3d4fc;
+
+  /* -apple-system irrelevant now https://caniuse.com/font-family-system-ui */
+  --font-family-ui: text, system-ui,sans-serif;
+  --font-family-display: display, system-ui,sans-serif;
+}
+
+[data-theme="dark"] {
+  --color-base: hsl(var(--a), var(--sm), var(--xl));
+  --color-text: hsl(var(--a), var(--sm), var(--lr));
+  --color-dim: hsl(var(--a), var(--sm), var(--l));
+
+  --color-line: hsl(var(--a), var(--sm), var(--d));
+  --color-highlight: hsl(var(--a), var(--sm), var(--dr));
+
+  /* = #000, black, energy saving on OLED */
+  --color-background: hsl(var(--a), var(--sm), 0%);
+
+  --color-primary: hsl(var(--h), var(--sh), var(--lr));
+  --color-primary-highlight: hsl(var(--h), var(--sh), var(--m));
+
+  --code-text: var(--color-base);
+  --code-comment: grey;
+  --code-token-1: #f66;
+  --code-token-2: #d65cd6;
+  --code-token-3: #75b3f0;
+  --code-token-4: #52e081;
+  --code-inserted: #8c9966;
+  --code-deleted: #d16a47;
+  --code-border: var(--color-line);
+  --code-background: var(--color-highlight);
+  --code-background-selection: hsla(0, 0%, 93%, 0.15);
+  color-scheme: dark;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: italic;
+}
+
+blockquote cite {
+  display: inline-block;
+  margin-block-start: calc(var(--row-gap-xsmall) / 2);
+}
+
+figcaption {
+  font-size: var(--font-small);
+  line-height: 1.4;
+  margin-block: var(--row-gap-xsmall);
+}
+
+figure {
+  margin: 0 0 var(--row-gap-xsmall);
+}
+
+p {
+  margin-block: var(--row-gap-xsmall);
+}
+
+.feed-bar {
+  margin-block-end: var(--row-gap-small);
+}
+
+.nav-back {
+  margin-block-end: calc(var(--row-gap-xsmall) / 8);
+}
+
+.archive-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(21.25rem, 1fr));
+  gap: var(--row-gap-small);
+
+  @media (min-width: 1152px) {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.archive-search {
+  margin-block-start: var(--row-gap-small);
+}
+
+/* Page layout */
+main {
+  padding: var(--row-gap-xsmall) 0 var(--row-gap-medium);
+  width: 100%;
+  padding-inline: min(5vw, 5rem);
+  margin: 0 auto;
+
+  & > :first-child {
+    margin-top: 0;
+  }
+}
+
+.body-home {
+  padding-block-start: calc(var(--row-gap-xsmall) * 1.125);
+}
+
+/* Search tweak */
+.search {
+  margin-top: var(--row-gap-xsmall);
+}
+
+footer {
+  margin-bottom: var(--row-gap-small);
+}
+
+.mbe-m {
+  margin-block-end: var(--row-gap-medium);
+}
+
+.html-only {
+  display: none;
+}
+
+.center {
+  /*
+  match .navbar inline padding
+  https://github.com/lumeland/theme-simple-blog/blob/v0.15.10/src/_includes/css/navbar.css#L7
+  */
+  padding-inline: min(5vw, 5rem);
+  text-align: center;
+}
+
+/*
+prevent --color-text override in _includes/css/ds.css 0.5.2 L604
+https://github.com/lumeland/ds/blob/v0.5.2/src/reset.css#L78
+*/
+b, h1, h2, h3, h4, h5, h6, strong {
+  color: currentColor;
+}
+/*
+prevent --color-base override in _includes/css/ds.css 0.5.2 L656
+https://github.com/lumeland/ds/blob/v0.5.2/src/components/body.css#L34
+*/
+.body {
+  :not(pre) > code, b, h1, h2, strong {
+    color: currentColor;
+  }
+}
+
+/* FitVids */
+
+.fluid-width-video-wrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  padding-top: 56.25%;
+  z-index: 2;
+}
+
+.fluid-width-video-wrapper.four-three {
+  padding-top: 75%;
+}
+
+.fluid-width-video-wrapper iframe,
+.fluid-width-video-wrapper object,
+.fluid-width-video-wrapper embed {
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+figure.video-player {
+  max-width: 1280px;
+  margin-block-end: var(--row-gap-small);
+}

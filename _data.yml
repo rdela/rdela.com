@@ -2,15 +2,27 @@ lang: en
 home:
   welcome: "Aloha"
   intro: "Welcome to the new [rdela.com](https://rdela.com) powered by [**Xeo**](https://xeo.land)"
+  posts: 48
 
-copyright: "&copy; 2007-2025 [Ricky&nbsp;de&nbsp;Laveaga](https://rdela.com/)"
+archives:
+  posts: 48
+  tag: 12
+  author: 12
+  basename: archive
+
+copyright: "&copy; 2007-present [Ricky&nbsp;de&nbsp;Laveaga](https://rdela.com/)"
 
 menu_links: []
+
+logo:
+  svg: "/favicon.svg"
+  height: 64
+
 metas:
   site: Ricky de Laveaga
   description: Artist who makes movies, designs, and programs
   title: =title
-  image: =image
+  image: =image || rdela-1260x630.png
   # twitter: "@rickydelaveaga"
   mastodon: "@rdela@mastodon.social"
   lang: en

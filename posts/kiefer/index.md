@@ -1,15 +1,19 @@
 ---
 title: Kiefer
-date: "2018-11-25T06:03:09.000Z"
-excerpt: "👹"
-image: "44678159_2221262148090525_7372700776074931523_n.jpg"
+date: 2018-11-25T06:03:09.000Z
+excerpt: 👹
+image: /img/44678159_2221262148090525_7372700776074931523_n.jpg
+alt: Kiefer
+images:
+  - src: /img/44678159_2221262148090525_7372700776074931523_n.jpg
+    alt: Kiefer
+tags:
+  - Books
+  - Photography
+  - Plushies
+  - Toys
 ---
 
-<figure class="mw408">
-<img
-  src="44678159_2221262148090525_7372700776074931523_n.jpg"
-  alt="Kiefer"
-/>
-</figure>
-
-Kiefer ([plushie](https://www.naughtynaughtypetsstore.com/product/kiefer), [book](https://www.amazon.com/dp/0786808861/)) from Naughty Naughty Pets
+Kiefer plushie from
+[Naughty Naughty Pets](https://www.wendyanngardner.com/books) by
+[Wendy Ann Gardner](https://www.wendyanngardner.com/about)

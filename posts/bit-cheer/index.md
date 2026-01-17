@@ -1,60 +1,34 @@
 ---
 title: A Bit of Cheer
 date: 2022-07-06T23:18:03.228Z
-excerpt: "Three videos to cheer you up 🎼🤖🎶"
-image: "texture-green-color-fashion-colorful-yellow-774112-pxhere.com.jpg"
+excerpt: Three videos to cheer you up 🎼🤖🎶
+image: /img/texture-green-color-fashion-colorful-yellow-774112-pxhere.com.jpg
+alt: colorful sweatbands arranged in rows
+images:
+  - src: /img/texture-green-color-fashion-colorful-yellow-774112-pxhere.com.jpg
+    alt: colorful sweatbands arranged in rows
+    caption: 'Cheer via <a href="https://pxhere.com/en/photo/774112">PxHere</a>'
+videos:
+  - id: kCCXRerqaJI
+    title: The Floppotron 3.0 - Computer Hardware Orchestra
+    caption: 'Floppotron 3.0 playing “Entry of the Gladiators by Julius Fučík<br /><blockquote>“Entrance of the Gladiators” op. 68 or “Entry of the Gladiators” is a military march composed in 1897 by the Czech composer Julius Fučík. He originally titled it “Grande Marche Chromatique,” reflecting the use of chromatic scales throughout the piece, but changed the title based on his personal interest in the Roman Empire. The march is subtitled “Triumph-Marsch.”<cite>– <a href="https://en.wikipedia.org/wiki/Entrance_of_the_Gladiators">Entrance of the Gladiators</a>, Wikipedia</cite></blockquote>'
+  - id: x9LIqdUV09M
+    title: When you forget your password
+    caption: When you forget your password - Stevie Martin
+  - id: LButXcZ57pc
+    title: Verifying that you’re not a robot
+    caption: Verifying that you’re not a robot - Stevie Martin
+tags:
+  - AI
+  - Music
+  - Security
+  - Web
 ---
-
-<figure class="mw848">
-<img
-  src="/img/texture-green-color-fashion-colorful-yellow-774112-pxhere.com.jpg"
-  alt="colorful sweatbands arranged in rows"
-/>
-<figcaption>
-  Cheer via <a href="https://pxhere.com/en/photo/774112">PxHere</a>
-</figcaption>
-</figure>
 
 These are dark days, and I expect darker days await. So much to feel despondent
 about, but these three videos cheered me up a bit today.
 
-## [The Floppotron 3.0 - Computer Hardware Orchestra](https://www.youtube.com/watch?v=kCCXRerqaJI)
-
-<iframe
-  width="848"
-  height="477"
-  src="https://www.youtube.com/embed/kCCXRerqaJI?rel=0"
-  title="The Floppotron 3.0 - Computer Hardware Orchestra - YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-/>
-
-## [When you forget your password](https://www.youtube.com/watch?v=x9LIqdUV09M)
-
-<iframe
-  width="848"
-  height="477"
-  src="https://www.youtube.com/embed/x9LIqdUV09M?rel=0"
-  title="When you forget your password - YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-/>
-
-## [Verifying that you're not a robot](https://www.youtube.com/watch?v=LButXcZ57pc)
-
-<iframe
-  width="848"
-  height="477"
-  src="https://www.youtube.com/embed/LButXcZ57pc?rel=0"
-  title="Verifying that you're not a robot - YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-/>
-
 Found the top two on [Kornel’s Mastodon](https://mastodon.social/@kornel) and
 then the third on
 [Stevie Martin’s channel](https://www.youtube.com/c/StevieMartin). Both
-recommended. Toot toot 📯🐘
+recommended.
