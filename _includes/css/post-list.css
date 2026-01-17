@@ -11,16 +11,18 @@
 
   & .post {
     display: flex;
-    gap: var(--row-gap-small);
+    gap: var(--row-gap-xsmall);
     margin-block-end: var(--row-gap-small);
 
     @media (min-width: 1152px) {
+      gap: var(--row-gap-small);
       margin-block-end: var(--row-gap-xsmall);
     }
 
     & .post-thumb {
       align-content: flex-start;
       max-width: 20%;
+      min-width: 80px;
 
       & a {
         display: block;
