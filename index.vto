@@ -19,7 +19,10 @@ title: Home
           <div class="post-thumb">
             <a href="{{ post.url }}">
               <img
-                src="{{ post.image }}"
+                src="{{ post.image.substring(0, post.image.lastIndexOf('.')) }}-thumb{{
+    post.image.substring(post.image.lastIndexOf('.'))
+  }}"
+                {{# see img/_data.yml #}}
                 alt="{{ post.alt }}"
                 loading="lazy"
               />

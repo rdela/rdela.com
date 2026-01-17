@@ -1,0 +1,6 @@
+transformImages:
+  - resize: [320] # , 320 if want square
+    suffix: -thumb
+  - resize: [1280] # og
+  - resize: [2400]
+    suffix: -hero
