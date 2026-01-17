@@ -4,11 +4,7 @@
       {{ if post.image }}
         <div class="post-thumb">
           <a href="{{ post.url }}">
-            {{ if post.thumb }}
-              <img src="{{ post.thumb }}" alt="{{ post.thumbAlt }}" />
-            {{ else }}
-              <img src="{{ post.image }}" alt="{{ post.alt }}" />
-            {{ /if }}
+            <img src="{{ post.image }}" alt="{{ post.alt }}" loading="lazy" />
           </a>
         </div>
       {{ /if }}
