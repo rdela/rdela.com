@@ -22,7 +22,7 @@ metas:
   site: Ricky de Laveaga
   description: Artist who makes movies, designs, and programs
   title: =title
-  image: =image || rdela-1260x630.png
+  image: =image || /img/rdela-720p.png
   # twitter: "@rickydelaveaga"
   mastodon: "@rdela@mastodon.social"
   lang: en
