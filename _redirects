@@ -1,5 +1,5 @@
 # Redirect default Netlify subdomain to primary domain
-https://rdela.netlify.com/*	https://rdela.com/:splat	301!
+https://rdela.netlify.app/*	https://rdela.com/:splat	301!
 
 # Renamed or moved
 /the-silent-peal/	/silent-peal/
