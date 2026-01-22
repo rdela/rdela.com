@@ -1,6 +1,9 @@
+/* Imports */
+
 /* 
- * Lume Design System 0.5.2
+ * Lume Design System 0.6.0 - Unreleased
  * https://github.com/lumeland/ds
+ * https://cdn.jsdelivr.net/npm/@lumeland/ds/ds.css
  */
 @import "css/ds.css";
 
@@ -12,11 +15,21 @@
 
 /* google-fonts */
 
+/* Make a custom fallback font based on the local Arial */
+@font-face {
+  font-family: "display-fallback";
+  size-adjust: 76.22%;
+  src: local("Arial");
+}
+
+/* Xeo */
+
 @view-transition {
   navigation: auto;
 }
 
 /* Color scheme and mixing values set in pages/color-options.vto and imported in base.vto */
+
 :root {
   /* mixed colors */
   --color-base: hsl(var(--a), var(--sl), var(--dr));
