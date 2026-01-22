@@ -1,6 +1,9 @@
+/* Imports */
+
 /* 
- * Lume Design System 0.5.2
+ * Lume Design System 0.6.0 - Unreleased
  * https://github.com/lumeland/ds
+ * https://cdn.jsdelivr.net/npm/@lumeland/ds/ds.css
  */
 @import "css/ds.css";
 
@@ -12,11 +15,21 @@
 
 /* google-fonts */
 
+/* Make a custom fallback font based on the local Arial */
+@font-face {
+  font-family: "display-fallback";
+  size-adjust: 76.22%;
+  src: local("Arial");
+}
+
+/* Xeo */
+
 @view-transition {
   navigation: auto;
 }
 
 /* Color scheme and mixing values set in pages/color-options.vto and imported in base.vto */
+
 :root {
   /* mixed colors */
   --color-base: hsl(var(--a), var(--sl), var(--dr));
@@ -35,6 +48,7 @@
   --color-link: var(--color-primary);
   --color-link-hover: var(--color-primary-highlight);
 
+  /* code colors */
   --code-text: var(--color-base);
   --code-comment: #708090;
   --code-token-1: #aa0909;
@@ -47,9 +61,24 @@
   --code-background: var(--color-highlight);
   --code-background-selection: #b3d4fc;
 
-  /* -apple-system irrelevant now https://caniuse.com/font-family-system-ui */
-  --font-family-ui: text, system-ui,sans-serif;
-  --font-family-display: display, system-ui,sans-serif;
+  /* typography */
+  --font-family-code:
+    Monaco, ui-monospace, SFMono-Regular, Menlo, Consolas, "Andale Mono WT",
+    "Andale Mono", "Lucida Console", "Lucida Sans Typewriter",
+    "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono",
+    "Nimbus Mono L", "Courier New", Courier, monospace;
+
+  --font-family-ui: text,system-ui,sans-serif;
+
+  --font-display-spacing: 0;
+  --font-family-display: display, "display-fallback", system-ui,sans-serif;
+
+  --font-title: var(--font-bold) clamp(1.5rem, 8vw, 2rem)/1.2 var(
+    --font-family-display
+  );
+  --font-title-spacing: 0.00625em;
+
+  font-feature-settings: "liga" 1, "calt" 1;
 }
 
 [data-theme="dark"] {

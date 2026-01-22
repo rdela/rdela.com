@@ -1,147 +1,166 @@
 <!DOCTYPE html>
 
-<html lang="{{ it.lang }}">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ it.title || metas.title }} - {{ metas.site }}</title>
-    <link rel="stylesheet" href="/color-options.css">
-    <link rel="stylesheet" href="/styles.css">
-    <link
-      rel="alternate"
-      href="/feed.xml"
-      type="application/atom+xml"
-      title="{{ metas.site }}"
-    >
-    <link
-      rel="alternate"
-      href="/feed.json"
-      type="application/json"
-      title="{{ metas.site }}"
-    >
-    <link rel="canonical" href="{{ url |> url(true) }}">
+<html lang="{{ it.lang }}" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ it.title || metas.title }} - {{ metas.site }}</title>
 
-    <meta name="supported-color-schemes" content="light dark">
-    <meta
-      name="theme-color"
-      content="hsl(var(--a), 20%, 100%)"
-      media="(prefers-color-scheme: light)"
-    >
-    <meta
-      name="theme-color"
-      content="hsl(var(--a), 65%, 0%)"
-      media="(prefers-color-scheme: dark)"
-    >
+  <link
+    rel="preload"
+    href="/fonts/text-normal-100-900-latin.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  >
+  <link
+    rel="preload"
+    href="/fonts/display-normal-400-latin.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  >
+  <link rel="preload" href="/color-options.css" as="style" />
+  <link rel="preload" href="/styles.css" as="style" />
 
-    {{ it.extra_head?.join("\n") }}
-  </head>
-  <body>
-    <nav class="navbar">
-      <a href="/" class="navbar-home" aria-label="Homepage">
-        {{ if it.logo.svg }}
-          <img
-            src="{{ it.logo.svg }}"
-            height="{{ it.logo.height }}"
-            alt="{{ metas.site }}"
-            title="{{ metas.site }}"
-          />
-        {{ else }}
-          <strong>{{ metas.site }}</strong>
-        {{ /if }}
-      </a>
+  <link rel="stylesheet" href="/color-options.css" />
+  <link rel="stylesheet" href="/styles.css" />
 
-      <ul class="navbar-links">
-        {{- for entry of search.pages("menu.visible=true", "menu.order") }}
-          <li>
-            <a
-              href="{{ entry.url }}"
-              {{ if entry.url == url }}
-                aria-current="page"{{ /if }}
-            >
-              {{ entry.menu.title || entry.title }}
-            </a>
-          </li>
-        {{ /for }}
-        {{- for link of it.menu_links }}
-          <li>
-            <a
-              href="{{ link.url }}"
-              {{ if link.target }}
-                target="{{ link.target }}"{{ /if }}
-            >
-              {{ link.title }}
-            </a>
-          </li>
-        {{ /for }}
+  <link
+    rel="alternate"
+    href="/feed.xml"
+    type="application/atom+xml"
+    title="{{ metas.site }}"
+  >
+  <link
+    rel="alternate"
+    href="/feed.json"
+    type="application/json"
+    title="{{ metas.site }}"
+  >
+  <link rel="canonical" href="{{ url |> url(true) }}">
+
+  <meta name="supported-color-schemes" content="light dark">
+  <meta
+    name="theme-color"
+    content="hsl(var(--a), 20%, 100%)"
+    media="(prefers-color-scheme: light)"
+  >
+  <meta
+    name="theme-color"
+    content="hsl(var(--a), 65%, 0%)"
+    media="(prefers-color-scheme: dark)"
+  >
+
+  {{ it.extra_head?.join("\n") }}
+</head>
+<body>
+  <nav class="navbar">
+    <a href="/" class="navbar-home" aria-label="Homepage">
+      {{ if it.logo.svg }}
+        <img
+          src="{{ it.logo.svg }}"
+          height="{{ it.logo.height }}"
+          alt="{{ metas.site }}"
+          title="{{ metas.site }}"
+        />
+      {{ else }}
+        <strong>{{ metas.site }}</strong>
+      {{ /if }}
+    </a>
+
+    <ul class="navbar-links">
+      {{- for entry of search.pages("menu.visible=true", "menu.order") }}
         <li>
-          {{# respond to prefers-color-scheme changes #}}
-          <script>
-            let theme = localStorage.getItem("theme") ||
-              (window.matchMedia("(prefers-color-scheme: dark)")
-                  .matches
-                ? "dark"
-                : "light");
-            document.documentElement.dataset.theme = theme;
-            function changeTheme() {
-              theme = theme === "dark" ? "light" : "dark";
-              localStorage.setItem("theme", theme);
-              document.documentElement.dataset.theme = theme;
-            }
-            function darkChange() {
-              if (theme === "light") {
-                changeTheme();
-              }
-            }
-            function lightChange() {
-              if (theme === "dark") {
-                changeTheme();
-              }
-            }
-            const darkPreference = window.matchMedia(
-              "(prefers-color-scheme: dark)",
-            );
-            const lightPreference = window.matchMedia(
-              "(prefers-color-scheme: light)",
-            );
-            darkPreference.addEventListener(
-              "change",
-              (e) => e.matches && darkChange(),
-            );
-            lightPreference.addEventListener(
-              "change",
-              (e) => e.matches && lightChange(),
-            );
-          </script>
-          <button class="button" onclick="changeTheme()">
-            <span class="icon">◐</span>
-          </button>
+          <a
+            href="{{ entry.url }}"
+            {{ if entry.url == url }}
+              aria-current="page"{{ /if }}
+          >
+            {{ entry.menu.title || entry.title }}
+          </a>
         </li>
-      </ul>
-    </nav>
+      {{ /for }}
+      {{- for link of it.menu_links }}
+        <li>
+          <a
+            href="{{ link.url }}"
+            {{ if link.target }}
+              target="{{ link.target }}"{{ /if }}
+          >
+            {{ link.title }}
+          </a>
+        </li>
+      {{ /for }}
+      <li>
+        {{# respond to prefers-color-scheme changes #}}
+        <script>
+          let theme = localStorage.getItem("theme") ||
+            (window.matchMedia("(prefers-color-scheme: dark)")
+                .matches
+              ? "dark"
+              : "light");
+          document.documentElement.dataset.theme = theme;
+          function changeTheme() {
+            theme = theme === "dark" ? "light" : "dark";
+            localStorage.setItem("theme", theme);
+            document.documentElement.dataset.theme = theme;
+          }
+          function darkChange() {
+            if (theme === "light") {
+              changeTheme();
+            }
+          }
+          function lightChange() {
+            if (theme === "dark") {
+              changeTheme();
+            }
+          }
+          const darkPreference = window.matchMedia(
+            "(prefers-color-scheme: dark)",
+          );
+          const lightPreference = window.matchMedia(
+            "(prefers-color-scheme: light)",
+          );
+          darkPreference.addEventListener(
+            "change",
+            (e) => e.matches && darkChange(),
+          );
+          lightPreference.addEventListener(
+            "change",
+            (e) => e.matches && lightChange(),
+          );
+        </script>
+        <button class="button" onclick="changeTheme()">
+          <span class="icon">◐</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
 
-    {{ content }}
+  {{ content }}
 
-    <footer class="center">
-      <p class="feed-bar">
-        <svg
-          width="16"
-          height="16"
-          viewBox="0 0 16 16"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <circle cx="3" cy="13" r="2" fill="currentColor" />
-          <path
-            d="M14 13C14 6.925 9.075 2 3 2M9 13a6 6 0 0 0-6-6"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-          />
-        </svg> Feed:
-        <a href="/feed.xml">RSS (Atom)</a>, <a href="/feed.json">JSON</a>
-      </p>
-      {{ copyright |> md }}
-    </footer>
-    <!-- Current page: {{ url }} -->
-  </body>
+  <footer class="center">
+    <p class="feed-bar">
+      <svg
+        width="16"
+        height="16"
+        viewBox="0 0 16 16"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle cx="3" cy="13" r="2" fill="currentColor" />
+        <path
+          d="M14 13C14 6.925 9.075 2 3 2M9 13a6 6 0 0 0-6-6"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </svg> Feed:
+      <a href="/feed.xml">RSS (Atom)</a>, <a href="/feed.json">JSON</a>
+    </p>
+    {{ copyright |> md }}
+  </footer>
+  <!-- Current page: {{ url }} -->
+</body>
 </html>
