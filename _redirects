@@ -6,6 +6,8 @@ https://rdela.netlify.app/*	https://rdela.com/:splat	301!
 /a-bit-of-cheer/	/bit-cheer/
 /tomatillos/	/wild-cucumber/
 /rss.xml	/feed.xml
+/bio/	/pages/bio/
+/links/	/pages/links/
 
 # Deleted
 /grody-grittys-evil-twin/	/
