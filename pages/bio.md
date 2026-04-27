@@ -2,6 +2,12 @@
 layout: layouts/page.vto
 title: Bio
 excerpt: Ricky de Laveaga was born an artist, started making movies in high school, and never looked back.
+image: /img/IMG_0073.jpg
+alt: Abandon Your TV
+images:
+  - src: /img/IMG_0073.jpg
+    alt: Abandon Your TV
+    caption: Abandon Your TV
 menu:
   visible: true
   order: 2

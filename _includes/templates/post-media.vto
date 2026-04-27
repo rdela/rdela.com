@@ -1,0 +1,31 @@
+{{# 
+default/all options false: 
+media displayed sequentially in secondary column of dual-column layout
+
+carousel: true/false
+if true, media displayed in carousel in secondary column of dual-column layout
+
+hero: true/false
+if true, first media item* in hero banner at start of post content
+*media item = if videos: first video in videos, else, if images: first image in images
+
+reverse: true/false
+if true, media displayed sequentially in primary column of dual-column layout
+
+page: true/false
+if true, parent container is a page, not a post
+
+equivalent:
+{{ if page }}Container: Page{{ /if }}
+{{ if page == true }}Container: Page (true){{ /if }}
+
+the opposite:
+{{ if !page }}Container: Post (page != true)<br />{{ /if }}
+{{ if page == false }}Container: Post (page == false){{ /if }}
+#}}
+{{ if page }}turn the page<br />{{ /if }}
+{{ if !page }}Container: Post (page != true)<br />{{ /if }}
+{{ if carousel }}life is a merry go round{{ /if }}
+{{ if hero }}we need a hero{{ /if }}
+{{ if reverse }}flip it and reverse it{{ /if }}
+{{ include "templates/post-default.vto" }}

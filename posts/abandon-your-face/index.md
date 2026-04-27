@@ -11,6 +11,7 @@ images:
   - src: /img/merlin_141182193_5f23f285-d744-4e14-868e-ae8566b026cc-jumbo-100.jpg
     alt: Zuckerberg speaking with Schumer
     caption: Mr. Zuckerberg speaking with Senator Chuck Schumer in July. The lawmaker, whose daughter works at Facebook, has intervened on the company’s&nbsp&nbsp;behalf.<br /><small>Drew&nbsp;Angerer/Getty&nbsp;Images</small>
+hero: true
 tags:
   - AI
   - Oligarchy
