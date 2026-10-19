@@ -1,6 +1,6 @@
 /* Imports */
 
-/* 
+/*
  * Lume Design System 0.6.0 - Unreleased
  * https://github.com/lumeland/ds
  * https://cdn.jsdelivr.net/npm/@lumeland/ds/ds.css
@@ -41,6 +41,8 @@
 
   /* = #fff, white, browser default */
   --color-background: hsl(var(--a), var(--sl), 100%);
+  --color-scrim: hsla(var(--a), var(--sl), 100%, 0.25);
+  --color-scrim-thick: hsla(var(--a), var(--sl), 100%, 0.75);
 
   --color-primary: hsl(var(--h), var(--sm), var(--d));
   --color-primary-highlight: hsl(var(--h), var(--sm), var(--m));
@@ -70,15 +72,18 @@
 
   --font-family-ui: text,system-ui,sans-serif;
 
-  --font-display-spacing: 0;
+  --font-display-spacing: 0.0625ch;
   --font-family-display: display, "display-fallback", system-ui,sans-serif;
 
   --font-title: var(--font-bold) clamp(1.5rem, 8vw, 2rem)/1.2 var(
     --font-family-display
   );
-  --font-title-spacing: 0.00625em;
+  --font-title-spacing: 0.0875ch;
 
   font-feature-settings: "liga" 1, "calt" 1;
+
+  /* post-carousel */
+  --slide-width: clamp(288px, 33.33333vw, 1280px);
 }
 
 [data-theme="dark"] {
@@ -91,6 +96,8 @@
 
   /* = #000, black, energy saving on OLED */
   --color-background: hsl(var(--a), var(--sm), 0%);
+  --color-scrim: hsla(var(--a), var(--sm), 0%, 0.25);
+  --color-scrim-thick: hsla(var(--a), var(--sm), 0%, 0.64);
 
   --color-primary: hsl(var(--h), var(--sh), var(--lr));
   --color-primary-highlight: hsl(var(--h), var(--sh), var(--m));
@@ -109,19 +116,31 @@
   color-scheme: dark;
 }
 
-i, cite, em, var, address, dfn {
+i,
+cite,
+em,
+var,
+address,
+dfn {
   font-style: italic;
 }
 
 blockquote cite {
   display: inline-block;
-  margin-block-start: calc(var(--row-gap-xsmall) / 2);
 }
 
 figcaption {
   font-size: var(--font-small);
   line-height: 1.4;
   margin-block: var(--row-gap-xsmall);
+}
+
+small {
+  font-size: 77.777778%;
+}
+
+small.ish {
+  font-size: 88.888889%;
 }
 
 .body figcaption h2,
@@ -132,6 +151,7 @@ figcaption {
   margin-block-start: 0;
 }
 
+blockquote cite,
 figcaption.svg-label {
   margin-block-start: calc(var(--row-gap-xsmall) / 2);
 }
@@ -162,7 +182,8 @@ p {
   }
 }
 
-.archive-search {
+.archive-search,
+.block-start-small {
   margin-block-start: var(--row-gap-small);
 }
 
@@ -212,7 +233,14 @@ footer {
 prevent --color-text override in _includes/css/ds.css 0.5.2 L604
 https://github.com/lumeland/ds/blob/v0.5.2/src/reset.css#L78
 */
-b, h1, h2, h3, h4, h5, h6, strong {
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
   color: currentColor;
 }
 /*
@@ -220,15 +248,44 @@ prevent --color-base override in _includes/css/ds.css 0.5.2 L656
 https://github.com/lumeland/ds/blob/v0.5.2/src/components/body.css#L34
 */
 .body {
-  :not(pre) > code, b, h1, h2, strong {
+  :not(pre) > code,
+  b,
+  h1,
+  h2,
+  strong {
     color: currentColor;
   }
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure.post-hero {
+  margin-block-end: var(--row-gap-small);
+}
+
+.post-hero img.backdrop,
+.image-frame img.backdrop {
+  background-color: black;
+  padding: 16px;
+  border-radius: 1rem;
+}
+
+figure.video-player {
+  max-width: 1280px;
+  margin-block-end: var(--row-gap-small);
+}
+
+.display-block,
+.fluid-width-video-wrapper {
+  display: block;
 }
 
 /* FitVids */
 
 .fluid-width-video-wrapper {
-  display: block;
   position: relative;
   width: 100%;
   padding: 0;
@@ -251,7 +308,188 @@ https://github.com/lumeland/ds/blob/v0.5.2/src/components/body.css#L34
   height: 100%;
 }
 
-figure.video-player {
+.fluid-width-video-wrapper lite-youtube {
   max-width: 1280px;
+}
+
+.fluid-width-video-wrapper lite-youtube {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.post-subtitle :first-child,
+.post-main :first-child {
+  margin-block-start: 0;
+}
+
+.post-banner .post-hero {
+  margin-inline: calc(-1 * min(5vw, 5rem));
+  text-align: center;
+  position: relative;
+}
+
+.post-banner {
+  margin-inline: calc(-1* min(5vw, 5rem));
+}
+
+.post-placard {
+  background-color: rgba(0, 0, 0, .25);
+  text-align: center;
+}
+
+.post-placard a {
+  text-decoration: none;
+}
+
+.post-placard figcaption {
+  text-align: left;
+  padding-inline: min(5vw, 5rem);
+}
+
+.post-placard .post-title {
+  font-size: clamp(2.5rem, 12.5vw, 8rem);
+  line-height: 0.85;
+  margin-bottom: 0;
+}
+
+.post-placard .post-subtitle {
+  color: var(--color-base);
+  font-size: clamp(0.875rem, 2.5vw, 1.5rem);
+}
+
+.intrinsic {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-y: hidden;
+}
+
+.scrim {
+  align-items: center;
+  background-color: var(--color-scrim);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.sixteen-nine {
+  aspect-ratio: 16/9;
+}
+
+.flat {
+  aspect-ratio: 37/20;
+}
+
+.scope {
+  aspect-ratio: 21.5/9;
+}
+
+.ultra {
+  aspect-ratio: 69/25;
+}
+
+/* post-carousel */
+
+.post-carousel {
   margin-block-end: var(--row-gap-small);
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* number of lines to keep */
+  overflow: hidden;
+}
+
+oom-carousel {
+  overflow-x: auto;
+  display: flex;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+
+  figure {
+    display: block;
+    flex: 0 0 var(--slide-width);
+    height: auto;
+    max-width: var(--slide-width);
+    position: relative;
+    scroll-snap-align: center;
+  }
+
+  figure,
+  figure.video-player {
+    margin: 0 calc(var(--border-radius) / 3);
+  }
+
+  figure.image-frame {
+    width: var(--slide-width);
+    z-index: 0;
+  }
+
+  figure::-webkit-scrollbar {
+    display: none;
+  }
+
+  figure a:not(figcaption a) {
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+
+  figcaption {
+    background-color: var(--color-scrim-thick);
+    color: var(--color-base);
+    font-size: 77.777778%;
+    margin: 0;
+    opacity: 0;
+    padding: calc(var(--border-radius) / 3) var(--border-radius);
+    position: absolute;
+    bottom: 0;
+    transition: opacity 0.125s 0.125s;
+    width: 100%;
+    z-index: 2;
+  }
+
+  figcaption a:hover {
+    color: var(--color-dim);
+  }
+
+  figure:active figcaption,
+  figure:hover figcaption {
+    opacity: 100%;
+  }
+}
+
+oom-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+oom-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  margin-block-start: var(--border-radius);
+  gap: var(--border-radius);
+
+  button {
+    background: hsla(0, 0%, 50%, 0.375);
+    color: var(--color-base);
+    font-size: 1.4375rem;
+    padding: 0.5625rem 0.625rem;
+    border: none;
+    border-radius: var(--border-radius);
+    line-height: 1;
+    min-height: unset;
+  }
+
+  button:disabled {
+    opacity: 0.25;
+  }
 }

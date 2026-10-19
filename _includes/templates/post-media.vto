@@ -1,31 +1,46 @@
+<link rel="stylesheet" href="/lyt/lite-yt-embed.css">
+
 {{# 
 default/all options false: 
 media displayed sequentially in secondary column of dual-column layout
 
-carousel: true/false
-if true, media displayed in carousel in secondary column of dual-column layout
-
-hero: true/false
+banner: true/false
 if true, first media item* in hero banner at start of post content
 *media item = if videos: first video in videos, else, if images: first image in images
+
+carousel: true/false
+if true, media displayed in carousel at start of post content
 
 reverse: true/false
 if true, media displayed sequentially in primary column of dual-column layout
 
-page: true/false
-if true, parent container is a page, not a post
+in post templates: post-default, post-banner, post-carousel, post-reverse
 
-equivalent:
-{{ if page }}Container: Page{{ /if }}
-{{ if page == true }}Container: Page (true){{ /if }}
+    - post-header
+        - pages use `it.title`, posts use `title`
+        - posts include post-details template
 
-the opposite:
-{{ if !page }}Container: Post (page != true)<br />{{ /if }}
-{{ if page == false }}Container: Post (page == false){{ /if }}
+    - page: true/false
+        if true, parent container is a page, not a post
+
+        equivalent:
+        {{ if page }}Container: Page{{ /if }}
+        {{ if page == true }}Container: Page (true){{ /if }}
+
+        the opposite:
+        {{ if !page }}Container: Post (page != true)<br />{{ /if }}
+        {{ if page == false }}Container: Post (page == false){{ /if }}
+
+    - both pages and posts include post-toc and post-footnotes templates
 #}}
-{{ if page }}turn the page<br />{{ /if }}
-{{ if !page }}Container: Post (page != true)<br />{{ /if }}
-{{ if carousel }}life is a merry go round{{ /if }}
-{{ if hero }}we need a hero{{ /if }}
-{{ if reverse }}flip it and reverse it{{ /if }}
-{{ include "templates/post-default.vto" }}
+{{ if style === "banner" }}
+    {{ include "templates/post-banner.vto" }}
+{{ else if style === "carousel" }}
+    {{ include "templates/post-carousel.vto" }}
+{{ else if style === "reverse" }}
+    {{ include "templates/post-reverse.vto" }}
+{{ else }}
+    {{ include "templates/post-default.vto" }}
+{{ /if }}
+
+<script defer src="/lyt/lite-yt-embed.js"></script>

@@ -1,13 +1,9 @@
 <figure class="post-hero">
   <a
-    href="{{ image.substring(0, image.lastIndexOf('.')) }}-hero{{
-    image.substring(image.lastIndexOf('.'))
-  }}"
+    href="{{ image }}"
   >
     <img
-      src="{{ image.substring(0, image.lastIndexOf('.')) }}-hero{{
-    image.substring(image.lastIndexOf('.'))
-  }}"
+      src="{{ image.substring(0, image.lastIndexOf(".")) }}-hero{{ image.substring(image.lastIndexOf(".")) }}"
       alt="{{ alt }}"
       loading="lazy"
       {{ if backdrop }}class="backdrop"{{ /if }}
@@ -19,15 +15,3 @@
     </figcaption>
   {{ /if }}
 </figure>
-
-<style>
-  figure.post-hero {
-    margin-block-end: var(--row-gap-small);
-  }
-
-  .post-hero img.backdrop {
-    background-color: black;
-    padding: 1rem;
-    border-radius: 1rem;
-  }
-</style>

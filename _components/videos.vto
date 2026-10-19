@@ -1,0 +1,12 @@
+{{ for vid of videos }}
+  {{
+    await comp.lyt({
+      id: vid.id,
+      title: vid.title,
+      caption: vid.caption,
+      start: vid.start,
+    })
+  }}
+{{ /for }}
+
+{{# /videos #}}

@@ -1,83 +1,27 @@
 <header class="post-header">
-  {{ if page }}
-    <h1 class="post-title">{{ it.title }}</h1>
-    {{ it.subtitle |> md }}
-  {{ else }}
-    <h1 class="post-title">{{ title }}</h1>
-    {{ include "templates/post-details.vto" }}
-  {{ /if }}
+  {{ include "templates/post-header.vto" }}
 </header>
 
 <div class="post-body body">
   <section class="post-main" {{ mainContainerAttr }}>
     {{ if toc.length }}
-      <nav class="toc">
-        <h2>{{ i18n.nav.toc }}</h2>
-        <ol>
-          {{ for item of toc }}
-            <li>
-              <a href="#{{ item.slug }}">{{ item.text }}</a>
-
-              {{ if item.children.length }}
-                <ul>
-                  {{ for child of item.children }}
-                    <li>
-                      <a href="#{{ child.slug }}">{{ child.text }}</a>
-                    </li>
-                  {{ /for }}
-                </ul>
-              {{ /if }}
-            </li>
-          {{ /for }}
-        </ol>
-      </nav>
+      {{ include "templates/post-toc.vto" }}
     {{ /if }}
-    {{# /toc.length #}}
 
     {{ content }}
+
+    {{ if it.footnotes.length }}
+      {{ include "templates/post-footnotes.vto" }}
+    {{ /if }}
   </section>
 
   <section class="post-extras" {{ imgContainerAttr }}>
     {{ if videos }}
-      <link rel="stylesheet" href="/lyt/lite-yt-embed.css">
-      {{ for vid of videos }}
-        {{
-          await comp.lyt({
-            id: vid.id,
-            title: vid.title,
-            caption: vid.caption,
-          })
-        }}
-      {{ /for }}
-      <script defer src="/lyt/lite-yt-embed.js"></script>
+      {{ await comp.videos({ videos }) }}  
     {{ /if }}
-    {{# /videos #}}
 
     {{ if images }}
-      {{ for img of images }}
-        {{
-          await comp.hero({
-            image: img.src,
-            alt: img.alt,
-            caption: img.caption,
-            backdrop: img.backdrop,
-          })
-        }}
-      {{ /for }}
+      {{ await comp.images({ images }) }}
     {{ /if }}
-    {{# /images #}}
   </section>
 </div>
-
-{{ if it.footnotes.length }}
-  <aside role="note" class="footnotes">
-    <dl>
-      {{ for note of footnotes }}
-        <div id="{{ note.id }}" class="footnote">
-          <dt><a href="#{{ note.refId }}">{{ note.label }}</a></dt>
-          <dd>{{ note.content }}</dd>
-        </div>
-      {{ /for }}
-    </dl>
-  </aside>
-{{ /if }}
