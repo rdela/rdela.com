@@ -29,6 +29,7 @@ tags:
   - Meditation
   - Oligarchy
   - Petrostate
+  - Poetry
   - Tara
   - USA
 ---
@@ -233,12 +234,11 @@ We are all states of being in the process of becoming
 
 I am all of us\
 You are all of us\
-They are all of us\
-We are all of us
+They are all of us
 
 All becoming one\
-All becoming free\
-All becoming bliss
+All becoming bliss\
+All becoming free
 
 We heal ourselves in order to help each other free ourselves
 
