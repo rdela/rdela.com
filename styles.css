@@ -337,26 +337,22 @@ figure.video-player {
 
 .post-placard {
   text-align: center;
-}
-
-.post-placard a {
-  text-decoration: none;
-}
-
-.post-placard figcaption {
-  text-align: left;
-  padding-inline: min(5vw, 5rem);
-}
-
-.post-placard .post-title {
-  font-size: clamp(2.5rem, 12.5vw, 8rem);
-  line-height: 0.85;
-  margin-bottom: 0;
-}
-
-.post-placard .post-subtitle {
-  color: var(--color-base);
-  font-size: clamp(0.875rem, 2.5vw, 1.5rem);
+  a {
+    text-decoration: none;
+  }
+  figcaption {
+    text-align: left;
+    padding-inline: min(5vw, 5rem);
+  }
+  .post-title {
+    font-size: clamp(2.5rem, 12.5vw, 8rem);
+    line-height: 0.85;
+    margin-bottom: 0;
+  }
+  .post-subtitle {
+    color: var(--color-base);
+    font-size: clamp(0.875rem, 2.5vw, 1.5rem);
+  }
 }
 
 .intrinsic {
@@ -374,6 +370,9 @@ figure.video-player {
   flex-direction: column;
   justify-content: center;
   padding: 1rem;
+  p {
+    margin-block: 0;
+  }
 }
 
 .sixteen-nine {
