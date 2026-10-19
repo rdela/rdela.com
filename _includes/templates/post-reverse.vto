@@ -1,0 +1,27 @@
+<header class="post-header">
+  {{ include "templates/post-header.vto" }}
+</header>
+
+<div class="post-body body">
+  <section class="post-extras" {{ imgContainerAttr }}>
+    {{ if videos }}
+      {{ await comp.videos({ videos }) }}  
+    {{ /if }}
+
+    {{ if images }}
+      {{ await comp.images({ images }) }}
+    {{ /if }}
+  </section>
+
+  <section class="post-main" {{ mainContainerAttr }}>
+    {{ if toc.length }}
+      {{ include "templates/post-toc.vto" }}
+    {{ /if }}
+
+    {{ content }}
+
+    {{ if it.footnotes.length }}
+      {{ include "templates/post-footnotes.vto" }}
+    {{ /if }}
+  </section>
+</div>

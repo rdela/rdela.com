@@ -1,0 +1,8 @@
+{{ if page }}
+  {{ await comp.title({ text: it.title }) }}  
+  <div class="post-subtitle">{{ it.subtitle |> md }}</div>
+{{ else }}
+  {{ await comp.title({ text: title }) }}
+  <div class="post-subtitle">{{ it.subtitle |> md }}</div>
+  {{ include "templates/post-details.vto" }}
+{{ /if }}

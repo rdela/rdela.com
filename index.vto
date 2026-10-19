@@ -17,9 +17,7 @@ title: Home
           <div class="post-thumb">
             <a href="{{ post.url }}">
               <img
-                src="{{ post.image.substring(0, post.image.lastIndexOf('.')) }}-thumb{{
-    post.image.substring(post.image.lastIndexOf('.'))
-  }}"
+                src="{{ post.image.substring(0, post.image.lastIndexOf(".")) }}-thumb{{ post.image.substring(post.image.lastIndexOf(".")) }}"
                 {{# see img/_data.yml #}}
                 alt="{{ post.alt }}"
                 loading="lazy"
@@ -68,9 +66,7 @@ title: Home
   <hr>
 
   <p>
-    {{ i18n.nav.archive_search }} <a href="/{{ archives.basename }}/">{{
-      i18n.nav.archive_title
-    }}</a>
+    {{ i18n.nav.archive_search }} <a href="/{{ archives.basename }}/">{{ i18n.nav.archive_title }}</a>
   </p>
   <div class="search" id="search"></div>
 </main>

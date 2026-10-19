@@ -1,0 +1,92 @@
+<div class="carousel">
+  {{ if images || videos }}
+  <div class="post-carousel">
+    <oom-carousel
+      id="main-carousel"
+      role="region"
+      aria-label="Gallery"
+      tabindex="0"
+    >
+      {{ set counter = 0; }}
+      {{ if videos }}
+        {{ for vid of videos }}
+        {{# no caption on carousel videos currently, due to space constraints #}}
+        <figure class="video-player intrinsic sixteen-nine" id="slide-{{ counter = counter + 1 }}">
+          <div class="fluid-width-video-wrapper">
+            <lite-youtube
+              videoid="{{ vid.id }}"
+              {{ if vid.start }}params="start={{ vid.start }}"{{ /if }}
+              style="background-image: url('https://i.ytimg.com/vi/{{ vid.id }}/hqdefault.jpg')"
+            >
+              <a
+                href="https://youtube.com/watch?v={{ id }}{{ if vid.start }}&t={{ vid.start }}s{{ /if }}"
+                class="lyt-playbtn"
+                title="{{ vid.title }}"
+              >
+                <span class="lyt-visually-hidden">Play Video: {{ vid.title }}</span>
+              </a>
+            </lite-youtube>
+          </div>
+        </figure>
+        {{ /for }}
+      {{ /if }}
+
+      {{ if images }}
+        {{ for img of images }}
+        <figure 
+          id="slide-{{ counter = counter + 1 }}"
+          class="image-frame intrinsic sixteen-nine {{ if img.backdrop }}backdrop{{ /if }}" 
+          style="background-image: url({{ img.src.substring(0, img.src.lastIndexOf(".")) }}-hero{{ img.src.substring(img.src.lastIndexOf(".")) }});"
+        >
+          {{# for alt text on mouseover, optionally add title="{{ img.alt }}" #}}
+          <a href="{{ img.src }}" aria-label="{{ img.alt }}"></a> 
+          {{ if img.caption }}
+            <figcaption class="line-clamp">{{ img.caption }}</figcaption>
+          {{ /if }}
+        </figure>
+        {{ /for }}
+        {{# /images #}}
+      {{ /if }}
+    </oom-carousel>
+
+    <oom-navigation data-target="main-carousel">
+      <button value="first" class="carousel-first"
+        title="First slide"><span role="img" aria-label="First slide">⏮️</span></button>
+      <button value="prev" class="carousel-prev"
+        title="Previous slides"><span role="img" aria-label="Previous slides">⏪️</span></button>
+      <button value="-1" class="carousel--1"
+        title="Back one slide"><span role="img" aria-label="Back one slide">◀️</span></button>
+      <button value="+1" class="carousel-1"
+        title="Forward one slide"><span role="img" aria-label="Forward one slide">▶️</span></button>
+      <button value="next" class="carousel-next"
+        title="Next slides"><span role="img" aria-label="Next slides">⏩️</span></button>
+      <button value="last" class="carousel-last"
+        title="Last slide"><span role="img" aria-label="Last slide">⏭️</span></button>
+    </oom-navigation>
+  </div>
+  {{ /if }}
+
+  <header class="post-header">
+    {{ include "templates/post-header.vto" }}
+  </header>
+
+  <div class="post-body body">
+    <section class="post-main" {{ mainContainerAttr }}>
+      {{ if toc.length }}
+        {{ include "templates/post-toc.vto" }}
+      {{ /if }}
+
+      {{ content }}
+
+      {{ if it.footnotes.length }}
+        {{ include "templates/post-footnotes.vto" }}
+      {{ /if }}
+    </section>
+  </div>
+</div>
+
+<script type="module">
+import Carousel, { Navigation } from "/oom/carousel.js";
+customElements.define("oom-carousel", Carousel);
+customElements.define("oom-navigation", Navigation);
+</script>

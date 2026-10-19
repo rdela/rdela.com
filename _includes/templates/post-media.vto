@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="/lyt/lite-yt-embed.css">
+
+{{# 
+default/all options false: 
+media displayed sequentially in secondary column of dual-column layout
+
+banner: true/false
+if true, first media item* in hero banner at start of post content
+*media item = if videos: first video in videos, else, if images: first image in images
+
+carousel: true/false
+if true, media displayed in carousel at start of post content
+
+reverse: true/false
+if true, media displayed sequentially in primary column of dual-column layout
+
+in post templates: post-default, post-banner, post-carousel, post-reverse
+
+    - post-header
+        - pages use `it.title`, posts use `title`
+        - posts include post-details template
+
+    - page: true/false
+        if true, parent container is a page, not a post
+
+        equivalent:
+        {{ if page }}Container: Page{{ /if }}
+        {{ if page == true }}Container: Page (true){{ /if }}
+
+        the opposite:
+        {{ if !page }}Container: Post (page != true)<br />{{ /if }}
+        {{ if page == false }}Container: Post (page == false){{ /if }}
+
+    - both pages and posts include post-toc and post-footnotes templates
+#}}
+{{ if style === "banner" }}
+    {{ include "templates/post-banner.vto" }}
+{{ else if style === "carousel" }}
+    {{ include "templates/post-carousel.vto" }}
+{{ else if style === "reverse" }}
+    {{ include "templates/post-reverse.vto" }}
+{{ else }}
+    {{ include "templates/post-default.vto" }}
+{{ /if }}
+
+<script defer src="/lyt/lite-yt-embed.js"></script>

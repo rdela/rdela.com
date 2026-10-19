@@ -9,6 +9,18 @@
   width: 100%;
 }
 
+.banner .post-body,
+.banner .post-header,
+.carousel .post-body,
+.carousel .post-header {
+  max-width: 960px;
+  margin-inline: auto;
+}
+
+.banner .post-banner .post-placard figcaption {
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .post-main,
   .post-extras {

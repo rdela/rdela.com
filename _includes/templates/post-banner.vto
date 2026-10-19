@@ -1,0 +1,51 @@
+<div class="banner">
+  {{ if page }}
+    {{ set ptitle = it.title }}
+    {{ set psubtitle = it.subtitle }}
+  {{ else }}
+    {{ set ptitle = title }}
+    {{ set psubtitle = subtitle }}
+  {{ /if }}
+
+  {{ if images }}
+  <div class="post-banner">
+    {{ await comp.placard({
+      image: images[0].src,
+      alt: images[0].alt,
+      caption: images[0].caption,
+      backdrop: images[0].backdrop,
+      intrinsic: intrinsic,
+      title: ptitle,
+      subtitle: psubtitle,
+    }) }}
+  </div>
+  {{ /if }}
+
+  <header class="post-header">
+    {{ include "templates/post-details.vto" }}
+  </header>
+
+  <div class="post-body body">
+    <section class="post-main" {{ mainContainerAttr }}>
+      {{ if toc.length }}
+        {{ include "templates/post-toc.vto" }}
+      {{ /if }}
+
+      {{ content }}
+
+      <section class="post-extras" {{ imgContainerAttr }}>
+        {{ if videos }}
+          {{ await comp.videos({ videos }) }}  
+        {{ /if }}
+
+        {{ if images }}
+          {{ set images = images.slice(1) }}
+          {{ await comp.images({ images }) }}
+        {{ /if }}
+      </section>
+      {{ if it.footnotes.length }}
+        {{ include "templates/post-footnotes.vto" }}
+      {{ /if }}
+    </section>
+  </div>
+</div>  

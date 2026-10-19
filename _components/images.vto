@@ -1,0 +1,11 @@
+{{ for img of images }}
+  {{
+    await comp.hero({
+      image: img.src,
+      alt: img.alt,
+      caption: img.caption,
+      backdrop: img.backdrop,
+    })
+  }}
+{{ /for }}
+{{# /images #}}

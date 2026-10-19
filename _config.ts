@@ -41,6 +41,10 @@ site
     "https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.4/src/lite-yt-embed.min.css",
     "lyt/lite-yt-embed.css",
   )
+  .add(
+    "https://cdn.jsdelivr.net/npm/@oom/carousel@5.1.0/carousel.js",
+    "oom/carousel.js",
+  )
   .ignore("README.md")
   // .use(relativeUrls()) // https://lume.land/plugins/relative_urls/
   .use(transformImages());
