@@ -1,6 +1,6 @@
 ---
 title: Divine Power
-date: 2026-09-19T12:34:56.000Z
+date: 2026-10-18T12:34:56.000Z
 excerpt: We must face ugliness to inherit beauty.
 image: /img/Lama-Gyurme-Tara-Mandala-ceiling-web.jpg
 alt: Lama Gyurme Tara Mandala ceiling mural depicting Sealed Quintessence mandala
