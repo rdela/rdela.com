@@ -9,6 +9,7 @@ images:
   - src: /img/no-al-nazismo.jpg
     alt: Anti-Nazi protests in Buenos Aires, 1987
     caption: '1987 Anti-Nazi protests in Buenos Aires—Argentina’s history as a refuge for Nazis after World War II has also come under scrutiny.<br /><small>(Image source: <a href="https://www.formosadeportiva.com.ar/argentina/9972/">Enrique Costa/REUTERS</a>)</small>'
+intrinsic: ultra
 style: banner
 tags:
   - Oligarchy
