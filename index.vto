@@ -15,7 +15,7 @@ title: Ricky de Laveaga
       <article class="post">
         {{ if post.image }}
           <div class="post-thumb">
-            <a href="{{ post.url }}" class="intrinsic flat" style="background-image: url({{ post.image.substring(0, post.image.lastIndexOf(".")) }}-card{{ post.image.substring(post.image.lastIndexOf(".")) }});" {{# see img/_data.yml #}}></a>
+            <a href="{{ post.url }}" class="intrinsic flat" style="background-image: url({{ post.image.substring(0, post.image.lastIndexOf(".")) }}-thumb{{ post.image.substring(post.image.lastIndexOf(".")) }});" {{# see img/_data.yml #}}></a>
           </div>
         {{ /if }}
 
