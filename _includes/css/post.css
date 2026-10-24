@@ -44,7 +44,7 @@
   color: var(--color-base);
   font: var(--font-display);
   letter-spacing: var(--font-display-spacing);
-  margin: 0 0 0.2em;
+  margin: 0 0 calc(var(--row-gap-xxxsmall) / 2);
   text-transform: uppercase;
   text-wrap: balance;
 }

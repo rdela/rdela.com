@@ -43,6 +43,7 @@
   --color-background: hsl(var(--a), var(--sl), 100%);
   --color-scrim: hsla(var(--a), var(--sl), 100%, 0.25);
   --color-scrim-thick: hsla(var(--a), var(--sl), 100%, 0.75);
+  --color-scrim-inverse: hsla(var(--a), var(--sm), 50%, 0.109375);
 
   --color-primary: hsl(var(--h), var(--sm), var(--d));
   --color-primary-highlight: hsl(var(--h), var(--sm), var(--m));
@@ -98,6 +99,7 @@
   --color-background: hsl(var(--a), var(--sm), 0%);
   --color-scrim: hsla(var(--a), var(--sm), 0%, 0.25);
   --color-scrim-thick: hsla(var(--a), var(--sm), 0%, 0.64);
+  --color-scrim-inverse: hsla(var(--h), var(--sm), 50%, 0.15625);
 
   --color-primary: hsl(var(--h), var(--sh), var(--lr));
   --color-primary-highlight: hsl(var(--h), var(--sh), var(--m));
@@ -436,7 +438,7 @@ oom-carousel {
 
   figure,
   figure.video-player {
-    margin: 0 calc(var(--border-radius) / 3);
+    margin: 0 var(--border-radius-xs);
   }
 
   figure.image-frame {
@@ -461,7 +463,7 @@ oom-carousel {
     font-size: 77.777778%;
     margin: 0;
     opacity: 0;
-    padding: calc(var(--border-radius) / 3) var(--border-radius);
+    padding: var(--border-radius-xs) var(--border-radius);
     position: absolute;
     bottom: 0;
     transition: opacity 0.125s 0.125s;
@@ -498,7 +500,7 @@ oom-navigation {
   gap: var(--border-radius);
 
   button {
-    background: hsla(0, 0%, 50%, 0.375);
+    background-color: var(--color-highlight);
     color: var(--color-base);
     font-size: 1.4375rem;
     padding: 0.5625rem 0.625rem;
@@ -506,6 +508,12 @@ oom-navigation {
     border-radius: var(--border-radius);
     line-height: 1;
     min-height: unset;
+  }
+
+  button:hover,
+  button:focus,
+  button:active {
+    background-color: var(--color-line);
   }
 
   button:disabled {

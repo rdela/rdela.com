@@ -334,10 +334,14 @@ button[role="switch"][aria-checked="true"]:before {
   --font-ui-bold: var(--font-bold) var(--font-ui);
   --font-small: clamp(0.85rem, 4vw, 0.9rem)/1.4 var(--font-family-ui);
   --font-small-bold: var(--font-bold) var(--font-small);
+  --row-gap-xxxsmall: 0.5rem;
+  --row-gap-xxsmall: 0.75rem;
   --row-gap-xsmall: 1rem;
   --row-gap-small: 2.5rem;
   --row-gap-medium: 5rem;
   --border-radius: 6px;
+  --border-radius-xl: 16px;
+  --border-radius-xs: 2px;
   --animation-duration: 0.2s;
   --pagefind-ui-scale: 0.8;
   --pagefind-ui-primary: var(--color-text);
@@ -408,7 +412,9 @@ main > :first-child {
 a {
   color: var(--color-link);
 }
-a:hover {
+a:hover,
+a:focus,
+a:active {
   color: var(--color-link-hover);
   text-decoration: none;
 }
@@ -538,7 +544,9 @@ summary {
   padding: 0.2em 0.6em;
   text-decoration: none;
 }
-.badge:hover {
+.badge:hover,
+.badge:focus,
+.badge:active {
   background-color: var(--color-line);
 }
 .body {
