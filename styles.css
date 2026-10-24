@@ -338,6 +338,16 @@ figure.video-player {
 	width: 1px;
 }
 
+.visually-hidden.skip:focus {
+  clip: unset;
+  clip-path: unset;
+  height: auto;
+  overflow: visible;
+  white-space: normal;
+  width: 100%;
+  text-align: center;
+}
+
 /* /_includes/templates/post-banner.vto */
 .post-banner .post-hero {
   margin-inline: calc(-1 * min(5vw, 5rem));
