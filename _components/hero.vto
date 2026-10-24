@@ -1,6 +1,6 @@
 <figure class="post-hero">
   <a
-    href="{{ image }}"
+    href="{{ image.substring(0, image.lastIndexOf(".")) }}-hero{{ image.substring(image.lastIndexOf(".")) }}"
   >
     <img
       src="{{ image.substring(0, image.lastIndexOf(".")) }}-hero{{ image.substring(image.lastIndexOf(".")) }}"

@@ -16,7 +16,7 @@
       see class declaration blocks in style.css + 
       https://en.wikipedia.org/wiki/Aspect_ratio_(image)#Previous_and_currently_used_aspect_ratios
     #}}  
-    <div class="{{ placard_ratio }} intrinsic" style="background-image: url({{ image }});">
+    <div class="{{ placard_ratio }} intrinsic" style="background-image: url({{ image.substring(0, image.lastIndexOf(".")) }}-hero{{ image.substring(image.lastIndexOf(".")) }});">
       <div class="{{ placard_ratio }} intrinsic scrim">
         {{ await comp.title({ text: title }) }}
         {{ if subtitle }}
