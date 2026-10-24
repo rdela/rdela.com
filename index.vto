@@ -9,7 +9,7 @@ title: Ricky de Laveaga
   <div class="page-subtitle">{{ home.intro |> md }}</div>
 </header>
 
-<main class="{{ it.bodyClass }}">
+<main class="{{ it.bodyClass }}" id="skip">
   <section class="postList">
     {{ for post of search.pages("type=post", "date=desc", home.posts) }}
       <article class="post">

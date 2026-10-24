@@ -257,6 +257,11 @@ https://github.com/lumeland/ds/blob/v0.5.2/src/components/body.css#L34
   }
 }
 
+.post-subtitle :first-child,
+.post-main :first-child {
+  margin-block-start: 0;
+}
+
 figure img {
   max-width: 100%;
   height: auto;
@@ -320,11 +325,18 @@ figure.video-player {
   height: 100%;
 }
 
-.post-subtitle :first-child,
-.post-main :first-child {
-  margin-block-start: 0;
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
 }
 
+/* /_includes/templates/post-banner.vto */
 .post-banner .post-hero {
   margin-inline: calc(-1 * min(5vw, 5rem));
   text-align: center;
@@ -335,6 +347,7 @@ figure.video-player {
   margin-inline: calc(-1* min(5vw, 5rem));
 }
 
+/* /_components/placard.vto */
 .post-placard {
   text-align: center;
   a {
@@ -391,7 +404,7 @@ figure.video-player {
   aspect-ratio: 69/25;
 }
 
-/* post-carousel */
+/* /_includes/templates/post-carousel.vto */
 
 .post-carousel {
   margin-block-end: var(--row-gap-small);
@@ -428,7 +441,7 @@ oom-carousel {
 
   figure.image-frame {
     width: var(--slide-width);
-    z-index: 0;
+    z-index: 1;
   }
 
   figure::-webkit-scrollbar {
@@ -439,7 +452,7 @@ oom-carousel {
     display: block;
     height: 100%;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
   }
 
   figcaption {
@@ -453,16 +466,24 @@ oom-carousel {
     bottom: 0;
     transition: opacity 0.125s 0.125s;
     width: 100%;
-    z-index: 2;
+    z-index: 3;
     a:hover {
       color: var(--color-dim);
     }
   }
+ 
+  figure a:hover + figcaption,
+  figure a:focus + figcaption,
+  figure a:active + figcaption,
+  figure figcaption:has(> a:focus),
+  figure figcaption:has(> a:active) {
+    opacity: 1;
+  }
 
-  figure:hover figcaption,
-  figure:focus figcaption,
-  figure:active figcaption {
-    opacity: 100%;
+  @media (hover: none) {
+    figure figcaption {
+      opacity: 1;
+    }
   }
 }
 
