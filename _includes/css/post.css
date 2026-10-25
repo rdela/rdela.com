@@ -49,11 +49,6 @@
   text-wrap: balance;
 }
 
-.post-title,
-.post-subtitle {
-  text-align: center;
-}
-
 .post-details {
   align-items: center;
   color: var(--color-dim);
