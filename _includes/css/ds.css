@@ -548,6 +548,7 @@ summary {
 .badge:focus,
 .badge:active {
   background-color: var(--color-line);
+  color: var(--color-dim);
 }
 .body {
   color: var(--color-text);
