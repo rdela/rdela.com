@@ -7,7 +7,7 @@ alt: Abandon Your TV
 images:
   - src: /img/IMG_0073.jpg
     alt: Abandon Your TV
-    caption: Abandon Your TV
+    caption: '<a href="/abandon-your-face/">Abandon</a> Your TV'
 menu:
   visible: true
   order: 2

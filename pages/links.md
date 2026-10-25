@@ -23,17 +23,38 @@ menu:
 
 ### Featured accounts elsewhere
 
-- [github.com/rdela](https://github.com/rdela)
-
 - [@rdela@mastodon.social](https://mastodon.social/@rdela)
 
 - [@famebot.com on Bluesky](https://bsky.app/profile/famebot.com)
 
 - [@artact.io on Bluesky](https://bsky.app/profile/artact.io)
 
+- [codeberg.org/rdela](https://codeberg.org/rdela)
+
+- [github.com/rdela](https://github.com/rdela)
+
+### Open source projects
+
+- [Xeo](https://lume.land/theme/xeo/), an image and video blogging theme for
+  Lume
+
+  - demo: [xeo.land](https://xeo.land/)
+
+  - source: [famebot/xeo](https://github.com/famebot/xeo)
+
+- [Chromagen](https://chromagen.io/), a color scheme generator
+
+  - demo: [chromagen.io](https://chromagen.io/)
+
+  - source: [famebot/chromagen](https://github.com/famebot/chromagen)
+
 ## I encourage you to…
 
 ### <span role="image">📖</span> Keep on Readin’ On <span role="image">📚</span>
+
+<style>
+
+</style>
 
 <figure class="block-start-small"><a
   href="https://readtheprintedword.org/"
@@ -42,7 +63,7 @@ menu:
   alt="Read the Printed Word!"
   width="132"
   height="78"
-  style="background-color: black; padding: calc(var(--border-radius) * 2.66667); border-radius: calc(var(--border-radius) * 2.66667);" /><br />Read the Printed&nbsp;Word</a></figure>
+  style="background-color: black; padding: var(--border-radius-xl); border-radius: var(--border-radius-xl);" /><br />Read the Printed&nbsp;Word</a></figure>
 
 <hr />
 
@@ -74,7 +95,7 @@ Technical Collective Educational Content&nbsp;Development
   alt="wikicorn"
   width="150"
   height="145.775"
-  style="background-color: black; padding: calc(var(--border-radius) * 2.66667); border-radius: calc(var(--border-radius) * 2.66667);" /></a><figcaption class="svg-label">
+  style="background-color: black; padding: var(--border-radius-xl); border-radius: var(--border-radius-xl);" /></a><figcaption class="svg-label">
 
 #### [Internet Archive](https://archive.org/)
 
@@ -95,7 +116,7 @@ hundreds of billions of web&nbsp;pages.
   alt="MDN dino"
   width="544.5"
   height="132"
-  style="background-color: black; padding: calc(var(--border-radius) * 2.66667); border-radius: calc(var(--border-radius) * 2.66667);" /></a><figcaption class="svg-label">
+  style="background-color: black; padding: var(--border-radius-xl); border-radius: var(--border-radius-xl);" /></a><figcaption class="svg-label">
 
 #### [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web)
 

@@ -176,12 +176,8 @@ p {
 
 .archive-main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(21.25rem, 1fr));
+  grid-template-columns: 1fr;
   gap: var(--row-gap-small);
-
-  @media (min-width: 1152px) {
-    grid-template-columns: 2fr 1fr;
-  }
 }
 
 .archive-search,

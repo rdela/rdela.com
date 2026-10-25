@@ -36,7 +36,7 @@
         <figure 
           id="slide-{{ counter = counter + 1 }}"
           class="image-frame intrinsic sixteen-nine {{ if img.backdrop }}backdrop{{ /if }}" 
-          style="background-image: url({{ img.src.substring(0, img.src.lastIndexOf(".")) }}-thumb{{ img.src.substring(img.src.lastIndexOf(".")) }});"
+          style="background-image: url({{ img.src }});"
         >
           {{# for alt text on mouseover, optionally add title="{{ img.alt }}" #}}
           <a href="{{ img.src.substring(0, img.src.lastIndexOf(".")) }}-hero{{ img.src.substring(img.src.lastIndexOf(".")) }}" aria-label="{{ img.alt }}"></a> 

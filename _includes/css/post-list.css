@@ -1,14 +1,14 @@
 .postList {
   display: grid;
-  gap: var(--row-gap-xsmall);
-  grid-template-columns: 1fr;
+  /* gap: var(--row-gap-xsmall); */
+  gap: var(--row-gap-small);
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
   list-style: none;
   padding: 0;
 
-  @media (min-width: 1152px) {
-    grid-template-columns: 1fr 1fr;
+  /* @media (min-width: 1152px) {
     gap: var(--row-gap-small);
-  }
+  } */
 
   & .post {
     background-color: var(--color-scrim-inverse);

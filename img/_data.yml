@@ -1,6 +1,4 @@
 transformImages:
-  - resize: [1600] # change to  [1200, 1200] for square
-    suffix: -thumb
-  - resize: [1280] # og
-  - resize: [2400]
+  - resize: [1280] # og + thumb, change to  [1200, 1200] for square
+  - resize: [2560]
     suffix: -hero

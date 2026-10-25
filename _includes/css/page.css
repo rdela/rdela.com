@@ -1,5 +1,5 @@
 .page-header {
-  margin-block: var(--row-gap-small);
+  margin-block: var(--row-gap-xsmall) var(--row-gap-small);
 
   & > p:first-child {
     margin-top: 0;

@@ -5,12 +5,12 @@ excerpt: Your TV is watching you
 image: /img/IMG_0073.jpg
 alt: Abandon Your TV
 images:
-  - src: /img/IMG_0073.jpg
-    alt: Abandon Your TV
-    caption: Abandon Your TV
   - src: /img/merlin_141182193_5f23f285-d744-4e14-868e-ae8566b026cc-jumbo-100.jpg
     alt: Zuckerberg speaking with Schumer
     caption: Mr. Zuckerberg speaking with Senator Chuck Schumer in July. The lawmaker, whose daughter works at Facebook, has intervened on the company’s&nbsp&nbsp;behalf.<br /><small>Drew&nbsp;Angerer/Getty&nbsp;Images</small>
+  - src: /img/IMG_0073.jpg
+    alt: Abandon Your TV
+    caption: Abandon Your TV, too
 hero: true
 tags:
   - Art
@@ -20,14 +20,14 @@ tags:
   - Social Media
 ---
 
-I am on a Facebook and Instagram hiatus. I deleted all the Facebook-owned apps
-off my phone and imported all my Instagram photos here to my site,
-[thanks to Gatsby](/credits/) for making that breezy. The pic above is the first
-one to go up here exclusively. Feels stupendous. I need to manage pages and
-video for projects, but I cannot help them harvest data or contribute personal
-content to their dumpster fire any&nbsp;longer.
+Abandon Your Facebook, Instagram, WhatsApp, and all other “Meta”-owned products
+and services if you have not done so already. The company has never been
+trustworthy.
 
-<br />
+I only interact with “Meta”-owned products and services as a last resort and to
+encourage the hapless people still being abused to take control of their lives
+and decide they are worthy of the many better alternatives. If you are looking
+for recommendations, [ask me](/pages/links/).
 
 > The irony of it all is while Facebook is being called out for “fake news” on
 > its platform, the internal response to accusations is often to dismiss them as
