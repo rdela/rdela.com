@@ -479,14 +479,20 @@ oom-carousel {
     transition: opacity 0.125s 0.125s;
     width: 100%;
     z-index: 3;
-    a:hover {
+    a {
+      display: inline-block;
+    }
+    a:hover,
+    a:focus {
       color: var(--color-dim);
     }
   }
  
+  figure:hover figcaption,
   figure a:hover + figcaption,
   figure a:focus + figcaption,
   figure a:active + figcaption,
+  figure figcaption:has(> a:hover),
   figure figcaption:has(> a:focus),
   figure figcaption:has(> a:active) {
     opacity: 1;
