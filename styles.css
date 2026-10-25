@@ -521,9 +521,18 @@ oom-navigation {
   }
 
   button:hover,
-  button:focus,
-  button:active {
+  button:focus {
     background-color: var(--color-line);
+  }
+
+  button:active {
+    background-color: var(--color-background);
+  }
+
+  @media (hover: none) {
+    button:hover {
+      background-color: var(--color-highlight);
+    }
   }
 
   button:disabled {

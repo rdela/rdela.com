@@ -413,8 +413,7 @@ a {
   color: var(--color-link);
 }
 a:hover,
-a:focus,
-a:active {
+a:focus {
   color: var(--color-link-hover);
   text-decoration: none;
 }
@@ -545,8 +544,7 @@ summary {
   text-decoration: none;
 }
 .badge:hover,
-.badge:focus,
-.badge:active {
+.badge:focus {
   background-color: var(--color-line);
   color: var(--color-dim);
 }

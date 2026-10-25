@@ -23,6 +23,13 @@ videos:
     title: "Stephen Colbert Out at CBS as Trump Weaponizes Regulatory Power to Control the Media: David Sirota"
     caption: 'Stephen Colbert Out at CBS as Trump Weaponizes Regulatory Power to Control the Media: David Sirota<br /><small>(Episode link: <a href="https://www.democracynow.org/2026/5/22/late_show_media_mergers">Democracy Now!</a>)</small>'
     start: 9
+  - id: G4aTpmTEgA8
+    title: Khenpo Rinpoche on Dzogchen Meditation
+    caption: "Special advice from Venerable Khenpo Tsewang Rinpoche on how to practice Dzogchen meditation with the three qualities of mindfulness, gentleness, and clarity."
+  - id: v0OI2mR9HzE
+    title: FYD with Lopon Chandra
+    caption: '<a href="https://chandraeaston.com/">Lopon Chandra</a> led the sangha in Lama Tsultrim’s <a href="https://www.taramandala.org/programs-overview/long-term-study-pathways/feeding-your-demons/fyd-resources/">Feeding your Demons practice</a>. She introduced the practice by sharing sections from Lama Tsultrim’s book about going directly to the 5th step of FYD, liberating the demon.'
+    start: 409
 style: carousel
 tags:
   - Liberation
@@ -200,7 +207,7 @@ urges us to:
 > the world.
 
 Inspired by
-[a talk by Khenpo Tsewang Dongyal](https://www.youtube.com/watch?v=G4aTpmTEgA8),
+[a talk by Khenpo Tsewang Dongyal](https://www.youtube.com/watch?v=G4aTpmTEgA8)[^3],
 I composed a poem.
 
 ---
@@ -221,8 +228,8 @@ Fearful, violent, greedy demons within our own souls propel destruction of our
 fragile home planet and allow desecrations to continue taking place. Yet
 “demons” were once [daemons](https://en.wikipedia.org/wiki/Daimon) who signify
 “the experience of divine power” within us all. Ancient Himalayan teachings
-[find expression](https://www.taramandala.org/programs-overview/long-term-study-pathways/feeding-your-demons/fyd-resources/feeding-your-demons-teachers/)
-in [modern practices](https://www.youtube.com/watch?v=v0OI2mR9HzE&t=409s).
+[find expression](https://www.taramandala.org/programs-overview/long-term-study-pathways/feeding-your-demons/fyd-resources/)
+in [modern practices](https://www.youtube.com/watch?v=v0OI2mR9HzE&t=409s)[^4].
 
 We are never too far from our past or our future to learn and arise together.
 
@@ -237,15 +244,15 @@ You are all of us\
 They are all of us
 
 All becoming one\
-All becoming bliss\
-All becoming free
+All becoming free\
+All becoming bliss
 
 We heal ourselves in order to help each other free ourselves
 
 We free ourselves in order to help each other heal ourselves
 
-All becoming free\
 All becoming bliss\
+All becoming free\
 All becoming one
 
 ---
@@ -265,3 +272,17 @@ All becoming one
       Amanda Yee; Liberation
     - [Is Henry Kissinger a War Criminal?](https://www.justsecurity.org/87043/is-henry-kissinger-a-war-criminal/),
       Reed Brody; Just Security
+
+[^3]: [How to Practice Dzogchen Meditation](https://www.youtube.com/watch?v=G4aTpmTEgA8)
+    – On 8 April 2011 at Padma Samye Ling, Venerable Khenpo Tsewang Rinpoche
+    gave special advice on how to practice Dzogchen meditation with the three
+    qualities of mindfulness, gentleness, and clarity. Video included in
+    carousel at top of post.
+
+[^4]: [Feeding Your Demons® with Lopön Chandra Easton](https://www.youtube.com/watch?v=v0OI2mR9HzE&t=409s) -
+    On 2 Feb 2023 Lopön Chandra led the SF Dharma Collective sangha in Lama
+    Tsultrim’s
+    “[Feeding your Demons](https://www.taramandala.org/programs-overview/long-term-study-pathways/feeding-your-demons/fyd-resources/)”
+    practice. She introduced the practice by sharing sections from Lama
+    Tsultrim's book about going directly to the 5th step of FYD, liberating the
+    demon. Video included in carousel at top of post.
