@@ -16,8 +16,8 @@ tags:
 ---
 
 Welcome to the new edition of [rdela.com](https://rdela.com) powered by
-[Lume](https://lume.land/) and [Xeo](https://lume.land/theme/xeo/). I am still
-your host, Ricky de&nbsp;Laveaga.
+[Lume](https://lume.land/) and [Xeo](https://xeo.land/). I am still your host,
+Ricky de&nbsp;Laveaga.
 
 Like the new [Artist Activist](https://artact.io/artact-xeo/) website and many
 more I have brewing, this site thrives on the open source creations and
