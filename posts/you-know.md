@@ -1,6 +1,5 @@
 ---
 date: "2026-10-23T13:00Z"
-author: Ricky de Laveaga
 image: /img/you-know.png
 images:
   - src: /img/you-know.png
